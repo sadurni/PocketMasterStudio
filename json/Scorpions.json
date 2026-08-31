@@ -1,0 +1,673 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Scorpions",
+  "count": 6,
+  "slots": "45-50",
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "Hurrican R",
+      "description": "Rock You Like a Hurricane: tight Marshall crunch riff",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 66,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 40
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 45,
+      "song": "Hurricane",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Hurrican L",
+      "description": "Rock You Like a Hurricane: screaming Marshall solo",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 45,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 76,
+            "Pres": 62,
+            "Vol": 78,
+            "Bass": 56,
+            "Middle": 58,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 16,
+            "Time": 300,
+            "F.Back": 28
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 46,
+      "song": "Hurricane",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Blackout H",
+      "description": "Blackout: aggressive palm-muted Marshall riff  [Sub.: solo -> Rock You Like a Hurricane]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 40,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 70,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 58,
+            "Middle": 52,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 38
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 47,
+      "song": "Blackout",
+      "kind": "H"
+    },
+    {
+      "version": "1.0",
+      "presetName": "TheZoo R",
+      "description": "The Zoo: slinky talk-box-flavoured mid crunch  [Sub.: solo -> Rock You Like a Hurricane]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Touch Wah",
+          "parameters": {
+            "Sense": 50,
+            "Range": 55,
+            "Q": 45,
+            "Mix": 55,
+            "Mode": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 60,
+            "Pres": 56,
+            "Vol": 80,
+            "Bass": 58,
+            "Middle": 56,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 44
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 48,
+      "song": "TheZoo",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "SailChar L",
+      "description": "Sails of Charon: Uli Roth searing neoclassical solo  [Sub.: heavy rhythm -> Blackout]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 48,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Sol 100 LD",
+          "parameters": {
+            "Gain": 76,
+            "Pres": 60,
+            "Vol": 78,
+            "Bass": 56,
+            "Middle": 58,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Sol 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 16,
+            "Time": 300,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 48,
+            "Damp": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 49,
+      "song": "SailsOfCharon",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "StilLov C",
+      "description": "Still Loving You: tender clean-edge intro  [Sub.: heavy rhythm -> Blackout ; solo -> Rock You Like a Hurricane]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 28,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dark Twin",
+          "parameters": {
+            "Gain": 30,
+            "Vol": 82,
+            "Bass": 56,
+            "Middle": 48,
+            "Treble": 56,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 54
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 50,
+      "song": "StillLovingYou",
+      "kind": "C"
+    }
+  ]
+}

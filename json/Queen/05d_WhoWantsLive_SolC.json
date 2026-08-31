@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "WhoLiveC",
+  "description": "Who Wants to Live Forever: soaring vibrato lead, booster + delay  [C muted]  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 19
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 62,
+        "+3dB": 0,
+        "Bright": 0
+      }
+    },
+    "DRV": {
+      "enabled": false,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 40,
+        "Tone": 70,
+        "Vol": 50
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Voks 30TB",
+      "parameters": {
+        "Gain": 76,
+        "Tone Cut": 46,
+        "Vol": 80,
+        "Bass": 55,
+        "Treble": 54,
+        "Char": 1
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Voks 1x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": false,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 50
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "B-Chorus",
+      "parameters": {
+        "Depth": 30,
+        "Rate": 0.45,
+        "Vol": 55
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 24,
+        "Time": 420,
+        "F.Back": 36
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Hall",
+      "parameters": {
+        "Mix": 24,
+        "Decay": 60
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

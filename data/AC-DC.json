@@ -1,0 +1,193 @@
+{
+  "name": "AC/DC",
+  "songs": [
+    {
+      "slug": "BackInBlack",
+      "short": "BackBlck",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Back in Black: greasy open Plexi riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 62,
+                "Vol": 84,
+                "Bass": 52,
+                "Middle": 54,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Back in Black: singing cranked Plexi solo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 74,
+                "Pres": 64,
+                "Vol": 84,
+                "Bass": 52,
+                "Middle": 58,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "HighwayToHell",
+      "short": "Hwy2Hell",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Highway to Hell: iconic swaggering Plexi riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 62,
+                "Vol": 84,
+                "Bass": 52,
+                "Middle": 54,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Highway to Hell: bluesy cranked Plexi solo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 76,
+                "Pres": 64,
+                "Vol": 84,
+                "Bass": 52,
+                "Middle": 58,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "HellsBells",
+      "short": "HellBell",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Hells Bells: clean tolling Plexi, edge of breakup",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "Pres": 62,
+                "Vol": 84,
+                "Bass": 50,
+                "Middle": 52,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

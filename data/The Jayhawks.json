@@ -1,0 +1,333 @@
+{
+  "name": "The Jayhawks",
+  "songs": [
+    {
+      "slug": "Blue",
+      "short": "Blue",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Blue: chiming jangly clean chords",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30N",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone Cut": 46,
+                "Vol": 82,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 26,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Blue: sweet melodic chime lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 44,
+                "Tone Cut": 44,
+                "Vol": 80,
+                "Bass": 54,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 140,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "IdRunAway",
+      "short": "RunAway",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "I'd Run Away: bright upbeat jangle crunch",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Tone Cut": 44,
+                "Vol": 80,
+                "Bass": 54,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 24,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "I'd Run Away: joyful chiming lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Tone Cut": 42,
+                "Vol": 80,
+                "Bass": 54,
+                "Treble": 60,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 140,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Trouble",
+      "short": "Trouble",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Trouble: fuzzy grittier jangle crunch",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Tone Cut": 44,
+                "Vol": 80,
+                "Bass": 56,
+                "Treble": 56,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 38,
+                "Vol": 68
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Trouble: fuzzed melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Tone Cut": 42,
+                "Vol": 80,
+                "Bass": 54,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 44,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 140,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TampaToTulsa",
+      "short": "Tampa2T",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Tampa to Tulsa: aching melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 46,
+                "Tone Cut": 44,
+                "Vol": 80,
+                "Bass": 54,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 320,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

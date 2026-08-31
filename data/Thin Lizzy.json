@@ -1,0 +1,98 @@
+{
+  "name": "Thin Lizzy",
+  "songs": [
+    {
+      "slug": "WhiskeyInJar",
+      "short": "Whiskey",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Whiskey in the Jar: bright glassy Plexi riff (Eric Bell), light crunch",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 55,
+                "Pres": 62,
+                "Vol": 84,
+                "Bass": 50,
+                "Middle": 52,
+                "Treble": 66
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Whiskey in the Jar: warm singing bluesy-rock solo, boosted Plexi + tape slap",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 66,
+                "Pres": 60,
+                "Vol": 84,
+                "Bass": 52,
+                "Middle": 56,
+                "Treble": 62
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 55,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 380,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

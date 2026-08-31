@@ -1,0 +1,305 @@
+{
+  "name": "Cake",
+  "songs": [
+    {
+      "slug": "TheDistance",
+      "short": "Distance",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "The Distance: trebly staccato clean riff",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 50,
+                "Treble": 60,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 40,
+                "Attack": 60,
+                "Vol": 58,
+                "Clip": 4
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "The Distance: bright clean lead line",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 50,
+                "Treble": 60,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 58,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Time": 120,
+                "F.Back": 8
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "FrankSinatra",
+      "short": "FrankSin",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Frank Sinatra: eerie trebly clean arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 50,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 40,
+                "Attack": 60,
+                "Vol": 58,
+                "Clip": 4
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 48
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Frank Sinatra: distorted mariachi-style lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -6,
+                "400Hz": 0,
+                "800Hz": 6,
+                "1.6kHz": 8,
+                "4kHz": 6,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ComfortEagle",
+      "short": "ComftEgl",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Comfort Eagle: driving trebly clean-crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Comfort Eagle: biting crunch lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 54,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

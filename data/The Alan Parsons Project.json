@@ -1,0 +1,431 @@
+{
+  "name": "The Alan Parsons Project",
+  "songs": [
+    {
+      "slug": "EyeInTheSky",
+      "short": "EyeSky",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Eye in the Sky: smooth chorused clean chords",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 40,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 30,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Eye in the Sky: singing Strat outro solo + delay",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 46,
+                "Pres": 52,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 56,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Time": 400,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "GamesPeople",
+      "short": "GamesPpl",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Games People Play: punchy mid crunch chords",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Games People Play: melodic rock lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 360,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SilenceAndI",
+      "short": "SilenceI",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Silence and I: cinematic clean swells",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 28,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 58
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Silence and I: grand emotive lead climax",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 52,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 420,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "DontAnswerMe",
+      "short": "DontAns",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Don't Answer Me: Spector-wall jangly clean",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 48,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 40,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Don't Answer Me: chiming melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 48,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 52,
+                "Vol": 58,
+                "Clip": 8
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 340,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

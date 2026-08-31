@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "BohRhapC",
+  "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [C muted]",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 19
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 60,
+        "+3dB": 0,
+        "Bright": 0
+      }
+    },
+    "DRV": {
+      "enabled": false,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 40,
+        "Tone": 70,
+        "Vol": 50
+      }
+    },
+    "IR": {
+      "enabled": false,
+      "effect": "Voks 1x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 6,
+        "800Hz": 10,
+        "1.6kHz": 4,
+        "4kHz": -3,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "Detune",
+      "parameters": {
+        "Detune": -6,
+        "Wet": 28,
+        "Dry": 62
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 24,
+        "Time": 430,
+        "F.Back": 36
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 2",
+      "parameters": {
+        "Mix": 18,
+        "Decay": 50,
+        "Damp": 50
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "AC30 May",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

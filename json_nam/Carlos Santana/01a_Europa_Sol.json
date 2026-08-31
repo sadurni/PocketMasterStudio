@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "Europa L",
+  "description": "Europa (Earth's Cry Heaven's Smile): singing sustained mid-forward lead, warm delay",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 16
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 26,
+        "Tone": 58,
+        "Vol": 70
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Sol 4x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 6,
+        "800Hz": 10,
+        "1.6kHz": 4,
+        "4kHz": -3,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Warm",
+      "parameters": {
+        "Mix": 22,
+        "Time": 440,
+        "F.Back": 32
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Hall",
+      "parameters": {
+        "Mix": 22,
+        "Decay": 56
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "SoloSLO",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

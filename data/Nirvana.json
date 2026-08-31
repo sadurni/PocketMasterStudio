@@ -1,0 +1,319 @@
+{
+  "name": "Nirvana",
+  "songs": [
+    {
+      "slug": "SmellsTeenSpir",
+      "short": "TeenSpir",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Smells Like Teen Spirit: clean chorus verse chords",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 35,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Smells Like Teen Spirit: fuzzy chorus riff + solo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 52,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Shark",
+              "enabled": true,
+              "params": {
+                "Gain": 55,
+                "Tone": 52,
+                "Vol": 60
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 240,
+                "F.Back": 18
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ComeAsYouAre",
+      "short": "ComeAsU",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Come as You Are: watery chorused clean riff",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 58,
+                "Middle": 48,
+                "Treble": 52,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 0.4,
+                "Tone": 52
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "InBloom",
+      "short": "InBloom",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "In Bloom: thick fuzzy pop-grunge riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 52,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Shark",
+              "enabled": true,
+              "params": {
+                "Gain": 52,
+                "Tone": 50,
+                "Vol": 60
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "HeartShapedBox",
+      "short": "HeartBox",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Heart-Shaped Box: huge Big Muff chorus + wailing solo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 52,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.4,
+                "Tone": 52
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 58,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 240,
+                "F.Back": 20
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TerritorialPis",
+      "short": "TerritPs",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Territorial Pissings: blown-out punk fuzz riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 52,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Shark",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Tone": 55,
+                "Vol": 60
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 6,
+                "Decay": 38
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

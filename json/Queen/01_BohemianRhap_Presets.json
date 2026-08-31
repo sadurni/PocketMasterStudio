@@ -1,0 +1,545 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Queen",
+  "song": "BohemianRhap",
+  "count": 5,
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "BohRhap C",
+      "description": "Bohemian Rhapsody: mellow clean ballad answer",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 24,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Voks 30N",
+          "parameters": {
+            "Gain": 28,
+            "Tone Cut": 46,
+            "Vol": 82,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhap H",
+      "description": "Bohemian Rhapsody: heavy operatic power chords + booster",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 55,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Voks 30TB",
+          "parameters": {
+            "Gain": 64,
+            "Tone Cut": 40,
+            "Vol": 80,
+            "Bass": 56,
+            "Treble": 60,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 40
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhapA",
+      "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [A strident]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 64,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Voks 30TB",
+          "parameters": {
+            "Gain": 76,
+            "Tone Cut": 44,
+            "Vol": 80,
+            "Bass": 55,
+            "Treble": 57,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 420,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 48,
+            "Damp": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhapB",
+      "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [B mid]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 62,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Voks 30TB",
+          "parameters": {
+            "Gain": 74,
+            "Tone Cut": 46,
+            "Vol": 80,
+            "Bass": 55,
+            "Treble": 54,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 430,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 50,
+            "Damp": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhapC",
+      "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [C muted]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 60,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Voks 30TB",
+          "parameters": {
+            "Gain": 74,
+            "Tone Cut": 50,
+            "Vol": 80,
+            "Bass": 56,
+            "Treble": 50,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 4,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 28,
+            "Dry": 62
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 430,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 50,
+            "Damp": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    }
+  ]
+}

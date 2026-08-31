@@ -1,0 +1,757 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Creedence Clearwater Revival",
+  "count": 7,
+  "slots": "44-50",
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "FortSon R",
+      "description": "Fortunate Son: raw bright tweed crunch riff",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "TWD Deluxe",
+          "parameters": {
+            "Gain": 64,
+            "Tone": 58,
+            "Vol": 84
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 40
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 44,
+      "song": "FortunateSon",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "FortSon L",
+      "description": "Fortunate Son: stinging tweed lead",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "TWD Deluxe",
+          "parameters": {
+            "Gain": 72,
+            "Tone": 60,
+            "Vol": 82
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Slap",
+          "parameters": {
+            "Mix": 10,
+            "Time": 120,
+            "F.Back": 10
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 40
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 45,
+      "song": "FortunateSon",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "BornByu C",
+      "description": "Born on the Bayou: swampy tremolo clean-edge  [Sub.: heavy rhythm -> Fortunate Son]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Tremolo",
+          "parameters": {
+            "Depth": 45,
+            "Rate": 4.0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "TWD Deluxe",
+          "parameters": {
+            "Gain": 46,
+            "Tone": 54,
+            "Vol": 82
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 48
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 46,
+      "song": "BornOnBayou",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "BornByu L",
+      "description": "Born on the Bayou: reverby swamp lead  [Sub.: heavy rhythm -> Fortunate Son]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 16
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Tremolo",
+          "parameters": {
+            "Depth": 45,
+            "Rate": 4.0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "TWD Deluxe",
+          "parameters": {
+            "Gain": 64,
+            "Tone": 56,
+            "Vol": 82
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Slap",
+          "parameters": {
+            "Mix": 12,
+            "Time": 130,
+            "F.Back": 12
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 48
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 47,
+      "song": "BornOnBayou",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "GreenRiv R",
+      "description": "Green River: bright rockabilly tweed riff + slapback",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "TWD Deluxe",
+          "parameters": {
+            "Gain": 56,
+            "Tone": 58,
+            "Vol": 82
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Slap",
+          "parameters": {
+            "Mix": 14,
+            "Time": 130,
+            "F.Back": 14
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 48,
+      "song": "GreenRiver",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "GreenRiv L",
+      "description": "Green River: twangy tweed lead",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 16
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "TWD Deluxe",
+          "parameters": {
+            "Gain": 66,
+            "Tone": 60,
+            "Vol": 82
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Slap",
+          "parameters": {
+            "Mix": 14,
+            "Time": 130,
+            "F.Back": 14
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 49,
+      "song": "GreenRiver",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "BadMoon R",
+      "description": "Bad Moon Rising: upbeat bright tweed chords  [Sub.: solo -> Fortunate Son]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "TWD Deluxe",
+          "parameters": {
+            "Gain": 50,
+            "Tone": 58,
+            "Vol": 82
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 50,
+      "song": "BadMoonRising",
+      "kind": "R"
+    }
+  ]
+}

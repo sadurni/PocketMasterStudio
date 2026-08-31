@@ -1,0 +1,450 @@
+{
+  "name": "Black Sabbath",
+  "songs": [
+    {
+      "slug": "BlackSabbath",
+      "short": "BlckSab",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Black Sabbath: doomy tritone riff, boosted mid-forward",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 52,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 60,
+                "Treble": 52
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 6,
+                "400Hz": 8,
+                "800Hz": 10,
+                "1.6kHz": 4,
+                "4kHz": -2,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Black Sabbath solo: bluesy boosted lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 72,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 62,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 300,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Paranoid",
+      "short": "Paranoid",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Paranoid: fast boosted Marshall riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 66,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 58,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 52,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 4,
+                "400Hz": 6,
+                "800Hz": 8,
+                "1.6kHz": 2,
+                "4kHz": 0,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Paranoid solo: frantic phased lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 60,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "FX2": {
+              "effect": "Phaser",
+              "enabled": true,
+              "params": {
+                "Rate": 0.6
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 260,
+                "F.Back": 22
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "IronMan",
+      "short": "IronMan",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Iron Man: plodding heavy boosted riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 52,
+                "Vol": 80,
+                "Bass": 62,
+                "Middle": 60,
+                "Treble": 50
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 8,
+                "400Hz": 8,
+                "800Hz": 10,
+                "1.6kHz": 2,
+                "4kHz": -2,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SweetLeaf",
+      "short": "SweetLf",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Sweet Leaf: fuzzy thick doom riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 52,
+                "Vol": 80,
+                "Bass": 62,
+                "Middle": 60,
+                "Treble": 50
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 40,
+                "Vol": 70
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 8,
+                "400Hz": 8,
+                "800Hz": 8,
+                "1.6kHz": 2,
+                "4kHz": -2,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "PlanetCaravan",
+      "short": "PlanetCv",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Planet Caravan: dreamy mellow clean, vibe + hall",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Vol": 82,
+                "Bass": 58,
+                "Middle": 50,
+                "Treble": 52,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.4
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 58
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Planet Caravan: warm jazzy bluesy solo, delay",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 38,
+                "Pres": 50,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 58,
+                "Treble": 52
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 340,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,492 @@
+{
+  "name": "U2",
+  "songs": [
+    {
+      "slug": "StreetsNoName",
+      "short": "Streets",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Where the Streets Have No Name: cascading dotted-8th arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30N",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone Cut": 46,
+                "Vol": 82,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 40,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 38,
+                "Time": 375,
+                "F.Back": 46
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 58
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Where the Streets Have No Name: soaring delayed lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Tone Cut": 42,
+                "Vol": 80,
+                "Bass": 54,
+                "Treble": 60,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 36,
+                "Time": 375,
+                "F.Back": 46
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 60
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SundayBloody",
+      "short": "SundBldy",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Sunday Bloody Sunday: martial AC30 chime chords",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30N",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone Cut": 46,
+                "Vol": 82,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 38,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 300,
+                "F.Back": 34
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "WithOrWithout",
+      "short": "WithWith",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "With or Without You: swelling infinite-sustain bed",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30N",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone Cut": 48,
+                "Vol": 82,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 360,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Decay": 62
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "With or Without You: e-bow-like sustained lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 54,
+                "Tone Cut": 42,
+                "Vol": 80,
+                "Bass": 54,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 50,
+                "Attack": 50,
+                "Vol": 58,
+                "Clip": 8
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Time": 360,
+                "F.Back": 38
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Decay": 62
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BulletBlueSky",
+      "short": "BulBlue",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Bullet the Blue Sky: menacing slide-drenched crunch",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Tone Cut": 42,
+                "Vol": 80,
+                "Bass": 56,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Bullet the Blue Sky: violent delayed slide lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 70,
+                "Tone Cut": 40,
+                "Vol": 82,
+                "Bass": 56,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 52,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 360,
+                "F.Back": 40
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 48,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TheFly",
+      "short": "TheFly",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "The Fly: fuzzy industrial delayed riff",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Tone Cut": 40,
+                "Vol": 80,
+                "Bass": 56,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 45,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Time": 320,
+                "F.Back": 34
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "The Fly: screaming fuzzed delayed lead",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30TB",
+              "enabled": true,
+              "params": {
+                "Gain": 72,
+                "Tone Cut": 40,
+                "Vol": 82,
+                "Bass": 56,
+                "Treble": 58,
+                "Char": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 55,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 320,
+                "F.Back": 42
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 48,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "name": "Carlos Santana",
+  "songs": [
+    {
+      "slug": "Europa",
+      "short": "Europa",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Europa (Earth's Cry Heaven's Smile): singing sustained mid-forward lead, warm delay",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 70,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 62,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 0,
+                "400Hz": 6,
+                "800Hz": 10,
+                "1.6kHz": 4,
+                "4kHz": -3,
+                "Vol": 50
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 440,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

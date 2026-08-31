@@ -1,0 +1,885 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "The Smashing Pumpkins",
+  "count": 8,
+  "slots": "43-50",
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "CherubRk R",
+      "description": "Cherub Rock: crunchy layered Muff riff",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 52,
+            "Vol": 72
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 58,
+            "Pres": 56,
+            "Vol": 80,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 43,
+      "song": "CherubRock",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "CherubRk L",
+      "description": "Cherub Rock: soaring fuzz lead",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 32
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 56,
+            "Vol": 72
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 60,
+            "Pres": 56,
+            "Vol": 78,
+            "Bass": 56,
+            "Middle": 56,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 14,
+            "Time": 300,
+            "F.Back": 26
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 44,
+      "song": "CherubRock",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Today C",
+      "description": "Today: bright chiming clean intro  [Sub.: heavy rhythm -> Geek U.S.A.]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 26,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dark Twin",
+          "parameters": {
+            "Gain": 30,
+            "Vol": 82,
+            "Bass": 54,
+            "Middle": 48,
+            "Treble": 58,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 44
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 45,
+      "song": "Today",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Today L",
+      "description": "Today: fat Muff wall + lead  [Sub.: heavy rhythm -> Geek U.S.A.]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 32
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 56,
+            "Vol": 72
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 58,
+            "Pres": 56,
+            "Vol": 78,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 12,
+            "Time": 280,
+            "F.Back": 24
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 48
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 46,
+      "song": "Today",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Mayonais C",
+      "description": "Mayonaise: shimmering chorused clean swells  [Sub.: heavy rhythm -> Geek U.S.A. ; solo -> Cherub Rock]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 40,
+            "Rate": 0.5,
+            "Tone": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dark Twin",
+          "parameters": {
+            "Gain": 30,
+            "Vol": 82,
+            "Bass": 56,
+            "Middle": 48,
+            "Treble": 55,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 56
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 47,
+      "song": "Mayonaise",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "GeekUSA H",
+      "description": "Geek U.S.A.: frantic high-energy Muff riff",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 54,
+            "Vol": 72
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 62,
+            "Pres": 56,
+            "Vol": 80,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 40
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 48,
+      "song": "GeekUSA",
+      "kind": "H"
+    },
+    {
+      "version": "1.0",
+      "presetName": "GeekUSA L",
+      "description": "Geek U.S.A.: blazing fuzz shred lead",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 32
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 56,
+            "Vol": 72
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 64,
+            "Pres": 58,
+            "Vol": 78,
+            "Bass": 56,
+            "Middle": 56,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 12,
+            "Time": 280,
+            "F.Back": 24
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 49,
+      "song": "GeekUSA",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "IAmOne R",
+      "description": "I Am One: churning wah-tinged fuzz riff  [Sub.: solo -> Cherub Rock]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Touch Wah",
+          "parameters": {
+            "Sense": 50,
+            "Range": 52,
+            "Q": 48,
+            "Mix": 55,
+            "Mode": 0
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 52,
+            "Vol": 72
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 60,
+            "Pres": 56,
+            "Vol": 80,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 40
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 50,
+      "song": "IAmOne",
+      "kind": "R"
+    }
+  ]
+}

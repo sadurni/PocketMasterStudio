@@ -1,0 +1,110 @@
+{
+  "version": "1.0",
+  "presetName": "CustPie L",
+  "description": "Custard Pie: wah-driven Plexi solo",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 19
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Touch Wah",
+      "parameters": {
+        "Sense": 52,
+        "Range": 55,
+        "Q": 48,
+        "Mix": 58,
+        "Mode": 0
+      }
+    },
+    "DRV": {
+      "enabled": false,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 40,
+        "Tone": 70,
+        "Vol": 50
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Brit 50JP",
+      "parameters": {
+        "Gain 1": 76,
+        "Pres": 62,
+        "Vol": 80,
+        "Bass": 54,
+        "Middle": 58,
+        "Treble": 60,
+        "Gain 2": 58
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": false,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 50
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Slap",
+      "parameters": {
+        "Mix": 12,
+        "Time": 120,
+        "F.Back": 12
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 12,
+        "Decay": 42
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

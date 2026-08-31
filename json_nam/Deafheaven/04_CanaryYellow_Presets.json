@@ -1,0 +1,226 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Deafheaven",
+  "song": "CanaryYellow",
+  "count": 2,
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "CanaryYl H",
+      "description": "Canary Yellow: swelling post-rock tremolo build",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 28,
+            "Tone": 60,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dizzy 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 28,
+            "Time": 400,
+            "F.Back": 42
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Dream",
+          "parameters": {
+            "Mix": 32,
+            "Decay": 76,
+            "Damp": 50,
+            "Mod": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "CanaryYl L",
+      "description": "Canary Yellow: radiant soaring lead",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 34,
+            "Tone": 62,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dizzy 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 30,
+            "Time": 400,
+            "F.Back": 46
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Dream",
+          "parameters": {
+            "Mix": 32,
+            "Decay": 78,
+            "Damp": 50,
+            "Mod": 55
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    }
+  ]
+}

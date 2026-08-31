@@ -1,0 +1,365 @@
+{
+  "name": "Fear Factory",
+  "songs": [
+    {
+      "slug": "Demanufacture",
+      "short": "Demanuf",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Demanufacture: machine-gun palm-muted scoop riff",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 24
+              }
+            },
+            "AMP": {
+              "effect": "Halen 51",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 40,
+                "Treble": 56,
+                "Pres": 58
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 6,
+                "400Hz": -4,
+                "800Hz": -14,
+                "1.6kHz": -4,
+                "4kHz": 8,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 6,
+                "Decay": 36
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Demanufacture: cold clean-chorus melodic break",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 46,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 38,
+                "Rate": 0.5,
+                "Tone": 52
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 360,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Replica",
+      "short": "Replica",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Replica: chugging syncopated scoop riff",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 22
+              }
+            },
+            "AMP": {
+              "effect": "Halen 51",
+              "enabled": true,
+              "params": {
+                "Gain": 76,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 42,
+                "Treble": 56,
+                "Pres": 58
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 6,
+                "400Hz": -4,
+                "800Hz": -12,
+                "1.6kHz": -4,
+                "4kHz": 8,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 6,
+                "Decay": 36
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Replica: half-clean melodic chorus",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 46,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 36,
+                "Rate": 0.5,
+                "Tone": 52
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 360,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Edgecrusher",
+      "short": "Edgecrsh",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Edgecrusher: bouncing groove-metal scoop riff",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 24
+              }
+            },
+            "AMP": {
+              "effect": "Halen 51",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 42,
+                "Treble": 56,
+                "Pres": 58
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 6,
+                "400Hz": -4,
+                "800Hz": -12,
+                "1.6kHz": -4,
+                "4kHz": 8,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 6,
+                "Decay": 36
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Edgecrusher: half-time melodic break",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 46,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 36,
+                "Rate": 0.5,
+                "Tone": 52
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 360,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

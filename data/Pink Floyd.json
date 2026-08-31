@@ -1,0 +1,490 @@
+{
+  "name": "Pink Floyd",
+  "songs": [
+    {
+      "slug": "WishYouWere",
+      "short": "WishWere",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Wish You Were Here: warm acoustic-flavoured clean",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 58,
+                "Middle": 48,
+                "Treble": 55,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 48
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Wish You Were Here: bluesy scooped-radio lead, clean amp + mid-hump EQ",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Pres": 52,
+                "Vol": 90,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 56,
+                "Vol": 72
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 0,
+                "400Hz": 6,
+                "800Hz": 10,
+                "1.6kHz": 5,
+                "4kHz": -3,
+                "Vol": 50
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 420,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Money",
+      "short": "Money",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Money: gritty 7/4 Rat-driven riff, edge of breakup",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 46,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Dark Mouse",
+              "enabled": true,
+              "params": {
+                "Gain": 42,
+                "Filter": 55,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "AnotherBrick2",
+      "short": "Brick2",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Another Brick in the Wall Pt.2: clipped funk-disco clean chords",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 50,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Attack": 58,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Another Brick in the Wall Pt.2: biting Rat-driven solo, clean amp + mid-hump EQ",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Pres": 52,
+                "Vol": 90,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Dark Mouse",
+              "enabled": true,
+              "params": {
+                "Gain": 54,
+                "Filter": 55,
+                "Vol": 74
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 0,
+                "400Hz": 6,
+                "800Hz": 10,
+                "1.6kHz": 5,
+                "4kHz": -3,
+                "Vol": 50
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 400,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ComfortablyNumb",
+      "short": "ComfNumb",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Comfortably Numb: iconic soaring Big Muff lead, clean amp + mid-hump EQ, long delay",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 18
+              }
+            },
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 92,
+                "Bass": 60,
+                "Middle": 56,
+                "Treble": 48,
+                "Bright": 0
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 88
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 50,
+                "Vol": 74
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 2,
+                "400Hz": 7,
+                "800Hz": 10,
+                "1.6kHz": 2,
+                "4kHz": -6,
+                "Vol": 50
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 430,
+                "F.Back": 44
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Dogs",
+      "short": "Dogs",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Dogs: chorused clean minor arpeggios",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 58,
+                "Middle": 48,
+                "Treble": 55,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 30,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 420,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Dogs: biting sustained Rat lead, clean amp + mid-hump EQ, delay",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Pres": 52,
+                "Vol": 90,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Dark Mouse",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Filter": 55,
+                "Vol": 74
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 0,
+                "400Hz": 6,
+                "800Hz": 10,
+                "1.6kHz": 5,
+                "4kHz": -3,
+                "Vol": 50
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 440,
+                "F.Back": 36
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

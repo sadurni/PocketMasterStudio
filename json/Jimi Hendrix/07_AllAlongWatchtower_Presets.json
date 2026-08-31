@@ -1,0 +1,438 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Jimi Hendrix",
+  "song": "AllAlongWatchtower",
+  "count": 4,
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "Watch C",
+      "description": "All Along the Watchtower: low-gain Marshall-style clean rhythm with subtle Vibe movement and spring ambience for the spacious chordal parts.",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 8
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Vibe",
+          "parameters": {
+            "Depth": 18,
+            "Rate": 0.6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 50JP",
+          "parameters": {
+            "Gain 1": 32,
+            "Pres": 58,
+            "Vol": 84,
+            "Bass": 48,
+            "Middle": 58,
+            "Treble": 62,
+            "Gain 2": 28
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 84
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 13,
+            "Decay": 36
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "Watch L",
+      "description": "All Along the Watchtower: expressive melodic lead with reduced Fuzz Face intensity, gentle Vibe modulation, warm slapback, and spring reverb.",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Vibe",
+          "parameters": {
+            "Depth": 35,
+            "Rate": 0.8
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 48,
+            "Vol": 78
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 50JP",
+          "parameters": {
+            "Gain 1": 48,
+            "Pres": 57,
+            "Vol": 88,
+            "Bass": 45,
+            "Middle": 68,
+            "Treble": 63,
+            "Gain 2": 42
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 89
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": -2,
+            "400Hz": 1,
+            "800Hz": 4,
+            "1.6kHz": 4,
+            "4kHz": 1,
+            "Vol": 55
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Slap",
+          "parameters": {
+            "Mix": 19,
+            "Time": 145,
+            "F.Back": 18
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 17,
+            "Decay": 40
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "Watch H",
+      "description": "All Along the Watchtower: pushed Marshall-style rhythm with Fuzz Face character, strong mids, and restrained Vibe for Hendrix's thick driving foundation.",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 24
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Vibe",
+          "parameters": {
+            "Depth": 30,
+            "Rate": 0.7
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 56,
+            "Vol": 72
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 50JP",
+          "parameters": {
+            "Gain 1": 55,
+            "Pres": 55,
+            "Vol": 87,
+            "Bass": 46,
+            "Middle": 66,
+            "Treble": 60,
+            "Gain 2": 48
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 87
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": -3,
+            "400Hz": 2,
+            "800Hz": 4,
+            "1.6kHz": 2,
+            "4kHz": -1,
+            "Vol": 53
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 32
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "Watch L2",
+      "description": "All Along the Watchtower: loud soaring Hendrix lead with full Fuzz Face saturation, pre-amp Touch Wah, upper-mid focus, and sustaining delay.",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Touch Wah",
+          "parameters": {
+            "Sense": 62,
+            "Range": 70,
+            "Q": 58,
+            "Mix": 48,
+            "Mode": 0
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 56,
+            "Vol": 82
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 50JP",
+          "parameters": {
+            "Gain 1": 58,
+            "Pres": 59,
+            "Vol": 91,
+            "Bass": 43,
+            "Middle": 70,
+            "Treble": 65,
+            "Gain 2": 52
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 91
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": -3,
+            "400Hz": 0,
+            "800Hz": 5,
+            "1.6kHz": 6,
+            "4kHz": 2,
+            "Vol": 57
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Warm",
+          "parameters": {
+            "Mix": 25,
+            "Time": 410,
+            "F.Back": 33
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 1",
+          "parameters": {
+            "Mix": 19,
+            "Decay": 48
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    }
+  ]
+}

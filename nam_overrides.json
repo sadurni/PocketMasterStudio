@@ -1,0 +1,90 @@
+{
+  "Queen|Brighton L": {
+    "ampMode": "Clone",
+    "presetVolume": 100,
+    "modules": {
+      "NR": {
+        "enabled": true,
+        "effect": "Gate",
+        "parameters": {
+          "THRE": 22
+        }
+      },
+      "FX1": {
+        "enabled": true,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 66,
+          "+3dB": 0,
+          "Bright": 0
+        }
+      },
+      "DRV": {
+        "enabled": false,
+        "effect": "Scream",
+        "parameters": {
+          "Gain": 40,
+          "Tone": 70,
+          "Vol": 50
+        }
+      },
+      "IR": {
+        "enabled": false,
+        "effect": "Voks 1x12",
+        "parameters": {
+          "Vol": 85
+        }
+      },
+      "EQ": {
+        "enabled": true,
+        "effect": "GT EQ 1",
+        "parameters": {
+          "125Hz": 0,
+          "400Hz": 0,
+          "800Hz": 0,
+          "1.6kHz": 0,
+          "4kHz": 0,
+          "Vol": 100
+        }
+      },
+      "FX2": {
+        "enabled": false,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 20,
+          "+3dB": 1,
+          "Bright": 1
+        }
+      },
+      "DLY": {
+        "enabled": true,
+        "effect": "Tube",
+        "parameters": {
+          "Mix": 50,
+          "Time": 800,
+          "F.Back": 52
+        }
+      },
+      "RVB": {
+        "enabled": true,
+        "effect": "Plate 2",
+        "parameters": {
+          "Mix": 12,
+          "Decay": 40,
+          "Damp": 50
+        }
+      },
+      "Clone": {
+        "enabled": true,
+        "effect": "AC30 May",
+        "parameters": {
+          "Gain": 50,
+          "Vol": 100,
+          "Bass": 50,
+          "Middle": 50,
+          "Treble": 50
+        }
+      }
+    }
+  }
+}

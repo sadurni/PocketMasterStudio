@@ -1,0 +1,1618 @@
+{
+  "order": [
+    "Queen",
+    "AC/DC",
+    "Pink Floyd",
+    "Metallica",
+    "Van Halen",
+    "Led Zeppelin",
+    "Black Sabbath",
+    "The Rolling Stones",
+    "Faces",
+    "Thin Lizzy",
+    "Scorpions",
+    "Iron Maiden",
+    "Joe Satriani",
+    "Steve Vai",
+    "U2",
+    "Dire Straits",
+    "The Cure",
+    "Sigur Ros",
+    "The Alan Parsons Project",
+    "Mike Oldfield",
+    "Neil Young",
+    "Pearl Jam",
+    "Soundgarden",
+    "Alice in Chains",
+    "Nirvana",
+    "The Smashing Pumpkins",
+    "The Afghan Whigs",
+    "Urge Overkill",
+    "Kyuss",
+    "Queens of the Stone Age",
+    "Corrosion of Conformity",
+    "Deafheaven",
+    "Fear Factory",
+    "Creedence Clearwater Revival",
+    "Eagles",
+    "Bruce Springsteen",
+    "The Black Crowes",
+    "Chris Isaak",
+    "The Jayhawks",
+    "Van Morrison",
+    "Jimi Hendrix",
+    "George Harrison",
+    "Robert Plant",
+    "Lenny Kravitz",
+    "Red Hot Chili Peppers",
+    "Funkadelic",
+    "Muse",
+    "Radiohead",
+    "The Doors",
+    "Jeff Buckley",
+    "Fleetwood Mac",
+    "Cake",
+    "Heroes del Silencio",
+    "Kino",
+    "Carlos Santana",
+    "Guns N' Roses"
+  ],
+  "tone_bc": [
+    {
+      "artist": "Queen",
+      "slug": "BohemianRhap",
+      "b": {
+        "AMP": {
+          "effect": "Voks 30TB",
+          "enabled": true,
+          "params": {
+            "Gain": 74,
+            "Tone Cut": 46,
+            "Vol": 82,
+            "Bass": 55,
+            "Treble": 54,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "effect": "Voks 1x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 62,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "FX2": {
+          "effect": "Detune",
+          "enabled": true,
+          "params": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 24,
+            "Time": 430,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Decay": 50,
+            "Damp": 50
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Voks 30TB",
+          "enabled": true,
+          "params": {
+            "Gain": 74,
+            "Tone Cut": 50,
+            "Vol": 82,
+            "Bass": 56,
+            "Treble": 50,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "effect": "Voks 1x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 60,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "FX2": {
+          "effect": "Detune",
+          "enabled": true,
+          "params": {
+            "Detune": -6,
+            "Wet": 28,
+            "Dry": 62
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 4,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 24,
+            "Time": 430,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Decay": 50,
+            "Damp": 50
+          }
+        }
+      }
+    },
+    {
+      "artist": "Pink Floyd",
+      "slug": "WishYouWere",
+      "b": {
+        "AMP": {
+          "effect": "B-Man N",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Pres": 55,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "effect": "TWD 2x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Tone": 56,
+            "Vol": 72
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 2,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 420,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "B-Man N",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Pres": 55,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "effect": "TWD 2x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Tone": 56,
+            "Vol": 72
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 5,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 420,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        }
+      }
+    },
+    {
+      "artist": "Pink Floyd",
+      "slug": "AnotherBrick2",
+      "b": {
+        "AMP": {
+          "effect": "B-Man N",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Pres": 55,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "effect": "TWD 2x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Dark Mouse",
+          "enabled": true,
+          "params": {
+            "Gain": 54,
+            "Filter": 55,
+            "Vol": 74
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 2,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 400,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "B-Man N",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Pres": 55,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "effect": "TWD 2x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Dark Mouse",
+          "enabled": true,
+          "params": {
+            "Gain": 54,
+            "Filter": 55,
+            "Vol": 74
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 5,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 400,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        }
+      }
+    },
+    {
+      "artist": "Pink Floyd",
+      "slug": "Dogs",
+      "b": {
+        "AMP": {
+          "effect": "B-Man N",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Pres": 55,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "effect": "TWD 2x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Dark Mouse",
+          "enabled": true,
+          "params": {
+            "Gain": 50,
+            "Filter": 55,
+            "Vol": 74
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 2,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Time": 440,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 20,
+            "Decay": 54
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "B-Man N",
+          "enabled": true,
+          "params": {
+            "Gain": 32,
+            "Pres": 55,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 54,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "effect": "TWD 2x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Dark Mouse",
+          "enabled": true,
+          "params": {
+            "Gain": 50,
+            "Filter": 55,
+            "Vol": 74
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 5,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Time": 440,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 20,
+            "Decay": 54
+          }
+        }
+      }
+    },
+    {
+      "artist": "Queen",
+      "slug": "WhoWantsLive",
+      "b": {
+        "AMP": {
+          "effect": "Voks 30TB",
+          "enabled": true,
+          "params": {
+            "Gain": 76,
+            "Tone Cut": 46,
+            "Vol": 82,
+            "Bass": 55,
+            "Treble": 54,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "effect": "Voks 1x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 62,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "FX2": {
+          "effect": "Detune",
+          "enabled": true,
+          "params": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 24,
+            "Time": 420,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Decay": 58
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Voks 30TB",
+          "enabled": true,
+          "params": {
+            "Gain": 76,
+            "Tone Cut": 46,
+            "Vol": 82,
+            "Bass": 55,
+            "Treble": 54,
+            "Char": 1
+          }
+        },
+        "IR": {
+          "effect": "Voks 1x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 62,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "FX2": {
+          "effect": "B-Chorus",
+          "enabled": true,
+          "params": {
+            "Depth": 30,
+            "Rate": 0.45,
+            "Vol": 55
+          }
+        },
+        "DLY": {
+          "effect": "Analog",
+          "enabled": true,
+          "params": {
+            "Mix": 24,
+            "Time": 420,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 24,
+            "Decay": 60
+          }
+        }
+      }
+    },
+    {
+      "artist": "Guns N' Roses",
+      "slug": "SweetChild",
+      "b": {
+        "AMP": {
+          "effect": "Brit 800",
+          "enabled": true,
+          "params": {
+            "Gain": 70,
+            "Pres": 56,
+            "Vol": 88,
+            "Bass": 58,
+            "Middle": 58,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "effect": "BritGN 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 42,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 6,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 20,
+            "Time": 360,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Brit 800",
+          "enabled": true,
+          "params": {
+            "Gain": 66,
+            "Pres": 56,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 58,
+            "Treble": 54
+          }
+        },
+        "IR": {
+          "effect": "BritGN 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 40,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 5,
+            "800Hz": 8,
+            "1.6kHz": 3,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 20,
+            "Time": 360,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        }
+      }
+    },
+    {
+      "artist": "Guns N' Roses",
+      "slug": "ParadiseCity",
+      "b": {
+        "AMP": {
+          "effect": "Brit 800",
+          "enabled": true,
+          "params": {
+            "Gain": 70,
+            "Pres": 58,
+            "Vol": 88,
+            "Bass": 58,
+            "Middle": 58,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "effect": "BritGN 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 42,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 6,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Time": 340,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Brit 800",
+          "enabled": true,
+          "params": {
+            "Gain": 66,
+            "Pres": 58,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 58,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "effect": "BritGN 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 40,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 5,
+            "800Hz": 8,
+            "1.6kHz": 3,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 18,
+            "Time": 340,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        }
+      }
+    },
+    {
+      "artist": "Guns N' Roses",
+      "slug": "NovemberRain",
+      "b": {
+        "AMP": {
+          "effect": "Brit 800",
+          "enabled": true,
+          "params": {
+            "Gain": 62,
+            "Pres": 56,
+            "Vol": 88,
+            "Bass": 58,
+            "Middle": 60,
+            "Treble": 57
+          }
+        },
+        "IR": {
+          "effect": "BritGN 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 38,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 6,
+            "1.6kHz": 3,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 440,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 20,
+            "Decay": 54
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Brit 800",
+          "enabled": true,
+          "params": {
+            "Gain": 60,
+            "Pres": 56,
+            "Vol": 90,
+            "Bass": 58,
+            "Middle": 60,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "effect": "BritGN 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Boost",
+          "enabled": true,
+          "params": {
+            "Gain": 38,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 5,
+            "800Hz": 9,
+            "1.6kHz": 4,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 440,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 20,
+            "Decay": 54
+          }
+        }
+      }
+    },
+    {
+      "artist": "Joe Satriani",
+      "slug": "Surfing",
+      "b": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 80,
+            "Pres": 60,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 56,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 34,
+            "Tone": 60,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 6,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 440,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 16,
+            "Decay": 48,
+            "Damp": 50
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 80,
+            "Pres": 60,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 56,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 34,
+            "Tone": 60,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 5,
+            "800Hz": 9,
+            "1.6kHz": 4,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Time": 440,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "effect": "Plate 2",
+          "enabled": true,
+          "params": {
+            "Mix": 16,
+            "Decay": 48,
+            "Damp": 50
+          }
+        }
+      }
+    },
+    {
+      "artist": "Joe Satriani",
+      "slug": "Cryin",
+      "b": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 72,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Touch Wah",
+          "enabled": true,
+          "params": {
+            "Sense": 50,
+            "Range": 55,
+            "Q": 55,
+            "Mix": 60,
+            "Mode": 0
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 30,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 6,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Time": 470,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Decay": 58
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 72,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "FX1": {
+          "effect": "Touch Wah",
+          "enabled": true,
+          "params": {
+            "Sense": 50,
+            "Range": 55,
+            "Q": 55,
+            "Mix": 60,
+            "Mode": 0
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 30,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 5,
+            "800Hz": 9,
+            "1.6kHz": 4,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Time": 470,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 22,
+            "Decay": 58
+          }
+        }
+      }
+    },
+    {
+      "artist": "Steve Vai",
+      "slug": "ForTheLoveGod",
+      "b": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 78,
+            "Pres": 60,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 56,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 28,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 5,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "effect": "Detune",
+          "enabled": true,
+          "params": {
+            "Detune": -7,
+            "Wet": 28,
+            "Dry": 62
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 30,
+            "Time": 530,
+            "F.Back": 40
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Decay": 64
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 78,
+            "Pres": 60,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 56,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 28,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": -2,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "effect": "Detune",
+          "enabled": true,
+          "params": {
+            "Detune": -8,
+            "Wet": 32,
+            "Dry": 60
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 32,
+            "Time": 540,
+            "F.Back": 42
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 28,
+            "Decay": 66
+          }
+        }
+      }
+    },
+    {
+      "artist": "Steve Vai",
+      "slug": "TenderSurrender",
+      "b": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 76,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 28,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 5,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "effect": "Detune",
+          "enabled": true,
+          "params": {
+            "Detune": -7,
+            "Wet": 28,
+            "Dry": 62
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Time": 500,
+            "F.Back": 38
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Decay": 64
+          }
+        }
+      },
+      "c": {
+        "AMP": {
+          "effect": "Sol 100 LD",
+          "enabled": true,
+          "params": {
+            "Gain": 76,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "effect": "Sol 4x12",
+          "enabled": true,
+          "params": {
+            "Vol": 85
+          }
+        },
+        "DRV": {
+          "effect": "Scream",
+          "enabled": true,
+          "params": {
+            "Gain": 28,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "EQ": {
+          "effect": "GT EQ 1",
+          "enabled": true,
+          "params": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": -2,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "effect": "Detune",
+          "enabled": true,
+          "params": {
+            "Detune": -8,
+            "Wet": 30,
+            "Dry": 62
+          }
+        },
+        "DLY": {
+          "effect": "Warm",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Time": 500,
+            "F.Back": 38
+          }
+        },
+        "RVB": {
+          "effect": "Hall",
+          "enabled": true,
+          "params": {
+            "Mix": 26,
+            "Decay": 64
+          }
+        }
+      }
+    }
+  ],
+  "double_chorus": [
+    [
+      "Queen",
+      "IWantItAll"
+    ],
+    [
+      "Queen",
+      "KillerQueen"
+    ],
+    [
+      "Queen",
+      "Headlong"
+    ]
+  ]
+}

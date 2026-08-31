@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "MachineG L",
+  "description": "Machine Gun: apocalyptic fuzz-wah-vibe lead  [Sub.: heavy rhythm -> All Along the Watchtower]",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 32
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Touch Wah",
+      "parameters": {
+        "Sense": 56,
+        "Range": 58,
+        "Q": 50,
+        "Mix": 62,
+        "Mode": 0
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Red Fuzz",
+      "parameters": {
+        "Fuzz": 56,
+        "Vol": 72
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "Vibe",
+      "parameters": {
+        "Depth": 45,
+        "Rate": 0.4
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 14,
+        "Time": 320,
+        "F.Back": 28
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Hall",
+      "parameters": {
+        "Mix": 16,
+        "Decay": 50
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "Plexi",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

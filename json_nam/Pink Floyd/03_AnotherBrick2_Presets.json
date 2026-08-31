@@ -1,0 +1,435 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Pink Floyd",
+  "song": "AnotherBrick2",
+  "count": 4,
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "Brick2 C",
+      "description": "Another Brick in the Wall Pt.2: clipped funk-disco clean chords  [Sub.: heavy rhythm -> Money]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 42,
+            "Attack": 58,
+            "Vol": 58,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 46
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "Brick2A",
+      "description": "Another Brick in the Wall Pt.2: biting Rat-driven solo, clean amp + mid-hump EQ  [A strident]  [Sub.: heavy rhythm -> Money]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Dark Mouse",
+          "parameters": {
+            "Gain": 54,
+            "Filter": 55,
+            "Vol": 74
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 5,
+            "4kHz": -3,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 400,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "Brick2B",
+      "description": "Another Brick in the Wall Pt.2: biting Rat-driven solo, clean amp + mid-hump EQ  [B mid]  [Sub.: heavy rhythm -> Money]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Dark Mouse",
+          "parameters": {
+            "Gain": 54,
+            "Filter": 55,
+            "Vol": 74
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 2,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 400,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "Brick2C",
+      "description": "Another Brick in the Wall Pt.2: biting Rat-driven solo, clean amp + mid-hump EQ  [C muted]  [Sub.: heavy rhythm -> Money]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Dark Mouse",
+          "parameters": {
+            "Gain": 54,
+            "Filter": 55,
+            "Vol": 74
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 5,
+            "4kHz": -3,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 400,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    }
+  ]
+}

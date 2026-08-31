@@ -1,0 +1,1651 @@
+[
+  {
+    "file": "Compilation_Solos.json",
+    "collection": "Interesting Solos",
+    "n": 40,
+    "refs": [
+      [
+        "Pink Floyd",
+        "ComfortablyNumb",
+        "L"
+      ],
+      [
+        "Pink Floyd",
+        "WishYouWere",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "Stairway",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "Heartbreaker",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "AchillesLast",
+        "L"
+      ],
+      [
+        "Queen",
+        "BohemianRhap",
+        "L"
+      ],
+      [
+        "Queen",
+        "WhoWantsLive",
+        "L"
+      ],
+      [
+        "AC/DC",
+        "BackInBlack",
+        "L"
+      ],
+      [
+        "Van Halen",
+        "Eruption",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "Surfing",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "SatchBoogie",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "TheExtremist",
+        "L"
+      ],
+      [
+        "Steve Vai",
+        "ForTheLoveGod",
+        "L"
+      ],
+      [
+        "Steve Vai",
+        "TenderSurrender",
+        "L"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "L"
+      ],
+      [
+        "Dire Straits",
+        "SultansOfSwing",
+        "L"
+      ],
+      [
+        "Dire Straits",
+        "BrothersInArms",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "VoodooChild",
+        "L"
+      ],
+      [
+        "Thin Lizzy",
+        "WhiskeyInJar",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "LittleWing",
+        "L"
+      ],
+      [
+        "Metallica",
+        "MasterOfPuppets",
+        "L"
+      ],
+      [
+        "Iron Maiden",
+        "Hallowed",
+        "L"
+      ],
+      [
+        "Scorpions",
+        "SailsOfCharon",
+        "L"
+      ],
+      [
+        "Pearl Jam",
+        "Alive",
+        "L"
+      ],
+      [
+        "Pearl Jam",
+        "EvenFlow",
+        "L"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "C"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "L"
+      ],
+      [
+        "Neil Young",
+        "CortezKiller",
+        "L"
+      ],
+      [
+        "The Black Crowes",
+        "ThornInPride",
+        "L"
+      ],
+      [
+        "Radiohead",
+        "ParanoidAndroid",
+        "L"
+      ],
+      [
+        "Muse",
+        "KnightsCydonia",
+        "L"
+      ],
+      [
+        "Mike Oldfield",
+        "Muse",
+        "L"
+      ],
+      [
+        "Heroes del Silencio",
+        "EntreDosTierras",
+        "L"
+      ],
+      [
+        "Soundgarden",
+        "BlackHoleSun",
+        "L"
+      ],
+      [
+        "Alice in Chains",
+        "Rooster",
+        "L"
+      ],
+      [
+        "Fleetwood Mac",
+        "ImSoAfraid",
+        "L"
+      ],
+      [
+        "Carlos Santana",
+        "Europa",
+        "L"
+      ],
+      [
+        "Guns N' Roses",
+        "SweetChild",
+        "L"
+      ],
+      [
+        "George Harrison",
+        "MarwaBlues",
+        "L"
+      ],
+      [
+        "Red Hot Chili Peppers",
+        "Californication",
+        "L"
+      ]
+    ]
+  },
+  {
+    "file": "Compilation_ClassicRock.json",
+    "collection": "Classic Rock",
+    "n": 40,
+    "refs": [
+      [
+        "AC/DC",
+        "BackInBlack",
+        "R"
+      ],
+      [
+        "AC/DC",
+        "BackInBlack",
+        "L"
+      ],
+      [
+        "AC/DC",
+        "HighwayToHell",
+        "R"
+      ],
+      [
+        "AC/DC",
+        "HighwayToHell",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "WholeLottaLove",
+        "R"
+      ],
+      [
+        "Led Zeppelin",
+        "WholeLottaLove",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "Kashmir",
+        "R"
+      ],
+      [
+        "Led Zeppelin",
+        "Stairway",
+        "C"
+      ],
+      [
+        "Queen",
+        "BohemianRhap",
+        "H"
+      ],
+      [
+        "Queen",
+        "IWantItAll",
+        "R"
+      ],
+      [
+        "Queen",
+        "IWantItAll",
+        "L"
+      ],
+      [
+        "Van Halen",
+        "RunninDevil",
+        "R"
+      ],
+      [
+        "Van Halen",
+        "AintTalkinLove",
+        "R"
+      ],
+      [
+        "Van Halen",
+        "Eruption",
+        "L"
+      ],
+      [
+        "The Rolling Stones",
+        "Satisfaction",
+        "R"
+      ],
+      [
+        "The Rolling Stones",
+        "BrownSugar",
+        "R"
+      ],
+      [
+        "The Rolling Stones",
+        "BrownSugar",
+        "L"
+      ],
+      [
+        "The Rolling Stones",
+        "GimmeShelter",
+        "C"
+      ],
+      [
+        "Jimi Hendrix",
+        "PurpleHaze",
+        "R"
+      ],
+      [
+        "Jimi Hendrix",
+        "PurpleHaze",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "VoodooChild",
+        "R"
+      ],
+      [
+        "Black Sabbath",
+        "Paranoid",
+        "H"
+      ],
+      [
+        "Black Sabbath",
+        "IronMan",
+        "R"
+      ],
+      [
+        "Scorpions",
+        "Hurricane",
+        "R"
+      ],
+      [
+        "Scorpions",
+        "Hurricane",
+        "L"
+      ],
+      [
+        "Neil Young",
+        "CinnamonGirl",
+        "R"
+      ],
+      [
+        "Neil Young",
+        "RockinFreeWorld",
+        "R"
+      ],
+      [
+        "Creedence Clearwater Revival",
+        "FortunateSon",
+        "R"
+      ],
+      [
+        "Creedence Clearwater Revival",
+        "FortunateSon",
+        "L"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "C"
+      ],
+      [
+        "Eagles",
+        "LifeInFastLane",
+        "R"
+      ],
+      [
+        "The Doors",
+        "RoadhouseBlues",
+        "R"
+      ],
+      [
+        "The Doors",
+        "BreakOnThrough",
+        "R"
+      ],
+      [
+        "Faces",
+        "StayWithMe",
+        "R"
+      ],
+      [
+        "Faces",
+        "StayWithMe",
+        "L"
+      ],
+      [
+        "Bruce Springsteen",
+        "BornToRun",
+        "R"
+      ],
+      [
+        "Lenny Kravitz",
+        "GoMyWay",
+        "R"
+      ],
+      [
+        "Lenny Kravitz",
+        "AmericanWoman",
+        "R"
+      ],
+      [
+        "George Harrison",
+        "WhatIsLife",
+        "R"
+      ],
+      [
+        "Iron Maiden",
+        "RunToTheHills",
+        "R"
+      ]
+    ]
+  },
+  {
+    "file": "Compilation_Assorted.json",
+    "collection": "A Bit of Everything",
+    "n": 40,
+    "refs": [
+      [
+        "Queen",
+        "BohemianRhap",
+        "L"
+      ],
+      [
+        "AC/DC",
+        "BackInBlack",
+        "R"
+      ],
+      [
+        "Led Zeppelin",
+        "WholeLottaLove",
+        "R"
+      ],
+      [
+        "Pink Floyd",
+        "ComfortablyNumb",
+        "L"
+      ],
+      [
+        "Dire Straits",
+        "SultansOfSwing",
+        "C"
+      ],
+      [
+        "Metallica",
+        "MasterOfPuppets",
+        "R"
+      ],
+      [
+        "Iron Maiden",
+        "NumberOfBeast",
+        "H"
+      ],
+      [
+        "Black Sabbath",
+        "Paranoid",
+        "H"
+      ],
+      [
+        "Nirvana",
+        "SmellsTeenSpir",
+        "L"
+      ],
+      [
+        "Pearl Jam",
+        "Alive",
+        "L"
+      ],
+      [
+        "Soundgarden",
+        "BlackHoleSun",
+        "C"
+      ],
+      [
+        "Alice in Chains",
+        "Would",
+        "R"
+      ],
+      [
+        "Red Hot Chili Peppers",
+        "Californication",
+        "C"
+      ],
+      [
+        "Radiohead",
+        "Creep",
+        "L"
+      ],
+      [
+        "Muse",
+        "PlugInBaby",
+        "R"
+      ],
+      [
+        "The Cure",
+        "JustLikeHeaven",
+        "C"
+      ],
+      [
+        "U2",
+        "StreetsNoName",
+        "C"
+      ],
+      [
+        "The Smashing Pumpkins",
+        "CherubRock",
+        "R"
+      ],
+      [
+        "Queens of the Stone Age",
+        "NoOneKnows",
+        "R"
+      ],
+      [
+        "Kyuss",
+        "GreenMachine",
+        "H"
+      ],
+      [
+        "Deafheaven",
+        "Sunbather",
+        "H"
+      ],
+      [
+        "Fear Factory",
+        "Demanufacture",
+        "H"
+      ],
+      [
+        "Sigur Ros",
+        "Hoppipolla",
+        "C"
+      ],
+      [
+        "The Alan Parsons Project",
+        "EyeInTheSky",
+        "C"
+      ],
+      [
+        "Mike Oldfield",
+        "Muse",
+        "L"
+      ],
+      [
+        "Neil Young",
+        "CinnamonGirl",
+        "R"
+      ],
+      [
+        "Jimi Hendrix",
+        "LittleWing",
+        "L"
+      ],
+      [
+        "George Harrison",
+        "MarwaBlues",
+        "L"
+      ],
+      [
+        "Robert Plant",
+        "BigLog",
+        "C"
+      ],
+      [
+        "Lenny Kravitz",
+        "GoMyWay",
+        "R"
+      ],
+      [
+        "Led Zeppelin",
+        "Kashmir",
+        "R"
+      ],
+      [
+        "Chris Isaak",
+        "WickedGame",
+        "C"
+      ],
+      [
+        "The Doors",
+        "LightMyFire",
+        "L"
+      ],
+      [
+        "Jeff Buckley",
+        "Grace",
+        "C"
+      ],
+      [
+        "Fleetwood Mac",
+        "GoYourOwnWay",
+        "R"
+      ],
+      [
+        "Cake",
+        "TheDistance",
+        "C"
+      ],
+      [
+        "Heroes del Silencio",
+        "EntreDosTierras",
+        "L"
+      ],
+      [
+        "Kino",
+        "ZvezdaSolntse",
+        "R"
+      ],
+      [
+        "The Rolling Stones",
+        "GimmeShelter",
+        "C"
+      ],
+      [
+        "Steve Vai",
+        "ForTheLoveGod",
+        "L"
+      ]
+    ]
+  },
+  {
+    "file": "Compilation_Best50.json",
+    "collection": "Best 50 (a bit of everything)",
+    "n": 50,
+    "refs": [
+      [
+        "Dire Straits",
+        "SultansOfSwing",
+        "C"
+      ],
+      [
+        "U2",
+        "StreetsNoName",
+        "C"
+      ],
+      [
+        "The Cure",
+        "JustLikeHeaven",
+        "C"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "C"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "L"
+      ],
+      [
+        "Metallica",
+        "NothingElse",
+        "C"
+      ],
+      [
+        "Led Zeppelin",
+        "Stairway",
+        "C"
+      ],
+      [
+        "Chris Isaak",
+        "WickedGame",
+        "C"
+      ],
+      [
+        "Red Hot Chili Peppers",
+        "Californication",
+        "C"
+      ],
+      [
+        "The Alan Parsons Project",
+        "EyeInTheSky",
+        "C"
+      ],
+      [
+        "Sigur Ros",
+        "Hoppipolla",
+        "C"
+      ],
+      [
+        "Pink Floyd",
+        "WishYouWere",
+        "C"
+      ],
+      [
+        "Van Halen",
+        "DanceNightAway",
+        "C"
+      ],
+      [
+        "AC/DC",
+        "BackInBlack",
+        "R"
+      ],
+      [
+        "The Rolling Stones",
+        "Satisfaction",
+        "R"
+      ],
+      [
+        "Led Zeppelin",
+        "WholeLottaLove",
+        "R"
+      ],
+      [
+        "Van Halen",
+        "AintTalkinLove",
+        "R"
+      ],
+      [
+        "Guns N' Roses",
+        "ParadiseCity",
+        "R"
+      ],
+      [
+        "Black Sabbath",
+        "IronMan",
+        "R"
+      ],
+      [
+        "Scorpions",
+        "Blackout",
+        "H"
+      ],
+      [
+        "Metallica",
+        "MasterOfPuppets",
+        "R"
+      ],
+      [
+        "Iron Maiden",
+        "NumberOfBeast",
+        "H"
+      ],
+      [
+        "Muse",
+        "PlugInBaby",
+        "R"
+      ],
+      [
+        "Kyuss",
+        "GreenMachine",
+        "H"
+      ],
+      [
+        "Dire Straits",
+        "BrothersInArms",
+        "L"
+      ],
+      [
+        "Pink Floyd",
+        "ComfortablyNumb",
+        "L"
+      ],
+      [
+        "Carlos Santana",
+        "Europa",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "LittleWing",
+        "L"
+      ],
+      [
+        "George Harrison",
+        "MarwaBlues",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "AlwaysWithMe",
+        "L"
+      ],
+      [
+        "Mike Oldfield",
+        "Muse",
+        "L"
+      ],
+      [
+        "Jeff Buckley",
+        "Grace",
+        "L"
+      ],
+      [
+        "The Doors",
+        "LightMyFire",
+        "L"
+      ],
+      [
+        "Neil Young",
+        "CortezKiller",
+        "L"
+      ],
+      [
+        "Alice in Chains",
+        "Nutshell",
+        "L"
+      ],
+      [
+        "Faces",
+        "Debris",
+        "L"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "C"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "L"
+      ],
+      [
+        "Van Halen",
+        "Eruption",
+        "L"
+      ],
+      [
+        "AC/DC",
+        "BackInBlack",
+        "L"
+      ],
+      [
+        "Queen",
+        "BohemianRhap",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "Heartbreaker",
+        "L"
+      ],
+      [
+        "Black Sabbath",
+        "Paranoid",
+        "L"
+      ],
+      [
+        "Scorpions",
+        "SailsOfCharon",
+        "L"
+      ],
+      [
+        "Iron Maiden",
+        "Hallowed",
+        "L"
+      ],
+      [
+        "Metallica",
+        "MasterOfPuppets",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "SatchBoogie",
+        "L"
+      ],
+      [
+        "Steve Vai",
+        "ForTheLoveGod",
+        "L"
+      ],
+      [
+        "Guns N' Roses",
+        "SweetChild",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "VoodooChild",
+        "L"
+      ]
+    ]
+  },
+  {
+    "file": "Compilation_Best50_v2.json",
+    "collection": "Best 50 v2 (calm/loud cycle by era)",
+    "n": 50,
+    "refs": [
+      [
+        "Led Zeppelin",
+        "Stairway",
+        "C"
+      ],
+      [
+        "Jimi Hendrix",
+        "LittleWing",
+        "L"
+      ],
+      [
+        "The Rolling Stones",
+        "Satisfaction",
+        "R"
+      ],
+      [
+        "Jimi Hendrix",
+        "VoodooChild",
+        "L"
+      ],
+      [
+        "Pink Floyd",
+        "WishYouWere",
+        "C"
+      ],
+      [
+        "The Doors",
+        "LightMyFire",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "WholeLottaLove",
+        "R"
+      ],
+      [
+        "Led Zeppelin",
+        "Heartbreaker",
+        "L"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "C"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "L"
+      ],
+      [
+        "Black Sabbath",
+        "IronMan",
+        "R"
+      ],
+      [
+        "Black Sabbath",
+        "Paranoid",
+        "L"
+      ],
+      [
+        "Dire Straits",
+        "SultansOfSwing",
+        "C"
+      ],
+      [
+        "Faces",
+        "Debris",
+        "L"
+      ],
+      [
+        "Van Halen",
+        "AintTalkinLove",
+        "R"
+      ],
+      [
+        "Queen",
+        "BohemianRhap",
+        "L"
+      ],
+      [
+        "Van Halen",
+        "DanceNightAway",
+        "C"
+      ],
+      [
+        "Mike Oldfield",
+        "Muse",
+        "L"
+      ],
+      [
+        "AC/DC",
+        "BackInBlack",
+        "R"
+      ],
+      [
+        "AC/DC",
+        "BackInBlack",
+        "L"
+      ],
+      [
+        "The Alan Parsons Project",
+        "EyeInTheSky",
+        "C"
+      ],
+      [
+        "Neil Young",
+        "CortezKiller",
+        "L"
+      ],
+      [
+        "Scorpions",
+        "Blackout",
+        "H"
+      ],
+      [
+        "Scorpions",
+        "SailsOfCharon",
+        "L"
+      ],
+      [
+        "The Cure",
+        "JustLikeHeaven",
+        "C"
+      ],
+      [
+        "Carlos Santana",
+        "Europa",
+        "L"
+      ],
+      [
+        "Iron Maiden",
+        "NumberOfBeast",
+        "H"
+      ],
+      [
+        "Van Halen",
+        "Eruption",
+        "L"
+      ],
+      [
+        "U2",
+        "StreetsNoName",
+        "C"
+      ],
+      [
+        "Pink Floyd",
+        "ComfortablyNumb",
+        "L"
+      ],
+      [
+        "Metallica",
+        "MasterOfPuppets",
+        "R"
+      ],
+      [
+        "Metallica",
+        "MasterOfPuppets",
+        "L"
+      ],
+      [
+        "Chris Isaak",
+        "WickedGame",
+        "C"
+      ],
+      [
+        "Dire Straits",
+        "BrothersInArms",
+        "L"
+      ],
+      [
+        "Guns N' Roses",
+        "ParadiseCity",
+        "R"
+      ],
+      [
+        "Iron Maiden",
+        "Hallowed",
+        "L"
+      ],
+      [
+        "Metallica",
+        "NothingElse",
+        "C"
+      ],
+      [
+        "Joe Satriani",
+        "AlwaysWithMe",
+        "L"
+      ],
+      [
+        "Kyuss",
+        "GreenMachine",
+        "H"
+      ],
+      [
+        "Guns N' Roses",
+        "SweetChild",
+        "L"
+      ],
+      [
+        "Red Hot Chili Peppers",
+        "Californication",
+        "C"
+      ],
+      [
+        "Jeff Buckley",
+        "Grace",
+        "L"
+      ],
+      [
+        "Muse",
+        "PlugInBaby",
+        "R"
+      ],
+      [
+        "Joe Satriani",
+        "SatchBoogie",
+        "L"
+      ],
+      [
+        "Sigur Ros",
+        "Hoppipolla",
+        "C"
+      ],
+      [
+        "Alice in Chains",
+        "Nutshell",
+        "L"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "C"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "L2"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "C"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "L"
+      ]
+    ]
+  },
+  {
+    "file": "Compilation_MySongs.json",
+    "collection": "MySongs",
+    "n": 50,
+    "refs": [
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "C"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "L"
+      ],
+      [
+        "The Cure",
+        "FridayInLove",
+        "R"
+      ],
+      [
+        "Dire Straits",
+        "MoneyForNothing",
+        "R"
+      ],
+      [
+        "Queen",
+        "BrightonRock",
+        "L"
+      ],
+      [
+        "Queen",
+        "KillerQueen",
+        "Lh"
+      ],
+      [
+        "Queen",
+        "IWantItAll",
+        "R"
+      ],
+      [
+        "Queen",
+        "DaysOfLives",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "AllAlongWatchtower",
+        "C"
+      ],
+      [
+        "Jimi Hendrix",
+        "AllAlongWatchtower",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "AllAlongWatchtower",
+        "H"
+      ],
+      [
+        "Jimi Hendrix",
+        "AllAlongWatchtower",
+        "L2"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "C"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "L"
+      ],
+      [
+        "Pink Floyd",
+        "Money",
+        "R"
+      ],
+      [
+        "Pink Floyd",
+        "Dogs",
+        "C"
+      ],
+      [
+        "Red Hot Chili Peppers",
+        "DarkNecessities",
+        "R"
+      ],
+      [
+        "Red Hot Chili Peppers",
+        "UnderTheBridge",
+        "C"
+      ],
+      [
+        "Lenny Kravitz",
+        "AlwaysOnRun",
+        "R"
+      ],
+      [
+        "Soundgarden",
+        "Superunknown",
+        "L"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "C"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "L"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "H"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "L2"
+      ],
+      [
+        "Van Halen",
+        "AintTalkinLove",
+        "R"
+      ],
+      [
+        "Van Halen",
+        "YouReallyGotMe",
+        "L"
+      ],
+      [
+        "Van Halen",
+        "DanceNightAway",
+        "C"
+      ],
+      [
+        "Led Zeppelin",
+        "Stairway",
+        "C"
+      ],
+      [
+        "Led Zeppelin",
+        "Kashmir",
+        "R"
+      ],
+      [
+        "Led Zeppelin",
+        "AchillesLast",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "CustardPie",
+        "R"
+      ],
+      [
+        "Robert Plant",
+        "ShipOfFools",
+        "C"
+      ],
+      [
+        "Robert Plant",
+        "ShipOfFools",
+        "L"
+      ],
+      [
+        "Heroes del Silencio",
+        "MalditoDuende",
+        "C"
+      ],
+      [
+        "Kino",
+        "KonchitsyaLeto",
+        "C"
+      ],
+      [
+        "Kino",
+        "KonchitsyaLeto",
+        "L"
+      ],
+      [
+        "Black Sabbath",
+        "IronMan",
+        "R"
+      ],
+      [
+        "Black Sabbath",
+        "Paranoid",
+        "L"
+      ],
+      [
+        "Black Sabbath",
+        "PlanetCaravan",
+        "C"
+      ],
+      [
+        "Black Sabbath",
+        "PlanetCaravan",
+        "L"
+      ],
+      [
+        "Faces",
+        "StayWithMe",
+        "R"
+      ],
+      [
+        "Neil Young",
+        "HeyHeyMyMy",
+        "R"
+      ],
+      [
+        "U2",
+        "SundayBloody",
+        "R"
+      ],
+      [
+        "U2",
+        "TheFly",
+        "H"
+      ],
+      [
+        "Scorpions",
+        "Hurricane",
+        "R"
+      ],
+      [
+        "Scorpions",
+        "Hurricane",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "Surfing",
+        "R"
+      ],
+      [
+        "Joe Satriani",
+        "AlwaysWithMe",
+        "C"
+      ],
+      [
+        "Joe Satriani",
+        "AlwaysWithMe",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "Cryin",
+        "Lb"
+      ]
+    ]
+  },
+  {
+    "file": "Compilation_MySongs2.json",
+    "collection": "My Songs",
+    "n": 50,
+    "refs": [
+      [
+        "Queen",
+        "BohemianRhap",
+        "C"
+      ],
+      [
+        "Queen",
+        "BohemianRhap",
+        "H"
+      ],
+      [
+        "Queen",
+        "BohemianRhap",
+        "La"
+      ],
+      [
+        "Queen",
+        "IWantItAll",
+        "R"
+      ],
+      [
+        "Queen",
+        "WhoWantsLive",
+        "Lc"
+      ],
+      [
+        "Queen",
+        "BrightonRock",
+        "L"
+      ],
+      [
+        "Pink Floyd",
+        "ComfortablyNumb",
+        "L"
+      ],
+      [
+        "Pink Floyd",
+        "Dogs",
+        "C"
+      ],
+      [
+        "Pink Floyd",
+        "Dogs",
+        "Lb"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "C"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "L"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "H"
+      ],
+      [
+        "Metallica",
+        "TheDayThatNeverComes",
+        "L2"
+      ],
+      [
+        "Van Halen",
+        "AintTalkinLove",
+        "R"
+      ],
+      [
+        "Van Halen",
+        "DanceNightAway",
+        "C"
+      ],
+      [
+        "Led Zeppelin",
+        "Stairway",
+        "C"
+      ],
+      [
+        "Led Zeppelin",
+        "Stairway",
+        "L"
+      ],
+      [
+        "Led Zeppelin",
+        "Heartbreaker",
+        "L"
+      ],
+      [
+        "Black Sabbath",
+        "IronMan",
+        "R"
+      ],
+      [
+        "Black Sabbath",
+        "Paranoid",
+        "L"
+      ],
+      [
+        "Black Sabbath",
+        "PlanetCaravan",
+        "C"
+      ],
+      [
+        "Black Sabbath",
+        "PlanetCaravan",
+        "L"
+      ],
+      [
+        "Faces",
+        "StayWithMe",
+        "R"
+      ],
+      [
+        "Scorpions",
+        "StillLovingYou",
+        "C"
+      ],
+      [
+        "Scorpions",
+        "Hurricane",
+        "R"
+      ],
+      [
+        "Scorpions",
+        "Hurricane",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "Surfing",
+        "R"
+      ],
+      [
+        "Joe Satriani",
+        "Surfing",
+        "Lb"
+      ],
+      [
+        "Joe Satriani",
+        "AlwaysWithMe",
+        "C"
+      ],
+      [
+        "Joe Satriani",
+        "AlwaysWithMe",
+        "L"
+      ],
+      [
+        "Joe Satriani",
+        "Cryin",
+        "Lc"
+      ],
+      [
+        "Steve Vai",
+        "AttitudeSong",
+        "L"
+      ],
+      [
+        "Steve Vai",
+        "ForTheLoveGod",
+        "Lc"
+      ],
+      [
+        "Dire Straits",
+        "MoneyForNothing",
+        "R"
+      ],
+      [
+        "Dire Straits",
+        "BrothersInArms",
+        "L"
+      ],
+      [
+        "The Cure",
+        "FridayInLove",
+        "R"
+      ],
+      [
+        "Heroes del Silencio",
+        "MalditoDuende",
+        "C"
+      ],
+      [
+        "Heroes del Silencio",
+        "MalditoDuende",
+        "L"
+      ],
+      [
+        "Neil Young",
+        "HeyHeyMyMy",
+        "R"
+      ],
+      [
+        "Corrosion of Conformity",
+        "Albatross",
+        "L"
+      ],
+      [
+        "Soundgarden",
+        "Superunknown",
+        "L"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "C"
+      ],
+      [
+        "Eagles",
+        "HotelCalifornia",
+        "L"
+      ],
+      [
+        "The Afghan Whigs",
+        "Gentlemen",
+        "R"
+      ],
+      [
+        "The Black Crowes",
+        "HotelIllness",
+        "R"
+      ],
+      [
+        "The Black Crowes",
+        "ThornInPride",
+        "L"
+      ],
+      [
+        "Jimi Hendrix",
+        "LittleWing",
+        "C"
+      ],
+      [
+        "Jimi Hendrix",
+        "LittleWing",
+        "L"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "C"
+      ],
+      [
+        "Funkadelic",
+        "MaggotBrain",
+        "L"
+      ]
+    ]
+  }
+]

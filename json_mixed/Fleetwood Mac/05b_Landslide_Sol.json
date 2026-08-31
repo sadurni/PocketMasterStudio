@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "Landslde L",
+  "description": "Landslide: gentle melodic lead  [Sub.: heavy rhythm -> The Chain]",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 10
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 18,
+        "Tone": 54,
+        "Vol": 66
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Double 2x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Slap",
+      "parameters": {
+        "Mix": 8,
+        "Time": 120,
+        "F.Back": 8
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Hall",
+      "parameters": {
+        "Mix": 18,
+        "Decay": 52
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "TwinCln",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

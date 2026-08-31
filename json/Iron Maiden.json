@@ -1,0 +1,671 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Iron Maiden",
+  "count": 6,
+  "slots": "45-50",
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "NumBeast H",
+      "description": "The Number of the Beast: galloping Marshall riff",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 40,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 66,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 45,
+      "song": "NumberOfBeast",
+      "kind": "H"
+    },
+    {
+      "version": "1.0",
+      "presetName": "NumBeast L",
+      "description": "The Number of the Beast: harmonized twin lead + delay",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 48,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 76,
+            "Pres": 62,
+            "Vol": 78,
+            "Bass": 56,
+            "Middle": 58,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -7,
+            "Wet": 28,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 16,
+            "Time": 300,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 46,
+      "song": "NumberOfBeast",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Run2Hill R",
+      "description": "Run to the Hills: galloping open-chord riff  [Sub.: solo -> The Number of the Beast]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 62,
+            "Pres": 58,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 47,
+      "song": "RunToTheHills",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Hallowed C",
+      "description": "Hallowed Be Thy Name: brooding clean-edge intro  [Sub.: heavy rhythm -> The Number of the Beast]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 40,
+            "Pres": 54,
+            "Vol": 80,
+            "Bass": 56,
+            "Middle": 54,
+            "Treble": 56
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 48,
+      "song": "Hallowed",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Hallowed L",
+      "description": "Hallowed Be Thy Name: epic harmonized climax solo  [Sub.: heavy rhythm -> The Number of the Beast]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 48,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Brit 800",
+          "parameters": {
+            "Gain": 76,
+            "Pres": 62,
+            "Vol": 78,
+            "Bass": 56,
+            "Middle": 58,
+            "Treble": 60
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -7,
+            "Wet": 28,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 18,
+            "Time": 320,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 48,
+            "Damp": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 49,
+      "song": "Hallowed",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "ChldDamn C",
+      "description": "Children of the Damned: clean arpeggio verse  [Sub.: heavy rhythm -> The Number of the Beast ; solo -> The Number of the Beast]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 26,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dark Twin",
+          "parameters": {
+            "Gain": 28,
+            "Vol": 82,
+            "Bass": 56,
+            "Middle": 48,
+            "Treble": 56,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 20,
+            "Decay": 54
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 50,
+      "song": "ChildrenDamned",
+      "kind": "C"
+    }
+  ]
+}

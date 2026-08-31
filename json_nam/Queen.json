@@ -1,0 +1,2308 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Queen",
+  "count": 21,
+  "slots": "30-50",
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "BohRhap C",
+      "description": "Bohemian Rhapsody: mellow clean ballad answer",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 24,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 30,
+      "song": "BohemianRhap",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhap H",
+      "description": "Bohemian Rhapsody: heavy operatic power chords + booster",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 55,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 31,
+      "song": "BohemianRhap",
+      "kind": "H"
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhapA",
+      "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [A strident]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 64,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 420,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 48,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 32,
+      "song": "BohemianRhap",
+      "kind": "La"
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhapB",
+      "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [B mid]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 62,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 430,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 50,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 33,
+      "song": "BohemianRhap",
+      "kind": "Lb"
+    },
+    {
+      "version": "1.0",
+      "presetName": "BohRhapC",
+      "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [C muted]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 60,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 6,
+            "800Hz": 10,
+            "1.6kHz": 4,
+            "4kHz": -3,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 28,
+            "Dry": 62
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 430,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 50,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 34,
+      "song": "BohemianRhap",
+      "kind": "Lc"
+    },
+    {
+      "version": "1.0",
+      "presetName": "KilrQdt",
+      "description": "Killer Queen: bell-like harmonized lead, booster + short delay  [detune]  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 16
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 60,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 24,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 18,
+            "Time": 300,
+            "F.Back": 26
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 15,
+            "Decay": 44,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 35,
+      "song": "KillerQueen",
+      "kind": "Ld"
+    },
+    {
+      "version": "1.0",
+      "presetName": "KilrQch",
+      "description": "Killer Queen: bell-like harmonized lead, booster + short delay  [chorus]  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 16
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 60,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "B-Chorus",
+          "parameters": {
+            "Depth": 30,
+            "Rate": 0.5,
+            "Vol": 55
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 18,
+            "Time": 300,
+            "F.Back": 26
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 15,
+            "Decay": 44,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 36,
+      "song": "KillerQueen",
+      "kind": "Lh"
+    },
+    {
+      "version": "1.0",
+      "presetName": "WantAll R",
+      "description": "I Want It All: big anthemic AC30TB power chords + booster",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 60,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 42,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 37,
+      "song": "IWantItAll",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "WantAlldt",
+      "description": "I Want It All: harmonized soaring lead, booster + delay  [detune]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 66,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 380,
+            "F.Back": 40
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 46,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 38,
+      "song": "IWantItAll",
+      "kind": "Ld"
+    },
+    {
+      "version": "1.0",
+      "presetName": "WantAllch",
+      "description": "I Want It All: harmonized soaring lead, booster + delay  [chorus]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 66,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "B-Chorus",
+          "parameters": {
+            "Depth": 30,
+            "Rate": 0.45,
+            "Vol": 55
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 380,
+            "F.Back": 40
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 46,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 39,
+      "song": "IWantItAll",
+      "kind": "Lh"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Headlong R",
+      "description": "Headlong: driving hard-rock AC30TB riff + booster",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 60,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 40,
+      "song": "Headlong",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Headlongdt",
+      "description": "Headlong: fiery cranked AC30TB solo, booster + delay  [detune]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 66,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 360,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 15,
+            "Decay": 44,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 41,
+      "song": "Headlong",
+      "kind": "Ld"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Headlongch",
+      "description": "Headlong: fiery cranked AC30TB solo, booster + delay  [chorus]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 66,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "B-Chorus",
+          "parameters": {
+            "Depth": 30,
+            "Rate": 0.45,
+            "Vol": 55
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 360,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 15,
+            "Decay": 44,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 42,
+      "song": "Headlong",
+      "kind": "Lh"
+    },
+    {
+      "version": "1.0",
+      "presetName": "WhoLive C",
+      "description": "Who Wants to Live Forever: orchestral clean AC30 + chorus/hall  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 24,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 30,
+            "Rate": 0.5,
+            "Tone": 55
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 26,
+            "Decay": 60
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 43,
+      "song": "WhoWantsLive",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "WhoLiveA",
+      "description": "Who Wants to Live Forever: soaring vibrato lead, booster + delay  [A strident]  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 64,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 420,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 58
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 44,
+      "song": "WhoWantsLive",
+      "kind": "La"
+    },
+    {
+      "version": "1.0",
+      "presetName": "WhoLiveB",
+      "description": "Who Wants to Live Forever: soaring vibrato lead, booster + delay  [B mid]  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 62,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 420,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 58
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 45,
+      "song": "WhoWantsLive",
+      "kind": "Lb"
+    },
+    {
+      "version": "1.0",
+      "presetName": "WhoLiveC",
+      "description": "Who Wants to Live Forever: soaring vibrato lead, booster + delay  [C muted]  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 62,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "B-Chorus",
+          "parameters": {
+            "Depth": 30,
+            "Rate": 0.45,
+            "Vol": 55
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 420,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 24,
+            "Decay": 60
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 46,
+      "song": "WhoWantsLive",
+      "kind": "Lc"
+    },
+    {
+      "version": "1.0",
+      "presetName": "DaysLive C",
+      "description": "These Are the Days of Our Lives: warm clean AC30 arpeggios + light chorus  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 26,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 24,
+            "Rate": 0.4,
+            "Tone": 55
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 14,
+            "Time": 400,
+            "F.Back": 22
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 47,
+      "song": "DaysOfLives",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "DaysLive L",
+      "description": "These Are the Days of Our Lives: warm lyrical solo, booster + doubling  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 16
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 58,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 24,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 20,
+            "Time": 420,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 48,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 48,
+      "song": "DaysOfLives",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Brighton R",
+      "description": "Brighton Rock (Live at Wembley '86): bright driving AC30TB riff + booster",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 60,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 38
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 49,
+      "song": "BrightonRock",
+      "kind": "R"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Brighton L",
+      "description": "Brighton Rock (Live at Wembley '86): cascading long tape-echo solo (Red Special harmonies)",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 66,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Tube",
+          "parameters": {
+            "Mix": 50,
+            "Time": 800,
+            "F.Back": 52
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 40,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 50,
+      "song": "BrightonRock",
+      "kind": "L"
+    }
+  ]
+}

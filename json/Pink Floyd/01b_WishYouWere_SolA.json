@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "WishWereA",
+  "description": "Wish You Were Here: bluesy scooped-radio lead, clean amp + mid-hump EQ  [A strident]  [Sub.: heavy rhythm -> Money]",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 10
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 32,
+        "Tone": 56,
+        "Vol": 72
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Brit 800",
+      "parameters": {
+        "Gain": 32,
+        "Pres": 52,
+        "Vol": 88,
+        "Bass": 58,
+        "Middle": 54,
+        "Treble": 54
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 6,
+        "800Hz": 10,
+        "1.6kHz": 5,
+        "4kHz": -3,
+        "Vol": 50
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 22,
+        "Time": 420,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Hall",
+      "parameters": {
+        "Mix": 18,
+        "Decay": 52
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

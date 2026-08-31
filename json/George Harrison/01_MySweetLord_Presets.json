@@ -1,0 +1,222 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "George Harrison",
+  "song": "MySweetLord",
+  "count": 2,
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "SweetLrd C",
+      "description": "My Sweet Lord: bright jangly clean chords  [Sub.: heavy rhythm -> What Is Life]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 26,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dark Twin",
+          "parameters": {
+            "Gain": 30,
+            "Vol": 82,
+            "Bass": 54,
+            "Middle": 48,
+            "Treble": 58,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "SweetLrd L",
+      "description": "My Sweet Lord: soaring slide lead (rotary)  [Sub.: heavy rhythm -> What Is Life]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Vibe",
+          "parameters": {
+            "Depth": 38,
+            "Rate": 0.5
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 22,
+            "Tone": 56,
+            "Vol": 68
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dark Twin",
+          "parameters": {
+            "Gain": 40,
+            "Vol": 80,
+            "Bass": 54,
+            "Middle": 48,
+            "Treble": 56,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": false,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -8,
+            "Wet": 28,
+            "Dry": 60
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 14,
+            "Time": 320,
+            "F.Back": 26
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    }
+  ]
+}

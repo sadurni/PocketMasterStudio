@@ -1,0 +1,305 @@
+{
+  "name": "Scorpions",
+  "songs": [
+    {
+      "slug": "Hurricane",
+      "short": "Hurrican",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Rock You Like a Hurricane: tight Marshall crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 66,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Rock You Like a Hurricane: screaming Marshall solo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 62,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 45,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 300,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Blackout",
+      "short": "Blackout",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Blackout: aggressive palm-muted Marshall riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 70,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 52,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 38
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TheZoo",
+      "short": "TheZoo",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "The Zoo: slinky talk-box-flavoured mid crunch",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 56,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 50,
+                "Range": 55,
+                "Q": 45,
+                "Mix": 55,
+                "Mode": 0
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SailsOfCharon",
+      "short": "SailChar",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Sails of Charon: Uli Roth searing neoclassical solo",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 300,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 48,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "StillLovingYou",
+      "short": "StilLov",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Still Loving You: tender clean-edge intro",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 28,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "name": "Van Halen",
+  "songs": [
+    {
+      "slug": "Eruption",
+      "short": "Eruption",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Eruption backing: brown-sound Plexi power chords",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 70,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58,
+                "Gain 2": 58
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Phaser",
+              "enabled": true,
+              "params": {
+                "Rate": 0.4
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Eruption: tapping run, flanger + tape echo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 82,
+                "Pres": 62,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 55,
+                "Treble": 60,
+                "Gain 2": 66
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Flanger",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.3,
+                "P.Delay": 45,
+                "F.Back": 35
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 220,
+                "F.Back": 20
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "RunninDevil",
+      "short": "RunDevil",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Runnin' with the Devil: open Plexi chords + flanger",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 58,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 52,
+                "Treble": 58,
+                "Gain 2": 48
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Flanger",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 0.4,
+                "P.Delay": 40,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "AintTalkinLove",
+      "short": "AintLove",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Ain't Talkin' 'bout Love: chugging phaser riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 64,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 52,
+                "Treble": 56,
+                "Gain 2": 52
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Phaser",
+              "enabled": true,
+              "params": {
+                "Rate": 0.5
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "DanceNightAway",
+      "short": "DanceNit",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Dance the Night Away: clean chime + flanger, harmonics",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Flanger",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.4,
+                "P.Delay": 40,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SpanishFly",
+      "short": "SpanFly",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Spanish Fly: bright nylon-style clean, comp",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 48,
+                "Treble": 60,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 45,
+                "Attack": 60,
+                "Vol": 60,
+                "Clip": 4
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "YouReallyGotMe",
+      "short": "ReallyGK",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "You Really Got Me: raw brown Plexi crunch chords",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 66,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58,
+                "Gain 2": 52
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "You Really Got Me: cranked brown Plexi solo + echo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 80,
+                "Pres": 62,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 60,
+                "Gain 2": 60
+              }
+            },
+            "IR": {
+              "effect": "Halen 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 200,
+                "F.Back": 18
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

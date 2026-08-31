@@ -1,0 +1,4412 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-19",
+  "collection": "A Bit of Everything",
+  "count": 40,
+  "slots": "1-40",
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "BohRhapB",
+      "description": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling  [B mid]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 62,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 4,
+            "800Hz": 7,
+            "1.6kHz": 3,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -6,
+            "Wet": 26,
+            "Dry": 64
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 430,
+            "F.Back": 36
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 50,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "BohemianRhap",
+      "kind": "Lb",
+      "artist": "Queen",
+      "slot": 1
+    },
+    {
+      "version": "1.0",
+      "presetName": "BackBlck R",
+      "description": "Back in Black: greasy open Plexi riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "Plexi",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "BackInBlack",
+      "kind": "R",
+      "artist": "AC/DC",
+      "slot": 2
+    },
+    {
+      "version": "1.0",
+      "presetName": "WholLotL R",
+      "description": "Whole Lotta Love: iconic Plexi riff, LP bridge",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "Plexi",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "WholeLottaLove",
+      "kind": "R",
+      "artist": "Led Zeppelin",
+      "slot": 3
+    },
+    {
+      "version": "1.0",
+      "presetName": "ComfNumb L",
+      "description": "Comfortably Numb: iconic soaring Big Muff lead, clean amp + mid-hump EQ, long delay  [Sub.: heavy rhythm -> Money]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 18
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 50,
+            "Vol": 74
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 2,
+            "400Hz": 7,
+            "800Hz": 10,
+            "1.6kHz": 2,
+            "4kHz": -6,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 28,
+            "Time": 430,
+            "F.Back": 44
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 58
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "ComfortablyNumb",
+      "kind": "L",
+      "artist": "Pink Floyd",
+      "slot": 4
+    },
+    {
+      "version": "1.0",
+      "presetName": "Sultans C",
+      "description": "Sultans of Swing: compressed glassy Strat clean  [Sub.: heavy rhythm -> Money for Nothing]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 48,
+            "Attack": 55,
+            "Vol": 60,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Viblux 1x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 46
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "SultansOfSwing",
+      "kind": "C",
+      "artist": "Dire Straits",
+      "slot": 5
+    },
+    {
+      "version": "1.0",
+      "presetName": "MOP R",
+      "description": "Master of Puppets: tight down-picked scooped riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 18
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 38,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 28,
+            "Tone": 62,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dual 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 6,
+            "400Hz": -4,
+            "800Hz": -14,
+            "1.6kHz": -6,
+            "4kHz": 8,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 38
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "MasterOfPuppets",
+      "kind": "R",
+      "artist": "Metallica",
+      "slot": 6
+    },
+    {
+      "version": "1.0",
+      "presetName": "NumBeast H",
+      "description": "The Number of the Beast: galloping Marshall riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 40,
+            "+3dB": 1,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "NumberOfBeast",
+      "kind": "H",
+      "artist": "Iron Maiden",
+      "slot": 7
+    },
+    {
+      "version": "1.0",
+      "presetName": "Paranoid H",
+      "description": "Paranoid: fast boosted Marshall riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 52,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 4,
+            "400Hz": 6,
+            "800Hz": 8,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Paranoid",
+      "kind": "H",
+      "artist": "Black Sabbath",
+      "slot": 8
+    },
+    {
+      "version": "1.0",
+      "presetName": "TeenSpir L",
+      "description": "Smells Like Teen Spirit: fuzzy chorus riff + solo  [Sub.: heavy rhythm -> Territorial Pissings]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 13
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Shark",
+          "parameters": {
+            "Gain": 55,
+            "Tone": 52,
+            "Vol": 60
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 10,
+            "Time": 240,
+            "F.Back": 18
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "SmellsTeenSpir",
+      "kind": "L",
+      "artist": "Nirvana",
+      "slot": 9
+    },
+    {
+      "version": "1.0",
+      "presetName": "Alive L",
+      "description": "Alive: McCready's screaming bluesy solo",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 19
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 44,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 30,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Warm",
+          "parameters": {
+            "Mix": 16,
+            "Time": 400,
+            "F.Back": 28
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Alive",
+      "kind": "L",
+      "artist": "Pearl Jam",
+      "slot": 10
+    },
+    {
+      "version": "1.0",
+      "presetName": "BlckHole C",
+      "description": "Black Hole Sun: swirling Leslie-vibe clean  [Sub.: heavy rhythm -> Rusty Cage]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Vibe",
+          "parameters": {
+            "Depth": 45,
+            "Rate": 0.5
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 28,
+            "Rate": 0.5,
+            "Tone": 55
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 56
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "BlackHoleSun",
+      "kind": "C",
+      "artist": "Soundgarden",
+      "slot": 11
+    },
+    {
+      "version": "1.0",
+      "presetName": "Would R",
+      "description": "Would?: dark heavy droning riff  [Sub.: solo -> Man in the Box]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 28,
+            "Tone": 54,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Bog 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 46
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Would",
+      "kind": "R",
+      "artist": "Alice in Chains",
+      "slot": 12
+    },
+    {
+      "version": "1.0",
+      "presetName": "Californ C",
+      "description": "Californication: clean single-note arpeggio riff  [Sub.: heavy rhythm -> Suck My Kiss]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 28,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 46
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Californication",
+      "kind": "C",
+      "artist": "Red Hot Chili Peppers",
+      "slot": 13
+    },
+    {
+      "version": "1.0",
+      "presetName": "Creep L",
+      "description": "Creep: explosive dead-note fuzz blasts + solo  [Sub.: heavy rhythm -> Bodysnatchers]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 32
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 56,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Creep",
+      "kind": "L",
+      "artist": "Radiohead",
+      "slot": 14
+    },
+    {
+      "version": "1.0",
+      "presetName": "PlugBaby R",
+      "description": "Plug In Baby: buzzing fuzz Marshall riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 52,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "PlugInBaby",
+      "kind": "R",
+      "artist": "Muse",
+      "slot": 15
+    },
+    {
+      "version": "1.0",
+      "presetName": "JustHvn C",
+      "description": "Just Like Heaven: cascading chorused clean arpeggio  [Sub.: heavy rhythm -> Fascination Street]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 42,
+            "Rate": 0.5,
+            "Tone": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Jazz 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 24,
+            "Time": 300,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 56
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "JustLikeHeaven",
+      "kind": "C",
+      "artist": "The Cure",
+      "slot": 16
+    },
+    {
+      "version": "1.0",
+      "presetName": "Streets C",
+      "description": "Where the Streets Have No Name: cascading dotted-8th arpeggio  [Sub.: heavy rhythm -> The Fly]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 40,
+            "Attack": 55,
+            "Vol": 58,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Voks 1x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 38,
+            "Time": 375,
+            "F.Back": 46
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 24,
+            "Decay": 58
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "AC30 May",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "StreetsNoName",
+      "kind": "C",
+      "artist": "U2",
+      "slot": 17
+    },
+    {
+      "version": "1.0",
+      "presetName": "CherubRk R",
+      "description": "Cherub Rock: crunchy layered Muff riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 52,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "CherubRock",
+      "kind": "R",
+      "artist": "The Smashing Pumpkins",
+      "slot": 18
+    },
+    {
+      "version": "1.0",
+      "presetName": "NoOneKnw R",
+      "description": "No One Knows: crisp syncopated mid riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 28,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "NoOneKnows",
+      "kind": "R",
+      "artist": "Queens of the Stone Age",
+      "slot": 19
+    },
+    {
+      "version": "1.0",
+      "presetName": "GreenMch H",
+      "description": "Green Machine: massive downtuned fuzz riff (bass amp)",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Grey Fuzz",
+          "parameters": {
+            "Fuzz": 52,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "Dual 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "GreenMachine",
+      "kind": "H",
+      "artist": "Kyuss",
+      "slot": 20
+    },
+    {
+      "version": "1.0",
+      "presetName": "Sunbathr H",
+      "description": "Sunbather: euphoric tremolo wall + huge reverb  [Sub.: solo -> Dream House]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 30,
+            "Tone": 60,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dizzy 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 26,
+            "Time": 380,
+            "F.Back": 40
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Dream",
+          "parameters": {
+            "Mix": 30,
+            "Decay": 74,
+            "Damp": 50,
+            "Mod": 45
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Sunbather",
+      "kind": "H",
+      "artist": "Deafheaven",
+      "slot": 21
+    },
+    {
+      "version": "1.0",
+      "presetName": "Demanuf H",
+      "description": "Demanufacture: machine-gun palm-muted scoop riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 24
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 30,
+            "Tone": 60,
+            "Vol": 72
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Halen 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 6,
+            "400Hz": -4,
+            "800Hz": -14,
+            "1.6kHz": -4,
+            "4kHz": 8,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 6,
+            "Decay": 36
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Demanufacture",
+      "kind": "H",
+      "artist": "Fear Factory",
+      "slot": 22
+    },
+    {
+      "version": "1.0",
+      "presetName": "Hoppipl C",
+      "description": "Hoppipolla: uplifting bowed clean swells  [Sub.: heavy rhythm -> Gobbledigook]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 48,
+            "Attack": 45,
+            "Vol": 58,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 28,
+            "Time": 540,
+            "F.Back": 38
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Dream",
+          "parameters": {
+            "Mix": 30,
+            "Decay": 70,
+            "Damp": 50,
+            "Mod": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Hoppipolla",
+      "kind": "C",
+      "artist": "Sigur Ros",
+      "slot": 23
+    },
+    {
+      "version": "1.0",
+      "presetName": "EyeSky C",
+      "description": "Eye in the Sky: smooth chorused clean chords  [Sub.: heavy rhythm -> Games People Play]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 40,
+            "Attack": 55,
+            "Vol": 58,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 30,
+            "Rate": 0.5,
+            "Tone": 55
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 20,
+            "Decay": 54
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "EyeInTheSky",
+      "kind": "C",
+      "artist": "The Alan Parsons Project",
+      "slot": 24
+    },
+    {
+      "version": "1.0",
+      "presetName": "Muse L",
+      "description": "Muse: sustaining singing melodic lead  [Sub.: heavy rhythm -> Cochise]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 13
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 26,
+            "Tone": 56,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Warm",
+          "parameters": {
+            "Mix": 26,
+            "Time": 480,
+            "F.Back": 34
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 58
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Muse",
+      "kind": "L",
+      "artist": "Mike Oldfield",
+      "slot": 25
+    },
+    {
+      "version": "1.0",
+      "presetName": "Cinnamon R",
+      "description": "Cinnamon Girl: cranked raw tweed riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 46
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "CinnamonGirl",
+      "kind": "R",
+      "artist": "Neil Young",
+      "slot": 26
+    },
+    {
+      "version": "1.0",
+      "presetName": "LittlWng L",
+      "description": "Little Wing: vibe-drenched melodic lead  [Sub.: heavy rhythm -> All Along the Watchtower]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 13
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Vibe",
+          "parameters": {
+            "Depth": 40,
+            "Rate": 0.5
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 14,
+            "Time": 320,
+            "F.Back": 26
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 52
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "Plexi",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "LittleWing",
+      "kind": "L",
+      "artist": "Jimi Hendrix",
+      "slot": 27
+    },
+    {
+      "version": "1.0",
+      "presetName": "MarwaBl L",
+      "description": "Marwa Blues: gorgeous sustaining slide lead  [Sub.: heavy rhythm -> What Is Life]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Vibe",
+          "parameters": {
+            "Depth": 34,
+            "Rate": 0.5
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 26,
+            "Tone": 56,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 18,
+            "Time": 360,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 56
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "MarwaBlues",
+      "kind": "L",
+      "artist": "George Harrison",
+      "slot": 28
+    },
+    {
+      "version": "1.0",
+      "presetName": "BigLog C",
+      "description": "Big Log: slinky tremolo/chorus clean bed  [Sub.: heavy rhythm -> Burning Down One Side]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 42,
+            "Attack": 55,
+            "Vol": 58,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Tremolo",
+          "parameters": {
+            "Depth": 28,
+            "Rate": 4.0
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 22,
+            "Time": 400,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 56
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "BigLog",
+      "kind": "C",
+      "artist": "Robert Plant",
+      "slot": 29
+    },
+    {
+      "version": "1.0",
+      "presetName": "GoMyWay R",
+      "description": "Are You Gonna Go My Way: iconic fuzzed Plexi riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Red Fuzz",
+          "parameters": {
+            "Fuzz": 50,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "Plexi",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "GoMyWay",
+      "kind": "R",
+      "artist": "Lenny Kravitz",
+      "slot": 30
+    },
+    {
+      "version": "1.0",
+      "presetName": "Kashmir R",
+      "description": "Kashmir: droning orchestral Plexi riff, DADGAD weight  [Sub.: solo -> Whole Lotta Love solo]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "Plexi",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Kashmir",
+      "kind": "R",
+      "artist": "Led Zeppelin",
+      "slot": 31
+    },
+    {
+      "version": "1.0",
+      "presetName": "WickdGam C",
+      "description": "Wicked Game: haunting reverbed twang clean  [Sub.: heavy rhythm -> Baby Did a Bad Bad Thing]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 40,
+            "Attack": 55,
+            "Vol": 58,
+            "Clip": 4
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 26,
+            "Decay": 54
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "WickedGame",
+      "kind": "C",
+      "artist": "Chris Isaak",
+      "slot": 32
+    },
+    {
+      "version": "1.0",
+      "presetName": "LightFir L",
+      "description": "Light My Fire: modal jazzy extended lead  [Sub.: heavy rhythm -> Break On Through]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 22,
+            "Tone": 56,
+            "Vol": 68
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Slap",
+          "parameters": {
+            "Mix": 10,
+            "Time": 120,
+            "F.Back": 10
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 46
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "LightMyFire",
+      "kind": "L",
+      "artist": "The Doors",
+      "slot": 33
+    },
+    {
+      "version": "1.0",
+      "presetName": "GraceJB C",
+      "description": "Grace: swirling chorused clean arpeggio  [Sub.: heavy rhythm -> Eternal Life]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 42,
+            "Attack": 52,
+            "Vol": 58,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 36,
+            "Rate": 0.4,
+            "Tone": 55
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 18,
+            "Time": 400,
+            "F.Back": 28
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 56
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "Grace",
+      "kind": "C",
+      "artist": "Jeff Buckley",
+      "slot": 34
+    },
+    {
+      "version": "1.0",
+      "presetName": "GoOwnWay R",
+      "description": "Go Your Own Way: gritty jangly tweed crunch",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "GoYourOwnWay",
+      "kind": "R",
+      "artist": "Fleetwood Mac",
+      "slot": 35
+    },
+    {
+      "version": "1.0",
+      "presetName": "Distance C",
+      "description": "The Distance: trebly staccato clean riff  [Sub.: heavy rhythm -> Comfort Eagle]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 40,
+            "Attack": 60,
+            "Vol": 58,
+            "Clip": 4
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 10,
+            "Decay": 42
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "TheDistance",
+      "kind": "C",
+      "artist": "Cake",
+      "slot": 36
+    },
+    {
+      "version": "1.0",
+      "presetName": "Entre2T L",
+      "description": "Entre dos tierras: anthemic soaring lead",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 16
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 32,
+            "Tone": 60,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": false,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 85
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Warm",
+          "parameters": {
+            "Mix": 20,
+            "Time": 440,
+            "F.Back": 32
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "JCM800",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "EntreDosTierras",
+      "kind": "L",
+      "artist": "Heroes del Silencio",
+      "slot": 37
+    },
+    {
+      "version": "1.0",
+      "presetName": "ZvezdaS R",
+      "description": "Zvezda po imeni Solntse (A Star Called Sun): iconic chorus riff",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 10
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 38,
+            "Rate": 0.5,
+            "Tone": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Jazz 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "ZvezdaSolntse",
+      "kind": "R",
+      "artist": "Kino",
+      "slot": 38
+    },
+    {
+      "version": "1.0",
+      "presetName": "GimShelt C",
+      "description": "Gimme Shelter: shimmering tremolo clean intro  [Sub.: heavy rhythm -> (I Can't Get No) Satisfaction ; solo -> Brown Sugar]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Tremolo",
+          "parameters": {
+            "Depth": 55,
+            "Rate": 4.5
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Spring",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 44
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "GimmeShelter",
+      "kind": "C",
+      "artist": "The Rolling Stones",
+      "slot": 39
+    },
+    {
+      "version": "1.0",
+      "presetName": "LoveGodB",
+      "description": "For the Love of God: transcendent legato lead  [B mid]  [Sub.: heavy rhythm -> Bad Horsie]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 28,
+            "Tone": 58,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Sol 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 3,
+            "800Hz": 5,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -7,
+            "Wet": 28,
+            "Dry": 62
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Warm",
+          "parameters": {
+            "Mix": 30,
+            "Time": 530,
+            "F.Back": 40
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 26,
+            "Decay": 64
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "ForTheLoveGod",
+      "kind": "Lb",
+      "artist": "Steve Vai",
+      "slot": 40
+    }
+  ]
+}

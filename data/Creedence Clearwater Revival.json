@@ -1,0 +1,298 @@
+{
+  "name": "Creedence Clearwater Revival",
+  "songs": [
+    {
+      "slug": "FortunateSon",
+      "short": "FortSon",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Fortunate Son: raw bright tweed crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Tone": 58,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Fortunate Son: stinging tweed lead",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 72,
+                "Tone": 60,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BornOnBayou",
+      "short": "BornByu",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Born on the Bayou: swampy tremolo clean-edge",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 46,
+                "Tone": 54,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Tremolo",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 4.0
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 48
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Born on the Bayou: reverby swamp lead",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Tone": 56,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Tremolo",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 4.0
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 130,
+                "F.Back": 12
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 48
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "GreenRiver",
+      "short": "GreenRiv",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Green River: bright rockabilly tweed riff + slapback",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Tone": 58,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 130,
+                "F.Back": 14
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Green River: twangy tweed lead",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 66,
+                "Tone": 60,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 130,
+                "F.Back": 14
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BadMoonRising",
+      "short": "BadMoon",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Bad Moon Rising: upbeat bright tweed chords",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Tone": 58,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+{
+  "name": "Funkadelic",
+  "songs": [
+    {
+      "slug": "OneNationGroove",
+      "short": "OneNatn",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "One Nation Under a Groove: funky wah clean-crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 52,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 52,
+                "Range": 55,
+                "Q": 50,
+                "Mix": 60,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 22,
+                "Tone": 56,
+                "Vol": 68
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "One Nation Under a Groove: funky wah lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 56,
+                "Range": 58,
+                "Q": 52,
+                "Mix": 64,
+                "Mode": 0
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 300,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "MaggotBrain",
+      "short": "MaggotBr",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Maggot Brain: sparse clean chordal bed, deep reverb",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 30,
+                "Vol": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 440,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Church",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Decay": 70
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Maggot Brain: transcendent weeping fuzz-wah lead",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 16
+              }
+            },
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Vol": 52,
+                "Bass": 58,
+                "Middle": 56,
+                "Treble": 46,
+                "Bright": 0
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 50,
+                "Vol": 74
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 2,
+                "400Hz": 4,
+                "800Hz": 3,
+                "1.6kHz": -1,
+                "4kHz": -6,
+                "Vol": 50
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.5
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Time": 480,
+                "F.Back": 42
+              }
+            },
+            "RVB": {
+              "effect": "Church",
+              "enabled": true,
+              "params": {
+                "Mix": 34,
+                "Decay": 74
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

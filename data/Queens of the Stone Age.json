@@ -1,0 +1,443 @@
+{
+  "name": "Queens of the Stone Age",
+  "songs": [
+    {
+      "slug": "RegularJohn",
+      "short": "RegJohn",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Regular John: driving robotic mid crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 60,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Regular John: fuzzy desert lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 60,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 46,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 300,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "FeelGoodHit",
+      "short": "FeelGood",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Feel Good Hit of the Summer: pummeling stacked riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 58,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Feel Good Hit of the Summer: buzzing fuzz lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 66,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 50,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "NoOneKnows",
+      "short": "NoOneKnw",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "No One Knows: crisp syncopated mid riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 60,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "No One Knows: slick fuzzy lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 60,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 46,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 280,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "GoWithTheFlow",
+      "short": "GoFlow",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Go with the Flow: pulsing driving mid crunch",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Go with the Flow: fuzz-drenched lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 50,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SmoothSailing",
+      "short": "SmoothSl",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Smooth Sailing: swaggering clipped funk crunch",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 60,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "FX1": {
+              "effect": "Phaser",
+              "enabled": true,
+              "params": {
+                "Rate": 0.4
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

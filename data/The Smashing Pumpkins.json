@@ -1,0 +1,410 @@
+{
+  "name": "The Smashing Pumpkins",
+  "songs": [
+    {
+      "slug": "CherubRock",
+      "short": "CherubRk",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Cherub Rock: crunchy layered Muff riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 52,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Cherub Rock: soaring fuzz lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 58,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 300,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Today",
+      "short": "Today",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Today: bright chiming clean intro",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 48,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 26,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Today: fat Muff wall + lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 56,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 280,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 48
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Mayonaise",
+      "short": "Mayonais",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Mayonaise: shimmering chorused clean swells",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 55,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "GeekUSA",
+      "short": "GeekUSA",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Geek U.S.A.: frantic high-energy Muff riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 54,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Geek U.S.A.: blazing fuzz shred lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 60,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 280,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "IAmOne",
+      "short": "IAmOne",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "I Am One: churning wah-tinged fuzz riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 52,
+                "Vol": 72
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 50,
+                "Range": 52,
+                "Q": 48,
+                "Mix": 55,
+                "Mode": 0
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

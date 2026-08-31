@@ -1,0 +1,117 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Joe Satriani",
+  "song": "SatchBoogie",
+  "count": 1,
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "SatchBoo L",
+      "description": "Satch Boogie: fast tapping legato lead  [Sub.: heavy rhythm -> Surfing with the Alien]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 36,
+            "Tone": 62,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Sol 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Warm",
+          "parameters": {
+            "Mix": 18,
+            "Time": 380,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 14,
+            "Decay": 46,
+            "Damp": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    }
+  ]
+}

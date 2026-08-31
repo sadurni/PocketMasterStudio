@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "presetName": "Watch L2",
+  "description": "All Along the Watchtower: loud soaring Hendrix lead with full Fuzz Face saturation, pre-amp Touch Wah, upper-mid focus, and sustaining delay.",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 22
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Touch Wah",
+      "parameters": {
+        "Sense": 62,
+        "Range": 70,
+        "Q": 58,
+        "Mix": 48,
+        "Mode": 0
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Grey Fuzz",
+      "parameters": {
+        "Fuzz": 56,
+        "Vol": 82
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Brit 50JP",
+      "parameters": {
+        "Gain 1": 58,
+        "Pres": 59,
+        "Vol": 91,
+        "Bass": 43,
+        "Middle": 70,
+        "Treble": 65,
+        "Gain 2": 52
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 91
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 0,
+        "800Hz": 5,
+        "1.6kHz": 6,
+        "4kHz": 2,
+        "Vol": 57
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Warm",
+      "parameters": {
+        "Mix": 25,
+        "Time": 410,
+        "F.Back": 33
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 1",
+      "parameters": {
+        "Mix": 19,
+        "Decay": 48
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

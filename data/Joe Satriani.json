@@ -1,0 +1,445 @@
+{
+  "name": "Joe Satriani",
+  "songs": [
+    {
+      "slug": "Surfing",
+      "short": "Surfing",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Surfing with the Alien: funky mid-gain Marshall riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Surfing with the Alien: legato soaring lead + delay",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 80,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 440,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 48,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SatchBoogie",
+      "short": "SatchBoo",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Satch Boogie: fast tapping legato lead",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 62,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 380,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "AlwaysWithMe",
+      "short": "AlwaysMe",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Always with Me: glassy chorused clean",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 46,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 38,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.6,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Time": 450,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Always with Me: singing melodic legato lead",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 74,
+                "Pres": 44,
+                "Vol": 52,
+                "Bass": 58,
+                "Middle": 60,
+                "Treble": 48
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 46,
+                "Attack": 55,
+                "Vol": 56,
+                "Clip": 4
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 40,
+                "Vol": 70
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 0,
+                "400Hz": 2,
+                "800Hz": 3,
+                "1.6kHz": 0,
+                "4kHz": -5,
+                "Vol": 50
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 28,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 480,
+                "F.Back": 34
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Cryin",
+      "short": "Cryin",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Cryin': vocal whammy-bar emotive lead",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 72,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 50,
+                "Range": 55,
+                "Q": 55,
+                "Mix": 60,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 470,
+                "F.Back": 34
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TheExtremist",
+      "short": "Extremst",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "The Extremist: fiery bluesy legato lead",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 80,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 400,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

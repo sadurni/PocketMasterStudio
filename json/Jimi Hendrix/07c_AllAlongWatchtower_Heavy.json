@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "Watch H",
+  "description": "All Along the Watchtower: pushed Marshall-style rhythm with Fuzz Face character, strong mids, and restrained Vibe for Hendrix's thick driving foundation.",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 24
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Vibe",
+      "parameters": {
+        "Depth": 30,
+        "Rate": 0.7
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Grey Fuzz",
+      "parameters": {
+        "Fuzz": 56,
+        "Vol": 72
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Brit 50JP",
+      "parameters": {
+        "Gain 1": 55,
+        "Pres": 55,
+        "Vol": 87,
+        "Bass": 46,
+        "Middle": 66,
+        "Treble": 60,
+        "Gain 2": 48
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 87
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 2,
+        "800Hz": 4,
+        "1.6kHz": 2,
+        "4kHz": -1,
+        "Vol": 53
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": false,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 20,
+        "Time": 500,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Spring",
+      "parameters": {
+        "Mix": 10,
+        "Decay": 32
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

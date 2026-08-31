@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "LightFir L",
+  "description": "Light My Fire: modal jazzy extended lead  [Sub.: heavy rhythm -> Break On Through]",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 10
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 22,
+        "Tone": 56,
+        "Vol": 68
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Double 2x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Slap",
+      "parameters": {
+        "Mix": 10,
+        "Time": 120,
+        "F.Back": 10
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 14,
+        "Decay": 46
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "TwinCln",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

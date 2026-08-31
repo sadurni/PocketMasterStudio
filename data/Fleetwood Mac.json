@@ -1,0 +1,454 @@
+{
+  "name": "Fleetwood Mac",
+  "songs": [
+    {
+      "slug": "BigLove",
+      "short": "BigLove",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Big Love: percussive fingerpicked clean (solo tour de force)",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 48,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 46,
+                "Attack": 58,
+                "Vol": 60,
+                "Clip": 6
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Big Love: driving fingerstyle lead build",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 48,
+                "Treble": 57,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 50,
+                "Attack": 55,
+                "Vol": 60,
+                "Clip": 8
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 20,
+                "Tone": 56,
+                "Vol": 68
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TheChain",
+      "short": "TheChain",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "The Chain: ominous clean-edge picked chords",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "Tone": 58,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 28,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "The Chain: fiery Buckingham outro lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "GoYourOwnWay",
+      "short": "GoOwnWay",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Go Your Own Way: gritty jangly tweed crunch",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Tone": 58,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Go Your Own Way: raucous ragged lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "ImSoAfraid",
+      "short": "SoAfraid",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "I'm So Afraid: blistering extended lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 60,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 320,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Landslide",
+      "short": "Landslde",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Landslide: delicate fingerpicked clean arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Landslide: gentle melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 55,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 18,
+                "Tone": 54,
+                "Vol": 66
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Time": 120,
+                "F.Back": 8
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

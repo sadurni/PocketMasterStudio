@@ -1,0 +1,450 @@
+{
+  "name": "Jeff Buckley",
+  "songs": [
+    {
+      "slug": "Grace",
+      "short": "GraceJB",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Grace: swirling chorused clean arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 55,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Attack": 52,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 36,
+                "Rate": 0.4,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 400,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Grace: impassioned soaring lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 54,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 400,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Hallelujah",
+      "short": "Hallelu",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Hallelujah: delicate fingerpicked clean arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 55,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 46,
+                "Attack": 50,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 58
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Hallelujah: gossamer melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 18,
+                "Tone": 54,
+                "Vol": 66
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 400,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "LoverCome",
+      "short": "LoverU",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Lover, You Should've Come Over: rising emotive lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 56,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 380,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "EternalLife",
+      "short": "EternLif",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Eternal Life: aggressive grunge crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Eternal Life: furious wailing lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 68,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 52,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 280,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SoReal",
+      "short": "SoReal",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "So Real: dissonant noise-freakout lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 52,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 54,
+                "Vol": 72
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.5
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 360,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "presetName": "MaggotBr L",
+  "description": "Maggot Brain: transcendent weeping fuzz-wah lead  [Sub.: heavy rhythm -> One Nation Under a Groove]",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 16
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Vibe",
+      "parameters": {
+        "Depth": 40,
+        "Rate": 0.5
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Grey Fuzz",
+      "parameters": {
+        "Fuzz": 50,
+        "Vol": 74
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Double 2x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 2,
+        "400Hz": 4,
+        "800Hz": 3,
+        "1.6kHz": -1,
+        "4kHz": -6,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 30,
+        "Time": 480,
+        "F.Back": 42
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Church",
+      "parameters": {
+        "Mix": 34,
+        "Decay": 74
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "TwinCln",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

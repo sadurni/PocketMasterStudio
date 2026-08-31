@@ -1,0 +1,836 @@
+{
+  "name": "Jimi Hendrix",
+  "songs": [
+    {
+      "slug": "PurpleHaze",
+      "short": "PurplHz",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Purple Haze: fuzzed Plexi riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 60,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58,
+                "Gain 2": 50
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Red Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 58,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Purple Haze: Octavia-fuzz lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 64,
+                "Pres": 60,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60,
+                "Gain 2": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Red Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 64,
+                "Vol": 72
+              }
+            },
+            "FX2": {
+              "effect": "Octave",
+              "enabled": true,
+              "params": {
+                "Low": 0,
+                "High": 55,
+                "Dry": 55
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "HeyJoe",
+      "short": "HeyJoe",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Hey Joe: clean-edge Plexi arpeggio chords",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 44,
+                "Pres": 56,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 54,
+                "Treble": 58,
+                "Gain 2": 36
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Hey Joe: fluid fuzzed lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 60,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60,
+                "Gain 2": 50
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Red Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 56,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "LittleWing",
+      "short": "LittlWng",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Little Wing: Leslie/vibe clean chord melody",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 0.5
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 24,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Little Wing: vibe-drenched melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 50,
+                "Pres": 56,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 58,
+                "Gain 2": 42
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.5
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 320,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "VoodooChild",
+      "short": "VoodooC",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Voodoo Child (Slight Return): wah funk fuzz riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 58,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58,
+                "Gain 2": 48
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 55,
+                "Range": 58,
+                "Q": 50,
+                "Mix": 62,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Red Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 52,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Voodoo Child (Slight Return): wah fuzz freakout lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 64,
+                "Pres": 60,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60,
+                "Gain 2": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 58,
+                "Range": 60,
+                "Q": 52,
+                "Mix": 65,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Red Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 62,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "RedHouse",
+      "short": "RedHouse",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Red House: expressive blues lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 58,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 60,
+                "Gain 2": 50
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "MachineGun",
+      "short": "MachineG",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Machine Gun: apocalyptic fuzz-wah-vibe lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 64,
+                "Pres": 60,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60,
+                "Gain 2": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 56,
+                "Range": 58,
+                "Q": 50,
+                "Mix": 62,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Red Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 64,
+                "Vol": 72
+              }
+            },
+            "FX2": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 0.4
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 320,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "AllAlongWatchtower",
+      "short": "Watch",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "All Along the Watchtower: low-gain Marshall-style clean rhythm with subtle Vibe movement and spring ambience for the spacious chordal parts.",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 8
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 18,
+                "Rate": 0.6
+              }
+            },
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 32,
+                "Pres": 58,
+                "Vol": 84,
+                "Bass": 48,
+                "Middle": 58,
+                "Treble": 62,
+                "Gain 2": 28
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 84
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 13,
+                "Decay": 36
+              }
+            }
+          }
+        },
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "All Along the Watchtower: pushed Marshall-style rhythm with Fuzz Face character, strong mids, and restrained Vibe for Hendrix's thick driving foundation.",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 24
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 30,
+                "Rate": 0.7
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 57,
+                "Vol": 72
+              }
+            },
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 55,
+                "Pres": 55,
+                "Vol": 87,
+                "Bass": 46,
+                "Middle": 66,
+                "Treble": 60,
+                "Gain 2": 48
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 87
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": 2,
+                "800Hz": 4,
+                "1.6kHz": 2,
+                "4kHz": -1,
+                "Vol": 53
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 32
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "All Along the Watchtower: expressive melodic lead with reduced Fuzz Face intensity, gentle Vibe modulation, warm slapback, and spring reverb.",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 20
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 35,
+                "Rate": 0.8
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 48,
+                "Vol": 78
+              }
+            },
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 48,
+                "Pres": 57,
+                "Vol": 90,
+                "Bass": 45,
+                "Middle": 68,
+                "Treble": 63,
+                "Gain 2": 42
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 89
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -2,
+                "400Hz": 1,
+                "800Hz": 4,
+                "1.6kHz": 4,
+                "4kHz": 1,
+                "Vol": 55
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 19,
+                "Time": 145,
+                "F.Back": 18
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 17,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L2",
+          "role": "ldr",
+          "desc": "All Along the Watchtower: loud soaring Hendrix lead with full Fuzz Face saturation, pre-amp Touch Wah, upper-mid focus, and sustaining delay.",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 22
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 62,
+                "Range": 70,
+                "Q": 58,
+                "Mix": 48,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 72,
+                "Vol": 82
+              }
+            },
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 58,
+                "Pres": 59,
+                "Vol": 93,
+                "Bass": 43,
+                "Middle": 70,
+                "Treble": 65,
+                "Gain 2": 52
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 91
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": 0,
+                "800Hz": 5,
+                "1.6kHz": 6,
+                "4kHz": 2,
+                "Vol": 57
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 25,
+                "Time": 410,
+                "F.Back": 33
+              }
+            },
+            "RVB": {
+              "effect": "Plate 1",
+              "enabled": true,
+              "params": {
+                "Mix": 19,
+                "Decay": 48
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

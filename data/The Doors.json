@@ -1,0 +1,455 @@
+{
+  "name": "The Doors",
+  "songs": [
+    {
+      "slug": "LightMyFire",
+      "short": "LightFir",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Light My Fire: bright organ-doubling clean chords",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 50,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 26,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Light My Fire: modal jazzy extended lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 46,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 50,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 22,
+                "Tone": 56,
+                "Vol": 68
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BreakOnThrough",
+      "short": "BreakThr",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Break On Through: bossa-nova clean-edge riff",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 50,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 26,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Break On Through: biting bottleneck lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 50,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Tone": 56,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SpanishCaravan",
+      "short": "SpanCarv",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Spanish Caravan: flamenco nylon-style clean",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 50,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Attack": 58,
+                "Vol": 58,
+                "Clip": 4
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Spanish Caravan: dramatic flamenco-rock lead",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 54,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 56,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "RoadhouseBlues",
+      "short": "Roadhous",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Roadhouse Blues: rollicking boogie clean-crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Tone": 56,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Roadhouse Blues: greasy bottleneck lead",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TheEnd",
+      "short": "TheEnd",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "The End: raga-drone clean chordal bed",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 30,
+                "Vol": 55
+              }
+            },
+            "FX2": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 34,
+                "Rate": 0.4
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

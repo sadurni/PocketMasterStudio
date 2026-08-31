@@ -1,0 +1,340 @@
+{
+  "name": "Chris Isaak",
+  "songs": [
+    {
+      "slug": "WickedGame",
+      "short": "WickdGam",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Wicked Game: haunting reverbed twang clean",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 40,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 4
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Decay": 54
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Wicked Game: aching tremolo-picked lead",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "Pres": 56,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Tremolo",
+              "enabled": true,
+              "params": {
+                "Depth": 30,
+                "Rate": 4.0
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 140,
+                "F.Back": 12
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BadBadThing",
+      "short": "BadThing",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Baby Did a Bad Bad Thing: gritty swampy crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 56,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 46
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Baby Did a Bad Bad Thing: dirty twangy lead",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 130,
+                "F.Back": 12
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "RoundNRound",
+      "short": "RoundRnd",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Round 'n' Round: upbeat rockabilly twang riff",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Tone": 58,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 140,
+                "F.Back": 14
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 46
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Round 'n' Round: peppy twangy lead",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 140,
+                "F.Back": 14
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BlueSpanishSky",
+      "short": "BluSpan",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Blue Spanish Sky: sparse desert reverb twang",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 56,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 4
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Decay": 56
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "name": "Neil Young",
+  "songs": [
+    {
+      "slug": "CinnamonGirl",
+      "short": "Cinnamon",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Cinnamon Girl: cranked raw tweed riff",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Tone": 55,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 46
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Cinnamon Girl: one-note fuzzed tweed solo",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 86,
+                "Tone": 52,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 45,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "CortezKiller",
+      "short": "Cortez",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Cortez the Killer: dark clean-edge tweed bed",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Tone": 52,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 50
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Cortez the Killer: mournful sustaining tweed lead",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Tone": 50,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 300,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "LikeHurricane",
+      "short": "LikeHurr",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Like a Hurricane: swirling Uni-Vibe clean-edge tweed",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Tone": 52,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 50,
+                "Rate": 0.5
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "HeyHeyMyMy",
+      "short": "HeyHey",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Hey Hey, My My: crushing fuzzed tweed riff",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 84,
+                "Tone": 52,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 48,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Hey Hey, My My: fuzzed cranked tweed lead",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 86,
+                "Tone": 52,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 55,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "RockinFreeWorld",
+      "short": "FreeWrld",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Rockin' in the Free World: anthemic tweed crunch",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 72,
+                "Tone": 54,
+                "Vol": 84
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

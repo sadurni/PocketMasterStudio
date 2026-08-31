@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "WhoLiveB",
+  "description": "Who Wants to Live Forever: soaring vibrato lead, booster + delay  [B mid]  [Sub.: heavy rhythm -> Bohemian Rhapsody]",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 19
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 62,
+        "+3dB": 0,
+        "Bright": 0
+      }
+    },
+    "DRV": {
+      "enabled": false,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 40,
+        "Tone": 70,
+        "Vol": 50
+      }
+    },
+    "IR": {
+      "enabled": false,
+      "effect": "Voks 1x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "Detune",
+      "parameters": {
+        "Detune": -6,
+        "Wet": 26,
+        "Dry": 64
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 24,
+        "Time": 420,
+        "F.Back": 36
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Hall",
+      "parameters": {
+        "Mix": 22,
+        "Decay": 58
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "AC30 May",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

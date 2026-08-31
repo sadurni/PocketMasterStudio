@@ -1,0 +1,548 @@
+{
+  "name": "Muse",
+  "songs": [
+    {
+      "slug": "PlugInBaby",
+      "short": "PlugBaby",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Plug In Baby: buzzing fuzz Marshall riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 52,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Plug In Baby: soaring fuzz lead + whammy",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 58,
+                "Vol": 72
+              }
+            },
+            "FX2": {
+              "effect": "Pitch",
+              "enabled": true,
+              "params": {
+                "High": 12,
+                "Low Pitch": -12,
+                "Dry": 45,
+                "H-Vol": 55,
+                "L-Vol": 0
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 300,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "NewBorn",
+      "short": "NewBorn",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "New Born: brooding clean piano-doubling arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 28,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "New Born: explosive fuzz lead build",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 58,
+                "Vol": 72
+              }
+            },
+            "FX2": {
+              "effect": "Pitch",
+              "enabled": true,
+              "params": {
+                "High": 12,
+                "Low Pitch": -12,
+                "Dry": 45,
+                "H-Vol": 55,
+                "L-Vol": 0
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 280,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Hysteria",
+      "short": "Hysteria",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Hysteria: driving fuzz over bass riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 54,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Hysteria: frantic fuzz-wah lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 66,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 60,
+                "Vol": 72
+              }
+            },
+            "FX2": {
+              "effect": "Pitch",
+              "enabled": true,
+              "params": {
+                "High": 12,
+                "Low Pitch": -12,
+                "Dry": 45,
+                "H-Vol": 55,
+                "L-Vol": 0
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "StockholmSynd",
+      "short": "Stockhlm",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Stockholm Syndrome: pummeling fuzz-metal riff",
+          "mods": {
+            "AMP": {
+              "effect": "Dizzy VH",
+              "enabled": true,
+              "params": {
+                "Gain": 76,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 50,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 50,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 38
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Stockholm Syndrome: shredding fuzz lead + whammy",
+          "mods": {
+            "AMP": {
+              "effect": "Dizzy VH",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 52,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 56,
+                "Vol": 72
+              }
+            },
+            "FX2": {
+              "effect": "Pitch",
+              "enabled": true,
+              "params": {
+                "High": 12,
+                "Low Pitch": -12,
+                "Dry": 45,
+                "H-Vol": 55,
+                "L-Vol": 0
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 260,
+                "F.Back": 22
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "KnightsCydonia",
+      "short": "Cydonia",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Knights of Cydonia: galloping surf-rock riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Knights of Cydonia: epic soaring whammy lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 54,
+                "Vol": 72
+              }
+            },
+            "FX2": {
+              "effect": "Pitch",
+              "enabled": true,
+              "params": {
+                "High": 12,
+                "Low Pitch": -12,
+                "Dry": 45,
+                "H-Vol": 55,
+                "L-Vol": 0
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 320,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

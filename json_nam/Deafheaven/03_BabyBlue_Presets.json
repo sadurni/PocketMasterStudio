@@ -1,0 +1,227 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Deafheaven",
+  "song": "BabyBlue",
+  "count": 2,
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "BabyBlue C",
+      "description": "Baby Blue: chiming shoegaze clean bed  [Sub.: heavy rhythm -> Dream House]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 6
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 42,
+            "Attack": 52,
+            "Vol": 58,
+            "Clip": 6
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 34,
+            "Rate": 0.5,
+            "Tone": 55
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 28,
+            "Time": 420,
+            "F.Back": 40
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Dream",
+          "parameters": {
+            "Mix": 32,
+            "Decay": 74,
+            "Damp": 50,
+            "Mod": 45
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    },
+    {
+      "version": "1.0",
+      "presetName": "BabyBlue L",
+      "description": "Baby Blue: cathartic tremolo lead wall  [Sub.: heavy rhythm -> Dream House]",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 22
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 34,
+            "Tone": 62,
+            "Vol": 70
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dizzy 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": 0,
+            "800Hz": 0,
+            "1.6kHz": 0,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 30,
+            "Time": 420,
+            "F.Back": 46
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Dream",
+          "parameters": {
+            "Mix": 32,
+            "Decay": 78,
+            "Damp": 50,
+            "Mod": 50
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "SoloSLO",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      }
+    }
+  ]
+}

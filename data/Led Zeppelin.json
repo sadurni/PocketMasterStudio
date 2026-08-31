@@ -1,0 +1,412 @@
+{
+  "name": "Led Zeppelin",
+  "songs": [
+    {
+      "slug": "WholeLottaLove",
+      "short": "WholLotL",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Whole Lotta Love: iconic Plexi riff, LP bridge",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 60,
+                "Pres": 60,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 56,
+                "Treble": 60,
+                "Gain 2": 46
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Whole Lotta Love solo: cranked Plexi, slapback",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 78,
+                "Pres": 62,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 60,
+                "Gain 2": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 130,
+                "F.Back": 16
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Heartbreaker",
+      "short": "HeartBrk",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Heartbreaker: unaccompanied cranked Plexi solo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 80,
+                "Pres": 62,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 60,
+                "Treble": 58,
+                "Gain 2": 62
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Stairway",
+      "short": "Stairway",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Stairway: chiming clean arpeggios, warm tweed",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 56,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 24,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Stairway solo: cranked low-watt tweed, singing sustain",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Tone": 58,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 120,
+                "F.Back": 14
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Kashmir",
+      "short": "Kashmir",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Kashmir: droning orchestral Plexi riff, DADGAD weight",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 58,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 58,
+                "Middle": 54,
+                "Treble": 56,
+                "Gain 2": 46
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "AchillesLast",
+      "short": "Achilles",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Achilles Last Stand: layered harmonized leads + delay",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 78,
+                "Pres": 62,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 58,
+                "Treble": 60,
+                "Gain 2": 60
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX2": {
+              "effect": "Detune",
+              "enabled": true,
+              "params": {
+                "Detune": -7,
+                "Wet": 26,
+                "Dry": 64
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 300,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "CustardPie",
+      "short": "CustPie",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Custard Pie: funky clavinet-flavoured Plexi riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 62,
+                "Pres": 60,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 60,
+                "Gain 2": 50
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Custard Pie: wah-driven Plexi solo",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 50JP",
+              "enabled": true,
+              "params": {
+                "Gain 1": 76,
+                "Pres": 62,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 60,
+                "Gain 2": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 52,
+                "Range": 55,
+                "Q": 48,
+                "Mix": 58,
+                "Mode": 0
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 120,
+                "F.Back": 12
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

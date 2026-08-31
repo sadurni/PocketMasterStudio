@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "presetName": "DayTDC L",
+  "description": "The Day That Never Comes: soft melodic solo with a singing Plexi-style amp, light overdrive, focused mids, and moderate tape-like delay",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 18
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 22,
+        "+3dB": 0,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Butter OD",
+      "parameters": {
+        "Gain": 34,
+        "Vol": 70
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 2x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 0,
+        "800Hz": 3,
+        "1.6kHz": 5,
+        "4kHz": 3,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Warm",
+      "parameters": {
+        "Mix": 24,
+        "Time": 390,
+        "F.Back": 31
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 1",
+      "parameters": {
+        "Mix": 18,
+        "Decay": 43
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "Plexi",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

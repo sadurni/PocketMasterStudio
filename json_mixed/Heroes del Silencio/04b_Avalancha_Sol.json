@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "Avalanch L",
+  "description": "Avalancha: powerful soaring lead",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 19
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 34,
+        "Tone": 60,
+        "Vol": 70
+      }
+    },
+    "IR": {
+      "enabled": false,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Warm",
+      "parameters": {
+        "Mix": 18,
+        "Time": 420,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 2",
+      "parameters": {
+        "Mix": 14,
+        "Decay": 46,
+        "Damp": 50
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "JCM800",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

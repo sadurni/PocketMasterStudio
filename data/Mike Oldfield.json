@@ -1,0 +1,449 @@
+{
+  "name": "Mike Oldfield",
+  "songs": [
+    {
+      "slug": "Muse",
+      "short": "Muse",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Muse: bright chorused clean melodic bed",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 28,
+                "Vol": 55
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 38,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Time": 500,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Muse: sustaining singing melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 52,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 56,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 480,
+                "F.Back": 34
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Cochise",
+      "short": "Cochise",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Cochise: driving chorused crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 52,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 28,
+                "Rate": 0.5,
+                "Tone": 52
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Cochise: soaring sustained lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Time": 460,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Embers",
+      "short": "Embers",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Embers: gentle melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 55,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 44,
+                "Attack": 52,
+                "Vol": 58,
+                "Clip": 8
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 500,
+                "F.Back": 34
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "OutOfSight",
+      "short": "OutSight",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Out of Sight: bouncy chorused crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "FX1": {
+              "effect": "Phaser",
+              "enabled": true,
+              "params": {
+                "Rate": 0.4
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BBlues",
+      "short": "BBlues",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "B. Blues: laid-back bluesy crunch shuffle",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Pres": 54,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "B. Blues: expressive bluesy lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 56,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 420,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

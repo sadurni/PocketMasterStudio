@@ -1,0 +1,416 @@
+{
+  "name": "Kyuss",
+  "songs": [
+    {
+      "slug": "GreenMachine",
+      "short": "GreenMch",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Green Machine: massive downtuned fuzz riff (bass amp)",
+          "mods": {
+            "AMP": {
+              "effect": "A BassVT",
+              "enabled": true,
+              "params": {
+                "Gain": 60,
+                "Bass": 58,
+                "Middle": 52,
+                "MidFreq": 0,
+                "Treble": 54,
+                "Vol": 80
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 52,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Green Machine: wailing fuzzed desert lead",
+          "mods": {
+            "AMP": {
+              "effect": "A BassVT",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Bass": 56,
+                "Middle": 54,
+                "MidFreq": 0,
+                "Treble": 56,
+                "Vol": 80
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 58,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 300,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "DemonCleaner",
+      "short": "DemonCln",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Demon Cleaner: swaying warm fuzz riff",
+          "mods": {
+            "AMP": {
+              "effect": "A BassVT",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Bass": 60,
+                "Middle": 52,
+                "MidFreq": 0,
+                "Treble": 54,
+                "Vol": 80
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 48,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 46
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Demon Cleaner: soaring desert lead",
+          "mods": {
+            "AMP": {
+              "effect": "A BassVT",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Bass": 56,
+                "Middle": 54,
+                "MidFreq": 0,
+                "Treble": 56,
+                "Vol": 80
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 54,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 340,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "OneInchMan",
+      "short": "OneInch",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "One Inch Man: punchy syncopated fuzz riff",
+          "mods": {
+            "AMP": {
+              "effect": "A BassVT",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Bass": 58,
+                "Middle": 52,
+                "MidFreq": 0,
+                "Treble": 54,
+                "Vol": 80
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 50,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "SpaceCadet",
+      "short": "SpaceCdt",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Space Cadet: mellow acoustic-flavoured clean",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 28,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Space Cadet: gentle melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "A BassVT",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Bass": 58,
+                "Middle": 54,
+                "MidFreq": 0,
+                "Treble": 56,
+                "Vol": 78
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Tone": 54,
+                "Vol": 68
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 340,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "FreedomRun",
+      "short": "FreedRun",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Freedom Run: extended trippy fuzz lead",
+          "mods": {
+            "AMP": {
+              "effect": "A BassVT",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Bass": 56,
+                "Middle": 54,
+                "MidFreq": 0,
+                "Treble": 56,
+                "Vol": 80
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Grey Fuzz",
+              "enabled": true,
+              "params": {
+                "Fuzz": 54,
+                "Vol": 72
+              }
+            },
+            "FX1": {
+              "effect": "Vibe",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.5
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Time": 360,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

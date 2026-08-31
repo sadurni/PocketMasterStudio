@@ -1,0 +1,417 @@
+{
+  "name": "Deafheaven",
+  "songs": [
+    {
+      "slug": "DreamHouse",
+      "short": "DreamHse",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Dream House: tremolo-picked black-metal wall + reverb",
+          "mods": {
+            "AMP": {
+              "effect": "Eng 120",
+              "enabled": true,
+              "params": {
+                "Gain": 80,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 50,
+                "Treble": 62
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 360,
+                "F.Back": 40
+              }
+            },
+            "RVB": {
+              "effect": "Dream",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Decay": 74,
+                "Damp": 50,
+                "Mod": 45
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Dream House: soaring shimmering lead over the wall",
+          "mods": {
+            "AMP": {
+              "effect": "Eng 120",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 52,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Time": 360,
+                "F.Back": 44
+              }
+            },
+            "RVB": {
+              "effect": "Dream",
+              "enabled": true,
+              "params": {
+                "Mix": 32,
+                "Decay": 76,
+                "Damp": 50,
+                "Mod": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Sunbather",
+      "short": "Sunbathr",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Sunbather: euphoric tremolo wall + huge reverb",
+          "mods": {
+            "AMP": {
+              "effect": "Eng 120",
+              "enabled": true,
+              "params": {
+                "Gain": 80,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 50,
+                "Treble": 62
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 380,
+                "F.Back": 40
+              }
+            },
+            "RVB": {
+              "effect": "Dream",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Decay": 74,
+                "Damp": 50,
+                "Mod": 45
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BabyBlue",
+      "short": "BabyBlue",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Baby Blue: chiming shoegaze clean bed",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Attack": 52,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 34,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 420,
+                "F.Back": 40
+              }
+            },
+            "RVB": {
+              "effect": "Dream",
+              "enabled": true,
+              "params": {
+                "Mix": 32,
+                "Decay": 74,
+                "Damp": 50,
+                "Mod": 45
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Baby Blue: cathartic tremolo lead wall",
+          "mods": {
+            "AMP": {
+              "effect": "Eng 120",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 52,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Time": 420,
+                "F.Back": 46
+              }
+            },
+            "RVB": {
+              "effect": "Dream",
+              "enabled": true,
+              "params": {
+                "Mix": 32,
+                "Decay": 78,
+                "Damp": 50,
+                "Mod": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "CanaryYellow",
+      "short": "CanaryYl",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Canary Yellow: swelling post-rock tremolo build",
+          "mods": {
+            "AMP": {
+              "effect": "Eng 120",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 52,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 400,
+                "F.Back": 42
+              }
+            },
+            "RVB": {
+              "effect": "Dream",
+              "enabled": true,
+              "params": {
+                "Mix": 32,
+                "Decay": 76,
+                "Damp": 50,
+                "Mod": 50
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Canary Yellow: radiant soaring lead",
+          "mods": {
+            "AMP": {
+              "effect": "Eng 120",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 54,
+                "Middle": 52,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "Dizzy 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Time": 400,
+                "F.Back": 46
+              }
+            },
+            "RVB": {
+              "effect": "Dream",
+              "enabled": true,
+              "params": {
+                "Mix": 32,
+                "Decay": 78,
+                "Damp": 50,
+                "Mod": 55
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

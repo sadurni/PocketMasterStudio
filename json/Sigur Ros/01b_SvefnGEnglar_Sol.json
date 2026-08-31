@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "presetName": "Svefn L",
+  "description": "Svefn-g-englar: bowed overdriven crescendo  [Sub.: heavy rhythm -> Gobbledigook]",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 32
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Grey Fuzz",
+      "parameters": {
+        "Fuzz": 45,
+        "Vol": 68
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Brit 800",
+      "parameters": {
+        "Gain": 46,
+        "Pres": 48,
+        "Vol": 78,
+        "Bass": 60,
+        "Middle": 48,
+        "Treble": 50
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": false,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 50
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 32,
+        "Time": 560,
+        "F.Back": 44
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Dream",
+      "parameters": {
+        "Mix": 30,
+        "Decay": 74,
+        "Damp": 50,
+        "Mod": 45
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

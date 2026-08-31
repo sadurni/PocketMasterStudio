@@ -1,0 +1,462 @@
+{
+  "name": "Steve Vai",
+  "songs": [
+    {
+      "slug": "ForTheLoveGod",
+      "short": "LoveGod",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "For the Love of God: delicate detuned clean intro",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Attack": 52,
+                "Vol": 58,
+                "Clip": 8
+              }
+            },
+            "FX2": {
+              "effect": "Detune",
+              "enabled": true,
+              "params": {
+                "Detune": -8,
+                "Wet": 32,
+                "Dry": 60
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Time": 500,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Decay": 62
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "For the Love of God: transcendent legato lead",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "FX2": {
+              "effect": "Detune",
+              "enabled": true,
+              "params": {
+                "Detune": -6,
+                "Wet": 24,
+                "Dry": 66
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 520,
+                "F.Back": 36
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 60
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BadHorsie",
+      "short": "BadHors",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "Bad Horsie: wah-drenched heavy riff",
+          "mods": {
+            "AMP": {
+              "effect": "Bog XT",
+              "enabled": true,
+              "params": {
+                "Gain": 74,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 52,
+                "Treble": 56
+              }
+            },
+            "IR": {
+              "effect": "Bog 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 55,
+                "Range": 58,
+                "Q": 50,
+                "Mix": 60,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 58,
+                "Vol": 72
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Bad Horsie: wah shred lead",
+          "mods": {
+            "AMP": {
+              "effect": "Bog XT",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Bog 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 58,
+                "Range": 62,
+                "Q": 52,
+                "Mix": 65,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 360,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "AttitudeSong",
+      "short": "Attitude",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "The Attitude Song: whammy-fuelled shred lead",
+          "mods": {
+            "AMP": {
+              "effect": "Bog XT",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Bog 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "FX2": {
+              "effect": "Pitch",
+              "enabled": true,
+              "params": {
+                "High": 12,
+                "Low Pitch": -12,
+                "Dry": 45,
+                "H-Vol": 55,
+                "L-Vol": 0
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 360,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BuildingChurch",
+      "short": "BuildChr",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Building the Church: slippery legato lead",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "FX2": {
+              "effect": "Detune",
+              "enabled": true,
+              "params": {
+                "Detune": -6,
+                "Wet": 24,
+                "Dry": 66
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Time": 420,
+                "F.Back": 32
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 48,
+                "Damp": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TenderSurrender",
+      "short": "TendSurr",
+      "variants": [
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Tender Surrender: dynamic soaring legato lead",
+          "mods": {
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 76,
+                "Pres": 58,
+                "Vol": 80,
+                "Bass": 56,
+                "Middle": 54,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 58,
+                "Vol": 70
+              }
+            },
+            "FX2": {
+              "effect": "Detune",
+              "enabled": true,
+              "params": {
+                "Detune": -6,
+                "Wet": 22,
+                "Dry": 66
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 500,
+                "F.Back": 36
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 60
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

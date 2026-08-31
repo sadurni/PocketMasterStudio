@@ -1,0 +1,626 @@
+{
+  "name": "Metallica",
+  "songs": [
+    {
+      "slug": "MasterOfPuppets",
+      "short": "MOP",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "hvy",
+          "desc": "Master of Puppets: tight down-picked scooped riff",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 18
+              }
+            },
+            "AMP": {
+              "effect": "Calif DualM",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 64,
+                "Middle": 32,
+                "Treble": 62
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 38,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 62,
+                "Vol": 72
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 6,
+                "400Hz": -4,
+                "800Hz": -14,
+                "1.6kHz": -6,
+                "4kHz": 8,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 38
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Master of Puppets: mid-forward Mesa lead",
+          "mods": {
+            "AMP": {
+              "effect": "Calif DualM",
+              "enabled": true,
+              "params": {
+                "Gain": 82,
+                "Pres": 62,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 48,
+                "Treble": 62
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Touch Wah",
+              "enabled": true,
+              "params": {
+                "Sense": 58,
+                "Range": 60,
+                "Q": 52,
+                "Mix": 66,
+                "Mode": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Tone": 62,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Time": 360,
+                "F.Back": 26
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "EnterSandman",
+      "short": "EntSandm",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "hvy",
+          "desc": "Enter Sandman: chunky mid-scoop groove riff",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 16
+              }
+            },
+            "AMP": {
+              "effect": "Calif DualM",
+              "enabled": true,
+              "params": {
+                "Gain": 74,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 62,
+                "Middle": 36,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Tone": 60,
+                "Vol": 72
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": 6,
+                "400Hz": -2,
+                "800Hz": -10,
+                "1.6kHz": -4,
+                "4kHz": 8,
+                "Vol": 50
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Decay": 38
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "NothingElse",
+      "short": "NothElse",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Nothing Else Matters: fingerpicked clean arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 26,
+                "Vol": 82,
+                "Bass": 58,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 30,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Nothing Else Matters: melodic crying Mesa lead",
+          "mods": {
+            "AMP": {
+              "effect": "Calif DualM",
+              "enabled": true,
+              "params": {
+                "Gain": 76,
+                "Pres": 60,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 50,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 44,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 60,
+                "Vol": 70
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 400,
+                "F.Back": 30
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 54
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TheDayThatNeverComes",
+      "short": "DayTDC",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "The Day That Never Comes: soft clean rhythm with a bright American-style amp, subtle chorus, warm delay, and restrained room ambience",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 9
+              }
+            },
+            "AMP": {
+              "effect": "Jazz 120",
+              "enabled": true,
+              "params": {
+                "Vol": 79,
+                "Bass": 45,
+                "Middle": 50,
+                "Treble": 68,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Jazz 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 84
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 25,
+                "Rate": 0.4,
+                "Tone": 58
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 430,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "H",
+          "role": "hvy",
+          "desc": "The Day That Never Comes: heavy rhythm using a boosted JCM800-style rig, tight low end, strong mids, and minimal ambience",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 28
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 18,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 20,
+                "Tone": 54,
+                "Vol": 73
+              }
+            },
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 70,
+                "Pres": 55,
+                "Vol": 84,
+                "Bass": 39,
+                "Middle": 62,
+                "Treble": 67
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 86
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 2",
+              "enabled": true,
+              "params": {
+                "100Hz": -4,
+                "500Hz": -2,
+                "1kHz": 3,
+                "3kHz": 5,
+                "6kHz": 2,
+                "Vol": 53
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 7,
+                "Decay": 27
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "The Day That Never Comes: soft melodic solo with a singing Plexi-style amp, light overdrive, focused mids, and moderate tape-like delay",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 18
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 22,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "DRV": {
+              "effect": "Butter OD",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Vol": 70
+              }
+            },
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 62,
+                "Vol": 87,
+                "Bass": 45,
+                "Middle": 65,
+                "Treble": 68
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 87
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": 0,
+                "800Hz": 3,
+                "1.6kHz": 5,
+                "4kHz": 3,
+                "Vol": 54
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Time": 390,
+                "F.Back": 31
+              }
+            },
+            "RVB": {
+              "effect": "Plate 1",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 43
+              }
+            }
+          }
+        },
+        {
+          "kind": "L2",
+          "role": "ldr",
+          "desc": "The Day That Never Comes: loud shred solo with a saturated Soldano-style lead amp, Tube Screamer boost, upper-mid cut, delay, and plate reverb",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 22
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 27,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Tone": 61,
+                "Vol": 77
+              }
+            },
+            "AMP": {
+              "effect": "Sol 100 LD",
+              "enabled": true,
+              "params": {
+                "Gain": 73,
+                "Pres": 58,
+                "Vol": 91,
+                "Bass": 42,
+                "Middle": 70,
+                "Treble": 68
+              }
+            },
+            "IR": {
+              "effect": "Sol 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 89
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 2",
+              "enabled": true,
+              "params": {
+                "100Hz": -3,
+                "500Hz": -1,
+                "1kHz": 4,
+                "3kHz": 6,
+                "6kHz": 3,
+                "Vol": 56
+              }
+            },
+            "DLY": {
+              "effect": "Warm",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 410,
+                "F.Back": 35
+              }
+            },
+            "RVB": {
+              "effect": "Plate 2",
+              "enabled": true,
+              "params": {
+                "Mix": 21,
+                "Decay": 50,
+                "Damp": 42
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

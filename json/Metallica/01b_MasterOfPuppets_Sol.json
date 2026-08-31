@@ -1,0 +1,109 @@
+{
+  "version": "1.0",
+  "presetName": "MOP L",
+  "description": "Master of Puppets: mid-forward Mesa lead",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 22
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Touch Wah",
+      "parameters": {
+        "Sense": 58,
+        "Range": 60,
+        "Q": 52,
+        "Mix": 66,
+        "Mode": 0
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 36,
+        "Tone": 62,
+        "Vol": 70
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Calif DualM",
+      "parameters": {
+        "Gain": 76,
+        "Pres": 62,
+        "Vol": 78,
+        "Bass": 58,
+        "Middle": 48,
+        "Treble": 62
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Dual 4x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": false,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": 0,
+        "400Hz": 0,
+        "800Hz": 0,
+        "1.6kHz": 0,
+        "4kHz": 0,
+        "Vol": 50
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Warm",
+      "parameters": {
+        "Mix": 14,
+        "Time": 360,
+        "F.Back": 26
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 10,
+        "Decay": 42
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

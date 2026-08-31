@@ -1,0 +1,501 @@
+{
+  "name": "The Cure",
+  "songs": [
+    {
+      "slug": "AForest",
+      "short": "AForest",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "A Forest: icy flanged clean delay bed",
+          "mods": {
+            "AMP": {
+              "effect": "Jazz 120",
+              "enabled": true,
+              "params": {
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 48,
+                "Treble": 56,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Jazz 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Flanger",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 0.3,
+                "P.Delay": 45,
+                "F.Back": 32
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 26,
+                "Time": 340,
+                "F.Back": 38
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "A Forest: haunting delayed lead line",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "Flanger",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.3,
+                "P.Delay": 45,
+                "F.Back": 30
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Time": 340,
+                "F.Back": 42
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 58
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "JustLikeHeaven",
+      "short": "JustHvn",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Just Like Heaven: cascading chorused clean arpeggio",
+          "mods": {
+            "AMP": {
+              "effect": "Jazz 120",
+              "enabled": true,
+              "params": {
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 48,
+                "Treble": 60,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Jazz 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 42,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Time": 300,
+                "F.Back": 34
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Just Like Heaven: shimmering melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 30,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 48,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 38,
+                "Rate": 0.5,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 300,
+                "F.Back": 38
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 22,
+                "Decay": 56
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "FascinationSt",
+      "short": "FascStr",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Fascination Street: dark distorted chorus riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 50,
+                "Pres": 50,
+                "Vol": 80,
+                "Bass": 60,
+                "Middle": 50,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 35,
+                "Rate": 0.4,
+                "Tone": 50
+              }
+            },
+            "DRV": {
+              "effect": "Dark Mouse",
+              "enabled": true,
+              "params": {
+                "Gain": 40,
+                "Filter": 50,
+                "Vol": 70
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Fascination Street: brooding driven lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 54,
+                "Pres": 52,
+                "Vol": 80,
+                "Bass": 58,
+                "Middle": 52,
+                "Treble": 54
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 30,
+                "Rate": 0.4,
+                "Tone": 50
+              }
+            },
+            "DRV": {
+              "effect": "Dark Mouse",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Filter": 50,
+                "Vol": 72
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Time": 320,
+                "F.Back": 36
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "PicturesOfYou",
+      "short": "PictsYou",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Pictures of You: lush layered chorus/delay clean",
+          "mods": {
+            "AMP": {
+              "effect": "Jazz 120",
+              "enabled": true,
+              "params": {
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 48,
+                "Treble": 58,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Jazz 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 45,
+                "Rate": 0.4,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 28,
+                "Time": 360,
+                "F.Back": 40
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 60
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Pictures of You: aching sustained lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Vol": 82,
+                "Bass": 56,
+                "Middle": 48,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 40,
+                "Rate": 0.4,
+                "Tone": 55
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 30,
+                "Time": 360,
+                "F.Back": 42
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Decay": 60
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "FridayInLove",
+      "short": "FridayLv",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Friday I'm in Love: bright happy jangly chords",
+          "mods": {
+            "AMP": {
+              "effect": "Jazz 120",
+              "enabled": true,
+              "params": {
+                "Vol": 82,
+                "Bass": 50,
+                "Middle": 48,
+                "Treble": 62,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Jazz 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 38,
+                "Rate": 0.6,
+                "Tone": 55
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 46
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+{
+  "name": "Van Morrison",
+  "songs": [
+    {
+      "slug": "Gloria",
+      "short": "Gloria",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Gloria (Them): raw garage plexi crunch riff",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 56,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 56,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "ldr",
+          "desc": "Gloria (Them): snarling garage lead",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 60,
+                "Vol": 82,
+                "Bass": 54,
+                "Middle": 58,
+                "Treble": 58
+              }
+            },
+            "IR": {
+              "effect": "BritGN 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Time": 120,
+                "F.Back": 12
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BrownEyedGirl",
+      "short": "BrownEye",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Brown Eyed Girl: bright jangly clean riff",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Tone": 60,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 26,
+                "Vol": 55
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Brown Eyed Girl: sunny melodic lead",
+          "mods": {
+            "AMP": {
+              "effect": "B-Man B",
+              "enabled": true,
+              "params": {
+                "Gain": 44,
+                "Pres": 58,
+                "Vol": 82,
+                "Bass": 52,
+                "Middle": 56,
+                "Treble": 60
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Time": 120,
+                "F.Back": 10
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 42
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "Moondance",
+      "short": "Moondnc",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "desc": "Moondance: jazzy swung clean comping",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 50,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Attack": 55,
+                "Vol": 58,
+                "Clip": 6
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 52
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "desc": "Moondance: smooth jazzy lead",
+          "mods": {
+            "AMP": {
+              "effect": "Dark Twin",
+              "enabled": true,
+              "params": {
+                "Gain": 36,
+                "Vol": 82,
+                "Bass": 55,
+                "Middle": 50,
+                "Treble": 54,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Double 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "FX1": {
+              "effect": "COMP 2",
+              "enabled": true,
+              "params": {
+                "Sustain": 46,
+                "Attack": 52,
+                "Vol": 58,
+                "Clip": 8
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 8,
+                "Time": 110,
+                "F.Back": 8
+              }
+            },
+            "RVB": {
+              "effect": "Hall",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 50
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "BabyPleaseGo",
+      "short": "BabyPls",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "desc": "Baby Please Don't Go (Them): gritty blues riff",
+          "mods": {
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Tone": 56,
+                "Vol": 82
+              }
+            },
+            "IR": {
+              "effect": "TWD 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 44
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

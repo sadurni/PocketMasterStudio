@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "DayTDC H",
+  "description": "The Day That Never Comes: heavy rhythm using a boosted JCM800-style rig, tight low end, strong mids, and minimal ambience",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 28
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 18,
+        "+3dB": 1,
+        "Bright": 0
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 20,
+        "Tone": 54,
+        "Vol": 73
+      }
+    },
+    "IR": {
+      "enabled": false,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 86
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": -4,
+        "500Hz": -2,
+        "1kHz": 3,
+        "3kHz": 5,
+        "6kHz": 2,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": false,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 20,
+        "Time": 500,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 7,
+        "Decay": 27
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "JCM800",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}
