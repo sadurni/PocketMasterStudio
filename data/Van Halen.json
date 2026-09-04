@@ -1,13 +1,19 @@
 {
   "name": "Van Halen",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Eruption",
       "short": "Eruption",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Eruption backing: brown-sound Plexi power chords",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Eruption: tapping run, flanger + tape echo",
           "mods": {
             "AMP": {
@@ -106,10 +114,14 @@
     {
       "slug": "RunninDevil",
       "short": "RunDevil",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Runnin' with the Devil: open Plexi chords + flanger",
           "mods": {
             "AMP": {
@@ -157,10 +169,14 @@
     {
       "slug": "AintTalkinLove",
       "short": "AintLove",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Ain't Talkin' 'bout Love: chugging phaser riff",
           "mods": {
             "AMP": {
@@ -205,10 +221,14 @@
     {
       "slug": "DanceNightAway",
       "short": "DanceNit",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Dance the Night Away: clean chime + flanger, harmonics",
           "mods": {
             "AMP": {
@@ -255,10 +275,14 @@
     {
       "slug": "SpanishFly",
       "short": "SpanFly",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Spanish Fly: bright nylon-style clean, comp",
           "mods": {
             "AMP": {
@@ -305,10 +329,14 @@
     {
       "slug": "YouReallyGotMe",
       "short": "ReallyGK",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "You Really Got Me: raw brown Plexi crunch chords",
           "mods": {
             "AMP": {
@@ -344,6 +372,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "You Really Got Me: cranked brown Plexi solo + echo",
           "mods": {
             "AMP": {

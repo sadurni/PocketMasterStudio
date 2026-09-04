@@ -1,13 +1,19 @@
 {
   "name": "Guns N' Roses",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "SweetChild",
       "short": "SwChild",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sweet Child O' Mine: chiming clean-edge arpeggio intro, delay",
           "mods": {
             "AMP": {
@@ -59,6 +65,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sweet Child O' Mine: soaring cranked-Marshall solo, boost + delay",
           "mods": {
             "AMP": {
@@ -114,10 +122,14 @@
     {
       "slug": "Jungle",
       "short": "Jungle",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Welcome to the Jungle: aggressive palm-muted Marshall riff",
           "mods": {
             "AMP": {
@@ -161,6 +173,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Welcome to the Jungle: wah-drenched cranked solo",
           "mods": {
             "AMP": {
@@ -218,10 +232,14 @@
     {
       "slug": "NovemberRain",
       "short": "NovRain",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "November Rain: tender clean Les Paul arpeggios, chorus + hall",
           "mods": {
             "AMP": {
@@ -273,6 +291,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "November Rain: melodic singing first solo, warm delay",
           "mods": {
             "AMP": {
@@ -327,10 +347,14 @@
     {
       "slug": "ParadiseCity",
       "short": "Paradise",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Paradise City: bright driving open-chord Marshall riff",
           "mods": {
             "AMP": {
@@ -365,6 +389,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Paradise City: fast cranked-Marshall solo, delay",
           "mods": {
             "AMP": {
@@ -420,10 +446,14 @@
     {
       "slug": "Nightrain",
       "short": "Nightrn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Nightrain: swaggering mid-gain Marshall crunch riff",
           "mods": {
             "AMP": {

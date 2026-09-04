@@ -1,13 +1,19 @@
 {
   "name": "Neil Young",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "CinnamonGirl",
       "short": "Cinnamon",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cinnamon Girl: cranked raw tweed riff",
           "mods": {
             "AMP": {
@@ -39,6 +45,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cinnamon Girl: one-note fuzzed tweed solo",
           "mods": {
             "AMP": {
@@ -80,10 +88,14 @@
     {
       "slug": "CortezKiller",
       "short": "Cortez",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cortez the Killer: dark clean-edge tweed bed",
           "mods": {
             "AMP": {
@@ -115,6 +127,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cortez the Killer: mournful sustaining tweed lead",
           "mods": {
             "AMP": {
@@ -157,10 +171,14 @@
     {
       "slug": "LikeHurricane",
       "short": "LikeHurr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Like a Hurricane: swirling Uni-Vibe clean-edge tweed",
           "mods": {
             "AMP": {
@@ -202,10 +220,14 @@
     {
       "slug": "HeyHeyMyMy",
       "short": "HeyHey",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hey Hey, My My: crushing fuzzed tweed riff",
           "mods": {
             "AMP": {
@@ -245,6 +267,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hey Hey, My My: fuzzed cranked tweed lead",
           "mods": {
             "AMP": {
@@ -286,10 +310,14 @@
     {
       "slug": "RockinFreeWorld",
       "short": "FreeWrld",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Rockin' in the Free World: anthemic tweed crunch",
           "mods": {
             "AMP": {

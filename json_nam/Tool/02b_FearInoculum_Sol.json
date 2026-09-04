@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "Fear L",
+  "description": "Fear Inoculum: soft melodic lead using boosted VH4 saturation, focused upper mids, subtle detune doubling, analog delay space, and sustained plate reverb",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 20
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 25,
+        "+3dB": 0,
+        "Bright": 0
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 25,
+        "Tone": 55,
+        "Vol": 70
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Dizzy 4x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": -4,
+        "500Hz": -1,
+        "1kHz": 4,
+        "3kHz": 5,
+        "6kHz": -2,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "Detune",
+      "parameters": {
+        "Detune": -8,
+        "Wet": 18,
+        "Dry": 82
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 35,
+        "Time": 520,
+        "F.Back": 35
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 2",
+      "parameters": {
+        "Mix": 22,
+        "Decay": 55,
+        "Damp": 45
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "SoloSLO",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

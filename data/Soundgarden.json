@@ -1,13 +1,19 @@
 {
   "name": "Soundgarden",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "RustyCage",
       "short": "RustyCag",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Rusty Cage: thick sludgy drop-D Marshall riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Rusty Cage: unhinged noisy lead",
           "mods": {
             "AMP": {
@@ -105,10 +113,14 @@
     {
       "slug": "BlackHoleSun",
       "short": "BlckHole",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Black Hole Sun: swirling Leslie-vibe clean",
           "mods": {
             "AMP": {
@@ -160,6 +172,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Black Hole Sun: fuzzed psychedelic solo",
           "mods": {
             "AMP": {
@@ -221,10 +235,14 @@
     {
       "slug": "SlavesBulldoz",
       "short": "SlavesBd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Slaves & Bulldozers: crushing slow sludge riff",
           "mods": {
             "AMP": {
@@ -268,6 +286,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Slaves & Bulldozers: wailing fuzzed lead",
           "mods": {
             "AMP": {
@@ -321,10 +341,14 @@
     {
       "slug": "FellBlackDays",
       "short": "FellBlck",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Fell on Black Days: uneasy jangly clean-crunch",
           "mods": {
             "AMP": {
@@ -379,10 +403,14 @@
     {
       "slug": "Superunknown",
       "short": "Superunk",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Superunknown: wah-fuzz freakout lead",
           "mods": {
             "AMP": {

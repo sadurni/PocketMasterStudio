@@ -3,6 +3,7 @@
 // Reads ../data + ./assets (mld, factory). Run: node src/export_tree.js
 const fs = require("fs"), path = require("path");
 const PMBuild = require("./pmbuild.js"), PMHtml = require("./pmhtml.js"), PMTabla = require("./pmtabla.js"), PMMap = require("./pmmap.js");
+const PMChangelog = require("./pmchangelog.js");
 const SRC = __dirname, ASSETS = path.join(SRC, "assets"), DATA = path.join(SRC, "..", "data"), ROOT = path.join(SRC, "..");
 const rdj = (p) => JSON.parse(fs.readFileSync(p, "utf-8"));
 
@@ -15,6 +16,16 @@ for (const n of config.order) data[n] = rdj(path.join(DATA, n.replace(/\//g, "-"
 const readOv = (f) => { try { return rdj(path.join(ROOT, f)); } catch (e) { return {}; } };
 const fov = readOv("factory_overrides.json"), nov = readOv("nam_overrides.json");
 let collections = null; try { collections = rdj(path.join(ROOT, "collections.json")); } catch (e) {}
+
+// A full tree regeneration also counts as a complete export: stamp timestamps and record the change
+// batch (shared, idempotent — if build_studio.js already recorded these changes there is nothing new).
+const sinceArg = ((process.argv.find((a) => a.startsWith("--since=")) || "").split("=")[1] || "").trim() || null;
+const cl = PMChangelog.advanceOnDisk({
+  root: ROOT, dataDir: DATA, data, fov, nov, collections,
+  now: new Date().toISOString(), since: sinceArg, stringify: PMBuild.stringify,
+});
+console.log("changelog:", cl.changed ? (cl.baseline ? "baseline recorded" : "batch recorded") : "no changes since last export");
+
 const { files } = PMBuild.buildSongs(mld, config, data, fov);
 const comps = PMBuild.buildCompilations(files, collections ? { collections, skipMissing: true } : undefined);
 const jsonMap = Object.assign({}, files, comps);

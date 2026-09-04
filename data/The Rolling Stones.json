@@ -1,13 +1,19 @@
 {
   "name": "The Rolling Stones",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Satisfaction",
       "short": "Satisfy",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "(I Can't Get No) Satisfaction: fuzz riff into tweed",
           "mods": {
             "AMP": {
@@ -49,10 +55,14 @@
     {
       "slug": "BrownSugar",
       "short": "BrwnSugr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brown Sugar: classic open-G tweed riff",
           "mods": {
             "AMP": {
@@ -84,6 +94,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brown Sugar: raunchy tweed lead + slapback",
           "mods": {
             "AMP": {
@@ -126,10 +138,14 @@
     {
       "slug": "PaintItBlack",
       "short": "PaintBlk",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Paint It Black: sitar-like clean, spring",
           "mods": {
             "AMP": {
@@ -161,6 +177,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Paint It Black: droning modal lead",
           "mods": {
             "AMP": {
@@ -206,10 +224,14 @@
     {
       "slug": "GimmeShelter",
       "short": "GimShelt",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gimme Shelter: shimmering tremolo clean intro",
           "mods": {
             "AMP": {
@@ -251,10 +273,14 @@
     {
       "slug": "CantHearKnock",
       "short": "HearKnok",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Can't You Hear Me Knocking: Taylor's soaring jam solo",
           "mods": {
             "AMP": {

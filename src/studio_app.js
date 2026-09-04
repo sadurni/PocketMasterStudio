@@ -28,18 +28,34 @@
 
   // ---- pipeline ----
   function regen(pl) {
-    const { files, total, artistCount } = PMBuild.buildSongs(pl.mld, pl.config, pl.data, pl.factory_overrides || {});
+    const { files, summary, total, artistCount } = PMBuild.buildSongs(pl.mld, pl.config, pl.data, pl.factory_overrides || {});
     // skipMissing:true so user deletions never crash the build (identical output when nothing is missing).
     const comps = PMBuild.buildCompilations(files, { collections: pl.collections || undefined, skipMissing: true });
     const jsonMap = Object.assign({}, files, comps);
     const { files: namMap } = PMBuild.buildNam(jsonMap, pl.nam_overrides || {});
     const { files: mixedMap } = PMBuild.buildMixed(jsonMap, pl.nam_overrides || {});
     const library = PMBuild.buildLibrary(jsonMap, namMap, mixedMap);
-    return { files, jsonMap, namMap, mixedMap, comps, library, total, artistCount };
+    return { files, summary, jsonMap, namMap, mixedMap, comps, library, total, artistCount };
+  }
+  // Keep the embedded README headline in sync with the real generated numbers (used by the Docs
+  // tab, Save and Export ZIP), so every export prints the live counts.
+  function syncReadmeStats() {
+    if (!S.built || !window.PMStats) return;
+    try {
+      const stats = PMStats.compute(S.built, {
+        collections: S.payload.collections,
+        defaultFiles: PMBuild.defaultCollectionDefs().map((d) => d.file),
+        namCaptures: PMBuild.NAM_CAPTURES.length,
+      });
+      S.payload.readme = PMStats.apply(S.payload.readme || "", stats);
+      const d = (S.payload.docs || []).find((x) => x.id === "readme");
+      if (d) d.md = S.payload.readme;
+    } catch (e) {}
   }
   function rebuild() {
     const t0 = performance.now();
     S.built = regen(S.payload);
+    syncReadmeStats();
     S.nameIndex = PMEdit.buildNameIndex(S.built.library);
     const dt = (performance.now() - t0).toFixed(0);
     const b = S.built;
@@ -367,7 +383,7 @@
       config: S.payload.config, data: S.payload.data, mld: S.payload.mld, factory: S.payload.factory,
       factory_overrides: S.payload.factory_overrides || {}, nam_overrides: S.payload.nam_overrides || {},
       collections: S.payload.collections || null, prompt: S.payload.prompt || "", readme: S.payload.readme || "",
-      docs: S.payload.docs || [],
+      docs: S.payload.docs || [], changelog: S.payload.changelog || null,
     };
   }
   function download(fn, text, mime) {
@@ -389,7 +405,36 @@
   }
   // Export the full extracted file tree (source + generated json/json_nam + listings + app + lossless source.json) as a ZIP.
   async function exportZip() {
+    // A full ZIP export is a "complete export": advance the change history (stamp created/modified,
+    // append a dated batch). This never happens on a plain Save. The "since" prompt is pre-filled with
+    // the last export's date; leave it (or blank) to show only changes since then, or set an earlier
+    // date to aggregate everything from that date. Cancelling the prompt aborts the export.
+    const defSince = ((S.payload.changelog && S.payload.changelog.lastExport) || "").slice(0, 10);
+    const answer = prompt("📦 Export ZIP — reflect changes in the README since (YYYY-MM-DD).\nLeave as-is for “since the last full export”, or set an earlier date:", defSince);
+    if (answer === null) { toast("Export cancelled."); return; }
+    const since = answer.trim() || null;
     toast("Generating ZIP…");
+    const now = new Date().toISOString();
+    S.payload.changelog = S.payload.changelog || {};
+    const res = PMChangelog.advance(S.payload.changelog, S.payload.data, S.payload.factory_overrides, S.payload.nam_overrides, S.payload.collections, now, {});
+    S.payload.changelog = res.state;
+    // refresh the embedded README: live headline numbers + the "Recent changes" section, and update the Docs.
+    const ctx = { data: S.payload.data, collections: S.payload.collections };
+    const stats = PMStats.compute(S.built, {
+      collections: S.payload.collections,
+      defaultFiles: PMBuild.defaultCollectionDefs().map((d) => d.file),
+      namCaptures: PMBuild.NAM_CAPTURES.length,
+    });
+    let readme = PMStats.apply(S.payload.readme || "", stats);
+    readme = PMChangelog.applyRecent(readme, PMChangelog.renderRecent(res.state, ctx, since),
+      since ? "changes since " + since : "since the previous full export");
+    S.payload.readme = readme;
+    const changelogMd = PMChangelog.renderChangelogMd(res.state, ctx);
+    const docs = S.payload.docs || (S.payload.docs = []);
+    const rdoc = docs.find((d) => d.id === "readme"); if (rdoc) rdoc.md = readme;
+    const cdoc = docs.find((d) => d.id === "changelog");
+    if (cdoc) cdoc.md = changelogMd; else docs.splice(1, 0, { id: "changelog", label: "Changelog", md: changelogMd });
+    markDirty(true);
     const b = S.built, files = [];
     files.push({ name: "data/_config.json", data: PMBuild.stringify(S.payload.config) });
     for (const name of Object.keys(S.payload.data)) files.push({ name: "data/" + name.replace(/\//g, "-") + ".json", data: PMBuild.stringify(S.payload.data[name]) });
@@ -406,6 +451,8 @@
     emit("json", b.jsonMap); emit("json_nam", b.namMap); emit("json_mixed", b.mixedMap);
     files.push({ name: "pocketmaster.source.json", data: JSON.stringify(sourcePayload(), null, 1) });
     if (S.payload.readme) files.push({ name: "README.md", data: S.payload.readme });
+    files.push({ name: "changelog.json", data: JSON.stringify(res.state, null, 1) });
+    files.push({ name: "CHANGELOG.md", data: changelogMd });
     const appBlob = await gzipB64(JSON.stringify(sourcePayload()));
     files.push({ name: "PocketMasterStudio.html", data: serializeApp(appBlob) });
     const zip = await PMZip.create(files);
@@ -430,6 +477,7 @@
       src.mld = src.mld || S.payload.mld; src.factory = src.factory || S.payload.factory; src.prompt = src.prompt || S.payload.prompt;
       src.readme = src.readme || S.payload.readme; src.docs = (src.docs && src.docs.length) ? src.docs : S.payload.docs; src.factory_overrides = src.factory_overrides || {}; src.nam_overrides = src.nam_overrides || {};
       src.collections = src.collections || null;
+      src.changelog = src.changelog || S.payload.changelog || null;
       if (!src.config || !src.data) throw new Error("Incomplete project (missing config or data).");
       S.payload = src; markDirty(true); rebuild(); toast("Project imported."); showTab("overview");
     } catch (e) { alert("Could not import: " + e.message); }
@@ -567,12 +615,47 @@
   }
   function mountDocs(view) {
     const docs = S.payload.docs || [];
-    const bar = el("div", { class: "docbar" });
-    const sel = el("select"); sel.style.width = "auto";
+    // Layout: a section index (left sidebar on desktop, a bars menu on top on mobile) + the rendered doc.
+    const wrap = el("div", { class: "docsview" });
+    const nav = el("aside", { class: "docnav" });
+    const sel = el("select");
     sel.innerHTML = docs.map((d, i) => '<option value="' + i + '">' + escH(d.label) + "</option>").join("");
-    bar.appendChild(sel); view.appendChild(bar);
-    const f = el("iframe", { class: "full", title: "Docs" }); view.appendChild(f);
-    const show = () => { const d = docs[+sel.value || 0]; if (d) f.srcdoc = PMMd.to_document(d.md, d.label); };
+    const toggle = el("button", { class: "docnavToggle", type: "button" }, "☰ Sections <span aria-hidden=\"true\">▾</span>");
+    const toc = el("nav", { class: "doctoc" });
+    nav.appendChild(sel); nav.appendChild(toggle); nav.appendChild(toc);
+    const f = el("iframe", { class: "docframe", title: "Docs" });
+    wrap.appendChild(nav); wrap.appendChild(f); view.appendChild(wrap);
+
+    const slug = (t) => String(t).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "").slice(0, 60);
+    // Build the index from the just-rendered document's headings (assigns ids for scroll targets).
+    function buildToc() {
+      const doc = f.contentDocument; if (!doc) { toc.innerHTML = ""; return; }
+      const used = {};
+      const secs = Array.from(doc.querySelectorAll("h1, h2, h3")).map((h, i) => {
+        let id = slug(h.textContent) || ("sec-" + i);
+        if (used[id]) { used[id]++; id += "-" + used[id]; } else used[id] = 1;
+        h.id = id;
+        return { id, text: h.textContent || "", lvl: h.tagName === "H2" ? 2 : h.tagName === "H3" ? 3 : 1 };
+      }).filter((s) => s.lvl >= 2);
+      toc.innerHTML = secs.length
+        ? secs.map((s) => '<a href="#" data-id="' + escH(s.id) + '"' + (s.lvl === 3 ? ' class="l3"' : "") + ">" + escH(s.text) + "</a>").join("")
+        : '<span class="mut" style="font-size:12px">No sections</span>';
+    }
+    toc.addEventListener("click", (e) => {
+      const a = e.target.closest("a[data-id]"); if (!a) return;
+      e.preventDefault();
+      const doc = f.contentDocument, t = doc && doc.getElementById(a.dataset.id);
+      if (t) t.scrollIntoView({ behavior: "smooth", block: "start" });
+      $$("a", toc).forEach((x) => x.classList.remove("on")); a.classList.add("on");
+      nav.classList.remove("open"); // collapse the mobile menu after choosing
+    });
+    toggle.addEventListener("click", () => nav.classList.toggle("open"));
+    const show = () => {
+      const d = docs[+sel.value || 0]; if (!d) return;
+      nav.classList.remove("open");
+      f.addEventListener("load", buildToc, { once: true });
+      f.srcdoc = PMMd.to_document(d.md, d.label);
+    };
     sel.addEventListener("change", show); show();
   }
   function refreshMountedViews() {

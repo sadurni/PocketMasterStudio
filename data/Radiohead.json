@@ -1,13 +1,19 @@
 {
   "name": "Radiohead",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Creep",
       "short": "Creep",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Creep: clean arpeggio verse chords",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Creep: explosive dead-note fuzz blasts + solo",
           "mods": {
             "AMP": {
@@ -94,10 +102,14 @@
     {
       "slug": "TheBends",
       "short": "TheBends",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Bends: anthemic jangly crunch riff",
           "mods": {
             "AMP": {
@@ -141,6 +153,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Bends: soaring melodic lead",
           "mods": {
             "AMP": {
@@ -195,10 +209,14 @@
     {
       "slug": "StreetSpirit",
       "short": "StrSpirt",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Street Spirit (Fade Out): hypnotic clean arpeggio",
           "mods": {
             "AMP": {
@@ -252,6 +270,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Street Spirit (Fade Out): ghostly melodic lead",
           "mods": {
             "AMP": {
@@ -306,10 +326,14 @@
     {
       "slug": "ParanoidAndroid",
       "short": "ParAndrd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Paranoid Android: savage fuzz solo section",
           "mods": {
             "AMP": {
@@ -363,10 +387,14 @@
     {
       "slug": "Bodysnatchers",
       "short": "Bodysntc",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bodysnatchers: raw garage fuzz riff",
           "mods": {
             "AMP": {

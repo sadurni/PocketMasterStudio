@@ -1,13 +1,19 @@
 {
   "name": "The Alan Parsons Project",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "EyeInTheSky",
       "short": "EyeSky",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Eye in the Sky: smooth chorused clean chords",
           "mods": {
             "AMP": {
@@ -61,6 +67,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Eye in the Sky: singing Strat outro solo + delay",
           "mods": {
             "AMP": {
@@ -115,10 +123,14 @@
     {
       "slug": "GamesPeople",
       "short": "GamesPpl",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Games People Play: punchy mid crunch chords",
           "mods": {
             "AMP": {
@@ -162,6 +174,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Games People Play: melodic rock lead",
           "mods": {
             "AMP": {
@@ -216,10 +230,14 @@
     {
       "slug": "SilenceAndI",
       "short": "SilenceI",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Silence and I: cinematic clean swells",
           "mods": {
             "AMP": {
@@ -273,6 +291,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Silence and I: grand emotive lead climax",
           "mods": {
             "AMP": {
@@ -327,10 +347,14 @@
     {
       "slug": "DontAnswerMe",
       "short": "DontAns",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Don't Answer Me: Spector-wall jangly clean",
           "mods": {
             "AMP": {
@@ -375,6 +399,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Don't Answer Me: chiming melodic lead",
           "mods": {
             "AMP": {

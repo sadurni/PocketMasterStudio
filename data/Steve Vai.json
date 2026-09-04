@@ -1,13 +1,19 @@
 {
   "name": "Steve Vai",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "ForTheLoveGod",
       "short": "LoveGod",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "For the Love of God: delicate detuned clean intro",
           "mods": {
             "AMP": {
@@ -70,6 +76,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "For the Love of God: transcendent legato lead",
           "mods": {
             "AMP": {
@@ -133,10 +141,14 @@
     {
       "slug": "BadHorsie",
       "short": "BadHors",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bad Horsie: wah-drenched heavy riff",
           "mods": {
             "AMP": {
@@ -191,6 +203,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bad Horsie: wah shred lead",
           "mods": {
             "AMP": {
@@ -256,10 +270,14 @@
     {
       "slug": "AttitudeSong",
       "short": "Attitude",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Attitude Song: whammy-fuelled shred lead",
           "mods": {
             "AMP": {
@@ -326,10 +344,14 @@
     {
       "slug": "BuildingChurch",
       "short": "BuildChr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Building the Church: slippery legato lead",
           "mods": {
             "AMP": {
@@ -394,10 +416,14 @@
     {
       "slug": "TenderSurrender",
       "short": "TendSurr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Tender Surrender: dynamic soaring legato lead",
           "mods": {
             "AMP": {

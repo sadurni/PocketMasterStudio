@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "DuHast R",
+  "description": "Du hast: tight JCM800-style crunch for the driving verse and chorus rhythm, with a boosted front end and restrained ambience",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 22
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 14,
+        "Tone": 62,
+        "Vol": 76
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Brit 800",
+      "parameters": {
+        "Gain": 64,
+        "Pres": 58,
+        "Vol": 84,
+        "Bass": 48,
+        "Middle": 48,
+        "Treble": 68
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 86
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": 1,
+        "500Hz": -2,
+        "1kHz": -3,
+        "3kHz": 3,
+        "6kHz": 1,
+        "Vol": 52
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": false,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 20,
+        "Time": 500,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 5,
+        "Decay": 18
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

@@ -1,13 +1,19 @@
 {
   "name": "Fleetwood Mac",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "BigLove",
       "short": "BigLove",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Big Love: percussive fingerpicked clean (solo tour de force)",
           "mods": {
             "AMP": {
@@ -52,6 +58,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Big Love: driving fingerstyle lead build",
           "mods": {
             "AMP": {
@@ -107,10 +115,14 @@
     {
       "slug": "TheChain",
       "short": "TheChain",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Chain: ominous clean-edge picked chords",
           "mods": {
             "AMP": {
@@ -150,6 +162,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Chain: fiery Buckingham outro lead",
           "mods": {
             "AMP": {
@@ -204,10 +218,14 @@
     {
       "slug": "GoYourOwnWay",
       "short": "GoOwnWay",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Go Your Own Way: gritty jangly tweed crunch",
           "mods": {
             "AMP": {
@@ -239,6 +257,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Go Your Own Way: raucous ragged lead",
           "mods": {
             "AMP": {
@@ -293,10 +313,14 @@
     {
       "slug": "ImSoAfraid",
       "short": "SoAfraid",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "I'm So Afraid: blistering extended lead",
           "mods": {
             "AMP": {
@@ -351,10 +375,14 @@
     {
       "slug": "Landslide",
       "short": "Landslde",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Landslide: delicate fingerpicked clean arpeggio",
           "mods": {
             "AMP": {
@@ -399,6 +427,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Landslide: gentle melodic lead",
           "mods": {
             "AMP": {

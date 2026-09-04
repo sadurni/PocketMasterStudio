@@ -1,13 +1,19 @@
 {
   "name": "Van Morrison",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Gloria",
       "short": "Gloria",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gloria (Them): raw garage plexi crunch riff",
           "mods": {
             "AMP": {
@@ -42,6 +48,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gloria (Them): snarling garage lead",
           "mods": {
             "AMP": {
@@ -87,10 +95,14 @@
     {
       "slug": "BrownEyedGirl",
       "short": "BrownEye",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brown Eyed Girl: bright jangly clean riff",
           "mods": {
             "AMP": {
@@ -130,6 +142,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brown Eyed Girl: sunny melodic lead",
           "mods": {
             "AMP": {
@@ -175,10 +189,14 @@
     {
       "slug": "Moondance",
       "short": "Moondnc",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Moondance: jazzy swung clean comping",
           "mods": {
             "AMP": {
@@ -223,6 +241,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Moondance: smooth jazzy lead",
           "mods": {
             "AMP": {
@@ -278,10 +298,14 @@
     {
       "slug": "BabyPleaseGo",
       "short": "BabyPls",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Baby Please Don't Go (Them): gritty blues riff",
           "mods": {
             "AMP": {

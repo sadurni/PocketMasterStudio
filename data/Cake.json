@@ -1,13 +1,19 @@
 {
   "name": "Cake",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "TheDistance",
       "short": "Distance",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Distance: trebly staccato clean riff",
           "mods": {
             "AMP": {
@@ -52,6 +58,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Distance: bright clean lead line",
           "mods": {
             "AMP": {
@@ -107,10 +115,14 @@
     {
       "slug": "FrankSinatra",
       "short": "FrankSin",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Frank Sinatra: eerie trebly clean arpeggio",
           "mods": {
             "AMP": {
@@ -155,6 +167,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Frank Sinatra: distorted mariachi-style lead",
           "mods": {
             "AMP": {
@@ -212,10 +226,14 @@
     {
       "slug": "ComfortEagle",
       "short": "ComftEgl",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Comfort Eagle: driving trebly clean-crunch riff",
           "mods": {
             "AMP": {
@@ -259,6 +277,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Comfort Eagle: biting crunch lead",
           "mods": {
             "AMP": {

@@ -1,13 +1,19 @@
 {
   "name": "Deafheaven",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "DreamHouse",
       "short": "DreamHse",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Dream House: tremolo-picked black-metal wall + reverb",
           "mods": {
             "AMP": {
@@ -62,6 +68,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Dream House: soaring shimmering lead over the wall",
           "mods": {
             "AMP": {
@@ -118,10 +126,14 @@
     {
       "slug": "Sunbather",
       "short": "Sunbathr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sunbather: euphoric tremolo wall + huge reverb",
           "mods": {
             "AMP": {
@@ -178,10 +190,14 @@
     {
       "slug": "BabyBlue",
       "short": "BabyBlue",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Baby Blue: chiming shoegaze clean bed",
           "mods": {
             "AMP": {
@@ -246,6 +262,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Baby Blue: cathartic tremolo lead wall",
           "mods": {
             "AMP": {
@@ -302,10 +320,14 @@
     {
       "slug": "CanaryYellow",
       "short": "CanaryYl",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Canary Yellow: swelling post-rock tremolo build",
           "mods": {
             "AMP": {
@@ -360,6 +382,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Canary Yellow: radiant soaring lead",
           "mods": {
             "AMP": {

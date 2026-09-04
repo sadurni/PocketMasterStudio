@@ -1,13 +1,19 @@
 {
   "name": "Kino",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "ZvezdaSolntse",
       "short": "ZvezdaS",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Zvezda po imeni Solntse (A Star Called Sun): iconic chorus riff",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Zvezda po imeni Solntse: signature melodic lead",
           "mods": {
             "AMP": {
@@ -103,10 +111,14 @@
     {
       "slug": "GruppaKrovi",
       "short": "GruppaKr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gruppa krovi (Blood Type): anthemic chorus crunch riff",
           "mods": {
             "AMP": {
@@ -159,6 +171,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gruppa krovi: heroic melodic lead",
           "mods": {
             "AMP": {
@@ -223,10 +237,14 @@
     {
       "slug": "KonchitsyaLeto",
       "short": "KonchLet",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Konchitsya leto (Summer Will End): chorused new-wave clean",
           "mods": {
             "AMP": {
@@ -278,6 +296,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Konchitsya leto: melodic chorused lead line",
           "mods": {
             "AMP": {
@@ -341,10 +361,14 @@
     {
       "slug": "SpokoynayaNoch",
       "short": "SpokNoch",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Spokoynaya noch (Quiet Night): atmospheric chorus clean",
           "mods": {
             "AMP": {
@@ -396,6 +420,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Spokoynaya noch: melancholic soaring lead",
           "mods": {
             "AMP": {

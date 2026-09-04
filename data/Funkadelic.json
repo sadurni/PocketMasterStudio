@@ -1,13 +1,19 @@
 {
   "name": "Funkadelic",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "OneNationGroove",
       "short": "OneNatn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "One Nation Under a Groove: funky wah clean-crunch riff",
           "mods": {
             "AMP": {
@@ -62,6 +68,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "One Nation Under a Groove: funky wah lead",
           "mods": {
             "AMP": {
@@ -127,10 +135,14 @@
     {
       "slug": "MaggotBrain",
       "short": "MaggotBr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Maggot Brain: sparse clean chordal bed, deep reverb",
           "mods": {
             "AMP": {
@@ -182,6 +194,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Maggot Brain: transcendent weeping fuzz-wah lead",
           "mods": {
             "NR": {

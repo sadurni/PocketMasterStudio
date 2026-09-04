@@ -1,13 +1,19 @@
 {
   "name": "Iron Maiden",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "NumberOfBeast",
       "short": "NumBeast",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Number of the Beast: galloping Marshall riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Number of the Beast: harmonized twin lead + delay",
           "mods": {
             "AMP": {
@@ -115,10 +123,14 @@
     {
       "slug": "RunToTheHills",
       "short": "Run2Hill",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Run to the Hills: galloping open-chord riff",
           "mods": {
             "AMP": {
@@ -155,10 +167,14 @@
     {
       "slug": "Hallowed",
       "short": "Hallowed",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hallowed Be Thy Name: brooding clean-edge intro",
           "mods": {
             "AMP": {
@@ -193,6 +209,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hallowed Be Thy Name: epic harmonized climax solo",
           "mods": {
             "AMP": {
@@ -257,10 +275,14 @@
     {
       "slug": "ChildrenDamned",
       "short": "ChldDamn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Children of the Damned: clean arpeggio verse",
           "mods": {
             "AMP": {

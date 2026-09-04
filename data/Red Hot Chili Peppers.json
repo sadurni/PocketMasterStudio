@@ -1,13 +1,19 @@
 {
   "name": "Red Hot Chili Peppers",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "GiveItAway",
       "short": "GiveAway",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Give It Away: percussive funk single-coil scratch",
           "mods": {
             "AMP": {
@@ -62,6 +68,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Give It Away: wah-fuzz freak lead",
           "mods": {
             "AMP": {
@@ -117,10 +125,14 @@
     {
       "slug": "SuckMyKiss",
       "short": "SuckKiss",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Suck My Kiss: heavy funk-metal crunch riff",
           "mods": {
             "AMP": {
@@ -164,6 +176,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Suck My Kiss: snarling lead",
           "mods": {
             "AMP": {
@@ -209,10 +223,14 @@
     {
       "slug": "UnderTheBridge",
       "short": "UnderBrg",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Under the Bridge: chiming clean intro chords",
           "mods": {
             "AMP": {
@@ -255,6 +273,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Under the Bridge: warm melodic lead",
           "mods": {
             "AMP": {
@@ -309,10 +329,14 @@
     {
       "slug": "Californication",
       "short": "Californ",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Californication: clean single-note arpeggio riff",
           "mods": {
             "AMP": {
@@ -355,6 +379,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Californication: chorused melodic outro lead",
           "mods": {
             "AMP": {
@@ -418,10 +444,14 @@
     {
       "slug": "DarkNecessities",
       "short": "DarkNec",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Dark Necessities: funky syncopated crunch riff",
           "mods": {
             "AMP": {
@@ -476,6 +506,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Dark Necessities: melodic bluesy lead",
           "mods": {
             "AMP": {

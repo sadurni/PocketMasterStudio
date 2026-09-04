@@ -1,13 +1,19 @@
 {
   "name": "U2",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "StreetsNoName",
       "short": "Streets",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Where the Streets Have No Name: cascading dotted-8th arpeggio",
           "mods": {
             "AMP": {
@@ -59,6 +65,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Where the Streets Have No Name: soaring delayed lead",
           "mods": {
             "AMP": {
@@ -104,10 +112,14 @@
     {
       "slug": "SundayBloody",
       "short": "SundBldy",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sunday Bloody Sunday: martial AC30 chime chords",
           "mods": {
             "AMP": {
@@ -161,10 +173,14 @@
     {
       "slug": "WithOrWithout",
       "short": "WithWith",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "With or Without You: swelling infinite-sustain bed",
           "mods": {
             "AMP": {
@@ -216,6 +232,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "With or Without You: e-bow-like sustained lead",
           "mods": {
             "AMP": {
@@ -271,10 +289,14 @@
     {
       "slug": "BulletBlueSky",
       "short": "BulBlue",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bullet the Blue Sky: menacing slide-drenched crunch",
           "mods": {
             "AMP": {
@@ -318,6 +340,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bullet the Blue Sky: violent delayed slide lead",
           "mods": {
             "AMP": {
@@ -382,10 +406,14 @@
     {
       "slug": "TheFly",
       "short": "TheFly",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Fly: fuzzy industrial delayed riff",
           "mods": {
             "AMP": {
@@ -437,6 +465,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Fly: screaming fuzzed delayed lead",
           "mods": {
             "AMP": {

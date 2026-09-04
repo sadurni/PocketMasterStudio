@@ -1,0 +1,224 @@
+{
+  "name": "Rammstein",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
+  "songs": [
+    {
+      "slug": "Eifersucht",
+      "short": "Eifers",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
+      "variants": [
+        {
+          "kind": "H",
+          "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Eifersucht: tight Mesa-style high-gain rhythm with scooped mids, aggressive palm-muted attack, and minimal ambience",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 27
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 12,
+                "Tone": 66,
+                "Vol": 78
+              }
+            },
+            "AMP": {
+              "effect": "Calif DualV",
+              "enabled": true,
+              "params": {
+                "Gain": 78,
+                "Pres": 64,
+                "Vol": 86,
+                "Bass": 66,
+                "Middle": 35,
+                "Treble": 72
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 86
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 2",
+              "enabled": true,
+              "params": {
+                "100Hz": 3,
+                "500Hz": -4,
+                "1kHz": -5,
+                "3kHz": 3,
+                "6kHz": 2,
+                "Vol": 53
+              }
+            },
+            "DLY": {
+              "effect": "Pure",
+              "enabled": false,
+              "params": {
+                "Mix": 8,
+                "Time": 360,
+                "F.Back": 12
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 4,
+                "Decay": 20
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "DuHast",
+      "short": "DuHast",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
+      "variants": [
+        {
+          "kind": "R",
+          "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Du hast: tight JCM800-style crunch for the driving verse and chorus rhythm, with a boosted front end and restrained ambience",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 22
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 14,
+                "Tone": 62,
+                "Vol": 76
+              }
+            },
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 64,
+                "Pres": 58,
+                "Vol": 84,
+                "Bass": 48,
+                "Middle": 48,
+                "Treble": 68
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 86
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 2",
+              "enabled": true,
+              "params": {
+                "100Hz": 1,
+                "500Hz": -2,
+                "1kHz": -3,
+                "3kHz": 3,
+                "6kHz": 1,
+                "Vol": 52
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 5,
+                "Decay": 18
+              }
+            }
+          }
+        },
+        {
+          "kind": "H",
+          "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Du hast: saturated industrial metal rhythm with hard-gated palm mutes, focused low end, and a dry wall-of-guitars response",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 28
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 10,
+                "Tone": 66,
+                "Vol": 82
+              }
+            },
+            "AMP": {
+              "effect": "Calif DualV",
+              "enabled": true,
+              "params": {
+                "Gain": 76,
+                "Pres": 61,
+                "Vol": 87,
+                "Bass": 62,
+                "Middle": 38,
+                "Treble": 70
+              }
+            },
+            "IR": {
+              "effect": "Dual 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 88
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 2",
+              "enabled": true,
+              "params": {
+                "100Hz": 2,
+                "500Hz": -4,
+                "1kHz": -5,
+                "3kHz": 4,
+                "6kHz": 2,
+                "Vol": 54
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 4,
+                "Decay": 16
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

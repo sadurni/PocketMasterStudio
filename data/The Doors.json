@@ -1,13 +1,19 @@
 {
   "name": "The Doors",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "LightMyFire",
       "short": "LightFir",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Light My Fire: bright organ-doubling clean chords",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Light My Fire: modal jazzy extended lead",
           "mods": {
             "AMP": {
@@ -104,10 +112,14 @@
     {
       "slug": "BreakOnThrough",
       "short": "BreakThr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Break On Through: bossa-nova clean-edge riff",
           "mods": {
             "AMP": {
@@ -150,6 +162,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Break On Through: biting bottleneck lead",
           "mods": {
             "AMP": {
@@ -204,10 +218,14 @@
     {
       "slug": "SpanishCaravan",
       "short": "SpanCarv",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Spanish Caravan: flamenco nylon-style clean",
           "mods": {
             "AMP": {
@@ -252,6 +270,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Spanish Caravan: dramatic flamenco-rock lead",
           "mods": {
             "AMP": {
@@ -297,10 +317,14 @@
     {
       "slug": "RoadhouseBlues",
       "short": "Roadhous",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Roadhouse Blues: rollicking boogie clean-crunch riff",
           "mods": {
             "AMP": {
@@ -344,6 +368,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Roadhouse Blues: greasy bottleneck lead",
           "mods": {
             "AMP": {
@@ -398,10 +424,14 @@
     {
       "slug": "TheEnd",
       "short": "TheEnd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The End: raga-drone clean chordal bed",
           "mods": {
             "AMP": {

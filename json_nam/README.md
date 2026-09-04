@@ -14,61 +14,66 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 1 | AC/DC | 3 | 5 | 46-50 | `AC-DC.json` |
 | 2 | Alice in Chains | 5 | 9 | 42-50 | `Alice in Chains.json` |
 | 3 | Black Sabbath | 5 | 8 | 43-50 | `Black Sabbath.json` |
-| 4 | Bruce Springsteen | 5 | 7 | 44-50 | `Bruce Springsteen.json` |
-| 5 | Cake | 3 | 6 | 45-50 | `Cake.json` |
-| 6 | Carlos Santana | 1 | 1 | 50-50 | `Carlos Santana.json` |
-| 7 | Chris Isaak | 4 | 7 | 44-50 | `Chris Isaak.json` |
-| 8 | Corrosion of Conformity | 4 | 7 | 44-50 | `Corrosion of Conformity.json` |
-| 9 | Creedence Clearwater Revival | 4 | 7 | 44-50 | `Creedence Clearwater Revival.json` |
-| 10 | Deafheaven | 4 | 7 | 44-50 | `Deafheaven.json` |
-| 11 | Dire Straits | 4 | 8 | 43-50 | `Dire Straits.json` |
-| 12 | Eagles | 4 | 7 | 44-50 | `Eagles.json` |
-| 13 | Faces | 4 | 6 | 45-50 | `Faces.json` |
-| 14 | Fear Factory | 3 | 6 | 45-50 | `Fear Factory.json` |
-| 15 | Fleetwood Mac | 5 | 9 | 42-50 | `Fleetwood Mac.json` |
-| 16 | Funkadelic | 2 | 4 | 47-50 | `Funkadelic.json` |
-| 17 | George Harrison | 4 | 7 | 44-50 | `George Harrison.json` |
-| 18 | Guns N' Roses | 5 | 15 | 36-50 | `Guns N' Roses.json` |
-| 19 | Heroes del Silencio | 4 | 8 | 43-50 | `Heroes del Silencio.json` |
-| 20 | Iron Maiden | 4 | 6 | 45-50 | `Iron Maiden.json` |
-| 21 | Jeff Buckley | 5 | 8 | 43-50 | `Jeff Buckley.json` |
-| 22 | Jimi Hendrix | 7 | 14 | 37-50 | `Jimi Hendrix.json` |
-| 23 | Joe Satriani | 5 | 11 | 40-50 | `Joe Satriani.json` |
-| 24 | Kino | 4 | 8 | 43-50 | `Kino.json` |
-| 25 | Kyuss | 5 | 8 | 43-50 | `Kyuss.json` |
-| 26 | Led Zeppelin | 6 | 9 | 42-50 | `Led Zeppelin.json` |
-| 27 | Lenny Kravitz | 5 | 10 | 41-50 | `Lenny Kravitz.json` |
-| 28 | Metallica | 4 | 9 | 42-50 | `Metallica.json` |
-| 29 | Mike Oldfield | 5 | 8 | 43-50 | `Mike Oldfield.json` |
-| 30 | Muse | 5 | 10 | 41-50 | `Muse.json` |
-| 31 | Neil Young | 5 | 8 | 43-50 | `Neil Young.json` |
-| 32 | Nirvana | 5 | 6 | 45-50 | `Nirvana.json` |
-| 33 | Pearl Jam | 5 | 8 | 43-50 | `Pearl Jam.json` |
-| 34 | Pink Floyd | 5 | 14 | 37-50 | `Pink Floyd.json` |
-| 35 | Queen | 7 | 21 | 30-50 | `Queen.json` |
-| 36 | Queens of the Stone Age | 5 | 9 | 42-50 | `Queens of the Stone Age.json` |
-| 37 | Radiohead | 5 | 8 | 43-50 | `Radiohead.json` |
-| 38 | Red Hot Chili Peppers | 5 | 10 | 41-50 | `Red Hot Chili Peppers.json` |
-| 39 | Robert Plant | 5 | 10 | 41-50 | `Robert Plant.json` |
-| 40 | Scorpions | 5 | 6 | 45-50 | `Scorpions.json` |
-| 41 | Sigur Ros | 4 | 8 | 43-50 | `Sigur Ros.json` |
-| 42 | Soundgarden | 5 | 8 | 43-50 | `Soundgarden.json` |
-| 43 | Steve Vai | 5 | 11 | 40-50 | `Steve Vai.json` |
-| 44 | The Afghan Whigs | 4 | 7 | 44-50 | `The Afghan Whigs.json` |
-| 45 | The Alan Parsons Project | 4 | 8 | 43-50 | `The Alan Parsons Project.json` |
-| 46 | The Black Crowes | 5 | 7 | 44-50 | `The Black Crowes.json` |
-| 47 | The Cure | 5 | 9 | 42-50 | `The Cure.json` |
-| 48 | The Doors | 5 | 9 | 42-50 | `The Doors.json` |
-| 49 | The Jayhawks | 4 | 7 | 44-50 | `The Jayhawks.json` |
-| 50 | The Rolling Stones | 5 | 7 | 44-50 | `The Rolling Stones.json` |
-| 51 | The Smashing Pumpkins | 5 | 8 | 43-50 | `The Smashing Pumpkins.json` |
-| 52 | Thin Lizzy | 1 | 2 | 49-50 | `Thin Lizzy.json` |
-| 53 | U2 | 5 | 9 | 42-50 | `U2.json` |
-| 54 | Urge Overkill | 4 | 7 | 44-50 | `Urge Overkill.json` |
-| 55 | Van Halen | 6 | 8 | 43-50 | `Van Halen.json` |
-| 56 | Van Morrison | 4 | 7 | 44-50 | `Van Morrison.json` |
+| 4 | Blind Melon | 2 | 5 | 46-50 | `Blind Melon.json` |
+| 5 | Bruce Springsteen | 5 | 7 | 44-50 | `Bruce Springsteen.json` |
+| 6 | Cake | 3 | 6 | 45-50 | `Cake.json` |
+| 7 | Carlos Santana | 1 | 1 | 50-50 | `Carlos Santana.json` |
+| 8 | Chris Isaak | 4 | 7 | 44-50 | `Chris Isaak.json` |
+| 9 | Corrosion of Conformity | 4 | 7 | 44-50 | `Corrosion of Conformity.json` |
+| 10 | Creedence Clearwater Revival | 4 | 7 | 44-50 | `Creedence Clearwater Revival.json` |
+| 11 | Deafheaven | 4 | 7 | 44-50 | `Deafheaven.json` |
+| 12 | Dire Straits | 4 | 8 | 43-50 | `Dire Straits.json` |
+| 13 | Eagles | 4 | 7 | 44-50 | `Eagles.json` |
+| 14 | Faces | 4 | 6 | 45-50 | `Faces.json` |
+| 15 | Fear Factory | 3 | 6 | 45-50 | `Fear Factory.json` |
+| 16 | Fleetwood Mac | 5 | 9 | 42-50 | `Fleetwood Mac.json` |
+| 17 | Funkadelic | 2 | 4 | 47-50 | `Funkadelic.json` |
+| 18 | George Harrison | 4 | 7 | 44-50 | `George Harrison.json` |
+| 19 | Guns N' Roses | 5 | 15 | 36-50 | `Guns N' Roses.json` |
+| 20 | Heroes del Silencio | 4 | 8 | 43-50 | `Heroes del Silencio.json` |
+| 21 | Iron Maiden | 4 | 6 | 45-50 | `Iron Maiden.json` |
+| 22 | Jeff Buckley | 5 | 8 | 43-50 | `Jeff Buckley.json` |
+| 23 | Jimi Hendrix | 7 | 14 | 37-50 | `Jimi Hendrix.json` |
+| 24 | Joe Satriani | 5 | 11 | 40-50 | `Joe Satriani.json` |
+| 25 | King crimson | 1 | 4 | 47-50 | `King crimson.json` |
+| 26 | Kino | 4 | 8 | 43-50 | `Kino.json` |
+| 27 | Kyuss | 5 | 8 | 43-50 | `Kyuss.json` |
+| 28 | Led Zeppelin | 6 | 9 | 42-50 | `Led Zeppelin.json` |
+| 29 | Lenny Kravitz | 5 | 10 | 41-50 | `Lenny Kravitz.json` |
+| 30 | Metallica | 4 | 9 | 42-50 | `Metallica.json` |
+| 31 | Mike Oldfield | 5 | 8 | 43-50 | `Mike Oldfield.json` |
+| 32 | Muse | 5 | 10 | 41-50 | `Muse.json` |
+| 33 | Neil Young | 5 | 8 | 43-50 | `Neil Young.json` |
+| 34 | Nirvana | 5 | 6 | 45-50 | `Nirvana.json` |
+| 35 | Pearl Jam | 5 | 8 | 43-50 | `Pearl Jam.json` |
+| 36 | Pink Floyd | 5 | 14 | 37-50 | `Pink Floyd.json` |
+| 37 | Queen | 7 | 21 | 30-50 | `Queen.json` |
+| 38 | Queens of the Stone Age | 5 | 9 | 42-50 | `Queens of the Stone Age.json` |
+| 39 | Radiohead | 5 | 8 | 43-50 | `Radiohead.json` |
+| 40 | Rammstein | 2 | 3 | 48-50 | `Rammstein.json` |
+| 41 | Red Hot Chili Peppers | 5 | 10 | 41-50 | `Red Hot Chili Peppers.json` |
+| 42 | Robert Plant | 5 | 10 | 41-50 | `Robert Plant.json` |
+| 43 | Scorpions | 5 | 6 | 45-50 | `Scorpions.json` |
+| 44 | Sigur Ros | 4 | 8 | 43-50 | `Sigur Ros.json` |
+| 45 | Soundgarden | 5 | 8 | 43-50 | `Soundgarden.json` |
+| 46 | Steve Vai | 5 | 11 | 40-50 | `Steve Vai.json` |
+| 47 | The Afghan Whigs | 4 | 7 | 44-50 | `The Afghan Whigs.json` |
+| 48 | The Alan Parsons Project | 4 | 8 | 43-50 | `The Alan Parsons Project.json` |
+| 49 | The Black Crowes | 6 | 12 | 39-50 | `The Black Crowes.json` |
+| 50 | The Cure | 5 | 9 | 42-50 | `The Cure.json` |
+| 51 | The Doors | 5 | 9 | 42-50 | `The Doors.json` |
+| 52 | The Jayhawks | 4 | 7 | 44-50 | `The Jayhawks.json` |
+| 53 | The Rolling Stones | 5 | 7 | 44-50 | `The Rolling Stones.json` |
+| 54 | The Smashing Pumpkins | 5 | 8 | 43-50 | `The Smashing Pumpkins.json` |
+| 55 | the who | 1 | 3 | 48-50 | `the who.json` |
+| 56 | Thin Lizzy | 1 | 2 | 49-50 | `Thin Lizzy.json` |
+| 57 | Tool | 2 | 5 | 46-50 | `Tool.json` |
+| 58 | U2 | 5 | 9 | 42-50 | `U2.json` |
+| 59 | Urge Overkill | 4 | 7 | 44-50 | `Urge Overkill.json` |
+| 60 | Van Halen | 6 | 8 | 43-50 | `Van Halen.json` |
+| 61 | Van Morrison | 4 | 7 | 44-50 | `Van Morrison.json` |
 
-**Total: 56 artists - 251 songs - 457 presets** (+ 56 packages).
+**Total: 61 artists - 260 songs - 482 presets** (+ 61 packages).
 
 ---
 
@@ -111,7 +116,17 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p50` | PlanetCv L | JCM800 | - |
 | 5 | Sweet Leaf | Hvy | `p48` | SweetLf H | JCM800 | Grey Fuzz (Muff) |
 
-### 4. Bruce Springsteen  -  slots `44-50`  -  folder `Bruce Springsteen/`
+### 4. Blind Melon  -  slots `46-50`  -  folder `Blind Melon/`
+
+| # | Song | Take | Slot | Preset | AMP | Drive |
+|---|---------|------|------|--------|-----|-------|
+| 1 | No Rain | Cln | `p46` | NoRain C | TwinCln | - |
+|  |  | Sol | `p47` | NoRain L | TwinCln | Butter OD |
+| 2 | Tones of Home | Cln | `p48` | Tones C | TwinCln | - |
+|  |  | Sol | `p49` | Tones L | TwinCln | Butter OD |
+|  |  | Rit | `p50` | Tones R | AC30 May | - |
+
+### 5. Bruce Springsteen  -  slots `44-50`  -  folder `Bruce Springsteen/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -123,7 +138,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Thunder Road | Cln | `p46` | ThndrRd C | TwinCln | - |
 |  |  | Sol | `p47` | ThndrRd L | TwinCln | - |
 
-### 5. Cake  -  slots `45-50`  -  folder `Cake/`
+### 6. Cake  -  slots `45-50`  -  folder `Cake/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -134,13 +149,13 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 3 | The Distance | Cln | `p45` | Distance C | TwinCln | - |
 |  |  | Sol | `p46` | Distance L | TwinCln | - |
 
-### 6. Carlos Santana  -  slots `50-50`  -  folder `Carlos Santana/`
+### 7. Carlos Santana  -  slots `50-50`  -  folder `Carlos Santana/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
 | 1 | Europa (Earth's Cry Heaven's Smile) | Sol | `p50` | Europa L | SoloSLO | Scream (TS) |
 
-### 7. Chris Isaak  -  slots `44-50`  -  folder `Chris Isaak/`
+### 8. Chris Isaak  -  slots `44-50`  -  folder `Chris Isaak/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -152,7 +167,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Wicked Game | Cln | `p44` | WickdGam C | TwinCln | - |
 |  |  | Sol | `p45` | WickdGam L | TwinCln | - |
 
-### 8. Corrosion of Conformity  -  slots `44-50`  -  folder `Corrosion of Conformity/`
+### 9. Corrosion of Conformity  -  slots `44-50`  -  folder `Corrosion of Conformity/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -164,7 +179,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Vote with a Bullet | Hvy | `p44` | VoteBull H | JCM800 | Scream (TS) |
 |  |  | Sol | `p45` | VoteBull L | JCM800 | Scream (TS) |
 
-### 9. Creedence Clearwater Revival  -  slots `44-50`  -  folder `Creedence Clearwater Revival/`
+### 10. Creedence Clearwater Revival  -  slots `44-50`  -  folder `Creedence Clearwater Revival/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -176,7 +191,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Green River | Rit | `p48` | GreenRiv R | TwinCln | - |
 |  |  | Sol | `p49` | GreenRiv L | TwinCln | - |
 
-### 10. Deafheaven  -  slots `44-50`  -  folder `Deafheaven/`
+### 11. Deafheaven  -  slots `44-50`  -  folder `Deafheaven/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -188,7 +203,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p45` | DreamHse L | SoloSLO | Scream (TS) |
 | 4 | Sunbather | Hvy | `p46` | Sunbathr H | SoloSLO | Scream (TS) |
 
-### 11. Dire Straits  -  slots `43-50`  -  folder `Dire Straits/`
+### 12. Dire Straits  -  slots `43-50`  -  folder `Dire Straits/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -201,7 +216,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Sultans of Swing | Cln | `p43` | Sultans C | TwinCln | - |
 |  |  | Sol | `p44` | Sultans L | TwinCln | - |
 
-### 12. Eagles  -  slots `44-50`  -  folder `Eagles/`
+### 13. Eagles  -  slots `44-50`  -  folder `Eagles/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -213,7 +228,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p49` | NewKid L | TwinCln | Scream (TS) |
 | 4 | The Last Resort | Sol | `p50` | LastRsrt L | JCM800 | Scream (TS) |
 
-### 13. Faces  -  slots `45-50`  -  folder `Faces/`
+### 14. Faces  -  slots `45-50`  -  folder `Faces/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -224,7 +239,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Stay with Me | Rit | `p45` | StayWith R | Plexi | - |
 |  |  | Sol | `p46` | StayWith L | Plexi | - |
 
-### 14. Fear Factory  -  slots `45-50`  -  folder `Fear Factory/`
+### 15. Fear Factory  -  slots `45-50`  -  folder `Fear Factory/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -235,7 +250,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 3 | Replica | Sol | `p47` | Replica L | TwinCln | - |
 |  |  | Hvy | `p48` | Replica H | SoloSLO | Scream (TS) |
 
-### 15. Fleetwood Mac  -  slots `42-50`  -  folder `Fleetwood Mac/`
+### 16. Fleetwood Mac  -  slots `42-50`  -  folder `Fleetwood Mac/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -249,7 +264,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | The Chain | Rit | `p44` | TheChain R | TwinCln | - |
 |  |  | Sol | `p45` | TheChain L | Plexi | Scream (TS) |
 
-### 16. Funkadelic  -  slots `47-50`  -  folder `Funkadelic/`
+### 17. Funkadelic  -  slots `47-50`  -  folder `Funkadelic/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -258,7 +273,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 2 | One Nation Under a Groove | Rit | `p47` | OneNatn R | TwinCln | Scream (TS) |
 |  |  | Sol | `p48` | OneNatn L | JCM800 | Scream (TS) |
 
-### 17. George Harrison  -  slots `44-50`  -  folder `George Harrison/`
+### 18. George Harrison  -  slots `44-50`  -  folder `George Harrison/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -270,7 +285,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | What Is Life | Rit | `p46` | WhatLife R | JCM800 | Scream (TS) |
 |  |  | Sol | `p47` | WhatLife L | JCM800 | Scream (TS) |
 
-### 18. Guns N' Roses  -  slots `36-50`  -  folder `Guns N' Roses/`
+### 19. Guns N' Roses  -  slots `36-50`  -  folder `Guns N' Roses/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -290,7 +305,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Welcome to the Jungle | Hvy | `p40` | Jungle H | JCM800 | Boost (tr.boost) |
 |  |  | Sol | `p41` | Jungle L | JCM800 | - |
 
-### 19. Heroes del Silencio  -  slots `43-50`  -  folder `Heroes del Silencio/`
+### 20. Heroes del Silencio  -  slots `43-50`  -  folder `Heroes del Silencio/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -303,7 +318,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Maldito duende | Cln | `p47` | MaldDuen C | TwinCln | - |
 |  |  | Sol | `p48` | MaldDuen L | JCM800 | Scream (TS) |
 
-### 20. Iron Maiden  -  slots `45-50`  -  folder `Iron Maiden/`
+### 21. Iron Maiden  -  slots `45-50`  -  folder `Iron Maiden/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -314,7 +329,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | The Number of the Beast | Hvy | `p45` | NumBeast H | JCM800 | Boost (tr.boost) |
 |  |  | Sol | `p46` | NumBeast L | JCM800 | Boost (tr.boost) |
 
-### 21. Jeff Buckley  -  slots `43-50`  -  folder `Jeff Buckley/`
+### 22. Jeff Buckley  -  slots `43-50`  -  folder `Jeff Buckley/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -327,7 +342,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Lover, You Should've Come Over | Sol | `p47` | LoverU L | JCM800 | Scream (TS) |
 | 5 | So Real | Sol | `p50` | SoReal L | JCM800 | Grey Fuzz (Muff) |
 
-### 22. Jimi Hendrix  -  slots `37-50`  -  folder `Jimi Hendrix/`
+### 23. Jimi Hendrix  -  slots `37-50`  -  folder `Jimi Hendrix/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -346,7 +361,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 7 | Voodoo Child (Slight Return) | Rit | `p43` | VoodooC R | Plexi | Red Fuzz (FzFace) |
 |  |  | Sol | `p44` | VoodooC L | Plexi | Red Fuzz (FzFace) |
 
-### 23. Joe Satriani  -  slots `40-50`  -  folder `Joe Satriani/`
+### 24. Joe Satriani  -  slots `40-50`  -  folder `Joe Satriani/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -362,7 +377,16 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | SolC | `p43` | SurfingC | SoloSLO | Scream (TS) |
 | 5 | The Extremist | Sol | `p50` | Extremst L | SoloSLO | Scream (TS) |
 
-### 24. Kino  -  slots `43-50`  -  folder `Kino/`
+### 25. King crimson  -  slots `47-50`  -  folder `King crimson/`
+
+| # | Song | Take | Slot | Preset | AMP | Drive |
+|---|---------|------|------|--------|-----|-------|
+| 1 | Three of a Perfect Pair | Cln | `p47` | 3Pair C | TwinCln | - |
+|  |  | Sol | `p48` | 3Pair L | TwinCln | Scream (TS) |
+|  |  | Hvy | `p49` | 3Pair H | TwinCln | Red Fuzz (FzFace) |
+|  |  | Sol2 | `p50` | 3Pair L2 | TwinCln | Red Fuzz (FzFace) |
+
+### 26. Kino  -  slots `43-50`  -  folder `Kino/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -375,7 +399,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Zvezda po imeni Solntse (A Star Called Sun) | Rit | `p43` | ZvezdaS R | TwinCln | - |
 |  |  | Sol | `p44` | ZvezdaS L | TwinCln | - |
 
-### 25. Kyuss  -  slots `43-50`  -  folder `Kyuss/`
+### 27. Kyuss  -  slots `43-50`  -  folder `Kyuss/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -388,7 +412,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Space Cadet | Cln | `p48` | SpaceCdt C | TwinCln | - |
 |  |  | Sol | `p49` | SpaceCdt L | JCM800 | Scream (TS) |
 
-### 26. Led Zeppelin  -  slots `42-50`  -  folder `Led Zeppelin/`
+### 28. Led Zeppelin  -  slots `42-50`  -  folder `Led Zeppelin/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -402,7 +426,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 6 | Whole Lotta Love | Rit | `p42` | WholLotL R | Plexi | - |
 |  |  | Sol | `p43` | WholLotL L | Plexi | - |
 
-### 27. Lenny Kravitz  -  slots `41-50`  -  folder `Lenny Kravitz/`
+### 29. Lenny Kravitz  -  slots `41-50`  -  folder `Lenny Kravitz/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -417,7 +441,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Let Love Rule | Cln | `p45` | LoveRule C | Plexi | - |
 |  |  | Sol | `p46` | LoveRule L | Plexi | Red Fuzz (FzFace) |
 
-### 28. Metallica  -  slots `42-50`  -  folder `Metallica/`
+### 30. Metallica  -  slots `42-50`  -  folder `Metallica/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -431,7 +455,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Hvy | `p49` | DayTDC H | JCM800 | Scream (TS) |
 |  |  | Sol2 | `p50` | DayTDC L2 | SoloSLO | Scream (TS) |
 
-### 29. Mike Oldfield  -  slots `43-50`  -  folder `Mike Oldfield/`
+### 31. Mike Oldfield  -  slots `43-50`  -  folder `Mike Oldfield/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -444,7 +468,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p44` | Muse L | JCM800 | Scream (TS) |
 | 5 | Out of Sight | Rit | `p48` | OutSight R | JCM800 | Scream (TS) |
 
-### 30. Muse  -  slots `41-50`  -  folder `Muse/`
+### 32. Muse  -  slots `41-50`  -  folder `Muse/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -459,7 +483,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Stockholm Syndrome | Hvy | `p47` | Stockhlm H | SoloSLO | Grey Fuzz (Muff) |
 |  |  | Sol | `p48` | Stockhlm L | SoloSLO | Grey Fuzz (Muff) |
 
-### 31. Neil Young  -  slots `43-50`  -  folder `Neil Young/`
+### 33. Neil Young  -  slots `43-50`  -  folder `Neil Young/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -472,7 +496,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Like a Hurricane | Cln | `p47` | LikeHurr C | TwinCln | - |
 | 5 | Rockin' in the Free World | Rit | `p50` | FreeWrld R | TwinCln | Scream (TS) |
 
-### 32. Nirvana  -  slots `45-50`  -  folder `Nirvana/`
+### 34. Nirvana  -  slots `45-50`  -  folder `Nirvana/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -483,7 +507,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p46` | TeenSpir L | JCM800 | Shark (DS-1) |
 | 5 | Territorial Pissings | Hvy | `p50` | TerritPs H | JCM800 | Shark (DS-1) |
 
-### 33. Pearl Jam  -  slots `43-50`  -  folder `Pearl Jam/`
+### 35. Pearl Jam  -  slots `43-50`  -  folder `Pearl Jam/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -496,7 +520,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Once | Hvy | `p48` | Once H | JCM800 | Boost (tr.boost) |
 |  |  | Sol | `p49` | Once L | JCM800 | Scream (TS) |
 
-### 34. Pink Floyd  -  slots `37-50`  -  folder `Pink Floyd/`
+### 36. Pink Floyd  -  slots `37-50`  -  folder `Pink Floyd/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -515,7 +539,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | SolB | `p39` | WishWereB | TwinCln | Scream (TS) |
 |  |  | SolC | `p40` | WishWereC | TwinCln | Scream (TS) |
 
-### 35. Queen  -  slots `30-50`  -  folder `Queen/`
+### 37. Queen  -  slots `30-50`  -  folder `Queen/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -541,7 +565,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | SolB | `p45` | WhoLiveB | AC30 May | Boost (tr.boost) |
 |  |  | SolC | `p46` | WhoLiveC | AC30 May | Boost (tr.boost) |
 
-### 36. Queens of the Stone Age  -  slots `42-50`  -  folder `Queens of the Stone Age/`
+### 38. Queens of the Stone Age  -  slots `42-50`  -  folder `Queens of the Stone Age/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -555,7 +579,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p43` | RegJohn L | JCM800 | Grey Fuzz (Muff) |
 | 5 | Smooth Sailing | Rit | `p50` | SmoothSl R | JCM800 | Scream (TS) |
 
-### 37. Radiohead  -  slots `43-50`  -  folder `Radiohead/`
+### 39. Radiohead  -  slots `43-50`  -  folder `Radiohead/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -568,7 +592,15 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | The Bends | Rit | `p45` | TheBends R | JCM800 | Scream (TS) |
 |  |  | Sol | `p46` | TheBends L | JCM800 | Scream (TS) |
 
-### 38. Red Hot Chili Peppers  -  slots `41-50`  -  folder `Red Hot Chili Peppers/`
+### 40. Rammstein  -  slots `48-50`  -  folder `Rammstein/`
+
+| # | Song | Take | Slot | Preset | AMP | Drive |
+|---|---------|------|------|--------|-----|-------|
+| 1 | Du hast | Rit | `p49` | DuHast R | JCM800 | Scream (TS) |
+|  |  | Hvy | `p50` | DuHast H | SoloSLO | Scream (TS) |
+| 2 | Eifersucht | Hvy | `p48` | Eifers H | SoloSLO | Scream (TS) |
+
+### 41. Red Hot Chili Peppers  -  slots `41-50`  -  folder `Red Hot Chili Peppers/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -583,7 +615,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Under the Bridge | Cln | `p45` | UnderBrg C | TwinCln | - |
 |  |  | Sol | `p46` | UnderBrg L | JCM800 | Scream (TS) |
 
-### 39. Robert Plant  -  slots `41-50`  -  folder `Robert Plant/`
+### 42. Robert Plant  -  slots `41-50`  -  folder `Robert Plant/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -598,7 +630,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Ship of Fools | Cln | `p47` | ShipFool C | TwinCln | - |
 |  |  | Sol | `p48` | ShipFool L | JCM800 | Scream (TS) |
 
-### 40. Scorpions  -  slots `45-50`  -  folder `Scorpions/`
+### 43. Scorpions  -  slots `45-50`  -  folder `Scorpions/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -609,7 +641,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Still Loving You | Cln | `p50` | StilLov C | TwinCln | - |
 | 5 | The Zoo | Rit | `p48` | TheZoo R | JCM800 | - |
 
-### 41. Sigur Ros  -  slots `43-50`  -  folder `Sigur Ros/`
+### 44. Sigur Ros  -  slots `43-50`  -  folder `Sigur Ros/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -622,7 +654,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Svefn-g-englar | Cln | `p43` | Svefn C | TwinCln | - |
 |  |  | Sol | `p44` | Svefn L | JCM800 | Grey Fuzz (Muff) |
 
-### 42. Soundgarden  -  slots `43-50`  -  folder `Soundgarden/`
+### 45. Soundgarden  -  slots `43-50`  -  folder `Soundgarden/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -635,7 +667,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p48` | SlavesBd L | JCM800 | Grey Fuzz (Muff) |
 | 5 | Superunknown | Sol | `p50` | Superunk L | JCM800 | Grey Fuzz (Muff) |
 
-### 43. Steve Vai  -  slots `40-50`  -  folder `Steve Vai/`
+### 46. Steve Vai  -  slots `40-50`  -  folder `Steve Vai/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -651,7 +683,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | SolC | `p50` | TendSurrC | SoloSLO | Scream (TS) |
 | 5 | The Attitude Song | Sol | `p46` | Attitude L | SoloSLO | Scream (TS) |
 
-### 44. The Afghan Whigs  -  slots `44-50`  -  folder `The Afghan Whigs/`
+### 47. The Afghan Whigs  -  slots `44-50`  -  folder `The Afghan Whigs/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -663,7 +695,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Honky's Ladder | Hvy | `p48` | HonkysLd H | JCM800 | Grey Fuzz (Muff) |
 |  |  | Sol | `p49` | HonkysLd L | JCM800 | Grey Fuzz (Muff) |
 
-### 45. The Alan Parsons Project  -  slots `43-50`  -  folder `The Alan Parsons Project/`
+### 48. The Alan Parsons Project  -  slots `43-50`  -  folder `The Alan Parsons Project/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -676,19 +708,24 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Silence and I | Cln | `p47` | SilenceI C | TwinCln | - |
 |  |  | Sol | `p48` | SilenceI L | JCM800 | Scream (TS) |
 
-### 46. The Black Crowes  -  slots `44-50`  -  folder `The Black Crowes/`
+### 49. The Black Crowes  -  slots `39-50`  -  folder `The Black Crowes/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
-| 1 | Hotel Illness | Rit | `p48` | HotelIll R | Plexi | - |
-| 2 | No Speak No Slave | Hvy | `p50` | NoSpeak H | Plexi | - |
-| 3 | She Talks to Angels | Cln | `p46` | SheTalks C | TwinCln | - |
-|  |  | Sol | `p47` | SheTalks L | Plexi | - |
-| 4 | Thorn in My Pride | Sol | `p49` | ThornPrd L | Plexi | Scream (TS) |
-| 5 | Twice as Hard | Rit | `p44` | Twice2Hd R | Plexi | - |
-|  |  | Sol | `p45` | Twice2Hd L | Plexi | - |
+| 1 | Hotel Illness | Rit | `p43` | HotelIll R | Plexi | - |
+| 2 | No Speak No Slave | Hvy | `p45` | NoSpeak H | Plexi | - |
+| 3 | She Talks to Angels | Cln | `p41` | SheTalks C | TwinCln | - |
+|  |  | Sol | `p42` | SheTalks L | Plexi | - |
+| 4 | Sting Me | Cln | `p46` | StingMe C | AC30 May | - |
+|  |  | Sol | `p47` | StingMe L | Plexi | Scream (TS) |
+|  |  | Rit | `p48` | StingMe R | Plexi | - |
+|  |  | Hvy | `p49` | StingMe H | JCM800 | Scream (TS) |
+|  |  | Sol2 | `p50` | StingMe L2 | JCM800 | Scream (TS) |
+| 5 | Thorn in My Pride | Sol | `p44` | ThornPrd L | Plexi | Scream (TS) |
+| 6 | Twice as Hard | Rit | `p39` | Twice2Hd R | Plexi | - |
+|  |  | Sol | `p40` | Twice2Hd L | Plexi | - |
 
-### 47. The Cure  -  slots `42-50`  -  folder `The Cure/`
+### 50. The Cure  -  slots `42-50`  -  folder `The Cure/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -702,7 +739,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Pictures of You | Cln | `p48` | PictsYou C | TwinCln | - |
 |  |  | Sol | `p49` | PictsYou L | TwinCln | - |
 
-### 48. The Doors  -  slots `42-50`  -  folder `The Doors/`
+### 51. The Doors  -  slots `42-50`  -  folder `The Doors/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -716,7 +753,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 |  |  | Sol | `p47` | SpanCarv L | TwinCln | Scream (TS) |
 | 5 | The End | Cln | `p50` | TheEnd C | TwinCln | - |
 
-### 49. The Jayhawks  -  slots `44-50`  -  folder `The Jayhawks/`
+### 52. The Jayhawks  -  slots `44-50`  -  folder `The Jayhawks/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -728,7 +765,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Trouble | Rit | `p48` | Trouble R | AC30 May | Grey Fuzz (Muff) |
 |  |  | Sol | `p49` | Trouble L | AC30 May | Grey Fuzz (Muff) |
 
-### 50. The Rolling Stones  -  slots `44-50`  -  folder `The Rolling Stones/`
+### 53. The Rolling Stones  -  slots `44-50`  -  folder `The Rolling Stones/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -740,7 +777,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Paint It Black | Cln | `p47` | PaintBlk C | TwinCln | - |
 |  |  | Sol | `p48` | PaintBlk L | TwinCln | - |
 
-### 51. The Smashing Pumpkins  -  slots `43-50`  -  folder `The Smashing Pumpkins/`
+### 54. The Smashing Pumpkins  -  slots `43-50`  -  folder `The Smashing Pumpkins/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -753,14 +790,32 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | Today | Cln | `p45` | Today C | TwinCln | - |
 |  |  | Sol | `p46` | Today L | JCM800 | Grey Fuzz (Muff) |
 
-### 52. Thin Lizzy  -  slots `49-50`  -  folder `Thin Lizzy/`
+### 55. the who  -  slots `48-50`  -  folder `the who/`
+
+| # | Song | Take | Slot | Preset | AMP | Drive |
+|---|---------|------|------|--------|-----|-------|
+| 1 | The Real Me | Cln | `p48` | RealMe C | Plexi | - |
+|  |  | Hvy | `p49` | RealMe H | Plexi | Scream (TS) |
+|  |  | Sol | `p50` | RealMe L | Plexi | Scream (TS) |
+
+### 56. Thin Lizzy  -  slots `49-50`  -  folder `Thin Lizzy/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
 | 1 | Whiskey in the Jar | Rit | `p49` | Whiskey R | Plexi | - |
 |  |  | Sol | `p50` | Whiskey L | Plexi | Boost (tr.boost) |
 
-### 53. U2  -  slots `42-50`  -  folder `U2/`
+### 57. Tool  -  slots `46-50`  -  folder `Tool/`
+
+| # | Song | Take | Slot | Preset | AMP | Drive |
+|---|---------|------|------|--------|-----|-------|
+| 1 | Fear Inoculum | Cln | `p48` | Fear C | TwinCln | - |
+|  |  | Sol | `p49` | Fear L | SoloSLO | Scream (TS) |
+|  |  | Hvy | `p50` | Fear H | SoloSLO | Scream (TS) |
+| 2 | Schism | Cln | `p46` | Schism C | TwinCln | - |
+|  |  | Hvy | `p47` | Schism H | SoloSLO | Scream (TS) |
+
+### 58. U2  -  slots `42-50`  -  folder `U2/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -774,7 +829,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 5 | With or Without You | Cln | `p45` | WithWith C | AC30 May | - |
 |  |  | Sol | `p46` | WithWith L | AC30 May | - |
 
-### 54. Urge Overkill  -  slots `44-50`  -  folder `Urge Overkill/`
+### 59. Urge Overkill  -  slots `44-50`  -  folder `Urge Overkill/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -786,7 +841,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 4 | Sister Havana | Rit | `p44` | SistHav R | JCM800 | Scream (TS) |
 |  |  | Sol | `p45` | SistHav L | JCM800 | Scream (TS) |
 
-### 55. Van Halen  -  slots `43-50`  -  folder `Van Halen/`
+### 60. Van Halen  -  slots `43-50`  -  folder `Van Halen/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|
@@ -799,7 +854,7 @@ Presets by **artist/song** to reproduce the guitar style of each track. Each son
 | 6 | You Really Got Me | Rit | `p49` | ReallyGK R | Plexi | - |
 |  |  | Sol | `p50` | ReallyGK L | Plexi | - |
 
-### 56. Van Morrison  -  slots `44-50`  -  folder `Van Morrison/`
+### 61. Van Morrison  -  slots `44-50`  -  folder `Van Morrison/`
 
 | # | Song | Take | Slot | Preset | AMP | Drive |
 |---|---------|------|------|--------|-----|-------|

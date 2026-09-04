@@ -1,13 +1,19 @@
 {
   "name": "Metallica",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "MasterOfPuppets",
       "short": "MOP",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Master of Puppets: tight down-picked scooped riff",
           "mods": {
             "NR": {
@@ -79,6 +85,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Master of Puppets: mid-forward Mesa lead",
           "mods": {
             "AMP": {
@@ -144,10 +152,14 @@
     {
       "slug": "EnterSandman",
       "short": "EntSandm",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Enter Sandman: chunky mid-scoop groove riff",
           "mods": {
             "NR": {
@@ -221,10 +233,14 @@
     {
       "slug": "NothingElse",
       "short": "NothElse",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Nothing Else Matters: fingerpicked clean arpeggio",
           "mods": {
             "AMP": {
@@ -267,6 +283,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Nothing Else Matters: melodic crying Mesa lead",
           "mods": {
             "AMP": {
@@ -330,10 +348,14 @@
     {
       "slug": "TheDayThatNeverComes",
       "short": "DayTDC",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Day That Never Comes: soft clean rhythm with a bright American-style amp, subtle chorus, warm delay, and restrained room ambience",
           "mods": {
             "NR": {
@@ -392,6 +414,8 @@
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Day That Never Comes: heavy rhythm using a boosted JCM800-style rig, tight low end, strong mids, and minimal ambience",
           "mods": {
             "NR": {
@@ -463,6 +487,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Day That Never Comes: soft melodic solo with a singing Plexi-style amp, light overdrive, focused mids, and moderate tape-like delay",
           "mods": {
             "NR": {
@@ -542,6 +568,8 @@
         {
           "kind": "L2",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Day That Never Comes: loud shred solo with a saturated Soldano-style lead amp, Tube Screamer boost, upper-mid cut, delay, and plate reverb",
           "mods": {
             "NR": {

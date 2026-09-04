@@ -1,0 +1,104 @@
+{
+  "version": "1.0",
+  "presetName": "Tones R",
+  "description": "Tones of Home: jangly edge-of-breakup Vox rhythm with restrained chorus for the broad electric guitar parts",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 10
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "COMP 1",
+      "parameters": {
+        "Sustain": 25,
+        "Vol": 52
+      }
+    },
+    "DRV": {
+      "enabled": false,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 40,
+        "Tone": 70,
+        "Vol": 50
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Voks 30N",
+      "parameters": {
+        "Gain": 42,
+        "Tone Cut": 43,
+        "Vol": 84,
+        "Bright": 1
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Voks 1x12",
+      "parameters": {
+        "Vol": 85
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -4,
+        "400Hz": -1,
+        "800Hz": 2,
+        "1.6kHz": 3,
+        "4kHz": 2,
+        "Vol": 53
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "A-Chorus",
+      "parameters": {
+        "Depth": 20,
+        "Rate": 0.7,
+        "Tone": 61
+      }
+    },
+    "DLY": {
+      "enabled": false,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 20,
+        "Time": 500,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 10,
+        "Decay": 34
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

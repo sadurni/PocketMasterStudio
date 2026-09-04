@@ -1,13 +1,19 @@
 {
   "name": "Robert Plant",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "BigLog",
       "short": "BigLog",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Big Log: slinky tremolo/chorus clean bed",
           "mods": {
             "AMP": {
@@ -69,6 +75,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Big Log: smoky melodic lead + delay",
           "mods": {
             "AMP": {
@@ -123,10 +131,14 @@
     {
       "slug": "BurningDownSide",
       "short": "BurnDown",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Burning Down One Side: angular new-wave crunch riff",
           "mods": {
             "AMP": {
@@ -180,6 +192,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Burning Down One Side: edgy lead",
           "mods": {
             "AMP": {
@@ -234,10 +248,14 @@
     {
       "slug": "Palms29",
       "short": "Palms29",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "29 Palms: sunny jangly chorus clean",
           "mods": {
             "AMP": {
@@ -300,6 +318,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "29 Palms: bright melodic lead",
           "mods": {
             "AMP": {
@@ -354,10 +374,14 @@
     {
       "slug": "ShipOfFools",
       "short": "ShipFool",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Ship of Fools: brooding atmospheric clean",
           "mods": {
             "AMP": {
@@ -411,6 +435,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Ship of Fools: aching sustained lead",
           "mods": {
             "AMP": {
@@ -465,10 +491,14 @@
     {
       "slug": "PleaseReadLetr",
       "short": "ReadLetr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Please Read the Letter: chiming folk-rock crunch",
           "mods": {
             "AMP": {
@@ -503,6 +533,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Please Read the Letter: yearning melodic lead",
           "mods": {
             "AMP": {

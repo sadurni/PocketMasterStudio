@@ -10,6 +10,9 @@ const DATA = path.join(SRC, "..", "data");
 const ROOT = path.join(SRC, "..");
 const rd = (p) => fs.readFileSync(p, "utf-8");
 const rdj = (p) => JSON.parse(rd(p));
+const PMBuild = require("./pmbuild.js");
+const PMStats = require("./pmstats.js");
+const PMChangelog = require("./pmchangelog.js");
 
 const config = rdj(path.join(DATA, "_config.json"));
 const data = {};
@@ -24,19 +27,54 @@ const prompt = (cut >= 0 ? promptMd.slice(cut + 5) : promptMd).trim();
 
 let readme = ""; try { readme = rd(path.join(SRC, "README_STUDIO.md")); } catch (e) {}
 
-// Docs (markdown) for the Docs tabs — rendered live with pmmd.
+// Optional pre-applied overrides + custom collections shipped with the project, at the repo root
+// next to data/ (overrides default to {}, collections to null = the built-in 5).
+const readOv = (f) => { try { return rdj(path.join(ROOT, f)); } catch (e) { return {}; } };
+let collections = null; try { collections = rdj(path.join(ROOT, "collections.json")); } catch (e) {}
+const factory_overrides = readOv("factory_overrides.json");
+const nam_overrides = readOv("nam_overrides.json");
+
+// Run the pipeline once so the README headline reflects the REAL generated numbers.
+const { summary, total, artistCount } = PMBuild.buildSongs(mld, config, data, factory_overrides);
+const stats = PMStats.compute({ summary, total, artistCount }, {
+  collections,
+  defaultFiles: PMBuild.defaultCollectionDefs().map((d) => d.file),
+  namCaptures: PMBuild.NAM_CAPTURES.length,
+});
+readme = PMStats.apply(readme, stats);
+
+// Advance the change history (a full regeneration counts as a complete export): stamp created/modified
+// on the data files / overrides / collections that changed, append a dated batch to changelog.json and
+// rewrite CHANGELOG.md. Optional `--since=YYYY-MM-DD` controls the window shown in the README (default:
+// the previous full export). Never happens on a plain HTML Save — only here and on the app's Export ZIP.
+const sinceArg = ((process.argv.find((a) => a.startsWith("--since=")) || "").split("=")[1] || "").trim() || null;
+const now = new Date().toISOString();
+const cl = PMChangelog.advanceOnDisk({
+  root: ROOT, dataDir: DATA, data, fov: factory_overrides, nov: nam_overrides, collections,
+  now, since: sinceArg, stringify: PMBuild.stringify,
+});
+const changelogState = cl.state;
+readme = PMChangelog.applyRecent(readme, cl.recent,
+  sinceArg ? "changes since " + sinceArg : "since the previous full export");
+
+// Persist the refreshed README (headline + recent changes) to both source copies.
+try { fs.writeFileSync(path.join(SRC, "README_STUDIO.md"), readme, "utf-8"); } catch (e) {}
+try { fs.writeFileSync(path.join(ROOT, "README.md"), readme, "utf-8"); } catch (e) {}
+console.log("README headline:", stats.artists, "artists /", stats.songs, "songs /", stats.presets,
+  "presets (" + stats.minPer + "-" + stats.maxPer + "/artist) /", stats.compilations, "built-in compilations");
+console.log("changelog:", cl.changed ? (cl.baseline ? "baseline recorded" : "batch recorded") : "no changes since last export",
+  "(" + (changelogState.batches || []).length + " batch(es) total)");
+
+// Docs (markdown) for the Docs tabs — rendered live with pmmd (README carries headline + recent changes).
 const docs = [
   { id: "readme", label: "README", md: readme },
+  { id: "changelog", label: "Changelog", md: cl.changelogMd },
   { id: "songs", label: "Representative songs", md: rd(path.join(ASSETS, "representative_songs.md")) },
   { id: "prompt-artist", label: "Artist prompt", md: rd(path.join(ASSETS, "PROMPT_Generate_Artist_Presets.md")) },
   { id: "prompt-portable", label: "Portable prompt", md: rd(path.join(ASSETS, "PROMPT_Portable_Preset_Generator.md")) },
 ];
 
-// Optional pre-applied overrides + custom collections shipped with the project, at the repo root
-// next to data/ (overrides default to {}, collections to null = the built-in 5).
-const readOv = (f) => { try { return rdj(path.join(ROOT, f)); } catch (e) { return {}; } };
-let collections = null; try { collections = rdj(path.join(ROOT, "collections.json")); } catch (e) {}
-const payload = { config, data, mld, factory, factory_overrides: readOv("factory_overrides.json"), nam_overrides: readOv("nam_overrides.json"), collections, prompt, readme, docs };
+const payload = { config, data, mld, factory, factory_overrides, nam_overrides, collections, prompt, readme, docs, changelog: changelogState };
 const raw = Buffer.from(JSON.stringify(payload), "utf-8");
 const blob = zlib.gzipSync(raw, { level: 9 }).toString("base64");
 console.log("payload raw", raw.length, "-> gzip+base64", blob.length);
@@ -69,7 +107,7 @@ const editorBlob = zlib.gzipSync(Buffer.from(editorHtml, "utf-8"), { level: 9 })
 console.log("editor stripped/patched -> gzip+base64", editorBlob.length);
 
 const inlineSafe = (js) => js.replace(/<\/(script)/gi, "<\\/$1");
-const modules = ["pmbuild.js", "pmhtml.js", "pmtabla.js", "pmmap.js", "pmmd.js", "pmedit.js", "pmzip.js"]
+const modules = ["pmbuild.js", "pmhtml.js", "pmtabla.js", "pmmap.js", "pmmd.js", "pmedit.js", "pmzip.js", "pmstats.js", "pmchangelog.js"]
   .map((f) => `<script>\n${inlineSafe(rd(path.join(HERE, f)))}\n</script>`).join("\n");
 const appJs = inlineSafe(rd(path.join(HERE, "studio_app.js")));
 
@@ -157,6 +195,26 @@ const CSS = String.raw`
  .docbar{display:flex;gap:8px;padding:10px 12px;align-items:center;border-bottom:1px solid var(--line);flex-wrap:wrap}
  .docbar .seg{display:inline-flex;gap:4px} .docbar .segright{margin-left:auto}
  .loading{padding:20px;color:var(--mut)}
+ /* Docs: left section index (desktop) / top bars menu (mobile) + rendered doc */
+ .docsview{display:flex;height:calc(100vh - 120px)}
+ .docnav{flex:0 0 244px;min-width:0;border-right:1px solid var(--line);overflow:auto;padding:10px;background:var(--bg)}
+ .docnav>select{margin-bottom:8px}
+ .docnavToggle{display:none}
+ .doctoc{display:flex;flex-direction:column;gap:1px}
+ .doctoc a{display:block;padding:5px 8px;color:var(--ink);text-decoration:none;font-size:13px;line-height:1.3;border-radius:6px}
+ .doctoc a:hover{background:var(--card2)}
+ .doctoc a.on{background:var(--acc);color:#fff}
+ .doctoc a.l3{padding-left:20px;font-size:12.5px;color:var(--mut)}
+ .doctoc a.l3.on{color:#fff}
+ .docframe{flex:1;min-width:0;border:0;background:#fff;height:100%}
+ @media(max-width:720px){
+  .docsview{flex-direction:column;height:calc(100vh - 112px)}
+  .docnav{flex:0 0 auto;border-right:0;border-bottom:1px solid var(--line);padding:8px 10px;position:sticky;top:0;z-index:6}
+  .docnav>select{margin-bottom:6px}
+  .docnavToggle{display:flex;align-items:center;justify-content:space-between;gap:8px;width:100%;background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:10px;min-height:40px;font-size:14px;font-weight:600}
+  .doctoc{display:none;margin-top:6px;max-height:44vh;overflow:auto}
+  .docnav.open .doctoc{display:flex}
+ }
  @media(max-width:560px){ h1{font-size:16px} .brand{font-size:13px} .row button{flex:1 1 100%} iframe{height:68vh} .view iframe.full{height:calc(100vh - 112px)} }
  /* short viewports (landscape phones): shrink the chrome so the listing gets the height */
  @media(max-height:520px){
@@ -165,6 +223,7 @@ const CSS = String.raw`
   .tabs{padding:4px 10px} .tab{min-height:30px;padding:5px 11px}
   .docbar{padding:4px 10px} .docbar .mini{min-height:26px}
   .view iframe.full{height:calc(100vh - 86px)} iframe.hasbar{height:calc(100vh - 90px)}
+  .docsview{height:calc(100vh - 86px)}
  }
 `;
 

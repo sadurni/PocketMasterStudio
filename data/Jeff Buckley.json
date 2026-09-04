@@ -1,13 +1,19 @@
 {
   "name": "Jeff Buckley",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Grace",
       "short": "GraceJB",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Grace: swirling chorused clean arpeggio",
           "mods": {
             "AMP": {
@@ -70,6 +76,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Grace: impassioned soaring lead",
           "mods": {
             "AMP": {
@@ -124,10 +132,14 @@
     {
       "slug": "Hallelujah",
       "short": "Hallelu",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hallelujah: delicate fingerpicked clean arpeggio",
           "mods": {
             "AMP": {
@@ -172,6 +184,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hallelujah: gossamer melodic lead",
           "mods": {
             "AMP": {
@@ -226,10 +240,14 @@
     {
       "slug": "LoverCome",
       "short": "LoverU",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Lover, You Should've Come Over: rising emotive lead",
           "mods": {
             "AMP": {
@@ -284,10 +302,14 @@
     {
       "slug": "EternalLife",
       "short": "EternLif",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Eternal Life: aggressive grunge crunch riff",
           "mods": {
             "AMP": {
@@ -331,6 +353,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Eternal Life: furious wailing lead",
           "mods": {
             "AMP": {
@@ -384,10 +408,14 @@
     {
       "slug": "SoReal",
       "short": "SoReal",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "So Real: dissonant noise-freakout lead",
           "mods": {
             "AMP": {

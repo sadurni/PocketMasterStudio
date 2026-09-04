@@ -1,13 +1,19 @@
 {
   "name": "Sigur Ros",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "SvefnGEnglar",
       "short": "Svefn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Svefn-g-englar: bowed clean swells, sonar-ping delay",
           "mods": {
             "AMP": {
@@ -63,6 +69,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Svefn-g-englar: bowed overdriven crescendo",
           "mods": {
             "AMP": {
@@ -118,10 +126,14 @@
     {
       "slug": "Hoppipolla",
       "short": "Hoppipl",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hoppipolla: uplifting bowed clean swells",
           "mods": {
             "AMP": {
@@ -177,6 +189,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hoppipolla: soaring bowed crescendo lead",
           "mods": {
             "AMP": {
@@ -232,10 +246,14 @@
     {
       "slug": "Popplagid",
       "short": "Popplag",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Popplagid: ominous bowed clean intro",
           "mods": {
             "AMP": {
@@ -291,6 +309,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Popplagid: cataclysmic distorted wall finale",
           "mods": {
             "AMP": {
@@ -346,10 +366,14 @@
     {
       "slug": "Gobbledigook",
       "short": "Gobbldg",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gobbledigook: percussive strummed acoustic-ish drive",
           "mods": {
             "AMP": {
@@ -391,6 +415,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gobbledigook: bright chiming lead accents",
           "mods": {
             "AMP": {

@@ -1,0 +1,561 @@
+{
+  "type": "PocketMasterBatch",
+  "version": "1.0",
+  "exported": "2026-08-18",
+  "artist": "Tool",
+  "count": 5,
+  "slots": "46-50",
+  "presets": [
+    {
+      "version": "1.0",
+      "presetName": "Schism C",
+      "description": "Schism: articulate lightly modulated clean rhythm for the opening arpeggios and spacious picked figures  [Sub.: solo -> Fear Inoculum]",
+      "ampMode": "Normal",
+      "presetVolume": 73,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 9
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 24,
+            "Rate": 0.3,
+            "Tone": 56
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Jazz 120",
+          "parameters": {
+            "Vol": 82,
+            "Bass": 46,
+            "Middle": 54,
+            "Treble": 62,
+            "Bright": 0
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Jazz 2x12",
+          "parameters": {
+            "Vol": 50
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": -2,
+            "400Hz": 1,
+            "800Hz": 2,
+            "1.6kHz": 3,
+            "4kHz": 2,
+            "Vol": 52
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 18,
+            "Time": 430,
+            "F.Back": 22
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 1",
+          "parameters": {
+            "Mix": 18,
+            "Decay": 36
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 46,
+      "song": "Schism",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Schism H",
+      "description": "Schism: focused Diezel-style high-gain rhythm with a tightened low end, pronounced mids, and controlled sustain  [Sub.: solo -> Fear Inoculum]",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 24
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 11,
+            "Tone": 60,
+            "Vol": 79
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dizzy VH",
+          "parameters": {
+            "Gain": 68,
+            "Pres": 56,
+            "Vol": 87,
+            "Bass": 47,
+            "Middle": 58,
+            "Treble": 66
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dizzy 4x12",
+          "parameters": {
+            "Vol": 88
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 2",
+          "parameters": {
+            "100Hz": -2,
+            "500Hz": 1,
+            "1kHz": 3,
+            "3kHz": 3,
+            "6kHz": 1,
+            "Vol": 54
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 6,
+            "Decay": 22
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 47,
+      "song": "Schism",
+      "kind": "H"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Fear C",
+      "description": "Fear Inoculum: spacious clean arpeggio using a dark Fender-style amp, light compression, subtle chorus, long analog delay, and ambient hall reverb",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 8
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 38,
+            "Attack": 58,
+            "Vol": 54,
+            "Clip": 8
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dark Twin",
+          "parameters": {
+            "Gain": 22,
+            "Vol": 82,
+            "Bass": 46,
+            "Middle": 48,
+            "Treble": 63,
+            "Bright": 1
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Double 2x12",
+          "parameters": {
+            "Vol": 86
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 2",
+          "parameters": {
+            "100Hz": -3,
+            "500Hz": 0,
+            "1kHz": 2,
+            "3kHz": 3,
+            "6kHz": -2,
+            "Vol": 52
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 20,
+            "Rate": 0.3,
+            "Tone": 57
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 30,
+            "Time": 620,
+            "F.Back": 38
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Hall",
+          "parameters": {
+            "Mix": 30,
+            "Decay": 70
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 48,
+      "song": "FearInoculum",
+      "kind": "C"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Fear L",
+      "description": "Fear Inoculum: soft melodic lead using boosted VH4 saturation, focused upper mids, subtle detune doubling, analog delay space, and sustained plate reverb",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 20
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 25,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 25,
+            "Tone": 55,
+            "Vol": 70
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dizzy VH",
+          "parameters": {
+            "Gain": 62,
+            "Pres": 48,
+            "Vol": 90,
+            "Bass": 45,
+            "Middle": 64,
+            "Treble": 55
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dizzy 4x12",
+          "parameters": {
+            "Vol": 88
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 2",
+          "parameters": {
+            "100Hz": -4,
+            "500Hz": -1,
+            "1kHz": 4,
+            "3kHz": 5,
+            "6kHz": -2,
+            "Vol": 53
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -8,
+            "Wet": 18,
+            "Dry": 82
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Analog",
+          "parameters": {
+            "Mix": 35,
+            "Time": 520,
+            "F.Back": 35
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 2",
+          "parameters": {
+            "Mix": 22,
+            "Decay": 55,
+            "Damp": 45
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 49,
+      "song": "FearInoculum",
+      "kind": "L"
+    },
+    {
+      "version": "1.0",
+      "presetName": "Fear H",
+      "description": "Fear Inoculum: tight, mid-focused Diezel VH4-style heavy rhythm with a low-gain Tube Screamer boost, controlled lows, and restrained room ambience",
+      "ampMode": "Normal",
+      "presetVolume": 30,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 28
+          }
+        },
+        "FX1": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 18,
+            "Tone": 50,
+            "Vol": 70
+          }
+        },
+        "AMP": {
+          "enabled": true,
+          "effect": "Dizzy VH",
+          "parameters": {
+            "Gain": 68,
+            "Pres": 50,
+            "Vol": 88,
+            "Bass": 42,
+            "Middle": 60,
+            "Treble": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Dizzy 4x12",
+          "parameters": {
+            "Vol": 88
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": -5,
+            "400Hz": -2,
+            "800Hz": 4,
+            "1.6kHz": 3,
+            "4kHz": -3,
+            "Vol": 50
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 30
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "slot": 50,
+      "song": "FearInoculum",
+      "kind": "H"
+    }
+  ]
+}

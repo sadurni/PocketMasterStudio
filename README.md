@@ -4,7 +4,7 @@ A **single, self-contained HTML app** that generates, edits and packages guitar 
 **Sonicake PocketMaster** pedal — everything runs in the browser, with no server and no
 dependencies. Open the file, use it, save it.
 
-- **56 artists · 251 songs · 457 presets** (1–10 per artist) + **5 built-in cross-artist
+- **61 artists · 260 songs · 482 presets** (1–21 per artist) + **5 built-in cross-artist
   compilations** (plus any you add), in **three amp sets**: **Modeled** (the tuned modeled amps),
   **Clone/NAM** (every preset on one of 5 NAM captures) and **Mixed** (the best choice per preset).
 - Everything is **generated from one embedded source of truth** (`data/`), validating every
@@ -21,6 +21,12 @@ dependencies. Open the file, use it, save it.
 > warns if anything is missing.
 
 ---
+
+## 🕘 Recent changes
+
+_changes since 2026-09-04_
+
+_Baseline established: 61 artists, 260 songs, 455 presets._
 
 ## 1. Quick start
 

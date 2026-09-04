@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "RealMe L",
+  "description": "The Real Me: singing British lead for the instrumental break with boosted mids, short echo, and room ambience",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 20
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 24,
+        "+3dB": 0,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 30,
+        "Tone": 62,
+        "Vol": 57
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": -2,
+        "800Hz": 4,
+        "1.6kHz": 4,
+        "4kHz": 2,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 18,
+        "Time": 360,
+        "F.Back": 24
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 1",
+      "parameters": {
+        "Mix": 16,
+        "Decay": 40
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "Plexi",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

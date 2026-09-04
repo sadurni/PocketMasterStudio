@@ -1,13 +1,19 @@
 {
   "name": "Kyuss",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "GreenMachine",
       "short": "GreenMch",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Green Machine: massive downtuned fuzz riff (bass amp)",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Green Machine: wailing fuzzed desert lead",
           "mods": {
             "AMP": {
@@ -103,10 +111,14 @@
     {
       "slug": "DemonCleaner",
       "short": "DemonCln",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Demon Cleaner: swaying warm fuzz riff",
           "mods": {
             "AMP": {
@@ -149,6 +161,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Demon Cleaner: soaring desert lead",
           "mods": {
             "AMP": {
@@ -202,10 +216,14 @@
     {
       "slug": "OneInchMan",
       "short": "OneInch",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "One Inch Man: punchy syncopated fuzz riff",
           "mods": {
             "AMP": {
@@ -250,10 +268,14 @@
     {
       "slug": "SpaceCadet",
       "short": "SpaceCdt",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Space Cadet: mellow acoustic-flavoured clean",
           "mods": {
             "AMP": {
@@ -296,6 +318,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Space Cadet: gentle melodic lead",
           "mods": {
             "AMP": {
@@ -350,10 +374,14 @@
     {
       "slug": "FreedomRun",
       "short": "FreedRun",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Freedom Run: extended trippy fuzz lead",
           "mods": {
             "AMP": {

@@ -1,13 +1,19 @@
 {
   "name": "Mike Oldfield",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Muse",
       "short": "Muse",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Muse: bright chorused clean melodic bed",
           "mods": {
             "AMP": {
@@ -68,6 +74,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Muse: sustaining singing melodic lead",
           "mods": {
             "AMP": {
@@ -122,10 +130,14 @@
     {
       "slug": "Cochise",
       "short": "Cochise",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cochise: driving chorused crunch riff",
           "mods": {
             "AMP": {
@@ -178,6 +190,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cochise: soaring sustained lead",
           "mods": {
             "AMP": {
@@ -232,10 +246,14 @@
     {
       "slug": "Embers",
       "short": "Embers",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Embers: gentle melodic lead",
           "mods": {
             "AMP": {
@@ -291,10 +309,14 @@
     {
       "slug": "OutOfSight",
       "short": "OutSight",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Out of Sight: bouncy chorused crunch riff",
           "mods": {
             "AMP": {
@@ -347,10 +369,14 @@
     {
       "slug": "BBlues",
       "short": "BBlues",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "B. Blues: laid-back bluesy crunch shuffle",
           "mods": {
             "AMP": {
@@ -394,6 +420,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "B. Blues: expressive bluesy lead",
           "mods": {
             "AMP": {

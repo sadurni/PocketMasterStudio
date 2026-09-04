@@ -1,13 +1,19 @@
 {
   "name": "Faces",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "StayWithMe",
       "short": "StayWith",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Stay with Me: swaggering tweed/Marshall crunch",
           "mods": {
             "AMP": {
@@ -42,6 +48,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Stay with Me: raucous slide lead",
           "mods": {
             "AMP": {
@@ -87,10 +95,14 @@
     {
       "slug": "CindyIncident",
       "short": "CindyInc",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cindy Incidentally: loose barroom tweed crunch",
           "mods": {
             "AMP": {
@@ -124,10 +136,14 @@
     {
       "slug": "OohLaLa",
       "short": "OohLaLa",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Ooh La La: jangly acoustic-flavoured clean",
           "mods": {
             "AMP": {
@@ -159,6 +175,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Ooh La La: warm melodic tweed lead",
           "mods": {
             "AMP": {
@@ -201,10 +219,14 @@
     {
       "slug": "Debris",
       "short": "Debris",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Debris: aching melodic slide lead",
           "mods": {
             "AMP": {

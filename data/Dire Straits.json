@@ -1,13 +1,19 @@
 {
   "name": "Dire Straits",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "SultansOfSwing",
       "short": "Sultans",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sultans of Swing: compressed glassy Strat clean",
           "mods": {
             "AMP": {
@@ -52,6 +58,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sultans of Swing: fluid fingerpicked lead outro",
           "mods": {
             "AMP": {
@@ -107,10 +115,14 @@
     {
       "slug": "RomeoJuliet",
       "short": "Romeo",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Romeo and Juliet: resonator-style open-tuning clean",
           "mods": {
             "AMP": {
@@ -155,6 +167,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Romeo and Juliet: tender singing lead",
           "mods": {
             "AMP": {
@@ -210,10 +224,14 @@
     {
       "slug": "MoneyForNothing",
       "short": "Money4N",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Money for Nothing: dark mid-humped LP crunch riff",
           "mods": {
             "AMP": {
@@ -260,6 +278,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Money for Nothing: fat mid-humped lead",
           "mods": {
             "AMP": {
@@ -317,10 +337,14 @@
     {
       "slug": "BrothersInArms",
       "short": "BrothArm",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brothers in Arms: atmospheric clean swells",
           "mods": {
             "AMP": {
@@ -365,6 +389,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brothers in Arms: warm compressed crying lead",
           "mods": {
             "AMP": {

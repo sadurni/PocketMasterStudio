@@ -1,13 +1,19 @@
 {
   "name": "Jimi Hendrix",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "PurpleHaze",
       "short": "PurplHz",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Purple Haze: fuzzed Plexi riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Purple Haze: Octavia-fuzz lead",
           "mods": {
             "AMP": {
@@ -105,10 +113,14 @@
     {
       "slug": "HeyJoe",
       "short": "HeyJoe",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hey Joe: clean-edge Plexi arpeggio chords",
           "mods": {
             "AMP": {
@@ -144,6 +156,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hey Joe: fluid fuzzed lead",
           "mods": {
             "AMP": {
@@ -189,10 +203,14 @@
     {
       "slug": "LittleWing",
       "short": "LittlWng",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Little Wing: Leslie/vibe clean chord melody",
           "mods": {
             "AMP": {
@@ -244,6 +262,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Little Wing: vibe-drenched melodic lead",
           "mods": {
             "AMP": {
@@ -298,10 +318,14 @@
     {
       "slug": "VoodooChild",
       "short": "VoodooC",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Voodoo Child (Slight Return): wah funk fuzz riff",
           "mods": {
             "AMP": {
@@ -356,6 +380,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Voodoo Child (Slight Return): wah fuzz freakout lead",
           "mods": {
             "AMP": {
@@ -412,10 +438,14 @@
     {
       "slug": "RedHouse",
       "short": "RedHouse",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Red House: expressive blues lead",
           "mods": {
             "AMP": {
@@ -471,10 +501,14 @@
     {
       "slug": "MachineGun",
       "short": "MachineG",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Machine Gun: apocalyptic fuzz-wah-vibe lead",
           "mods": {
             "AMP": {
@@ -548,10 +582,14 @@
     {
       "slug": "AllAlongWatchtower",
       "short": "Watch",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "All Along the Watchtower: low-gain Marshall-style clean rhythm with subtle Vibe movement and spring ambience for the spacious chordal parts.",
           "mods": {
             "NR": {
@@ -602,6 +640,8 @@
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "All Along the Watchtower: pushed Marshall-style rhythm with Fuzz Face character, strong mids, and restrained Vibe for Hendrix's thick driving foundation.",
           "mods": {
             "NR": {
@@ -672,6 +712,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "All Along the Watchtower: expressive melodic lead with reduced Fuzz Face intensity, gentle Vibe modulation, warm slapback, and spring reverb.",
           "mods": {
             "NR": {
@@ -751,6 +793,8 @@
         {
           "kind": "L2",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "All Along the Watchtower: loud soaring Hendrix lead with full Fuzz Face saturation, pre-amp Touch Wah, upper-mid focus, and sustaining delay.",
           "mods": {
             "NR": {

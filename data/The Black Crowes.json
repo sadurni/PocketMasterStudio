@@ -1,13 +1,19 @@
 {
   "name": "The Black Crowes",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "TwiceAsHard",
       "short": "Twice2Hd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Twice as Hard: greasy open-G Marshall crunch riff",
           "mods": {
             "AMP": {
@@ -42,6 +48,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Twice as Hard: bluesy slide-tinged lead",
           "mods": {
             "AMP": {
@@ -87,10 +95,14 @@
     {
       "slug": "SheTalksAngels",
       "short": "SheTalks",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "She Talks to Angels: open-tuning clean arpeggio",
           "mods": {
             "AMP": {
@@ -130,6 +142,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "She Talks to Angels: tender slide-tinged lead",
           "mods": {
             "AMP": {
@@ -175,10 +189,14 @@
     {
       "slug": "HotelIllness",
       "short": "HotelIll",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hotel Illness: boogie barroom crunch riff",
           "mods": {
             "AMP": {
@@ -215,10 +233,14 @@
     {
       "slug": "ThornInPride",
       "short": "ThornPrd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Thorn in My Pride: soaring bluesy jam lead",
           "mods": {
             "AMP": {
@@ -273,10 +295,14 @@
     {
       "slug": "NoSpeakNoSlave",
       "short": "NoSpeak",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "No Speak No Slave: heavy driving crunch riff",
           "mods": {
             "AMP": {
@@ -304,6 +330,324 @@
               "params": {
                 "Mix": 8,
                 "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "StingMe",
+      "short": "StingMe",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Sting Me: low-gain Vox-style clean rhythm for the song's dynamic, lightly colored passages",
+          "mods": {
+            "AMP": {
+              "effect": "Voks 30N",
+              "enabled": true,
+              "params": {
+                "Gain": 22,
+                "Tone Cut": 42,
+                "Vol": 78,
+                "Bright": 0
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 84
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 34
+              }
+            }
+          }
+        },
+        {
+          "kind": "R",
+          "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Sting Me: gritty JTM45-style Black Crowes rhythm crunch with a tight Greenback cabinet",
+          "mods": {
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 58,
+                "Pres": 60,
+                "Vol": 84,
+                "Bass": 46,
+                "Middle": 63,
+                "Treble": 64
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 86
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -4,
+                "400Hz": 2,
+                "800Hz": 3,
+                "1.6kHz": 2,
+                "4kHz": -2,
+                "Vol": 52
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 36
+              }
+            }
+          }
+        },
+        {
+          "kind": "H",
+          "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Sting Me: heavier Marshall rhythm with a Tube Screamer-style push for thick, aggressive riff attack",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 22
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 28,
+                "+3dB": 1,
+                "Bright": 0
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Tone": 58,
+                "Vol": 66
+              }
+            },
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 62,
+                "Pres": 56,
+                "Vol": 86,
+                "Bass": 42,
+                "Middle": 66,
+                "Treble": 62
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 87
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 2",
+              "enabled": true,
+              "params": {
+                "100Hz": -5,
+                "500Hz": 2,
+                "1kHz": 4,
+                "3kHz": 2,
+                "6kHz": -3,
+                "Vol": 53
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 9,
+                "Decay": 32
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Sting Me: singing melodic solo tone from a pushed Marshall, with restrained analog echo and room ambience",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 18
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 32,
+                "Tone": 62,
+                "Vol": 68
+              }
+            },
+            "AMP": {
+              "effect": "Brit 45",
+              "enabled": true,
+              "params": {
+                "Gain": 66,
+                "Pres": 62,
+                "Vol": 88,
+                "Bass": 45,
+                "Middle": 68,
+                "Treble": 67
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 88
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": 1,
+                "800Hz": 4,
+                "1.6kHz": 4,
+                "4kHz": 1,
+                "Vol": 54
+              }
+            },
+            "DLY": {
+              "effect": "Analog",
+              "enabled": true,
+              "params": {
+                "Mix": 20,
+                "Time": 380,
+                "F.Back": 24
+              }
+            },
+            "RVB": {
+              "effect": "Plate 1",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Decay": 42
+              }
+            }
+          }
+        },
+        {
+          "kind": "L2",
+          "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Sting Me: louder saturated lead variant with a focused boost, strong upper mids, and cutting repeat delay",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 25
+              }
+            },
+            "FX1": {
+              "effect": "Boost",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "+3dB": 1,
+                "Bright": 1
+              }
+            },
+            "DRV": {
+              "effect": "Scream",
+              "enabled": true,
+              "params": {
+                "Gain": 38,
+                "Tone": 66,
+                "Vol": 72
+              }
+            },
+            "AMP": {
+              "effect": "Brit 800",
+              "enabled": true,
+              "params": {
+                "Gain": 70,
+                "Pres": 60,
+                "Vol": 91,
+                "Bass": 40,
+                "Middle": 70,
+                "Treble": 66
+              }
+            },
+            "IR": {
+              "effect": "BritGN 4x12",
+              "enabled": true,
+              "params": {
+                "Vol": 90
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 2",
+              "enabled": true,
+              "params": {
+                "100Hz": -5,
+                "500Hz": 1,
+                "1kHz": 5,
+                "3kHz": 5,
+                "6kHz": 1,
+                "Vol": 55
+              }
+            },
+            "DLY": {
+              "effect": "Pure",
+              "enabled": true,
+              "params": {
+                "Mix": 24,
+                "Time": 420,
+                "F.Back": 28
+              }
+            },
+            "RVB": {
+              "effect": "Plate 1",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 46
               }
             }
           }

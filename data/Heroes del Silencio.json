@@ -1,13 +1,19 @@
 {
   "name": "Heroes del Silencio",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "SirenaVarada",
       "short": "SirenaVr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "La sirena varada: atmospheric chorused clean arpeggios",
           "mods": {
             "AMP": {
@@ -60,6 +66,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "La sirena varada: soaring melodic lead + delay",
           "mods": {
             "AMP": {
@@ -114,10 +122,14 @@
     {
       "slug": "EntreDosTierras",
       "short": "Entre2T",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Entre dos tierras: driving Marshall crunch riff",
           "mods": {
             "AMP": {
@@ -161,6 +173,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Entre dos tierras: anthemic soaring lead",
           "mods": {
             "AMP": {
@@ -216,10 +230,14 @@
     {
       "slug": "MalditoDuende",
       "short": "MaldDuen",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Maldito duende: flanged clean arpeggio bed",
           "mods": {
             "AMP": {
@@ -273,6 +291,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Maldito duende: emotive soaring lead",
           "mods": {
             "AMP": {
@@ -327,10 +347,14 @@
     {
       "slug": "Avalancha",
       "short": "Avalanch",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Avalancha: heavy driving Marshall riff",
           "mods": {
             "AMP": {
@@ -383,6 +407,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Avalancha: powerful soaring lead",
           "mods": {
             "AMP": {

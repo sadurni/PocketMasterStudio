@@ -204,7 +204,9 @@
         "Californication",
         "L"
       ]
-    ]
+    ],
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   {
     "file": "Compilation_ClassicRock.json",
@@ -411,7 +413,9 @@
         "RunToTheHills",
         "R"
       ]
-    ]
+    ],
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   {
     "file": "Compilation_Assorted.json",
@@ -618,7 +622,9 @@
         "ForTheLoveGod",
         "L"
       ]
-    ]
+    ],
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   {
     "file": "Compilation_Best50.json",
@@ -875,7 +881,9 @@
         "VoodooChild",
         "L"
       ]
-    ]
+    ],
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   {
     "file": "Compilation_Best50_v2.json",
@@ -1132,7 +1140,9 @@
         "MaggotBrain",
         "L"
       ]
-    ]
+    ],
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   {
     "file": "Compilation_MySongs.json",
@@ -1389,7 +1399,9 @@
         "Cryin",
         "Lb"
       ]
-    ]
+    ],
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   {
     "file": "Compilation_MySongs2.json",
@@ -1397,14 +1409,14 @@
     "n": 50,
     "refs": [
       [
-        "Queen",
-        "BohemianRhap",
+        "Blind Melon",
+        "NoRain",
         "C"
       ],
       [
-        "Queen",
-        "BohemianRhap",
-        "H"
+        "Blind Melon",
+        "NoRain",
+        "L"
       ],
       [
         "Queen",
@@ -1507,11 +1519,6 @@
         "L"
       ],
       [
-        "Faces",
-        "StayWithMe",
-        "R"
-      ],
-      [
         "Scorpions",
         "StillLovingYou",
         "C"
@@ -1552,9 +1559,9 @@
         "Lc"
       ],
       [
-        "Steve Vai",
-        "AttitudeSong",
-        "L"
+        "Faces",
+        "StayWithMe",
+        "R"
       ],
       [
         "Steve Vai",
@@ -1562,19 +1569,19 @@
         "Lc"
       ],
       [
-        "Dire Straits",
-        "MoneyForNothing",
-        "R"
+        "the who",
+        "TheRealMe",
+        "C"
       ],
       [
-        "Dire Straits",
-        "BrothersInArms",
+        "the who",
+        "TheRealMe",
+        "H"
+      ],
+      [
+        "the who",
+        "TheRealMe",
         "L"
-      ],
-      [
-        "The Cure",
-        "FridayInLove",
-        "R"
       ],
       [
         "Heroes del Silencio",
@@ -1592,11 +1599,6 @@
         "R"
       ],
       [
-        "Corrosion of Conformity",
-        "Albatross",
-        "L"
-      ],
-      [
         "Soundgarden",
         "Superunknown",
         "L"
@@ -1612,19 +1614,29 @@
         "L"
       ],
       [
-        "The Afghan Whigs",
-        "Gentlemen",
+        "Rammstein",
+        "DuHast",
         "R"
       ],
       [
-        "The Black Crowes",
-        "HotelIllness",
-        "R"
+        "Rammstein",
+        "DuHast",
+        "H"
       ],
       [
-        "The Black Crowes",
-        "ThornInPride",
+        "King crimson",
+        "ThreePair",
+        "C"
+      ],
+      [
+        "King crimson",
+        "ThreePair",
         "L"
+      ],
+      [
+        "King crimson",
+        "ThreePair",
+        "H"
       ],
       [
         "Jimi Hendrix",
@@ -1646,6 +1658,8 @@
         "MaggotBrain",
         "L"
       ]
-    ]
+    ],
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   }
 ]

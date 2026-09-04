@@ -1,13 +1,19 @@
 {
   "name": "Led Zeppelin",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "WholeLottaLove",
       "short": "WholLotL",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Whole Lotta Love: iconic Plexi riff, LP bridge",
           "mods": {
             "AMP": {
@@ -43,6 +49,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Whole Lotta Love solo: cranked Plexi, slapback",
           "mods": {
             "AMP": {
@@ -89,10 +97,14 @@
     {
       "slug": "Heartbreaker",
       "short": "HeartBrk",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Heartbreaker: unaccompanied cranked Plexi solo",
           "mods": {
             "AMP": {
@@ -130,10 +142,14 @@
     {
       "slug": "Stairway",
       "short": "Stairway",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Stairway: chiming clean arpeggios, warm tweed",
           "mods": {
             "AMP": {
@@ -173,6 +189,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Stairway solo: cranked low-watt tweed, singing sustain",
           "mods": {
             "AMP": {
@@ -215,10 +233,14 @@
     {
       "slug": "Kashmir",
       "short": "Kashmir",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Kashmir: droning orchestral Plexi riff, DADGAD weight",
           "mods": {
             "AMP": {
@@ -256,10 +278,14 @@
     {
       "slug": "AchillesLast",
       "short": "Achilles",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Achilles Last Stand: layered harmonized leads + delay",
           "mods": {
             "AMP": {
@@ -315,10 +341,14 @@
     {
       "slug": "CustardPie",
       "short": "CustPie",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Custard Pie: funky clavinet-flavoured Plexi riff",
           "mods": {
             "AMP": {
@@ -354,6 +384,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Custard Pie: wah-driven Plexi solo",
           "mods": {
             "AMP": {

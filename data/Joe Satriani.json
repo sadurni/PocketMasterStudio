@@ -1,13 +1,19 @@
 {
   "name": "Joe Satriani",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Surfing",
       "short": "Surfing",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Surfing with the Alien: funky mid-gain Marshall riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Surfing with the Alien: legato soaring lead + delay",
           "mods": {
             "AMP": {
@@ -106,10 +114,14 @@
     {
       "slug": "SatchBoogie",
       "short": "SatchBoo",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Satch Boogie: fast tapping legato lead",
           "mods": {
             "AMP": {
@@ -165,10 +177,14 @@
     {
       "slug": "AlwaysWithMe",
       "short": "AlwaysMe",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Always with Me: glassy chorused clean",
           "mods": {
             "AMP": {
@@ -231,6 +247,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Always with Me: singing melodic legato lead",
           "mods": {
             "AMP": {
@@ -316,10 +334,14 @@
     {
       "slug": "Cryin",
       "short": "Cryin",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cryin': vocal whammy-bar emotive lead",
           "mods": {
             "AMP": {
@@ -385,10 +407,14 @@
     {
       "slug": "TheExtremist",
       "short": "Extremst",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Extremist: fiery bluesy legato lead",
           "mods": {
             "AMP": {

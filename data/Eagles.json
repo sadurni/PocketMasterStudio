@@ -1,13 +1,19 @@
 {
   "name": "Eagles",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "HotelCalifornia",
       "short": "HotelCal",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hotel California: 12-string clean arpeggio bed",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hotel California: harmonized Felder/Walsh dual solo",
           "mods": {
             "AMP": {
@@ -113,10 +121,14 @@
     {
       "slug": "LifeInFastLane",
       "short": "FastLane",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Life in the Fast Lane: slick Walsh Marshall crunch riff",
           "mods": {
             "AMP": {
@@ -160,6 +172,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Life in the Fast Lane: greasy Walsh lead",
           "mods": {
             "AMP": {
@@ -214,10 +228,14 @@
     {
       "slug": "NewKidInTown",
       "short": "NewKid",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "New Kid in Town: warm mellow clean chords",
           "mods": {
             "AMP": {
@@ -260,6 +278,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "New Kid in Town: tasteful melodic lead",
           "mods": {
             "AMP": {
@@ -314,10 +334,14 @@
     {
       "slug": "TheLastResort",
       "short": "LastRsrt",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Last Resort: majestic slide/melodic lead",
           "mods": {
             "AMP": {

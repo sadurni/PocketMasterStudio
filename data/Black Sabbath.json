@@ -1,13 +1,19 @@
 {
   "name": "Black Sabbath",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "BlackSabbath",
       "short": "BlckSab",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Black Sabbath: doomy tritone riff, boosted mid-forward",
           "mods": {
             "AMP": {
@@ -63,6 +69,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Black Sabbath solo: bluesy boosted lead",
           "mods": {
             "AMP": {
@@ -117,10 +125,14 @@
     {
       "slug": "Paranoid",
       "short": "Paranoid",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Paranoid: fast boosted Marshall riff",
           "mods": {
             "AMP": {
@@ -176,6 +188,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Paranoid solo: frantic phased lead",
           "mods": {
             "AMP": {
@@ -237,10 +251,14 @@
     {
       "slug": "IronMan",
       "short": "IronMan",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Iron Man: plodding heavy boosted riff",
           "mods": {
             "AMP": {
@@ -298,10 +316,14 @@
     {
       "slug": "SweetLeaf",
       "short": "SweetLf",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sweet Leaf: fuzzy thick doom riff",
           "mods": {
             "AMP": {
@@ -358,10 +380,14 @@
     {
       "slug": "PlanetCaravan",
       "short": "PlanetCv",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Planet Caravan: dreamy mellow clean, vibe + hall",
           "mods": {
             "AMP": {
@@ -404,6 +430,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Planet Caravan: warm jazzy bluesy solo, delay",
           "mods": {
             "AMP": {

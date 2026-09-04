@@ -1,13 +1,19 @@
 {
   "name": "Carlos Santana",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Europa",
       "short": "Europa",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Europa (Earth's Cry Heaven's Smile): singing sustained mid-forward lead, warm delay",
           "mods": {
             "AMP": {

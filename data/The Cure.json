@@ -1,13 +1,19 @@
 {
   "name": "The Cure",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "AForest",
       "short": "AForest",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "A Forest: icy flanged clean delay bed",
           "mods": {
             "AMP": {
@@ -60,6 +66,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "A Forest: haunting delayed lead line",
           "mods": {
             "AMP": {
@@ -115,10 +123,14 @@
     {
       "slug": "JustLikeHeaven",
       "short": "JustHvn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Just Like Heaven: cascading chorused clean arpeggio",
           "mods": {
             "AMP": {
@@ -170,6 +182,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Just Like Heaven: shimmering melodic lead",
           "mods": {
             "AMP": {
@@ -224,10 +238,14 @@
     {
       "slug": "FascinationSt",
       "short": "FascStr",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Fascination Street: dark distorted chorus riff",
           "mods": {
             "AMP": {
@@ -280,6 +298,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Fascination Street: brooding driven lead",
           "mods": {
             "AMP": {
@@ -343,10 +363,14 @@
     {
       "slug": "PicturesOfYou",
       "short": "PictsYou",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Pictures of You: lush layered chorus/delay clean",
           "mods": {
             "AMP": {
@@ -398,6 +422,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Pictures of You: aching sustained lead",
           "mods": {
             "AMP": {
@@ -452,10 +478,14 @@
     {
       "slug": "FridayInLove",
       "short": "FridayLv",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Friday I'm in Love: bright happy jangly chords",
           "mods": {
             "AMP": {

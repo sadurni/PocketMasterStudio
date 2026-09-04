@@ -1,13 +1,19 @@
 {
   "name": "Urge Overkill",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "SisterHavana",
       "short": "SistHav",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sister Havana: catchy glam Marshall crunch riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sister Havana: swaggering rock lead",
           "mods": {
             "AMP": {
@@ -105,10 +113,14 @@
     {
       "slug": "PositiveBleed",
       "short": "PosBleed",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Positive Bleeding: driving power-pop crunch",
           "mods": {
             "AMP": {
@@ -154,10 +166,14 @@
     {
       "slug": "GirlWoman",
       "short": "GirlWmn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Girl, You'll Be a Woman Soon: smoky clean-edge chords",
           "mods": {
             "AMP": {
@@ -200,6 +216,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Girl, You'll Be a Woman Soon: sultry melodic lead",
           "mods": {
             "AMP": {
@@ -254,10 +272,14 @@
     {
       "slug": "BottleOfFur",
       "short": "BottlFur",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bottle of Fur: fuzzy loose crunch riff",
           "mods": {
             "AMP": {
@@ -300,6 +322,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bottle of Fur: gritty lead",
           "mods": {
             "AMP": {

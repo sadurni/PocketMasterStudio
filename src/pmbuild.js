@@ -457,6 +457,8 @@
     "Bog XT": "SoloSLO", "Flyman B1+": "SoloSLO",
   };
   const NAM_FULLRIG = new Set(["AC30 May", "JCM800"]);
+  // The distinct NAM captures every Clone/NAM preset is mapped onto (for the README headline).
+  const NAM_CAPTURES = [...new Set(Object.values(AMP_TO_NAM))];
 
   // ===================== Mixed set =====================
   // For the "Mixed" variant we keep the modeled amp UNLESS the modeled amp is the same
@@ -595,5 +597,5 @@
     };
   }
 
-  return { buildSongs, buildCompilations, buildNam, buildMixed, buildLibrary, defaultCollectionDefs, makeRefResolver, makeCatalog, stringify, compactStringify, TODAY, CHAIN };
+  return { buildSongs, buildCompilations, buildNam, buildMixed, buildLibrary, defaultCollectionDefs, makeRefResolver, makeCatalog, stringify, compactStringify, TODAY, CHAIN, NAM_CAPTURES };
 });

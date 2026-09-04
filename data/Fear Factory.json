@@ -1,13 +1,19 @@
 {
   "name": "Fear Factory",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Demanufacture",
       "short": "Demanuf",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Demanufacture: machine-gun palm-muted scoop riff",
           "mods": {
             "NR": {
@@ -70,6 +76,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Demanufacture: cold clean-chorus melodic break",
           "mods": {
             "AMP": {
@@ -124,10 +132,14 @@
     {
       "slug": "Replica",
       "short": "Replica",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Replica: chugging syncopated scoop riff",
           "mods": {
             "NR": {
@@ -190,6 +202,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Replica: half-clean melodic chorus",
           "mods": {
             "AMP": {
@@ -244,10 +258,14 @@
     {
       "slug": "Edgecrusher",
       "short": "Edgecrsh",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Edgecrusher: bouncing groove-metal scoop riff",
           "mods": {
             "NR": {
@@ -310,6 +328,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Edgecrusher: half-time melodic break",
           "mods": {
             "AMP": {

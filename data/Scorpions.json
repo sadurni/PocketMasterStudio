@@ -1,13 +1,19 @@
 {
   "name": "Scorpions",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Hurricane",
       "short": "Hurrican",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Rock You Like a Hurricane: tight Marshall crunch riff",
           "mods": {
             "AMP": {
@@ -42,6 +48,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Rock You Like a Hurricane: screaming Marshall solo",
           "mods": {
             "AMP": {
@@ -97,10 +105,14 @@
     {
       "slug": "Blackout",
       "short": "Blackout",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Blackout: aggressive palm-muted Marshall riff",
           "mods": {
             "AMP": {
@@ -146,10 +158,14 @@
     {
       "slug": "TheZoo",
       "short": "TheZoo",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "The Zoo: slinky talk-box-flavoured mid crunch",
           "mods": {
             "AMP": {
@@ -197,10 +213,14 @@
     {
       "slug": "SailsOfCharon",
       "short": "SailChar",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Sails of Charon: Uli Roth searing neoclassical solo",
           "mods": {
             "AMP": {
@@ -256,10 +276,14 @@
     {
       "slug": "StillLovingYou",
       "short": "StilLov",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Still Loving You: tender clean-edge intro",
           "mods": {
             "AMP": {

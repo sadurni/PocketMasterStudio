@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "presetName": "Tones L",
+  "description": "Tones of Home: warm melodic lead from a pushed Tweed Deluxe with light overdrive, slapback, and spring ambience",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 13
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Butter OD",
+      "parameters": {
+        "Gain": 37,
+        "Vol": 64
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "TWD 1x8",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 1,
+        "800Hz": 3,
+        "1.6kHz": 4,
+        "4kHz": 2,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Slap",
+      "parameters": {
+        "Mix": 18,
+        "Time": 165,
+        "F.Back": 20
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Spring",
+      "parameters": {
+        "Mix": 18,
+        "Decay": 43
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "TwinCln",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

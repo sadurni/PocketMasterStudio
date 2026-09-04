@@ -1,13 +1,19 @@
 {
   "name": "AC/DC",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "BackInBlack",
       "short": "BackBlck",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Back in Black: greasy open Plexi riff",
           "mods": {
             "AMP": {
@@ -42,6 +48,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Back in Black: singing cranked Plexi solo",
           "mods": {
             "AMP": {
@@ -78,10 +86,14 @@
     {
       "slug": "HighwayToHell",
       "short": "Hwy2Hell",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Highway to Hell: iconic swaggering Plexi riff",
           "mods": {
             "AMP": {
@@ -116,6 +128,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Highway to Hell: bluesy cranked Plexi solo",
           "mods": {
             "AMP": {
@@ -152,10 +166,14 @@
     {
       "slug": "HellsBells",
       "short": "HellBell",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hells Bells: clean tolling Plexi, edge of breakup",
           "mods": {
             "AMP": {

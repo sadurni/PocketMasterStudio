@@ -1,13 +1,19 @@
 {
   "name": "The Jayhawks",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Blue",
       "short": "Blue",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Blue: chiming jangly clean chords",
           "mods": {
             "AMP": {
@@ -48,6 +54,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Blue: sweet melodic chime lead",
           "mods": {
             "AMP": {
@@ -93,10 +101,14 @@
     {
       "slug": "IdRunAway",
       "short": "RunAway",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "I'd Run Away: bright upbeat jangle crunch",
           "mods": {
             "AMP": {
@@ -139,6 +151,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "I'd Run Away: joyful chiming lead",
           "mods": {
             "AMP": {
@@ -184,10 +198,14 @@
     {
       "slug": "Trouble",
       "short": "Trouble",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Trouble: fuzzy grittier jangle crunch",
           "mods": {
             "AMP": {
@@ -230,6 +248,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Trouble: fuzzed melodic lead",
           "mods": {
             "AMP": {
@@ -283,10 +303,14 @@
     {
       "slug": "TampaToTulsa",
       "short": "Tampa2T",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Tampa to Tulsa: aching melodic lead",
           "mods": {
             "AMP": {

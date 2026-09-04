@@ -86,7 +86,9 @@
           "Damp": 50
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "Queen|DaysLive L": {
     "ampMode": "Normal",
@@ -175,7 +177,9 @@
           "Damp": 50
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "Queen|WantAll R": {
     "ampMode": "Normal",
@@ -264,7 +268,9 @@
           "Damp": 50
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "Queen|KilrQch": {
     "ampMode": "Normal",
@@ -353,7 +359,9 @@
           "Damp": 50
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "U2|TheFly H": {
     "ampMode": "Normal",
@@ -440,7 +448,9 @@
           "Decay": 44
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "U2|TheFly L": {
     "ampMode": "Normal",
@@ -528,7 +538,9 @@
           "Damp": 50
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "Steve Vai|Attitude L": {
     "ampMode": "Normal",
@@ -619,7 +631,9 @@
           "Damp": 50
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "The Black Crowes|HotelIll R": {
     "ampMode": "Normal",
@@ -707,7 +721,9 @@
           "Decay": 42
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   },
   "The Black Crowes|ThornPrd L": {
     "ampMode": "Normal",
@@ -795,6 +811,362 @@
           "Decay": 52
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
+  },
+  "Blind Melon|NoRain L": {
+    "ampMode": "Normal",
+    "presetVolume": 30,
+    "modules": {
+      "NR": {
+        "enabled": true,
+        "effect": "Gate",
+        "parameters": {
+          "THRE": 12
+        }
+      },
+      "FX1": {
+        "enabled": false,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 20,
+          "+3dB": 1,
+          "Bright": 1
+        }
+      },
+      "DRV": {
+        "enabled": true,
+        "effect": "Butter OD",
+        "parameters": {
+          "Gain": 34,
+          "Vol": 62
+        }
+      },
+      "AMP": {
+        "enabled": true,
+        "effect": "TWD Deluxe",
+        "parameters": {
+          "Gain": 48,
+          "Tone": 61,
+          "Vol": 42
+        }
+      },
+      "IR": {
+        "enabled": true,
+        "effect": "TWD 1x8",
+        "parameters": {
+          "Vol": 86
+        }
+      },
+      "EQ": {
+        "enabled": true,
+        "effect": "GT EQ 1",
+        "parameters": {
+          "125Hz": -3,
+          "400Hz": 1,
+          "800Hz": 3,
+          "1.6kHz": 4,
+          "4kHz": 2,
+          "Vol": 54
+        }
+      },
+      "FX2": {
+        "enabled": true,
+        "effect": "A-Chorus",
+        "parameters": {
+          "Depth": 12,
+          "Rate": 0.6,
+          "Tone": 58
+        }
+      },
+      "DLY": {
+        "enabled": true,
+        "effect": "Slap",
+        "parameters": {
+          "Mix": 16,
+          "Time": 145,
+          "F.Back": 18
+        }
+      },
+      "RVB": {
+        "enabled": true,
+        "effect": "Spring",
+        "parameters": {
+          "Mix": 17,
+          "Decay": 40
+        }
+      }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
+  },
+  "the who|RealMe C": {
+    "ampMode": "Normal",
+    "presetVolume": 100,
+    "modules": {
+      "NR": {
+        "enabled": true,
+        "effect": "Gate",
+        "parameters": {
+          "THRE": 8
+        }
+      },
+      "FX1": {
+        "enabled": true,
+        "effect": "COMP 1",
+        "parameters": {
+          "Sustain": 22,
+          "Vol": 55
+        }
+      },
+      "DRV": {
+        "enabled": false,
+        "effect": "Scream",
+        "parameters": {
+          "Gain": 40,
+          "Tone": 70,
+          "Vol": 50
+        }
+      },
+      "AMP": {
+        "enabled": true,
+        "effect": "Brit 45",
+        "parameters": {
+          "Gain": 18,
+          "Pres": 58,
+          "Vol": 78,
+          "Bass": 48,
+          "Middle": 58,
+          "Treble": 60
+        }
+      },
+      "IR": {
+        "enabled": true,
+        "effect": "BritGN 4x12",
+        "parameters": {
+          "Vol": 82
+        }
+      },
+      "EQ": {
+        "enabled": true,
+        "effect": "GT EQ 1",
+        "parameters": {
+          "125Hz": 0,
+          "400Hz": -2,
+          "800Hz": 0,
+          "1.6kHz": 2,
+          "4kHz": 0,
+          "Vol": 52
+        }
+      },
+      "FX2": {
+        "enabled": false,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 20,
+          "+3dB": 1,
+          "Bright": 1
+        }
+      },
+      "DLY": {
+        "enabled": false,
+        "effect": "Pure",
+        "parameters": {
+          "Mix": 20,
+          "Time": 500,
+          "F.Back": 30
+        }
+      },
+      "RVB": {
+        "enabled": true,
+        "effect": "Room",
+        "parameters": {
+          "Mix": 8,
+          "Decay": 30
+        }
+      }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
+  },
+  "the who|RealMe H": {
+    "ampMode": "Normal",
+    "presetVolume": 47,
+    "modules": {
+      "NR": {
+        "enabled": true,
+        "effect": "Gate",
+        "parameters": {
+          "THRE": 25
+        }
+      },
+      "FX1": {
+        "enabled": true,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 18,
+          "+3dB": 1,
+          "Bright": 0
+        }
+      },
+      "DRV": {
+        "enabled": true,
+        "effect": "Scream",
+        "parameters": {
+          "Gain": 22,
+          "Tone": 53,
+          "Vol": 54
+        }
+      },
+      "AMP": {
+        "enabled": true,
+        "effect": "Brit 45",
+        "parameters": {
+          "Gain": 58,
+          "Pres": 62,
+          "Vol": 82,
+          "Bass": 45,
+          "Middle": 64,
+          "Treble": 67
+        }
+      },
+      "IR": {
+        "enabled": true,
+        "effect": "BritGN 4x12",
+        "parameters": {
+          "Vol": 82
+        }
+      },
+      "EQ": {
+        "enabled": true,
+        "effect": "GT EQ 1",
+        "parameters": {
+          "125Hz": 0,
+          "400Hz": -3,
+          "800Hz": 0,
+          "1.6kHz": 2,
+          "4kHz": 1,
+          "Vol": 53
+        }
+      },
+      "FX2": {
+        "enabled": false,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 20,
+          "+3dB": 1,
+          "Bright": 1
+        }
+      },
+      "DLY": {
+        "enabled": false,
+        "effect": "Pure",
+        "parameters": {
+          "Mix": 20,
+          "Time": 500,
+          "F.Back": 30
+        }
+      },
+      "RVB": {
+        "enabled": true,
+        "effect": "Room",
+        "parameters": {
+          "Mix": 10,
+          "Decay": 34
+        }
+      }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
+  },
+  "Tool|Schism C": {
+    "ampMode": "Normal",
+    "presetVolume": 73,
+    "modules": {
+      "NR": {
+        "enabled": true,
+        "effect": "Gate",
+        "parameters": {
+          "THRE": 9
+        }
+      },
+      "FX1": {
+        "enabled": true,
+        "effect": "A-Chorus",
+        "parameters": {
+          "Depth": 24,
+          "Rate": 0.3,
+          "Tone": 56
+        }
+      },
+      "DRV": {
+        "enabled": false,
+        "effect": "Scream",
+        "parameters": {
+          "Gain": 40,
+          "Tone": 70,
+          "Vol": 50
+        }
+      },
+      "AMP": {
+        "enabled": true,
+        "effect": "Jazz 120",
+        "parameters": {
+          "Vol": 82,
+          "Bass": 46,
+          "Middle": 54,
+          "Treble": 62,
+          "Bright": 0
+        }
+      },
+      "IR": {
+        "enabled": true,
+        "effect": "Jazz 2x12",
+        "parameters": {
+          "Vol": 50
+        }
+      },
+      "EQ": {
+        "enabled": true,
+        "effect": "GT EQ 1",
+        "parameters": {
+          "125Hz": -2,
+          "400Hz": 1,
+          "800Hz": 2,
+          "1.6kHz": 3,
+          "4kHz": 2,
+          "Vol": 52
+        }
+      },
+      "FX2": {
+        "enabled": false,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 20,
+          "+3dB": 1,
+          "Bright": 1
+        }
+      },
+      "DLY": {
+        "enabled": true,
+        "effect": "Pure",
+        "parameters": {
+          "Mix": 18,
+          "Time": 430,
+          "F.Back": 22
+        }
+      },
+      "RVB": {
+        "enabled": true,
+        "effect": "Plate 1",
+        "parameters": {
+          "Mix": 18,
+          "Decay": 36
+        }
+      }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   }
 }

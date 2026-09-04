@@ -1,13 +1,19 @@
 {
   "name": "The Afghan Whigs",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "Gentlemen",
       "short": "Gentlmen",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gentlemen: taut biting Marshall crunch riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Gentlemen: snarling soulful lead",
           "mods": {
             "AMP": {
@@ -105,10 +113,14 @@
     {
       "slug": "FountainFairfax",
       "short": "FountnFf",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Fountain and Fairfax: brooding clean-edge chords",
           "mods": {
             "AMP": {
@@ -151,6 +163,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Fountain and Fairfax: aching lead",
           "mods": {
             "AMP": {
@@ -205,10 +219,14 @@
     {
       "slug": "HonkysLadder",
       "short": "HonkysLd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Honky's Ladder: fuzzed sleazy crunch riff",
           "mods": {
             "AMP": {
@@ -251,6 +269,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Honky's Ladder: dirty snarling lead",
           "mods": {
             "AMP": {
@@ -304,10 +324,14 @@
     {
       "slug": "CrimeScene1",
       "short": "CrimeSc1",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Crime Scene Part One: noir cinematic clean",
           "mods": {
             "AMP": {

@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "3Pair C",
+  "description": "Three of a Perfect Pair: compressed Roland JC-120-style clean with bright chorus, light room ambience, and restrained echo for the precise interlocking rhythm parts.",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 8
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "COMP 2",
+      "parameters": {
+        "Sustain": 42,
+        "Attack": 62,
+        "Vol": 56,
+        "Clip": 8
+      }
+    },
+    "DRV": {
+      "enabled": false,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 40,
+        "Tone": 70,
+        "Vol": 50
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Jazz 2x12",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": -4,
+        "500Hz": 0,
+        "1kHz": 2,
+        "3kHz": 4,
+        "6kHz": 2,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "A-Chorus",
+      "parameters": {
+        "Depth": 28,
+        "Rate": 0.4,
+        "Tone": 62
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 13,
+        "Time": 360,
+        "F.Back": 18
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 12,
+        "Decay": 32
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "TwinCln",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

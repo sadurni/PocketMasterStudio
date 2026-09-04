@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "3Pair L2",
+  "description": "Three of a Perfect Pair: loud abstract shred lead with Big Muff-style sustain, pre-amp boost, post-amp chorus, and a longer echo for the song's most forceful Adrian Belew-style guitar moments.",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 30
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 34,
+        "+3dB": 0,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Red Fuzz",
+      "parameters": {
+        "Fuzz": 56,
+        "Vol": 63
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Jazz 120",
+      "parameters": {
+        "Vol": 90,
+        "Bass": 40,
+        "Middle": 62,
+        "Treble": 61,
+        "Bright": 1
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Jazz 2x12",
+      "parameters": {
+        "Vol": 90
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": -7,
+        "500Hz": 3,
+        "1kHz": 6,
+        "3kHz": 6,
+        "6kHz": 2,
+        "Vol": 58
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "A-Chorus",
+      "parameters": {
+        "Depth": 24,
+        "Rate": 0.35,
+        "Tone": 60
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 24,
+        "Time": 560,
+        "F.Back": 32
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 2",
+      "parameters": {
+        "Mix": 20,
+        "Decay": 52,
+        "Damp": 42
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

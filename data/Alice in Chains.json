@@ -1,13 +1,19 @@
 {
   "name": "Alice in Chains",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "ManInTheBox",
       "short": "ManBox",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Man in the Box: talkbox-flavoured thick crunch riff",
           "mods": {
             "AMP": {
@@ -62,6 +68,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Man in the Box: wah talkbox lead",
           "mods": {
             "AMP": {
@@ -127,10 +135,14 @@
     {
       "slug": "ThemBones",
       "short": "ThemBone",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Them Bones: jagged 7/8 drop crunch riff",
           "mods": {
             "AMP": {
@@ -174,6 +186,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Them Bones: harmonized snarling lead",
           "mods": {
             "AMP": {
@@ -237,10 +251,14 @@
     {
       "slug": "Rooster",
       "short": "Rooster",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Rooster: eerie clean tremolo verse",
           "mods": {
             "AMP": {
@@ -283,6 +301,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Rooster: soaring harmonized chorus lead",
           "mods": {
             "AMP": {
@@ -357,10 +377,14 @@
     {
       "slug": "Would",
       "short": "Would",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Would?: dark heavy droning riff",
           "mods": {
             "AMP": {
@@ -406,10 +430,14 @@
     {
       "slug": "Nutshell",
       "short": "Nutshell",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Nutshell: sparse haunting clean arpeggio",
           "mods": {
             "AMP": {
@@ -452,6 +480,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Nutshell: crying sustained lead",
           "mods": {
             "AMP": {

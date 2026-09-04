@@ -1,13 +1,19 @@
 {
   "name": "Muse",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "PlugInBaby",
       "short": "PlugBaby",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Plug In Baby: buzzing fuzz Marshall riff",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Plug In Baby: soaring fuzz lead + whammy",
           "mods": {
             "AMP": {
@@ -114,10 +122,14 @@
     {
       "slug": "NewBorn",
       "short": "NewBorn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "New Born: brooding clean piano-doubling arpeggio",
           "mods": {
             "AMP": {
@@ -160,6 +172,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "New Born: explosive fuzz lead build",
           "mods": {
             "AMP": {
@@ -224,10 +238,14 @@
     {
       "slug": "Hysteria",
       "short": "Hysteria",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hysteria: driving fuzz over bass riff",
           "mods": {
             "AMP": {
@@ -270,6 +288,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Hysteria: frantic fuzz-wah lead",
           "mods": {
             "AMP": {
@@ -325,10 +345,14 @@
     {
       "slug": "StockholmSynd",
       "short": "Stockhlm",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Stockholm Syndrome: pummeling fuzz-metal riff",
           "mods": {
             "AMP": {
@@ -371,6 +395,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Stockholm Syndrome: shredding fuzz lead + whammy",
           "mods": {
             "AMP": {
@@ -435,10 +461,14 @@
     {
       "slug": "KnightsCydonia",
       "short": "Cydonia",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Knights of Cydonia: galloping surf-rock riff",
           "mods": {
             "AMP": {
@@ -482,6 +512,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Knights of Cydonia: epic soaring whammy lead",
           "mods": {
             "AMP": {

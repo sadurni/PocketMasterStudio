@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "StingMe L2",
+  "description": "Sting Me: louder saturated lead variant with a focused boost, strong upper mids, and cutting repeat delay",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 25
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 34,
+        "+3dB": 0,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 38,
+        "Tone": 66,
+        "Vol": 72
+      }
+    },
+    "IR": {
+      "enabled": false,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 90
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": -5,
+        "500Hz": 1,
+        "1kHz": 5,
+        "3kHz": 5,
+        "6kHz": 1,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 24,
+        "Time": 420,
+        "F.Back": 28
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 1",
+      "parameters": {
+        "Mix": 18,
+        "Decay": 46
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "JCM800",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

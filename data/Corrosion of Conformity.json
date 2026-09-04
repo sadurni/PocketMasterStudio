@@ -1,13 +1,19 @@
 {
   "name": "Corrosion of Conformity",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "VoteWithBullet",
       "short": "VoteBull",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Vote with a Bullet: raw punky sludge riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Vote with a Bullet: biting southern lead",
           "mods": {
             "AMP": {
@@ -105,10 +113,14 @@
     {
       "slug": "Albatross",
       "short": "Albatrss",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Albatross: brooding melodic sludge riff",
           "mods": {
             "AMP": {
@@ -152,6 +164,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Albatross: soulful southern lead",
           "mods": {
             "AMP": {
@@ -206,10 +220,14 @@
     {
       "slug": "CleanMyWounds",
       "short": "CleanWnd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Clean My Wounds: swinging heavy groove riff",
           "mods": {
             "AMP": {
@@ -253,6 +271,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Clean My Wounds: greasy southern lead",
           "mods": {
             "AMP": {
@@ -307,10 +327,14 @@
     {
       "slug": "DrowningDaydrm",
       "short": "DrownDay",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Drowning in a Daydream: psychedelic sludge riff",
           "mods": {
             "AMP": {

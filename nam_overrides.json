@@ -85,6 +85,97 @@
           "Treble": 50
         }
       }
-    }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
+  },
+  "Rammstein|DuHast R": {
+    "ampMode": "Clone",
+    "presetVolume": 100,
+    "modules": {
+      "NR": {
+        "enabled": true,
+        "effect": "Gate",
+        "parameters": {
+          "THRE": 22
+        }
+      },
+      "FX1": {
+        "enabled": false,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 20,
+          "+3dB": 1,
+          "Bright": 1
+        }
+      },
+      "DRV": {
+        "enabled": true,
+        "effect": "Scream",
+        "parameters": {
+          "Gain": 14,
+          "Tone": 62,
+          "Vol": 100
+        }
+      },
+      "IR": {
+        "enabled": true,
+        "effect": "BritGN 4x12",
+        "parameters": {
+          "Vol": 86
+        }
+      },
+      "EQ": {
+        "enabled": true,
+        "effect": "GT EQ 2",
+        "parameters": {
+          "100Hz": 1,
+          "500Hz": -2,
+          "1kHz": -3,
+          "3kHz": 3,
+          "6kHz": 1,
+          "Vol": 100
+        }
+      },
+      "FX2": {
+        "enabled": false,
+        "effect": "Boost",
+        "parameters": {
+          "Gain": 20,
+          "+3dB": 1,
+          "Bright": 1
+        }
+      },
+      "DLY": {
+        "enabled": false,
+        "effect": "Pure",
+        "parameters": {
+          "Mix": 20,
+          "Time": 500,
+          "F.Back": 30
+        }
+      },
+      "RVB": {
+        "enabled": true,
+        "effect": "Room",
+        "parameters": {
+          "Mix": 5,
+          "Decay": 18
+        }
+      },
+      "Clone": {
+        "enabled": true,
+        "effect": "JCM800",
+        "parameters": {
+          "Gain": 50,
+          "Vol": 100,
+          "Bass": 50,
+          "Middle": 50,
+          "Treble": 50
+        }
+      }
+    },
+    "created": "2026-09-04T13:40:07.550Z",
+    "modified": "2026-09-04T13:40:07.550Z"
   }
 }

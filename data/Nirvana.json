@@ -1,13 +1,19 @@
 {
   "name": "Nirvana",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "SmellsTeenSpir",
       "short": "TeenSpir",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Smells Like Teen Spirit: clean chorus verse chords",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Smells Like Teen Spirit: fuzzy chorus riff + solo",
           "mods": {
             "AMP": {
@@ -105,10 +113,14 @@
     {
       "slug": "ComeAsYouAre",
       "short": "ComeAsU",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Come as You Are: watery chorused clean riff",
           "mods": {
             "AMP": {
@@ -154,10 +166,14 @@
     {
       "slug": "InBloom",
       "short": "InBloom",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "In Bloom: thick fuzzy pop-grunge riff",
           "mods": {
             "AMP": {
@@ -203,10 +219,14 @@
     {
       "slug": "HeartShapedBox",
       "short": "HeartBox",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Heart-Shaped Box: huge Big Muff chorus + wailing solo",
           "mods": {
             "AMP": {
@@ -269,10 +289,14 @@
     {
       "slug": "TerritorialPis",
       "short": "TerritPs",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Territorial Pissings: blown-out punk fuzz riff",
           "mods": {
             "AMP": {

@@ -1,13 +1,19 @@
 {
   "name": "Lenny Kravitz",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "GoMyWay",
       "short": "GoMyWay",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Are You Gonna Go My Way: iconic fuzzed Plexi riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Are You Gonna Go My Way: wild fuzz-wah lead",
           "mods": {
             "AMP": {
@@ -107,10 +115,14 @@
     {
       "slug": "AlwaysOnRun",
       "short": "AlwysRun",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Always on the Run: heavy funky Slash-style riff",
           "mods": {
             "AMP": {
@@ -155,6 +167,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Always on the Run: screaming wah lead",
           "mods": {
             "AMP": {
@@ -221,10 +235,14 @@
     {
       "slug": "LetLoveRule",
       "short": "LoveRule",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Let Love Rule: warm retro clean-edge chords",
           "mods": {
             "AMP": {
@@ -260,6 +278,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Let Love Rule: soulful fuzzy lead",
           "mods": {
             "AMP": {
@@ -314,10 +334,14 @@
     {
       "slug": "AmericanWoman",
       "short": "AmerWmn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "American Woman: swampy fuzz-wah riff",
           "mods": {
             "AMP": {
@@ -372,6 +396,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "American Woman: heavy wah fuzz lead",
           "mods": {
             "AMP": {
@@ -428,10 +454,14 @@
     {
       "slug": "AintOver",
       "short": "AintOver",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "It Ain't Over 'Til It's Over: smooth soul clean chords",
           "mods": {
             "AMP": {
@@ -485,6 +515,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "It Ain't Over 'Til It's Over: silky melodic lead",
           "mods": {
             "AMP": {

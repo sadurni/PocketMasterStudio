@@ -8,8 +8,8 @@
   "presets": [
     {
       "version": "1.0",
-      "presetName": "BohRhap C",
-      "description": "Bohemian Rhapsody: mellow clean ballad answer",
+      "presetName": "NoRain C",
+      "description": "No Rain: bright compressed chorus-clean rhythm targeting the song's jangly electric guitar texture  [Sub.: heavy rhythm -> Tones of Home]",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -17,15 +17,15 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 6
+            "THRE": 9
           }
         },
         "FX1": {
           "enabled": true,
           "effect": "COMP 1",
           "parameters": {
-            "Sustain": 24,
-            "Vol": 55
+            "Sustain": 42,
+            "Vol": 54
           }
         },
         "DRV": {
@@ -38,31 +38,31 @@
           }
         },
         "IR": {
-          "enabled": false,
-          "effect": "Voks 1x12",
+          "enabled": true,
+          "effect": "Jazz 2x12",
           "parameters": {
-            "Vol": 85
+            "Vol": 100
           }
         },
         "EQ": {
           "enabled": true,
           "effect": "GT EQ 1",
           "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
+            "125Hz": -3,
+            "400Hz": -1,
+            "800Hz": 1,
+            "1.6kHz": 3,
+            "4kHz": 3,
             "Vol": 100
           }
         },
         "FX2": {
-          "enabled": false,
-          "effect": "Boost",
+          "enabled": true,
+          "effect": "A-Chorus",
           "parameters": {
-            "Gain": 20,
-            "+3dB": 1,
-            "Bright": 1
+            "Depth": 24,
+            "Rate": 0.7,
+            "Tone": 62
           }
         },
         "DLY": {
@@ -76,15 +76,15 @@
         },
         "RVB": {
           "enabled": true,
-          "effect": "Spring",
+          "effect": "Room",
           "parameters": {
-            "Mix": 16,
-            "Decay": 42
+            "Mix": 14,
+            "Decay": 34
           }
         },
         "Clone": {
           "enabled": true,
-          "effect": "AC30 May",
+          "effect": "TwinCln",
           "parameters": {
             "Gain": 50,
             "Vol": 100,
@@ -110,15 +110,15 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "BohemianRhap",
+      "song": "NoRain",
       "kind": "C",
-      "artist": "Queen",
+      "artist": "Blind Melon",
       "slot": 1
     },
     {
       "version": "1.0",
-      "presetName": "BohRhap H",
-      "description": "Bohemian Rhapsody: heavy operatic power chords + booster",
+      "presetName": "NoRain L",
+      "description": "No Rain: warm melodic overdrive lead with light chorus, slapback reinforcement, and restrained room ambience  [Sub.: heavy rhythm -> Tones of Home]",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -126,47 +126,10 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 20
+            "THRE": 12
           }
         },
         "FX1": {
-          "enabled": true,
-          "effect": "Boost",
-          "parameters": {
-            "Gain": 55,
-            "+3dB": 1,
-            "Bright": 1
-          }
-        },
-        "DRV": {
-          "enabled": false,
-          "effect": "Scream",
-          "parameters": {
-            "Gain": 40,
-            "Tone": 70,
-            "Vol": 50
-          }
-        },
-        "IR": {
-          "enabled": false,
-          "effect": "Voks 1x12",
-          "parameters": {
-            "Vol": 85
-          }
-        },
-        "EQ": {
-          "enabled": true,
-          "effect": "GT EQ 1",
-          "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
-            "Vol": 100
-          }
-        },
-        "FX2": {
           "enabled": false,
           "effect": "Boost",
           "parameters": {
@@ -175,26 +138,62 @@
             "Bright": 1
           }
         },
-        "DLY": {
-          "enabled": false,
-          "effect": "Pure",
+        "DRV": {
+          "enabled": true,
+          "effect": "Butter OD",
           "parameters": {
-            "Mix": 20,
-            "Time": 500,
-            "F.Back": 30
+            "Gain": 34,
+            "Vol": 62
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "TWD 1x8",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": -3,
+            "400Hz": 1,
+            "800Hz": 3,
+            "1.6kHz": 4,
+            "4kHz": 2,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 12,
+            "Rate": 0.6,
+            "Tone": 58
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Slap",
+          "parameters": {
+            "Mix": 16,
+            "Time": 145,
+            "F.Back": 18
           }
         },
         "RVB": {
           "enabled": true,
           "effect": "Spring",
           "parameters": {
-            "Mix": 14,
+            "Mix": 17,
             "Decay": 40
           }
         },
         "Clone": {
           "enabled": true,
-          "effect": "AC30 May",
+          "effect": "TwinCln",
           "parameters": {
             "Gain": 50,
             "Vol": 100,
@@ -220,9 +219,9 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "BohemianRhap",
-      "kind": "H",
-      "artist": "Queen",
+      "song": "NoRain",
+      "kind": "L",
+      "artist": "Blind Melon",
       "slot": 2
     },
     {
@@ -2425,116 +2424,6 @@
     },
     {
       "version": "1.0",
-      "presetName": "StayWith R",
-      "description": "Stay with Me: swaggering tweed/Marshall crunch",
-      "ampMode": "Clone",
-      "presetVolume": 100,
-      "modules": {
-        "NR": {
-          "enabled": true,
-          "effect": "Gate",
-          "parameters": {
-            "THRE": 10
-          }
-        },
-        "FX1": {
-          "enabled": false,
-          "effect": "Boost",
-          "parameters": {
-            "Gain": 20,
-            "+3dB": 1,
-            "Bright": 1
-          }
-        },
-        "DRV": {
-          "enabled": false,
-          "effect": "Scream",
-          "parameters": {
-            "Gain": 40,
-            "Tone": 70,
-            "Vol": 50
-          }
-        },
-        "IR": {
-          "enabled": true,
-          "effect": "BritGN 2x12",
-          "parameters": {
-            "Vol": 100
-          }
-        },
-        "EQ": {
-          "enabled": true,
-          "effect": "GT EQ 1",
-          "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
-            "Vol": 100
-          }
-        },
-        "FX2": {
-          "enabled": false,
-          "effect": "Boost",
-          "parameters": {
-            "Gain": 20,
-            "+3dB": 1,
-            "Bright": 1
-          }
-        },
-        "DLY": {
-          "enabled": false,
-          "effect": "Pure",
-          "parameters": {
-            "Mix": 20,
-            "Time": 500,
-            "F.Back": 30
-          }
-        },
-        "RVB": {
-          "enabled": true,
-          "effect": "Spring",
-          "parameters": {
-            "Mix": 12,
-            "Decay": 40
-          }
-        },
-        "Clone": {
-          "enabled": true,
-          "effect": "Plexi",
-          "parameters": {
-            "Gain": 50,
-            "Vol": 100,
-            "Bass": 50,
-            "Middle": 50,
-            "Treble": 50
-          }
-        }
-      },
-      "signalChain": [
-        "NR",
-        "FX1",
-        "DRV",
-        "AMP",
-        "IR",
-        "EQ",
-        "FX2",
-        "DLY",
-        "RVB"
-      ],
-      "metadata": {
-        "createdDate": "2026-08-18",
-        "author": "PocketEdit",
-        "tags": []
-      },
-      "song": "StayWithMe",
-      "kind": "R",
-      "artist": "Faces",
-      "slot": 23
-    },
-    {
-      "version": "1.0",
       "presetName": "StilLov C",
       "description": "Still Loving You: tender clean-edge intro  [Sub.: heavy rhythm -> Blackout ; solo -> Rock You Like a Hurricane]",
       "ampMode": "Clone",
@@ -2640,7 +2529,7 @@
       "song": "StillLovingYou",
       "kind": "C",
       "artist": "Scorpions",
-      "slot": 24
+      "slot": 23
     },
     {
       "version": "1.0",
@@ -2750,7 +2639,7 @@
       "song": "Hurricane",
       "kind": "R",
       "artist": "Scorpions",
-      "slot": 25
+      "slot": 24
     },
     {
       "version": "1.0",
@@ -2861,7 +2750,7 @@
       "song": "Hurricane",
       "kind": "L",
       "artist": "Scorpions",
-      "slot": 26
+      "slot": 25
     },
     {
       "version": "1.0",
@@ -2971,7 +2860,7 @@
       "song": "Surfing",
       "kind": "R",
       "artist": "Joe Satriani",
-      "slot": 27
+      "slot": 26
     },
     {
       "version": "1.0",
@@ -3082,7 +2971,7 @@
       "song": "Surfing",
       "kind": "Lb",
       "artist": "Joe Satriani",
-      "slot": 28
+      "slot": 27
     },
     {
       "version": "1.0",
@@ -3193,7 +3082,7 @@
       "song": "AlwaysWithMe",
       "kind": "C",
       "artist": "Joe Satriani",
-      "slot": 29
+      "slot": 28
     },
     {
       "version": "1.0",
@@ -3304,7 +3193,7 @@
       "song": "AlwaysWithMe",
       "kind": "L",
       "artist": "Joe Satriani",
-      "slot": 30
+      "slot": 29
     },
     {
       "version": "1.0",
@@ -3416,12 +3305,12 @@
       "song": "Cryin",
       "kind": "Lc",
       "artist": "Joe Satriani",
-      "slot": 31
+      "slot": 30
     },
     {
       "version": "1.0",
-      "presetName": "Attitude L",
-      "description": "The Attitude Song: whammy-fuelled shred lead  [Sub.: heavy rhythm -> Bad Horsie]",
+      "presetName": "StayWith R",
+      "description": "Stay with Me: swaggering tweed/Marshall crunch",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -3429,7 +3318,7 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 22
+            "THRE": 10
           }
         },
         "FX1": {
@@ -3442,17 +3331,17 @@
           }
         },
         "DRV": {
-          "enabled": true,
+          "enabled": false,
           "effect": "Scream",
           "parameters": {
-            "Gain": 36,
-            "Tone": 62,
-            "Vol": 70
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
           }
         },
         "IR": {
           "enabled": true,
-          "effect": "Bog 4x12",
+          "effect": "BritGN 2x12",
           "parameters": {
             "Vol": 100
           }
@@ -3470,37 +3359,34 @@
           }
         },
         "FX2": {
-          "enabled": true,
-          "effect": "Pitch",
+          "enabled": false,
+          "effect": "Boost",
           "parameters": {
-            "High": 12,
-            "Low Pitch": -12,
-            "Dry": 45,
-            "H-Vol": 55,
-            "L-Vol": 0
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
           }
         },
         "DLY": {
-          "enabled": true,
-          "effect": "Warm",
+          "enabled": false,
+          "effect": "Pure",
           "parameters": {
-            "Mix": 16,
-            "Time": 360,
-            "F.Back": 28
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
           }
         },
         "RVB": {
           "enabled": true,
-          "effect": "Plate 2",
+          "effect": "Spring",
           "parameters": {
-            "Mix": 14,
-            "Decay": 46,
-            "Damp": 50
+            "Mix": 12,
+            "Decay": 40
           }
         },
         "Clone": {
           "enabled": true,
-          "effect": "SoloSLO",
+          "effect": "Plexi",
           "parameters": {
             "Gain": 50,
             "Vol": 100,
@@ -3526,10 +3412,10 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "AttitudeSong",
-      "kind": "L",
-      "artist": "Steve Vai",
-      "slot": 32
+      "song": "StayWithMe",
+      "kind": "R",
+      "artist": "Faces",
+      "slot": 31
     },
     {
       "version": "1.0",
@@ -3639,12 +3525,121 @@
       "song": "ForTheLoveGod",
       "kind": "Lc",
       "artist": "Steve Vai",
+      "slot": 32
+    },
+    {
+      "version": "1.0",
+      "presetName": "RealMe C",
+      "description": "The Real Me: restrained Hiwatt-style British clean for quieter verse and transition passages",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 8
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 1",
+          "parameters": {
+            "Sustain": 22,
+            "Vol": 55
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "BritGN 4x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 1",
+          "parameters": {
+            "125Hz": 0,
+            "400Hz": -2,
+            "800Hz": 0,
+            "1.6kHz": 2,
+            "4kHz": 0,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": false,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 20,
+            "+3dB": 1,
+            "Bright": 1
+          }
+        },
+        "DLY": {
+          "enabled": false,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 20,
+            "Time": 500,
+            "F.Back": 30
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 8,
+            "Decay": 30
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "Plexi",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "TheRealMe",
+      "kind": "C",
+      "artist": "the who",
       "slot": 33
     },
     {
       "version": "1.0",
-      "presetName": "Money4N R",
-      "description": "Money for Nothing: dark mid-humped LP crunch riff",
+      "presetName": "RealMe H",
+      "description": "The Real Me: Townshend-inspired SG/P-90 punch with a tight, loud British amp-driven riff tone",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -3652,43 +3647,43 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 10
+            "THRE": 25
           }
         },
         "FX1": {
-          "enabled": false,
+          "enabled": true,
           "effect": "Boost",
           "parameters": {
-            "Gain": 20,
+            "Gain": 18,
             "+3dB": 1,
-            "Bright": 1
+            "Bright": 0
           }
         },
         "DRV": {
-          "enabled": false,
+          "enabled": true,
           "effect": "Scream",
           "parameters": {
-            "Gain": 40,
-            "Tone": 70,
-            "Vol": 50
+            "Gain": 22,
+            "Tone": 53,
+            "Vol": 54
           }
         },
         "IR": {
-          "enabled": false,
+          "enabled": true,
           "effect": "BritGN 4x12",
           "parameters": {
-            "Vol": 85
+            "Vol": 100
           }
         },
         "EQ": {
           "enabled": true,
           "effect": "GT EQ 1",
           "parameters": {
-            "125Hz": 8,
-            "400Hz": 10,
-            "800Hz": 12,
-            "1.6kHz": -6,
-            "4kHz": -8,
+            "125Hz": 0,
+            "400Hz": -3,
+            "800Hz": 0,
+            "1.6kHz": 2,
+            "4kHz": 1,
             "Vol": 100
           }
         },
@@ -3714,13 +3709,13 @@
           "enabled": true,
           "effect": "Room",
           "parameters": {
-            "Mix": 12,
-            "Decay": 42
+            "Mix": 10,
+            "Decay": 34
           }
         },
         "Clone": {
           "enabled": true,
-          "effect": "JCM800",
+          "effect": "Plexi",
           "parameters": {
             "Gain": 50,
             "Vol": 100,
@@ -3746,15 +3741,15 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "MoneyForNothing",
-      "kind": "R",
-      "artist": "Dire Straits",
+      "song": "TheRealMe",
+      "kind": "H",
+      "artist": "the who",
       "slot": 34
     },
     {
       "version": "1.0",
-      "presetName": "BrothArm L",
-      "description": "Brothers in Arms: warm compressed crying lead  [Sub.: heavy rhythm -> Money for Nothing]",
+      "presetName": "RealMe L",
+      "description": "The Real Me: singing British lead for the instrumental break with boosted mids, short echo, and room ambience",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -3762,31 +3757,30 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 10
+            "THRE": 20
           }
         },
         "FX1": {
           "enabled": true,
-          "effect": "COMP 2",
+          "effect": "Boost",
           "parameters": {
-            "Sustain": 54,
-            "Attack": 50,
-            "Vol": 60,
-            "Clip": 8
+            "Gain": 24,
+            "+3dB": 0,
+            "Bright": 1
           }
         },
         "DRV": {
-          "enabled": false,
+          "enabled": true,
           "effect": "Scream",
           "parameters": {
-            "Gain": 40,
-            "Tone": 70,
-            "Vol": 50
+            "Gain": 30,
+            "Tone": 62,
+            "Vol": 57
           }
         },
         "IR": {
           "enabled": true,
-          "effect": "Viblux 1x12",
+          "effect": "BritGN 4x12",
           "parameters": {
             "Vol": 100
           }
@@ -3795,11 +3789,11 @@
           "enabled": true,
           "effect": "GT EQ 1",
           "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
+            "125Hz": -3,
+            "400Hz": -2,
+            "800Hz": 4,
+            "1.6kHz": 4,
+            "4kHz": 2,
             "Vol": 100
           }
         },
@@ -3814,134 +3808,24 @@
         },
         "DLY": {
           "enabled": true,
-          "effect": "Warm",
-          "parameters": {
-            "Mix": 18,
-            "Time": 380,
-            "F.Back": 26
-          }
-        },
-        "RVB": {
-          "enabled": true,
-          "effect": "Hall",
-          "parameters": {
-            "Mix": 24,
-            "Decay": 60
-          }
-        },
-        "Clone": {
-          "enabled": true,
-          "effect": "TwinCln",
-          "parameters": {
-            "Gain": 50,
-            "Vol": 100,
-            "Bass": 50,
-            "Middle": 50,
-            "Treble": 50
-          }
-        }
-      },
-      "signalChain": [
-        "NR",
-        "FX1",
-        "DRV",
-        "AMP",
-        "IR",
-        "EQ",
-        "FX2",
-        "DLY",
-        "RVB"
-      ],
-      "metadata": {
-        "createdDate": "2026-08-18",
-        "author": "PocketEdit",
-        "tags": []
-      },
-      "song": "BrothersInArms",
-      "kind": "L",
-      "artist": "Dire Straits",
-      "slot": 35
-    },
-    {
-      "version": "1.0",
-      "presetName": "FridayLv R",
-      "description": "Friday I'm in Love: bright happy jangly chords  [Sub.: solo -> Fascination Street]",
-      "ampMode": "Clone",
-      "presetVolume": 100,
-      "modules": {
-        "NR": {
-          "enabled": true,
-          "effect": "Gate",
-          "parameters": {
-            "THRE": 10
-          }
-        },
-        "FX1": {
-          "enabled": true,
-          "effect": "A-Chorus",
-          "parameters": {
-            "Depth": 38,
-            "Rate": 0.6,
-            "Tone": 55
-          }
-        },
-        "DRV": {
-          "enabled": false,
-          "effect": "Scream",
-          "parameters": {
-            "Gain": 40,
-            "Tone": 70,
-            "Vol": 50
-          }
-        },
-        "IR": {
-          "enabled": true,
-          "effect": "Jazz 2x12",
-          "parameters": {
-            "Vol": 100
-          }
-        },
-        "EQ": {
-          "enabled": true,
-          "effect": "GT EQ 1",
-          "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
-            "Vol": 100
-          }
-        },
-        "FX2": {
-          "enabled": false,
-          "effect": "Boost",
-          "parameters": {
-            "Gain": 20,
-            "+3dB": 1,
-            "Bright": 1
-          }
-        },
-        "DLY": {
-          "enabled": false,
           "effect": "Pure",
           "parameters": {
-            "Mix": 20,
-            "Time": 500,
-            "F.Back": 30
+            "Mix": 18,
+            "Time": 360,
+            "F.Back": 24
           }
         },
         "RVB": {
           "enabled": true,
-          "effect": "Room",
+          "effect": "Plate 1",
           "parameters": {
-            "Mix": 14,
-            "Decay": 46
+            "Mix": 16,
+            "Decay": 40
           }
         },
         "Clone": {
           "enabled": true,
-          "effect": "TwinCln",
+          "effect": "Plexi",
           "parameters": {
             "Gain": 50,
             "Vol": 100,
@@ -3967,10 +3851,10 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "FridayInLove",
-      "kind": "R",
-      "artist": "The Cure",
-      "slot": 36
+      "song": "TheRealMe",
+      "kind": "L",
+      "artist": "the who",
+      "slot": 35
     },
     {
       "version": "1.0",
@@ -4081,7 +3965,7 @@
       "song": "MalditoDuende",
       "kind": "C",
       "artist": "Heroes del Silencio",
-      "slot": 37
+      "slot": 36
     },
     {
       "version": "1.0",
@@ -4191,7 +4075,7 @@
       "song": "MalditoDuende",
       "kind": "L",
       "artist": "Heroes del Silencio",
-      "slot": 38
+      "slot": 37
     },
     {
       "version": "1.0",
@@ -4300,117 +4184,7 @@
       "song": "HeyHeyMyMy",
       "kind": "R",
       "artist": "Neil Young",
-      "slot": 39
-    },
-    {
-      "version": "1.0",
-      "presetName": "Albatrss L",
-      "description": "Albatross: soulful southern lead",
-      "ampMode": "Clone",
-      "presetVolume": 100,
-      "modules": {
-        "NR": {
-          "enabled": true,
-          "effect": "Gate",
-          "parameters": {
-            "THRE": 16
-          }
-        },
-        "FX1": {
-          "enabled": false,
-          "effect": "Boost",
-          "parameters": {
-            "Gain": 20,
-            "+3dB": 1,
-            "Bright": 1
-          }
-        },
-        "DRV": {
-          "enabled": true,
-          "effect": "Scream",
-          "parameters": {
-            "Gain": 32,
-            "Tone": 58,
-            "Vol": 70
-          }
-        },
-        "IR": {
-          "enabled": false,
-          "effect": "BritGN 4x12",
-          "parameters": {
-            "Vol": 85
-          }
-        },
-        "EQ": {
-          "enabled": true,
-          "effect": "GT EQ 1",
-          "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
-            "Vol": 100
-          }
-        },
-        "FX2": {
-          "enabled": false,
-          "effect": "Boost",
-          "parameters": {
-            "Gain": 20,
-            "+3dB": 1,
-            "Bright": 1
-          }
-        },
-        "DLY": {
-          "enabled": true,
-          "effect": "Analog",
-          "parameters": {
-            "Mix": 16,
-            "Time": 320,
-            "F.Back": 28
-          }
-        },
-        "RVB": {
-          "enabled": true,
-          "effect": "Hall",
-          "parameters": {
-            "Mix": 16,
-            "Decay": 50
-          }
-        },
-        "Clone": {
-          "enabled": true,
-          "effect": "JCM800",
-          "parameters": {
-            "Gain": 50,
-            "Vol": 100,
-            "Bass": 50,
-            "Middle": 50,
-            "Treble": 50
-          }
-        }
-      },
-      "signalChain": [
-        "NR",
-        "FX1",
-        "DRV",
-        "AMP",
-        "IR",
-        "EQ",
-        "FX2",
-        "DLY",
-        "RVB"
-      ],
-      "metadata": {
-        "createdDate": "2026-08-18",
-        "author": "PocketEdit",
-        "tags": []
-      },
-      "song": "Albatross",
-      "kind": "L",
-      "artist": "Corrosion of Conformity",
-      "slot": 40
+      "slot": 38
     },
     {
       "version": "1.0",
@@ -4521,7 +4295,7 @@
       "song": "Superunknown",
       "kind": "L",
       "artist": "Soundgarden",
-      "slot": 41
+      "slot": 39
     },
     {
       "version": "1.0",
@@ -4630,7 +4404,7 @@
       "song": "HotelCalifornia",
       "kind": "C",
       "artist": "Eagles",
-      "slot": 42
+      "slot": 40
     },
     {
       "version": "1.0",
@@ -4740,12 +4514,12 @@
       "song": "HotelCalifornia",
       "kind": "L",
       "artist": "Eagles",
-      "slot": 43
+      "slot": 41
     },
     {
       "version": "1.0",
-      "presetName": "Gentlmen R",
-      "description": "Gentlemen: taut biting Marshall crunch riff",
+      "presetName": "DuHast R",
+      "description": "Du hast: tight JCM800-style crunch for the driving verse and chorus rhythm, with a boosted front end and restrained ambience",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -4753,7 +4527,7 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 10
+            "THRE": 22
           }
         },
         "FX1": {
@@ -4769,27 +4543,27 @@
           "enabled": true,
           "effect": "Scream",
           "parameters": {
-            "Gain": 26,
-            "Tone": 58,
-            "Vol": 70
+            "Gain": 14,
+            "Tone": 62,
+            "Vol": 100
           }
         },
         "IR": {
-          "enabled": false,
+          "enabled": true,
           "effect": "BritGN 4x12",
           "parameters": {
-            "Vol": 85
+            "Vol": 86
           }
         },
         "EQ": {
           "enabled": true,
-          "effect": "GT EQ 1",
+          "effect": "GT EQ 2",
           "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
+            "100Hz": 1,
+            "500Hz": -2,
+            "1kHz": -3,
+            "3kHz": 3,
+            "6kHz": 1,
             "Vol": 100
           }
         },
@@ -4815,8 +4589,8 @@
           "enabled": true,
           "effect": "Room",
           "parameters": {
-            "Mix": 10,
-            "Decay": 42
+            "Mix": 5,
+            "Decay": 18
           }
         },
         "Clone": {
@@ -4847,15 +4621,15 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "Gentlemen",
+      "song": "DuHast",
       "kind": "R",
-      "artist": "The Afghan Whigs",
-      "slot": 44
+      "artist": "Rammstein",
+      "slot": 42
     },
     {
       "version": "1.0",
-      "presetName": "HotelIll R",
-      "description": "Hotel Illness: boogie barroom crunch riff  [Sub.: solo -> Twice as Hard]",
+      "presetName": "DuHast H",
+      "description": "Du hast: saturated industrial metal rhythm with hard-gated palm mutes, focused low end, and a dry wall-of-guitars response",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -4863,7 +4637,7 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 10
+            "THRE": 28
           }
         },
         "FX1": {
@@ -4876,30 +4650,30 @@
           }
         },
         "DRV": {
-          "enabled": false,
+          "enabled": true,
           "effect": "Scream",
           "parameters": {
-            "Gain": 40,
-            "Tone": 70,
-            "Vol": 50
+            "Gain": 10,
+            "Tone": 66,
+            "Vol": 82
           }
         },
         "IR": {
           "enabled": true,
-          "effect": "BritGN 2x12",
+          "effect": "Dual 4x12",
           "parameters": {
             "Vol": 100
           }
         },
         "EQ": {
           "enabled": true,
-          "effect": "GT EQ 1",
+          "effect": "GT EQ 2",
           "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
+            "100Hz": 2,
+            "500Hz": -4,
+            "1kHz": -5,
+            "3kHz": 4,
+            "6kHz": 2,
             "Vol": 100
           }
         },
@@ -4925,13 +4699,13 @@
           "enabled": true,
           "effect": "Room",
           "parameters": {
-            "Mix": 10,
-            "Decay": 42
+            "Mix": 4,
+            "Decay": 16
           }
         },
         "Clone": {
           "enabled": true,
-          "effect": "Plexi",
+          "effect": "SoloSLO",
           "parameters": {
             "Gain": 50,
             "Vol": 100,
@@ -4957,15 +4731,15 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "HotelIllness",
-      "kind": "R",
-      "artist": "The Black Crowes",
-      "slot": 45
+      "song": "DuHast",
+      "kind": "H",
+      "artist": "Rammstein",
+      "slot": 43
     },
     {
       "version": "1.0",
-      "presetName": "ThornPrd L",
-      "description": "Thorn in My Pride: soaring bluesy jam lead  [Sub.: heavy rhythm -> No Speak No Slave]",
+      "presetName": "3Pair C",
+      "description": "Three of a Perfect Pair: compressed Roland JC-120-style clean with bright chorus, light room ambience, and restrained echo for the precise interlocking rhythm parts.",
       "ampMode": "Clone",
       "presetVolume": 100,
       "modules": {
@@ -4973,7 +4747,228 @@
           "enabled": true,
           "effect": "Gate",
           "parameters": {
-            "THRE": 13
+            "THRE": 8
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "COMP 2",
+          "parameters": {
+            "Sustain": 42,
+            "Attack": 62,
+            "Vol": 56,
+            "Clip": 8
+          }
+        },
+        "DRV": {
+          "enabled": false,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 40,
+            "Tone": 70,
+            "Vol": 50
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Jazz 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 2",
+          "parameters": {
+            "100Hz": -4,
+            "500Hz": 0,
+            "1kHz": 2,
+            "3kHz": 4,
+            "6kHz": 2,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "A-Chorus",
+          "parameters": {
+            "Depth": 28,
+            "Rate": 0.4,
+            "Tone": 62
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Pure",
+          "parameters": {
+            "Mix": 13,
+            "Time": 360,
+            "F.Back": 18
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Room",
+          "parameters": {
+            "Mix": 12,
+            "Decay": 32
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "ThreePair",
+      "kind": "C",
+      "artist": "King crimson",
+      "slot": 44
+    },
+    {
+      "version": "1.0",
+      "presetName": "3Pair L",
+      "description": "Three of a Perfect Pair: smooth low-gain melodic lead through a clean JC-120 voice, subtle doubling, and a short warm repeat for singing articulation without dominating the rhythm.",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 11
+          }
+        },
+        "FX1": {
+          "enabled": true,
+          "effect": "Boost",
+          "parameters": {
+            "Gain": 24,
+            "+3dB": 0,
+            "Bright": 0
+          }
+        },
+        "DRV": {
+          "enabled": true,
+          "effect": "Scream",
+          "parameters": {
+            "Gain": 28,
+            "Tone": 53,
+            "Vol": 58
+          }
+        },
+        "IR": {
+          "enabled": true,
+          "effect": "Jazz 2x12",
+          "parameters": {
+            "Vol": 100
+          }
+        },
+        "EQ": {
+          "enabled": true,
+          "effect": "GT EQ 2",
+          "parameters": {
+            "100Hz": -5,
+            "500Hz": 2,
+            "1kHz": 4,
+            "3kHz": 5,
+            "6kHz": 1,
+            "Vol": 100
+          }
+        },
+        "FX2": {
+          "enabled": true,
+          "effect": "Detune",
+          "parameters": {
+            "Detune": -9,
+            "Wet": 22,
+            "Dry": 78
+          }
+        },
+        "DLY": {
+          "enabled": true,
+          "effect": "Warm",
+          "parameters": {
+            "Mix": 19,
+            "Time": 410,
+            "F.Back": 24
+          }
+        },
+        "RVB": {
+          "enabled": true,
+          "effect": "Plate 1",
+          "parameters": {
+            "Mix": 16,
+            "Decay": 40
+          }
+        },
+        "Clone": {
+          "enabled": true,
+          "effect": "TwinCln",
+          "parameters": {
+            "Gain": 50,
+            "Vol": 100,
+            "Bass": 50,
+            "Middle": 50,
+            "Treble": 50
+          }
+        }
+      },
+      "signalChain": [
+        "NR",
+        "FX1",
+        "DRV",
+        "AMP",
+        "IR",
+        "EQ",
+        "FX2",
+        "DLY",
+        "RVB"
+      ],
+      "metadata": {
+        "createdDate": "2026-08-18",
+        "author": "PocketEdit",
+        "tags": []
+      },
+      "song": "ThreePair",
+      "kind": "L",
+      "artist": "King crimson",
+      "slot": 45
+    },
+    {
+      "version": "1.0",
+      "presetName": "3Pair H",
+      "description": "Three of a Perfect Pair: Roland JC-120 platform pushed by Big Muff-style fuzz and mid-focused EQ for the song's aggressive, compressed heavy-guitar passages.",
+      "ampMode": "Clone",
+      "presetVolume": 100,
+      "modules": {
+        "NR": {
+          "enabled": true,
+          "effect": "Gate",
+          "parameters": {
+            "THRE": 27
           }
         },
         "FX1": {
@@ -4987,61 +4982,60 @@
         },
         "DRV": {
           "enabled": true,
-          "effect": "Scream",
+          "effect": "Red Fuzz",
           "parameters": {
-            "Gain": 24,
-            "Tone": 56,
-            "Vol": 70
+            "Fuzz": 56,
+            "Vol": 58
           }
         },
         "IR": {
           "enabled": true,
-          "effect": "BritGN 2x12",
+          "effect": "Jazz 2x12",
           "parameters": {
             "Vol": 100
           }
         },
         "EQ": {
           "enabled": true,
-          "effect": "GT EQ 1",
+          "effect": "GT EQ 2",
           "parameters": {
-            "125Hz": 0,
-            "400Hz": 0,
-            "800Hz": 0,
-            "1.6kHz": 0,
-            "4kHz": 0,
+            "100Hz": -6,
+            "500Hz": 3,
+            "1kHz": 5,
+            "3kHz": 3,
+            "6kHz": -2,
             "Vol": 100
           }
         },
         "FX2": {
-          "enabled": false,
-          "effect": "Boost",
+          "enabled": true,
+          "effect": "A-Chorus",
           "parameters": {
-            "Gain": 20,
-            "+3dB": 1,
-            "Bright": 1
+            "Depth": 18,
+            "Rate": 0.3,
+            "Tone": 55
           }
         },
         "DLY": {
           "enabled": true,
-          "effect": "Analog",
+          "effect": "Warm",
           "parameters": {
-            "Mix": 16,
-            "Time": 320,
-            "F.Back": 28
+            "Mix": 10,
+            "Time": 290,
+            "F.Back": 16
           }
         },
         "RVB": {
           "enabled": true,
-          "effect": "Hall",
+          "effect": "Room",
           "parameters": {
-            "Mix": 18,
-            "Decay": 52
+            "Mix": 9,
+            "Decay": 28
           }
         },
         "Clone": {
           "enabled": true,
-          "effect": "Plexi",
+          "effect": "TwinCln",
           "parameters": {
             "Gain": 50,
             "Vol": 100,
@@ -5067,9 +5061,9 @@
         "author": "PocketEdit",
         "tags": []
       },
-      "song": "ThornInPride",
-      "kind": "L",
-      "artist": "The Black Crowes",
+      "song": "ThreePair",
+      "kind": "H",
+      "artist": "King crimson",
       "slot": 46
     },
     {

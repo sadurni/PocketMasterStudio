@@ -1,13 +1,19 @@
 {
   "name": "Pink Floyd",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "WishYouWere",
       "short": "WishWere",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Wish You Were Here: warm acoustic-flavoured clean",
           "mods": {
             "AMP": {
@@ -52,6 +58,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Wish You Were Here: bluesy scooped-radio lead, clean amp + mid-hump EQ",
           "mods": {
             "AMP": {
@@ -118,10 +126,14 @@
     {
       "slug": "Money",
       "short": "Money",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Money: gritty 7/4 Rat-driven riff, edge of breakup",
           "mods": {
             "AMP": {
@@ -167,10 +179,14 @@
     {
       "slug": "AnotherBrick2",
       "short": "Brick2",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Another Brick in the Wall Pt.2: clipped funk-disco clean chords",
           "mods": {
             "AMP": {
@@ -215,6 +231,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Another Brick in the Wall Pt.2: biting Rat-driven solo, clean amp + mid-hump EQ",
           "mods": {
             "AMP": {
@@ -281,10 +299,14 @@
     {
       "slug": "ComfortablyNumb",
       "short": "ComfNumb",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Comfortably Numb: iconic soaring Big Muff lead, clean amp + mid-hump EQ, long delay",
           "mods": {
             "NR": {
@@ -357,10 +379,14 @@
     {
       "slug": "Dogs",
       "short": "Dogs",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Dogs: chorused clean minor arpeggios",
           "mods": {
             "AMP": {
@@ -423,6 +449,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Dogs: biting sustained Rat lead, clean amp + mid-hump EQ, delay",
           "mods": {
             "AMP": {

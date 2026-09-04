@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "DuHast H",
+  "description": "Du hast: saturated industrial metal rhythm with hard-gated palm mutes, focused low end, and a dry wall-of-guitars response",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 28
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 10,
+        "Tone": 66,
+        "Vol": 82
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Calif DualV",
+      "parameters": {
+        "Gain": 76,
+        "Pres": 61,
+        "Vol": 87,
+        "Bass": 62,
+        "Middle": 38,
+        "Treble": 70
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Dual 4x12",
+      "parameters": {
+        "Vol": 88
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": 2,
+        "500Hz": -4,
+        "1kHz": -5,
+        "3kHz": 4,
+        "6kHz": 2,
+        "Vol": 54
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": false,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 20,
+        "Time": 500,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 4,
+        "Decay": 16
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

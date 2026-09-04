@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "Fear H",
+  "description": "Fear Inoculum: tight, mid-focused Diezel VH4-style heavy rhythm with a low-gain Tube Screamer boost, controlled lows, and restrained room ambience",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 28
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 18,
+        "Tone": 50,
+        "Vol": 70
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Dizzy VH",
+      "parameters": {
+        "Gain": 68,
+        "Pres": 50,
+        "Vol": 88,
+        "Bass": 42,
+        "Middle": 60,
+        "Treble": 50
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Dizzy 4x12",
+      "parameters": {
+        "Vol": 88
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -5,
+        "400Hz": -2,
+        "800Hz": 4,
+        "1.6kHz": 3,
+        "4kHz": -3,
+        "Vol": 50
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": false,
+      "effect": "Pure",
+      "parameters": {
+        "Mix": 20,
+        "Time": 500,
+        "F.Back": 30
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 8,
+        "Decay": 30
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

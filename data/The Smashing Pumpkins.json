@@ -1,13 +1,19 @@
 {
   "name": "The Smashing Pumpkins",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "CherubRock",
       "short": "CherubRk",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cherub Rock: crunchy layered Muff riff",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Cherub Rock: soaring fuzz lead",
           "mods": {
             "AMP": {
@@ -103,10 +111,14 @@
     {
       "slug": "Today",
       "short": "Today",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Today: bright chiming clean intro",
           "mods": {
             "AMP": {
@@ -149,6 +161,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Today: fat Muff wall + lead",
           "mods": {
             "AMP": {
@@ -202,10 +216,14 @@
     {
       "slug": "Mayonaise",
       "short": "Mayonais",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Mayonaise: shimmering chorused clean swells",
           "mods": {
             "AMP": {
@@ -251,10 +269,14 @@
     {
       "slug": "GeekUSA",
       "short": "GeekUSA",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Geek U.S.A.: frantic high-energy Muff riff",
           "mods": {
             "AMP": {
@@ -297,6 +319,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Geek U.S.A.: blazing fuzz shred lead",
           "mods": {
             "AMP": {
@@ -350,10 +374,14 @@
     {
       "slug": "IAmOne",
       "short": "IAmOne",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "I Am One: churning wah-tinged fuzz riff",
           "mods": {
             "AMP": {

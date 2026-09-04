@@ -1,13 +1,19 @@
 {
   "name": "Creedence Clearwater Revival",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "FortunateSon",
       "short": "FortSon",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Fortunate Son: raw bright tweed crunch riff",
           "mods": {
             "AMP": {
@@ -39,6 +45,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Fortunate Son: stinging tweed lead",
           "mods": {
             "AMP": {
@@ -81,10 +89,14 @@
     {
       "slug": "BornOnBayou",
       "short": "BornByu",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Born on the Bayou: swampy tremolo clean-edge",
           "mods": {
             "AMP": {
@@ -124,6 +136,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Born on the Bayou: reverby swamp lead",
           "mods": {
             "AMP": {
@@ -174,10 +188,14 @@
     {
       "slug": "GreenRiver",
       "short": "GreenRiv",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Green River: bright rockabilly tweed riff + slapback",
           "mods": {
             "AMP": {
@@ -218,6 +236,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Green River: twangy tweed lead",
           "mods": {
             "AMP": {
@@ -260,10 +280,14 @@
     {
       "slug": "BadMoonRising",
       "short": "BadMoon",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bad Moon Rising: upbeat bright tweed chords",
           "mods": {
             "AMP": {

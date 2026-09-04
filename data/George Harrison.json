@@ -1,13 +1,19 @@
 {
   "name": "George Harrison",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "MySweetLord",
       "short": "SweetLrd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "My Sweet Lord: bright jangly clean chords",
           "mods": {
             "AMP": {
@@ -50,6 +56,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "My Sweet Lord: soaring slide lead (rotary)",
           "mods": {
             "AMP": {
@@ -121,10 +129,14 @@
     {
       "slug": "WhatIsLife",
       "short": "WhatLife",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "What Is Life: punchy jangly crunch riff",
           "mods": {
             "AMP": {
@@ -168,6 +180,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "What Is Life: melodic slide lead",
           "mods": {
             "AMP": {
@@ -230,10 +244,14 @@
     {
       "slug": "WahWah",
       "short": "WahWah",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Wah-Wah: thick wall-of-sound crunch riff",
           "mods": {
             "AMP": {
@@ -279,10 +297,14 @@
     {
       "slug": "MarwaBlues",
       "short": "MarwaBl",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Marwa Blues: lush clean chordal bed",
           "mods": {
             "AMP": {
@@ -334,6 +356,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Marwa Blues: gorgeous sustaining slide lead",
           "mods": {
             "AMP": {

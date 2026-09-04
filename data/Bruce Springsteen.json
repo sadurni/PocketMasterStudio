@@ -1,13 +1,19 @@
 {
   "name": "Bruce Springsteen",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "BornToRun",
       "short": "Born2Run",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Born to Run: wall-of-sound bright tweed jangle crunch",
           "mods": {
             "AMP": {
@@ -39,6 +45,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Born to Run: soaring Tele lead + slapback",
           "mods": {
             "AMP": {
@@ -84,10 +92,14 @@
     {
       "slug": "ThunderRoad",
       "short": "ThndrRd",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Thunder Road: shimmering clean-edge chords",
           "mods": {
             "AMP": {
@@ -119,6 +131,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Thunder Road: triumphant Tele outro lead",
           "mods": {
             "AMP": {
@@ -164,10 +178,14 @@
     {
       "slug": "Badlands",
       "short": "Badlands",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Badlands: driving anthemic tweed crunch",
           "mods": {
             "AMP": {
@@ -201,10 +219,14 @@
     {
       "slug": "AdamRaisedCain",
       "short": "AdamCain",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Adam Raised a Cain: snarling searing Tele lead",
           "mods": {
             "AMP": {
@@ -259,10 +281,14 @@
     {
       "slug": "CandysRoom",
       "short": "CandyRm",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Candy's Room: pulsing tremolo clean intro",
           "mods": {
             "AMP": {

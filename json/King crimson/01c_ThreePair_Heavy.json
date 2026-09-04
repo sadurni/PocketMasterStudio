@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "presetName": "3Pair H",
+  "description": "Three of a Perfect Pair: Roland JC-120 platform pushed by Big Muff-style fuzz and mid-focused EQ for the song's aggressive, compressed heavy-guitar passages.",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 27
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Red Fuzz",
+      "parameters": {
+        "Fuzz": 56,
+        "Vol": 58
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Jazz 120",
+      "parameters": {
+        "Vol": 86,
+        "Bass": 42,
+        "Middle": 58,
+        "Treble": 58,
+        "Bright": 0
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Jazz 2x12",
+      "parameters": {
+        "Vol": 86
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": -6,
+        "500Hz": 3,
+        "1kHz": 5,
+        "3kHz": 3,
+        "6kHz": -2,
+        "Vol": 54
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "A-Chorus",
+      "parameters": {
+        "Depth": 18,
+        "Rate": 0.3,
+        "Tone": 55
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Warm",
+      "parameters": {
+        "Mix": 10,
+        "Time": 290,
+        "F.Back": 16
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Room",
+      "parameters": {
+        "Mix": 9,
+        "Decay": 28
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

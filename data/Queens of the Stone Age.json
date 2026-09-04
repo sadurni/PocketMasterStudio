@@ -1,13 +1,19 @@
 {
   "name": "Queens of the Stone Age",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "RegularJohn",
       "short": "RegJohn",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Regular John: driving robotic mid crunch riff",
           "mods": {
             "AMP": {
@@ -51,6 +57,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Regular John: fuzzy desert lead",
           "mods": {
             "AMP": {
@@ -104,10 +112,14 @@
     {
       "slug": "FeelGoodHit",
       "short": "FeelGood",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Feel Good Hit of the Summer: pummeling stacked riff",
           "mods": {
             "AMP": {
@@ -151,6 +163,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Feel Good Hit of the Summer: buzzing fuzz lead",
           "mods": {
             "AMP": {
@@ -195,10 +209,14 @@
     {
       "slug": "NoOneKnows",
       "short": "NoOneKnw",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "No One Knows: crisp syncopated mid riff",
           "mods": {
             "AMP": {
@@ -242,6 +260,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "No One Knows: slick fuzzy lead",
           "mods": {
             "AMP": {
@@ -295,10 +315,14 @@
     {
       "slug": "GoWithTheFlow",
       "short": "GoFlow",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Go with the Flow: pulsing driving mid crunch",
           "mods": {
             "AMP": {
@@ -342,6 +366,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Go with the Flow: fuzz-drenched lead",
           "mods": {
             "AMP": {
@@ -386,10 +412,14 @@
     {
       "slug": "SmoothSailing",
       "short": "SmoothSl",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Smooth Sailing: swaggering clipped funk crunch",
           "mods": {
             "AMP": {

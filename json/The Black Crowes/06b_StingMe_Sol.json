@@ -1,0 +1,107 @@
+{
+  "version": "1.0",
+  "presetName": "StingMe L",
+  "description": "Sting Me: singing melodic solo tone from a pushed Marshall, with restrained analog echo and room ambience",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 18
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 32,
+        "Tone": 62,
+        "Vol": 68
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Brit 45",
+      "parameters": {
+        "Gain": 66,
+        "Pres": 62,
+        "Vol": 86,
+        "Bass": 45,
+        "Middle": 68,
+        "Treble": 67
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "BritGN 4x12",
+      "parameters": {
+        "Vol": 88
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 1,
+        "800Hz": 4,
+        "1.6kHz": 4,
+        "4kHz": 1,
+        "Vol": 54
+      }
+    },
+    "FX2": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Analog",
+      "parameters": {
+        "Mix": 20,
+        "Time": 380,
+        "F.Back": 24
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 1",
+      "parameters": {
+        "Mix": 16,
+        "Decay": 42
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

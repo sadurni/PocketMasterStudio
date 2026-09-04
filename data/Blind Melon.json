@@ -1,0 +1,380 @@
+{
+  "name": "Blind Melon",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
+  "songs": [
+    {
+      "slug": "NoRain",
+      "short": "NoRain",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "No Rain: bright compressed chorus-clean rhythm targeting the song's jangly electric guitar texture",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 9
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 42,
+                "Vol": 54
+              }
+            },
+            "AMP": {
+              "effect": "Jazz 120",
+              "enabled": true,
+              "params": {
+                "Vol": 80,
+                "Bass": 46,
+                "Middle": 52,
+                "Treble": 68,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Jazz 2x12",
+              "enabled": true,
+              "params": {
+                "Vol": 84
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": -1,
+                "800Hz": 1,
+                "1.6kHz": 3,
+                "4kHz": 3,
+                "Vol": 52
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 24,
+                "Rate": 0.7,
+                "Tone": 62
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 14,
+                "Decay": 34
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "No Rain: warm melodic overdrive lead with light chorus, slapback reinforcement, and restrained room ambience",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 12
+              }
+            },
+            "DRV": {
+              "effect": "Butter OD",
+              "enabled": true,
+              "params": {
+                "Gain": 34,
+                "Vol": 62
+              }
+            },
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 48,
+                "Tone": 61,
+                "Vol": 88
+              }
+            },
+            "IR": {
+              "effect": "TWD 1x8",
+              "enabled": true,
+              "params": {
+                "Vol": 86
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": 1,
+                "800Hz": 3,
+                "1.6kHz": 4,
+                "4kHz": 2,
+                "Vol": 54
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 12,
+                "Rate": 0.6,
+                "Tone": 58
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 16,
+                "Time": 145,
+                "F.Back": 18
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 17,
+                "Decay": 40
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "slug": "TonesOfHome",
+      "short": "Tones",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
+      "variants": [
+        {
+          "kind": "C",
+          "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Tones of Home: compressed acoustic-style clean rhythm with a warm Fender-style amp for the song's open strumming",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 8
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 38,
+                "Vol": 54
+              }
+            },
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 24,
+                "Tone": 57,
+                "Vol": 80
+              }
+            },
+            "IR": {
+              "effect": "TWD 1x8",
+              "enabled": true,
+              "params": {
+                "Vol": 83
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": 0,
+                "800Hz": 1,
+                "1.6kHz": 2,
+                "4kHz": 2,
+                "Vol": 52
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 16,
+                "Rate": 0.6,
+                "Tone": 58
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 12,
+                "Decay": 35
+              }
+            }
+          }
+        },
+        {
+          "kind": "R",
+          "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Tones of Home: jangly edge-of-breakup Vox rhythm with restrained chorus for the broad electric guitar parts",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 10
+              }
+            },
+            "FX1": {
+              "effect": "COMP 1",
+              "enabled": true,
+              "params": {
+                "Sustain": 25,
+                "Vol": 52
+              }
+            },
+            "AMP": {
+              "effect": "Voks 30N",
+              "enabled": true,
+              "params": {
+                "Gain": 42,
+                "Tone Cut": 43,
+                "Vol": 84,
+                "Bright": 1
+              }
+            },
+            "IR": {
+              "effect": "Voks 1x12",
+              "enabled": true,
+              "params": {
+                "Vol": 85
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -4,
+                "400Hz": -1,
+                "800Hz": 2,
+                "1.6kHz": 3,
+                "4kHz": 2,
+                "Vol": 53
+              }
+            },
+            "FX2": {
+              "effect": "A-Chorus",
+              "enabled": true,
+              "params": {
+                "Depth": 20,
+                "Rate": 0.7,
+                "Tone": 61
+              }
+            },
+            "RVB": {
+              "effect": "Room",
+              "enabled": true,
+              "params": {
+                "Mix": 10,
+                "Decay": 34
+              }
+            }
+          }
+        },
+        {
+          "kind": "L",
+          "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
+          "desc": "Tones of Home: warm melodic lead from a pushed Tweed Deluxe with light overdrive, slapback, and spring ambience",
+          "mods": {
+            "NR": {
+              "effect": "Gate",
+              "enabled": true,
+              "params": {
+                "THRE": 13
+              }
+            },
+            "DRV": {
+              "effect": "Butter OD",
+              "enabled": true,
+              "params": {
+                "Gain": 37,
+                "Vol": 64
+              }
+            },
+            "AMP": {
+              "effect": "TWD Deluxe",
+              "enabled": true,
+              "params": {
+                "Gain": 52,
+                "Tone": 62,
+                "Vol": 89
+              }
+            },
+            "IR": {
+              "effect": "TWD 1x8",
+              "enabled": true,
+              "params": {
+                "Vol": 87
+              }
+            },
+            "EQ": {
+              "effect": "GT EQ 1",
+              "enabled": true,
+              "params": {
+                "125Hz": -3,
+                "400Hz": 1,
+                "800Hz": 3,
+                "1.6kHz": 4,
+                "4kHz": 2,
+                "Vol": 55
+              }
+            },
+            "DLY": {
+              "effect": "Slap",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Time": 165,
+                "F.Back": 20
+              }
+            },
+            "RVB": {
+              "effect": "Spring",
+              "enabled": true,
+              "params": {
+                "Mix": 18,
+                "Decay": 43
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

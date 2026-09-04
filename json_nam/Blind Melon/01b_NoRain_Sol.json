@@ -1,0 +1,105 @@
+{
+  "version": "1.0",
+  "presetName": "NoRain L",
+  "description": "No Rain: warm melodic overdrive lead with light chorus, slapback reinforcement, and restrained room ambience  [Sub.: heavy rhythm -> Tones of Home]",
+  "ampMode": "Clone",
+  "presetVolume": 100,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 12
+      }
+    },
+    "FX1": {
+      "enabled": false,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 20,
+        "+3dB": 1,
+        "Bright": 1
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Butter OD",
+      "parameters": {
+        "Gain": 34,
+        "Vol": 62
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "TWD 1x8",
+      "parameters": {
+        "Vol": 100
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 1",
+      "parameters": {
+        "125Hz": -3,
+        "400Hz": 1,
+        "800Hz": 3,
+        "1.6kHz": 4,
+        "4kHz": 2,
+        "Vol": 100
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "A-Chorus",
+      "parameters": {
+        "Depth": 12,
+        "Rate": 0.6,
+        "Tone": 58
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Slap",
+      "parameters": {
+        "Mix": 16,
+        "Time": 145,
+        "F.Back": 18
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Spring",
+      "parameters": {
+        "Mix": 17,
+        "Decay": 40
+      }
+    },
+    "Clone": {
+      "enabled": true,
+      "effect": "TwinCln",
+      "parameters": {
+        "Gain": 50,
+        "Vol": 100,
+        "Bass": 50,
+        "Middle": 50,
+        "Treble": 50
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

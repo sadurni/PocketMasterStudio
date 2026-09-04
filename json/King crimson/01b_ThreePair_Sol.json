@@ -1,0 +1,106 @@
+{
+  "version": "1.0",
+  "presetName": "3Pair L",
+  "description": "Three of a Perfect Pair: smooth low-gain melodic lead through a clean JC-120 voice, subtle doubling, and a short warm repeat for singing articulation without dominating the rhythm.",
+  "ampMode": "Normal",
+  "presetVolume": 30,
+  "modules": {
+    "NR": {
+      "enabled": true,
+      "effect": "Gate",
+      "parameters": {
+        "THRE": 11
+      }
+    },
+    "FX1": {
+      "enabled": true,
+      "effect": "Boost",
+      "parameters": {
+        "Gain": 24,
+        "+3dB": 0,
+        "Bright": 0
+      }
+    },
+    "DRV": {
+      "enabled": true,
+      "effect": "Scream",
+      "parameters": {
+        "Gain": 28,
+        "Tone": 53,
+        "Vol": 58
+      }
+    },
+    "AMP": {
+      "enabled": true,
+      "effect": "Jazz 120",
+      "parameters": {
+        "Vol": 86,
+        "Bass": 43,
+        "Middle": 58,
+        "Treble": 59,
+        "Bright": 0
+      }
+    },
+    "IR": {
+      "enabled": true,
+      "effect": "Jazz 2x12",
+      "parameters": {
+        "Vol": 87
+      }
+    },
+    "EQ": {
+      "enabled": true,
+      "effect": "GT EQ 2",
+      "parameters": {
+        "100Hz": -5,
+        "500Hz": 2,
+        "1kHz": 4,
+        "3kHz": 5,
+        "6kHz": 1,
+        "Vol": 55
+      }
+    },
+    "FX2": {
+      "enabled": true,
+      "effect": "Detune",
+      "parameters": {
+        "Detune": -9,
+        "Wet": 22,
+        "Dry": 78
+      }
+    },
+    "DLY": {
+      "enabled": true,
+      "effect": "Warm",
+      "parameters": {
+        "Mix": 19,
+        "Time": 410,
+        "F.Back": 24
+      }
+    },
+    "RVB": {
+      "enabled": true,
+      "effect": "Plate 1",
+      "parameters": {
+        "Mix": 16,
+        "Decay": 40
+      }
+    }
+  },
+  "signalChain": [
+    "NR",
+    "FX1",
+    "DRV",
+    "AMP",
+    "IR",
+    "EQ",
+    "FX2",
+    "DLY",
+    "RVB"
+  ],
+  "metadata": {
+    "createdDate": "2026-08-18",
+    "author": "PocketEdit",
+    "tags": []
+  }
+}

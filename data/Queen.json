@@ -1,13 +1,19 @@
 {
   "name": "Queen",
+  "created": "2026-09-04T13:40:07.550Z",
+  "modified": "2026-09-04T13:40:07.550Z",
   "songs": [
     {
       "slug": "BohemianRhap",
       "short": "BohRhap",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bohemian Rhapsody: mellow clean ballad answer",
           "mods": {
             "AMP": {
@@ -48,6 +54,8 @@
         {
           "kind": "H",
           "role": "hvy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bohemian Rhapsody: heavy operatic power chords + booster",
           "mods": {
             "AMP": {
@@ -91,6 +99,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Bohemian Rhapsody: soaring vocal-like solo, booster + harmonized doubling",
           "mods": {
             "AMP": {
@@ -155,10 +165,14 @@
     {
       "slug": "KillerQueen",
       "short": "KilrQ",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Killer Queen: bell-like harmonized lead, booster + short delay",
           "mods": {
             "AMP": {
@@ -223,10 +237,14 @@
     {
       "slug": "IWantItAll",
       "short": "WantAll",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "I Want It All: big anthemic AC30TB power chords + booster",
           "mods": {
             "AMP": {
@@ -271,6 +289,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "I Want It All: harmonized soaring lead, booster + delay",
           "mods": {
             "AMP": {
@@ -335,10 +355,14 @@
     {
       "slug": "Headlong",
       "short": "Headlong",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Headlong: driving hard-rock AC30TB riff + booster",
           "mods": {
             "AMP": {
@@ -382,6 +406,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Headlong: fiery cranked AC30TB solo, booster + delay",
           "mods": {
             "AMP": {
@@ -446,10 +472,14 @@
     {
       "slug": "WhoWantsLive",
       "short": "WhoLive",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Who Wants to Live Forever: orchestral clean AC30 + chorus/hall",
           "mods": {
             "AMP": {
@@ -499,6 +529,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Who Wants to Live Forever: soaring vibrato lead, booster + delay",
           "mods": {
             "AMP": {
@@ -562,10 +594,14 @@
     {
       "slug": "DaysOfLives",
       "short": "DaysLive",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "C",
           "role": "cln",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "These Are the Days of Our Lives: warm clean AC30 arpeggios + light chorus",
           "mods": {
             "AMP": {
@@ -624,6 +660,8 @@
         {
           "kind": "L",
           "role": "lds",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "These Are the Days of Our Lives: warm lyrical solo, booster + doubling",
           "mods": {
             "AMP": {
@@ -688,10 +726,14 @@
     {
       "slug": "BrightonRock",
       "short": "Brighton",
+      "created": "2026-09-04T13:40:07.550Z",
+      "modified": "2026-09-04T13:40:07.550Z",
       "variants": [
         {
           "kind": "R",
           "role": "rhy",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brighton Rock (Live at Wembley '86): bright driving AC30TB riff + booster",
           "mods": {
             "AMP": {
@@ -735,6 +777,8 @@
         {
           "kind": "L",
           "role": "ldr",
+          "created": "2026-09-04T13:40:07.550Z",
+          "modified": "2026-09-04T13:40:07.550Z",
           "desc": "Brighton Rock (Live at Wembley '86): cascading long tape-echo solo (Red Special harmonies)",
           "mods": {
             "AMP": {

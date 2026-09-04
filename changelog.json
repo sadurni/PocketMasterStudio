@@ -1,0 +1,2104 @@
+{
+ "batches": [
+  {
+   "at": "2026-09-04T13:40:07.550Z",
+   "baseline": true,
+   "totals": {
+    "artists": 61,
+    "songs": 260,
+    "presets": 455
+   }
+  }
+ ],
+ "snapshot": {
+  "artists": {
+   "Queen": {
+    "h": "39d0c4e6",
+    "songs": {
+     "BohemianRhap": {
+      "h": "08e69e5e",
+      "presets": {
+       "C": "9c3385a9",
+       "H": "a283150e",
+       "L": "48594e38"
+      }
+     },
+     "KillerQueen": {
+      "h": "ed65b02c",
+      "presets": {
+       "L": "0df9c204"
+      }
+     },
+     "IWantItAll": {
+      "h": "778953f8",
+      "presets": {
+       "R": "cdfd0126",
+       "L": "7f8341f1"
+      }
+     },
+     "Headlong": {
+      "h": "392bd47a",
+      "presets": {
+       "R": "a97ed7ae",
+       "L": "94ff2b24"
+      }
+     },
+     "WhoWantsLive": {
+      "h": "48f685f9",
+      "presets": {
+       "C": "a1832f0a",
+       "L": "72a3f8aa"
+      }
+     },
+     "DaysOfLives": {
+      "h": "6562d57a",
+      "presets": {
+       "C": "b2a5d88f",
+       "L": "ab9c60bf"
+      }
+     },
+     "BrightonRock": {
+      "h": "3a01b38f",
+      "presets": {
+       "R": "28827d29",
+       "L": "2fadd472"
+      }
+     }
+    }
+   },
+   "AC/DC": {
+    "h": "10b08110",
+    "songs": {
+     "BackInBlack": {
+      "h": "3da3840e",
+      "presets": {
+       "R": "6d9ca8f6",
+       "L": "f9ab8ce4"
+      }
+     },
+     "HighwayToHell": {
+      "h": "2f45812a",
+      "presets": {
+       "R": "266629d8",
+       "L": "911bc8bd"
+      }
+     },
+     "HellsBells": {
+      "h": "31c8b076",
+      "presets": {
+       "C": "b5ba6159"
+      }
+     }
+    }
+   },
+   "Pink Floyd": {
+    "h": "a9483364",
+    "songs": {
+     "WishYouWere": {
+      "h": "57ac3569",
+      "presets": {
+       "C": "d06122a2",
+       "L": "c4a5ba94"
+      }
+     },
+     "Money": {
+      "h": "f8a0f078",
+      "presets": {
+       "R": "55090fa3"
+      }
+     },
+     "AnotherBrick2": {
+      "h": "8853adb9",
+      "presets": {
+       "C": "9f4108cf",
+       "L": "f254c4ea"
+      }
+     },
+     "ComfortablyNumb": {
+      "h": "80f4909b",
+      "presets": {
+       "L": "e8d78606"
+      }
+     },
+     "Dogs": {
+      "h": "bee2268e",
+      "presets": {
+       "C": "898ae6d3",
+       "L": "bce999a1"
+      }
+     }
+    }
+   },
+   "Metallica": {
+    "h": "06a93934",
+    "songs": {
+     "MasterOfPuppets": {
+      "h": "b2cb2f8a",
+      "presets": {
+       "R": "4a2d8204",
+       "L": "ebb31922"
+      }
+     },
+     "EnterSandman": {
+      "h": "7c315394",
+      "presets": {
+       "R": "5c9f5953"
+      }
+     },
+     "NothingElse": {
+      "h": "1c2e0d7a",
+      "presets": {
+       "C": "5b97a2db",
+       "L": "26d4e338"
+      }
+     },
+     "TheDayThatNeverComes": {
+      "h": "fbd32170",
+      "presets": {
+       "C": "e1b61657",
+       "H": "36128275",
+       "L": "0e06cb5f",
+       "L2": "03198b43"
+      }
+     }
+    }
+   },
+   "Van Halen": {
+    "h": "1081311b",
+    "songs": {
+     "Eruption": {
+      "h": "66a63232",
+      "presets": {
+       "H": "82a7822a",
+       "L": "7c65870e"
+      }
+     },
+     "RunninDevil": {
+      "h": "a72b883f",
+      "presets": {
+       "R": "a74f6cbf"
+      }
+     },
+     "AintTalkinLove": {
+      "h": "6466188f",
+      "presets": {
+       "R": "ef2ea80a"
+      }
+     },
+     "DanceNightAway": {
+      "h": "4ae379a1",
+      "presets": {
+       "C": "31e54871"
+      }
+     },
+     "SpanishFly": {
+      "h": "61118df6",
+      "presets": {
+       "C": "9ca930ee"
+      }
+     },
+     "YouReallyGotMe": {
+      "h": "d37f0433",
+      "presets": {
+       "R": "2a68d2b4",
+       "L": "bc030c01"
+      }
+     }
+    }
+   },
+   "Led Zeppelin": {
+    "h": "6c95eb2a",
+    "songs": {
+     "WholeLottaLove": {
+      "h": "22f83b36",
+      "presets": {
+       "R": "781adfd4",
+       "L": "58c560bd"
+      }
+     },
+     "Heartbreaker": {
+      "h": "23457e7f",
+      "presets": {
+       "L": "9d17925d"
+      }
+     },
+     "Stairway": {
+      "h": "2cb08e0e",
+      "presets": {
+       "C": "1cd717aa",
+       "L": "7abefb68"
+      }
+     },
+     "Kashmir": {
+      "h": "57bc128e",
+      "presets": {
+       "R": "c4e55861"
+      }
+     },
+     "AchillesLast": {
+      "h": "a3f78eae",
+      "presets": {
+       "L": "6272bfe9"
+      }
+     },
+     "CustardPie": {
+      "h": "0cdc051f",
+      "presets": {
+       "R": "c4216398",
+       "L": "71dca6e8"
+      }
+     }
+    }
+   },
+   "Black Sabbath": {
+    "h": "e0e324ac",
+    "songs": {
+     "BlackSabbath": {
+      "h": "5cd97bba",
+      "presets": {
+       "R": "12a0c879",
+       "L": "3932de87"
+      }
+     },
+     "Paranoid": {
+      "h": "03f5cbc6",
+      "presets": {
+       "H": "4695ea91",
+       "L": "40a5fae6"
+      }
+     },
+     "IronMan": {
+      "h": "030d7bc4",
+      "presets": {
+       "R": "9a49b225"
+      }
+     },
+     "SweetLeaf": {
+      "h": "614b6446",
+      "presets": {
+       "H": "63fdbac9"
+      }
+     },
+     "PlanetCaravan": {
+      "h": "e88ccd89",
+      "presets": {
+       "C": "7c4432d3",
+       "L": "64f4ff82"
+      }
+     }
+    }
+   },
+   "The Rolling Stones": {
+    "h": "239dff1e",
+    "songs": {
+     "Satisfaction": {
+      "h": "e1999333",
+      "presets": {
+       "R": "3e6ac13d"
+      }
+     },
+     "BrownSugar": {
+      "h": "6797c92c",
+      "presets": {
+       "R": "2ff93eab",
+       "L": "7b9021c1"
+      }
+     },
+     "PaintItBlack": {
+      "h": "d5595c75",
+      "presets": {
+       "C": "42e44efc",
+       "L": "71110599"
+      }
+     },
+     "GimmeShelter": {
+      "h": "1dd1266f",
+      "presets": {
+       "C": "98031e33"
+      }
+     },
+     "CantHearKnock": {
+      "h": "7a8b8e5f",
+      "presets": {
+       "L": "10eaf559"
+      }
+     }
+    }
+   },
+   "Faces": {
+    "h": "8a7aea12",
+    "songs": {
+     "StayWithMe": {
+      "h": "103a928c",
+      "presets": {
+       "R": "2552af07",
+       "L": "0fdd0f49"
+      }
+     },
+     "CindyIncident": {
+      "h": "9177883e",
+      "presets": {
+       "R": "a40e4702"
+      }
+     },
+     "OohLaLa": {
+      "h": "b03f9ab8",
+      "presets": {
+       "C": "02adfe90",
+       "L": "3f6cfd8f"
+      }
+     },
+     "Debris": {
+      "h": "da30b906",
+      "presets": {
+       "L": "645c7819"
+      }
+     }
+    }
+   },
+   "Thin Lizzy": {
+    "h": "20c2775b",
+    "songs": {
+     "WhiskeyInJar": {
+      "h": "f830f2f2",
+      "presets": {
+       "R": "fe3ac66b",
+       "L": "05edf5c2"
+      }
+     }
+    }
+   },
+   "Scorpions": {
+    "h": "76a5d9fe",
+    "songs": {
+     "Hurricane": {
+      "h": "bae6ac53",
+      "presets": {
+       "R": "5c8fd54e",
+       "L": "f0b7c83c"
+      }
+     },
+     "Blackout": {
+      "h": "e9b8985e",
+      "presets": {
+       "H": "36165776"
+      }
+     },
+     "TheZoo": {
+      "h": "4ebba7ea",
+      "presets": {
+       "R": "67d4a883"
+      }
+     },
+     "SailsOfCharon": {
+      "h": "2e4cdc0d",
+      "presets": {
+       "L": "d8c4c2af"
+      }
+     },
+     "StillLovingYou": {
+      "h": "772091d1",
+      "presets": {
+       "C": "adeb89b4"
+      }
+     }
+    }
+   },
+   "Iron Maiden": {
+    "h": "11013e42",
+    "songs": {
+     "NumberOfBeast": {
+      "h": "66829492",
+      "presets": {
+       "H": "f6af98c8",
+       "L": "e99f1724"
+      }
+     },
+     "RunToTheHills": {
+      "h": "fcdcd153",
+      "presets": {
+       "R": "6ddfa069"
+      }
+     },
+     "Hallowed": {
+      "h": "db577a4e",
+      "presets": {
+       "C": "d88ec2d1",
+       "L": "1936a267"
+      }
+     },
+     "ChildrenDamned": {
+      "h": "901c648f",
+      "presets": {
+       "C": "225924f0"
+      }
+     }
+    }
+   },
+   "Joe Satriani": {
+    "h": "2c6955e1",
+    "songs": {
+     "Surfing": {
+      "h": "00589a2c",
+      "presets": {
+       "R": "00de16f0",
+       "L": "067ce79f"
+      }
+     },
+     "SatchBoogie": {
+      "h": "2f26dae3",
+      "presets": {
+       "L": "ca33afe5"
+      }
+     },
+     "AlwaysWithMe": {
+      "h": "b9b561a2",
+      "presets": {
+       "C": "63ff319c",
+       "L": "6fa33433"
+      }
+     },
+     "Cryin": {
+      "h": "0fb962f6",
+      "presets": {
+       "L": "30a1562c"
+      }
+     },
+     "TheExtremist": {
+      "h": "3a9848e2",
+      "presets": {
+       "L": "243deaf4"
+      }
+     }
+    }
+   },
+   "Steve Vai": {
+    "h": "280e8a1f",
+    "songs": {
+     "ForTheLoveGod": {
+      "h": "5c1fe9aa",
+      "presets": {
+       "C": "fa00132a",
+       "L": "a3a7c323"
+      }
+     },
+     "BadHorsie": {
+      "h": "7578b6f4",
+      "presets": {
+       "H": "26a4f2fb",
+       "L": "53e538e3"
+      }
+     },
+     "AttitudeSong": {
+      "h": "70111a83",
+      "presets": {
+       "L": "0b808760"
+      }
+     },
+     "BuildingChurch": {
+      "h": "20dffc2e",
+      "presets": {
+       "L": "f0ba62e1"
+      }
+     },
+     "TenderSurrender": {
+      "h": "cfb13463",
+      "presets": {
+       "L": "874764ed"
+      }
+     }
+    }
+   },
+   "U2": {
+    "h": "d3be6761",
+    "songs": {
+     "StreetsNoName": {
+      "h": "014354b0",
+      "presets": {
+       "C": "81122039",
+       "L": "caf57efe"
+      }
+     },
+     "SundayBloody": {
+      "h": "b740a2be",
+      "presets": {
+       "R": "b886500a"
+      }
+     },
+     "WithOrWithout": {
+      "h": "f4fec9ff",
+      "presets": {
+       "C": "9517199d",
+       "L": "04846feb"
+      }
+     },
+     "BulletBlueSky": {
+      "h": "33512870",
+      "presets": {
+       "R": "545155af",
+       "L": "8213ba5a"
+      }
+     },
+     "TheFly": {
+      "h": "c34d52be",
+      "presets": {
+       "H": "69307899",
+       "L": "0f848896"
+      }
+     }
+    }
+   },
+   "Dire Straits": {
+    "h": "bbf01884",
+    "songs": {
+     "SultansOfSwing": {
+      "h": "6fe0b363",
+      "presets": {
+       "C": "65a0be19",
+       "L": "324489cc"
+      }
+     },
+     "RomeoJuliet": {
+      "h": "0fabfa3f",
+      "presets": {
+       "C": "77fca8db",
+       "L": "d18a3e2a"
+      }
+     },
+     "MoneyForNothing": {
+      "h": "c4a0c8be",
+      "presets": {
+       "R": "65bb81e6",
+       "L": "d71e5aef"
+      }
+     },
+     "BrothersInArms": {
+      "h": "b2dcf3fc",
+      "presets": {
+       "C": "fe0139a0",
+       "L": "e4c64b52"
+      }
+     }
+    }
+   },
+   "The Cure": {
+    "h": "f40dea6e",
+    "songs": {
+     "AForest": {
+      "h": "fea9b2d8",
+      "presets": {
+       "C": "8cda9a71",
+       "L": "b6d63ec8"
+      }
+     },
+     "JustLikeHeaven": {
+      "h": "fb0e7ea2",
+      "presets": {
+       "C": "e71c9e3c",
+       "L": "d899c4df"
+      }
+     },
+     "FascinationSt": {
+      "h": "7c784418",
+      "presets": {
+       "R": "81805bb7",
+       "L": "3c9a4c72"
+      }
+     },
+     "PicturesOfYou": {
+      "h": "3ff3b585",
+      "presets": {
+       "C": "a642b364",
+       "L": "3a3daa3c"
+      }
+     },
+     "FridayInLove": {
+      "h": "7db213e7",
+      "presets": {
+       "R": "afcf331a"
+      }
+     }
+    }
+   },
+   "Sigur Ros": {
+    "h": "9a4d3642",
+    "songs": {
+     "SvefnGEnglar": {
+      "h": "df26f604",
+      "presets": {
+       "C": "04319bb8",
+       "L": "dd13d8f1"
+      }
+     },
+     "Hoppipolla": {
+      "h": "89b837ee",
+      "presets": {
+       "C": "cca905ee",
+       "L": "61cdb17c"
+      }
+     },
+     "Popplagid": {
+      "h": "920f56c7",
+      "presets": {
+       "C": "584231b3",
+       "L": "cd49276a"
+      }
+     },
+     "Gobbledigook": {
+      "h": "ec7b5fbb",
+      "presets": {
+       "R": "08a31616",
+       "L": "335004d9"
+      }
+     }
+    }
+   },
+   "The Alan Parsons Project": {
+    "h": "9efea96e",
+    "songs": {
+     "EyeInTheSky": {
+      "h": "22e9178c",
+      "presets": {
+       "C": "715a667d",
+       "L": "51e3395d"
+      }
+     },
+     "GamesPeople": {
+      "h": "f4db354f",
+      "presets": {
+       "R": "e8a73198",
+       "L": "934e865e"
+      }
+     },
+     "SilenceAndI": {
+      "h": "82c08c85",
+      "presets": {
+       "C": "f5dad925",
+       "L": "e07d1a2d"
+      }
+     },
+     "DontAnswerMe": {
+      "h": "75a5ffa0",
+      "presets": {
+       "C": "0b4eb824",
+       "L": "36b78e18"
+      }
+     }
+    }
+   },
+   "Mike Oldfield": {
+    "h": "acdfe321",
+    "songs": {
+     "Muse": {
+      "h": "73f562f2",
+      "presets": {
+       "C": "56ce5fa8",
+       "L": "86377fc8"
+      }
+     },
+     "Cochise": {
+      "h": "18c3ac94",
+      "presets": {
+       "R": "5f2b68bb",
+       "L": "eae1e97a"
+      }
+     },
+     "Embers": {
+      "h": "f298eee6",
+      "presets": {
+       "L": "882e5eb9"
+      }
+     },
+     "OutOfSight": {
+      "h": "d3aa92a5",
+      "presets": {
+       "R": "bb4d0928"
+      }
+     },
+     "BBlues": {
+      "h": "f22212de",
+      "presets": {
+       "R": "9909b403",
+       "L": "ac3b74fa"
+      }
+     }
+    }
+   },
+   "Neil Young": {
+    "h": "33f6814e",
+    "songs": {
+     "CinnamonGirl": {
+      "h": "7e193010",
+      "presets": {
+       "R": "ed3c5696",
+       "L": "80cfb097"
+      }
+     },
+     "CortezKiller": {
+      "h": "3ec38abd",
+      "presets": {
+       "C": "0454a67d",
+       "L": "97298223"
+      }
+     },
+     "LikeHurricane": {
+      "h": "fbe82fee",
+      "presets": {
+       "C": "4b57970b"
+      }
+     },
+     "HeyHeyMyMy": {
+      "h": "219485f6",
+      "presets": {
+       "R": "7da0c402",
+       "L": "440615e3"
+      }
+     },
+     "RockinFreeWorld": {
+      "h": "9bc19a61",
+      "presets": {
+       "R": "f0c26f6d"
+      }
+     }
+    }
+   },
+   "Pearl Jam": {
+    "h": "5447cba4",
+    "songs": {
+     "Alive": {
+      "h": "dfc4115e",
+      "presets": {
+       "R": "c9b5473a",
+       "L": "84e759bb"
+      }
+     },
+     "EvenFlow": {
+      "h": "9b6e7f9e",
+      "presets": {
+       "L": "dda7906b"
+      }
+     },
+     "Black": {
+      "h": "7bf6792e",
+      "presets": {
+       "C": "0e71a23d",
+       "L": "a307a397"
+      }
+     },
+     "Once": {
+      "h": "25115592",
+      "presets": {
+       "H": "d5692ad5",
+       "L": "ea3b8d75"
+      }
+     },
+     "Go": {
+      "h": "16cfb95a",
+      "presets": {
+       "L": "045642e7"
+      }
+     }
+    }
+   },
+   "Soundgarden": {
+    "h": "3baa18e6",
+    "songs": {
+     "RustyCage": {
+      "h": "9f1c4aab",
+      "presets": {
+       "H": "00f8202e",
+       "L": "10f43a25"
+      }
+     },
+     "BlackHoleSun": {
+      "h": "725c9191",
+      "presets": {
+       "C": "c9e00de0",
+       "L": "3b580ae8"
+      }
+     },
+     "SlavesBulldoz": {
+      "h": "29317398",
+      "presets": {
+       "H": "24e52db5",
+       "L": "898f889c"
+      }
+     },
+     "FellBlackDays": {
+      "h": "ab6ded88",
+      "presets": {
+       "R": "476f3d6b"
+      }
+     },
+     "Superunknown": {
+      "h": "3b2edd68",
+      "presets": {
+       "L": "734515a8"
+      }
+     }
+    }
+   },
+   "Alice in Chains": {
+    "h": "d00ef947",
+    "songs": {
+     "ManInTheBox": {
+      "h": "77863cdc",
+      "presets": {
+       "R": "927332f3",
+       "L": "cd0cf181"
+      }
+     },
+     "ThemBones": {
+      "h": "a1b9d6e5",
+      "presets": {
+       "H": "80d2c2fc",
+       "L": "aefa9f53"
+      }
+     },
+     "Rooster": {
+      "h": "b248a4ac",
+      "presets": {
+       "C": "9950c595",
+       "L": "f2990ddc"
+      }
+     },
+     "Would": {
+      "h": "52779e9a",
+      "presets": {
+       "R": "5d06c929"
+      }
+     },
+     "Nutshell": {
+      "h": "84d59576",
+      "presets": {
+       "C": "7179bad1",
+       "L": "14d19ec9"
+      }
+     }
+    }
+   },
+   "Nirvana": {
+    "h": "d60f8cad",
+    "songs": {
+     "SmellsTeenSpir": {
+      "h": "a9add0ae",
+      "presets": {
+       "C": "813c02d3",
+       "L": "97c3c89b"
+      }
+     },
+     "ComeAsYouAre": {
+      "h": "b99b664a",
+      "presets": {
+       "C": "ec01e932"
+      }
+     },
+     "InBloom": {
+      "h": "4b20efc4",
+      "presets": {
+       "R": "4b9e80a2"
+      }
+     },
+     "HeartShapedBox": {
+      "h": "8ad81517",
+      "presets": {
+       "L": "9e2f8c32"
+      }
+     },
+     "TerritorialPis": {
+      "h": "7e5c0390",
+      "presets": {
+       "H": "52b29d4a"
+      }
+     }
+    }
+   },
+   "The Smashing Pumpkins": {
+    "h": "3cb95c4e",
+    "songs": {
+     "CherubRock": {
+      "h": "475e1274",
+      "presets": {
+       "R": "fb4d799f",
+       "L": "e0c9445a"
+      }
+     },
+     "Today": {
+      "h": "91ce9366",
+      "presets": {
+       "C": "0fe9e5c8",
+       "L": "320c06d2"
+      }
+     },
+     "Mayonaise": {
+      "h": "ce0d74bb",
+      "presets": {
+       "C": "b90aeb9f"
+      }
+     },
+     "GeekUSA": {
+      "h": "0ff4218e",
+      "presets": {
+       "H": "904a7386",
+       "L": "5177d369"
+      }
+     },
+     "IAmOne": {
+      "h": "7605b60e",
+      "presets": {
+       "R": "4a6f39f4"
+      }
+     }
+    }
+   },
+   "The Afghan Whigs": {
+    "h": "f5024098",
+    "songs": {
+     "Gentlemen": {
+      "h": "3e7f9d45",
+      "presets": {
+       "R": "f15ef18f",
+       "L": "1ceb5c61"
+      }
+     },
+     "FountainFairfax": {
+      "h": "2d990027",
+      "presets": {
+       "C": "a108999d",
+       "L": "c59343e6"
+      }
+     },
+     "HonkysLadder": {
+      "h": "8ab6bbb2",
+      "presets": {
+       "H": "2378a4c6",
+       "L": "2ccdefd7"
+      }
+     },
+     "CrimeScene1": {
+      "h": "0af5b490",
+      "presets": {
+       "C": "b48979cf"
+      }
+     }
+    }
+   },
+   "Urge Overkill": {
+    "h": "fdedec6b",
+    "songs": {
+     "SisterHavana": {
+      "h": "70e75d47",
+      "presets": {
+       "R": "e54ccc07",
+       "L": "9fbe3880"
+      }
+     },
+     "PositiveBleed": {
+      "h": "8056c81b",
+      "presets": {
+       "R": "5cccb371"
+      }
+     },
+     "GirlWoman": {
+      "h": "4e0bbe54",
+      "presets": {
+       "C": "93dd8600",
+       "L": "72fc5023"
+      }
+     },
+     "BottleOfFur": {
+      "h": "141afa88",
+      "presets": {
+       "R": "6115e9bd",
+       "L": "d0b8ead2"
+      }
+     }
+    }
+   },
+   "Kyuss": {
+    "h": "10806711",
+    "songs": {
+     "GreenMachine": {
+      "h": "b6b66ebf",
+      "presets": {
+       "H": "1b6bc530",
+       "L": "a6016703"
+      }
+     },
+     "DemonCleaner": {
+      "h": "51a76797",
+      "presets": {
+       "R": "c83680c2",
+       "L": "f19ae4c4"
+      }
+     },
+     "OneInchMan": {
+      "h": "c43e92c2",
+      "presets": {
+       "R": "e32c2a1c"
+      }
+     },
+     "SpaceCadet": {
+      "h": "34198242",
+      "presets": {
+       "C": "09b45949",
+       "L": "3912d81a"
+      }
+     },
+     "FreedomRun": {
+      "h": "69d6ce32",
+      "presets": {
+       "L": "3ca6c64c"
+      }
+     }
+    }
+   },
+   "Queens of the Stone Age": {
+    "h": "853365f9",
+    "songs": {
+     "RegularJohn": {
+      "h": "4d92eb08",
+      "presets": {
+       "R": "289fcd44",
+       "L": "de939a2f"
+      }
+     },
+     "FeelGoodHit": {
+      "h": "5f2335c9",
+      "presets": {
+       "H": "7d64bcb5",
+       "L": "5d54ed6d"
+      }
+     },
+     "NoOneKnows": {
+      "h": "88b0ba88",
+      "presets": {
+       "R": "ad806f47",
+       "L": "f0d65dfb"
+      }
+     },
+     "GoWithTheFlow": {
+      "h": "37f22dab",
+      "presets": {
+       "H": "db3401c1",
+       "L": "9421872c"
+      }
+     },
+     "SmoothSailing": {
+      "h": "1216fdf2",
+      "presets": {
+       "R": "094c129b"
+      }
+     }
+    }
+   },
+   "Corrosion of Conformity": {
+    "h": "689af42b",
+    "songs": {
+     "VoteWithBullet": {
+      "h": "a40d1bfb",
+      "presets": {
+       "H": "602ea20d",
+       "L": "fad350ec"
+      }
+     },
+     "Albatross": {
+      "h": "b057cead",
+      "presets": {
+       "R": "3262a871",
+       "L": "6649e5dd"
+      }
+     },
+     "CleanMyWounds": {
+      "h": "1edd40ff",
+      "presets": {
+       "H": "93b04655",
+       "L": "e3d73ae8"
+      }
+     },
+     "DrowningDaydrm": {
+      "h": "28319b43",
+      "presets": {
+       "R": "7ee77f71"
+      }
+     }
+    }
+   },
+   "Deafheaven": {
+    "h": "9ead49b1",
+    "songs": {
+     "DreamHouse": {
+      "h": "f09d410e",
+      "presets": {
+       "H": "2091c5ba",
+       "L": "b19f8f17"
+      }
+     },
+     "Sunbather": {
+      "h": "40249e55",
+      "presets": {
+       "H": "c1be10f5"
+      }
+     },
+     "BabyBlue": {
+      "h": "3f2167b2",
+      "presets": {
+       "C": "2eefff5c",
+       "L": "1c8d67cd"
+      }
+     },
+     "CanaryYellow": {
+      "h": "e7ea8f9b",
+      "presets": {
+       "H": "c49a72de",
+       "L": "62697501"
+      }
+     }
+    }
+   },
+   "Fear Factory": {
+    "h": "5b1a86ba",
+    "songs": {
+     "Demanufacture": {
+      "h": "962b22b2",
+      "presets": {
+       "H": "589197e6",
+       "L": "f65dad4b"
+      }
+     },
+     "Replica": {
+      "h": "60a4d9b8",
+      "presets": {
+       "H": "b79ceda8",
+       "L": "73be9943"
+      }
+     },
+     "Edgecrusher": {
+      "h": "0f8e2246",
+      "presets": {
+       "H": "417027d2",
+       "L": "f9cc2cb7"
+      }
+     }
+    }
+   },
+   "Creedence Clearwater Revival": {
+    "h": "efeef2df",
+    "songs": {
+     "FortunateSon": {
+      "h": "e6dca6d3",
+      "presets": {
+       "R": "13ad922d",
+       "L": "00b9fb9f"
+      }
+     },
+     "BornOnBayou": {
+      "h": "7b0f1e39",
+      "presets": {
+       "C": "e06f1b41",
+       "L": "d96ac341"
+      }
+     },
+     "GreenRiver": {
+      "h": "74e58ff5",
+      "presets": {
+       "R": "fb404a87",
+       "L": "20f9feff"
+      }
+     },
+     "BadMoonRising": {
+      "h": "43f252aa",
+      "presets": {
+       "R": "f1d70eb4"
+      }
+     }
+    }
+   },
+   "Eagles": {
+    "h": "506c1f67",
+    "songs": {
+     "HotelCalifornia": {
+      "h": "5b5db7f6",
+      "presets": {
+       "C": "4ef5db1b",
+       "L": "72286a4f"
+      }
+     },
+     "LifeInFastLane": {
+      "h": "5f94b7e3",
+      "presets": {
+       "R": "1fec4388",
+       "L": "e60c466b"
+      }
+     },
+     "NewKidInTown": {
+      "h": "ae57f261",
+      "presets": {
+       "C": "ae5c95cd",
+       "L": "79852467"
+      }
+     },
+     "TheLastResort": {
+      "h": "8555bba1",
+      "presets": {
+       "L": "ceb132bf"
+      }
+     }
+    }
+   },
+   "Bruce Springsteen": {
+    "h": "58a19ae5",
+    "songs": {
+     "BornToRun": {
+      "h": "70981277",
+      "presets": {
+       "R": "b77c34c5",
+       "L": "d5efac4a"
+      }
+     },
+     "ThunderRoad": {
+      "h": "4053131a",
+      "presets": {
+       "C": "69b074ae",
+       "L": "338b089b"
+      }
+     },
+     "Badlands": {
+      "h": "4d4033c6",
+      "presets": {
+       "R": "692b6ede"
+      }
+     },
+     "AdamRaisedCain": {
+      "h": "af99c022",
+      "presets": {
+       "L": "9907a76c"
+      }
+     },
+     "CandysRoom": {
+      "h": "7b2e993f",
+      "presets": {
+       "C": "b5793d14"
+      }
+     }
+    }
+   },
+   "The Black Crowes": {
+    "h": "3ef07625",
+    "songs": {
+     "TwiceAsHard": {
+      "h": "d8c8ec4f",
+      "presets": {
+       "R": "427bcd83",
+       "L": "00f978fb"
+      }
+     },
+     "SheTalksAngels": {
+      "h": "f6dcfd30",
+      "presets": {
+       "C": "81eece49",
+       "L": "d2807555"
+      }
+     },
+     "HotelIllness": {
+      "h": "9040d8cd",
+      "presets": {
+       "R": "8888b081"
+      }
+     },
+     "ThornInPride": {
+      "h": "15523fd7",
+      "presets": {
+       "L": "ae1ed22c"
+      }
+     },
+     "NoSpeakNoSlave": {
+      "h": "7304e29e",
+      "presets": {
+       "H": "c6aa86ce"
+      }
+     },
+     "StingMe": {
+      "h": "19d2e82e",
+      "presets": {
+       "C": "31bf8e03",
+       "R": "e4915ad4",
+       "H": "e0462c7b",
+       "L": "d4b38e69",
+       "L2": "b5f8413a"
+      }
+     }
+    }
+   },
+   "Chris Isaak": {
+    "h": "69e24bac",
+    "songs": {
+     "WickedGame": {
+      "h": "e5d59b4a",
+      "presets": {
+       "C": "13068f75",
+       "L": "c7a8d936"
+      }
+     },
+     "BadBadThing": {
+      "h": "793b2959",
+      "presets": {
+       "R": "dc299046",
+       "L": "1e2826dd"
+      }
+     },
+     "RoundNRound": {
+      "h": "ea822586",
+      "presets": {
+       "R": "1069ed7b",
+       "L": "187a0e84"
+      }
+     },
+     "BlueSpanishSky": {
+      "h": "1038955a",
+      "presets": {
+       "C": "2b83057c"
+      }
+     }
+    }
+   },
+   "The Jayhawks": {
+    "h": "a3bee7c9",
+    "songs": {
+     "Blue": {
+      "h": "95a7ed4a",
+      "presets": {
+       "C": "7b02924a",
+       "L": "db842346"
+      }
+     },
+     "IdRunAway": {
+      "h": "3e8319fd",
+      "presets": {
+       "R": "1eaa355c",
+       "L": "bb781d7f"
+      }
+     },
+     "Trouble": {
+      "h": "57da3a36",
+      "presets": {
+       "R": "258b8241",
+       "L": "93c71006"
+      }
+     },
+     "TampaToTulsa": {
+      "h": "989224f4",
+      "presets": {
+       "L": "4bc51fbe"
+      }
+     }
+    }
+   },
+   "Van Morrison": {
+    "h": "8bb33824",
+    "songs": {
+     "Gloria": {
+      "h": "2f2a5066",
+      "presets": {
+       "R": "4bce7897",
+       "L": "aec0cb1c"
+      }
+     },
+     "BrownEyedGirl": {
+      "h": "1c45f2ba",
+      "presets": {
+       "C": "b3f886c4",
+       "L": "b524d07c"
+      }
+     },
+     "Moondance": {
+      "h": "b493ee88",
+      "presets": {
+       "C": "24ea82dd",
+       "L": "364d509f"
+      }
+     },
+     "BabyPleaseGo": {
+      "h": "2484b09f",
+      "presets": {
+       "R": "92979fbf"
+      }
+     }
+    }
+   },
+   "Jimi Hendrix": {
+    "h": "6e36727d",
+    "songs": {
+     "PurpleHaze": {
+      "h": "c266d0fb",
+      "presets": {
+       "R": "0a3e37b6",
+       "L": "a3c5dd9d"
+      }
+     },
+     "HeyJoe": {
+      "h": "5bd954de",
+      "presets": {
+       "C": "1a01ad68",
+       "L": "7490d0e1"
+      }
+     },
+     "LittleWing": {
+      "h": "57f638cc",
+      "presets": {
+       "C": "110fc2f1",
+       "L": "2a77c232"
+      }
+     },
+     "VoodooChild": {
+      "h": "6b29923d",
+      "presets": {
+       "R": "c9d21b7c",
+       "L": "4fbf6cbf"
+      }
+     },
+     "RedHouse": {
+      "h": "3cbcc4f2",
+      "presets": {
+       "L": "248650a0"
+      }
+     },
+     "MachineGun": {
+      "h": "caff4425",
+      "presets": {
+       "L": "fa2302ea"
+      }
+     },
+     "AllAlongWatchtower": {
+      "h": "89cd4bb5",
+      "presets": {
+       "C": "41f93a98",
+       "H": "33bab020",
+       "L": "2ecc3d5c",
+       "L2": "5233fba9"
+      }
+     }
+    }
+   },
+   "George Harrison": {
+    "h": "d0dd77a9",
+    "songs": {
+     "MySweetLord": {
+      "h": "2fc78e13",
+      "presets": {
+       "C": "3cb24cac",
+       "L": "e4947df7"
+      }
+     },
+     "WhatIsLife": {
+      "h": "327ca742",
+      "presets": {
+       "R": "de183582",
+       "L": "dcefcc78"
+      }
+     },
+     "WahWah": {
+      "h": "c1be4626",
+      "presets": {
+       "R": "c978ae9f"
+      }
+     },
+     "MarwaBlues": {
+      "h": "dc7a2325",
+      "presets": {
+       "C": "1a7cb03c",
+       "L": "99d8c2d3"
+      }
+     }
+    }
+   },
+   "Robert Plant": {
+    "h": "84232d43",
+    "songs": {
+     "BigLog": {
+      "h": "856f412e",
+      "presets": {
+       "C": "9a677d77",
+       "L": "7df0f9f5"
+      }
+     },
+     "BurningDownSide": {
+      "h": "3f21cb13",
+      "presets": {
+       "R": "85cfac46",
+       "L": "ae58de54"
+      }
+     },
+     "Palms29": {
+      "h": "aa597910",
+      "presets": {
+       "C": "b3236b53",
+       "L": "66ff135b"
+      }
+     },
+     "ShipOfFools": {
+      "h": "018082de",
+      "presets": {
+       "C": "1bca800e",
+       "L": "00ed4dab"
+      }
+     },
+     "PleaseReadLetr": {
+      "h": "440a81f4",
+      "presets": {
+       "R": "e3563d0f",
+       "L": "ea8326f7"
+      }
+     }
+    }
+   },
+   "Lenny Kravitz": {
+    "h": "27ed2701",
+    "songs": {
+     "GoMyWay": {
+      "h": "269a786e",
+      "presets": {
+       "R": "3ac96e48",
+       "L": "0122d124"
+      }
+     },
+     "AlwaysOnRun": {
+      "h": "0b86ac8c",
+      "presets": {
+       "R": "2243e5eb",
+       "L": "5807324d"
+      }
+     },
+     "LetLoveRule": {
+      "h": "462cfd4d",
+      "presets": {
+       "C": "7c85d404",
+       "L": "31567ac7"
+      }
+     },
+     "AmericanWoman": {
+      "h": "1aee293b",
+      "presets": {
+       "R": "90722995",
+       "L": "d52247f3"
+      }
+     },
+     "AintOver": {
+      "h": "f905c1ee",
+      "presets": {
+       "C": "42982e9b",
+       "L": "1423da15"
+      }
+     }
+    }
+   },
+   "Red Hot Chili Peppers": {
+    "h": "0aaddf94",
+    "songs": {
+     "GiveItAway": {
+      "h": "206b2dab",
+      "presets": {
+       "R": "ffe7becc",
+       "L": "89eff52a"
+      }
+     },
+     "SuckMyKiss": {
+      "h": "01276b88",
+      "presets": {
+       "H": "b90c8a03",
+       "L": "1d5a2ae6"
+      }
+     },
+     "UnderTheBridge": {
+      "h": "6a1b2361",
+      "presets": {
+       "C": "5be0e232",
+       "L": "c02a52f3"
+      }
+     },
+     "Californication": {
+      "h": "23495975",
+      "presets": {
+       "C": "e3d71133",
+       "L": "a7f05fff"
+      }
+     },
+     "DarkNecessities": {
+      "h": "55a1bac3",
+      "presets": {
+       "R": "9060a9b1",
+       "L": "3bcb6d5d"
+      }
+     }
+    }
+   },
+   "Funkadelic": {
+    "h": "56b50078",
+    "songs": {
+     "OneNationGroove": {
+      "h": "af36eff4",
+      "presets": {
+       "R": "5b664eb4",
+       "L": "89419a60"
+      }
+     },
+     "MaggotBrain": {
+      "h": "0a5abae8",
+      "presets": {
+       "C": "e4b5b0e4",
+       "L": "b1f643e2"
+      }
+     }
+    }
+   },
+   "Muse": {
+    "h": "34cf4470",
+    "songs": {
+     "PlugInBaby": {
+      "h": "f3628a0d",
+      "presets": {
+       "R": "9a658a13",
+       "L": "2c07e9f7"
+      }
+     },
+     "NewBorn": {
+      "h": "0300a6aa",
+      "presets": {
+       "C": "b16b278a",
+       "L": "23aae1e3"
+      }
+     },
+     "Hysteria": {
+      "h": "95f9e2b6",
+      "presets": {
+       "R": "6a993c5a",
+       "L": "103ed959"
+      }
+     },
+     "StockholmSynd": {
+      "h": "005bc041",
+      "presets": {
+       "H": "627cd909",
+       "L": "2a527f6b"
+      }
+     },
+     "KnightsCydonia": {
+      "h": "f6127c3c",
+      "presets": {
+       "R": "733cee7a",
+       "L": "fd29fc37"
+      }
+     }
+    }
+   },
+   "Radiohead": {
+    "h": "52857911",
+    "songs": {
+     "Creep": {
+      "h": "f6559b6a",
+      "presets": {
+       "C": "ecad7327",
+       "L": "63df43f4"
+      }
+     },
+     "TheBends": {
+      "h": "e1633072",
+      "presets": {
+       "R": "a3b5422e",
+       "L": "0e86fb1b"
+      }
+     },
+     "StreetSpirit": {
+      "h": "bb9d77e1",
+      "presets": {
+       "C": "e0c43cde",
+       "L": "1d1659ee"
+      }
+     },
+     "ParanoidAndroid": {
+      "h": "db9c9719",
+      "presets": {
+       "L": "1a37141d"
+      }
+     },
+     "Bodysnatchers": {
+      "h": "230df89d",
+      "presets": {
+       "H": "e7e8bfae"
+      }
+     }
+    }
+   },
+   "The Doors": {
+    "h": "7ce0dab6",
+    "songs": {
+     "LightMyFire": {
+      "h": "68a8e415",
+      "presets": {
+       "C": "bfc2a9c0",
+       "L": "572f0302"
+      }
+     },
+     "BreakOnThrough": {
+      "h": "3ec241ee",
+      "presets": {
+       "R": "1c8d617a",
+       "L": "5ba508d2"
+      }
+     },
+     "SpanishCaravan": {
+      "h": "08ea5204",
+      "presets": {
+       "C": "d9542383",
+       "L": "fecbb821"
+      }
+     },
+     "RoadhouseBlues": {
+      "h": "d6291c66",
+      "presets": {
+       "R": "ca1365f8",
+       "L": "3b0b07a9"
+      }
+     },
+     "TheEnd": {
+      "h": "3533a4da",
+      "presets": {
+       "C": "9fff6e78"
+      }
+     }
+    }
+   },
+   "Jeff Buckley": {
+    "h": "37a6861c",
+    "songs": {
+     "Grace": {
+      "h": "7a8f44e8",
+      "presets": {
+       "C": "5f5c5758",
+       "L": "e1fb5dff"
+      }
+     },
+     "Hallelujah": {
+      "h": "65d41c97",
+      "presets": {
+       "C": "94bbd364",
+       "L": "626f454b"
+      }
+     },
+     "LoverCome": {
+      "h": "144e990d",
+      "presets": {
+       "L": "2a1dff82"
+      }
+     },
+     "EternalLife": {
+      "h": "f98d5e3a",
+      "presets": {
+       "H": "f8f4b68b",
+       "L": "caf4fc89"
+      }
+     },
+     "SoReal": {
+      "h": "f8f177ce",
+      "presets": {
+       "L": "37683b35"
+      }
+     }
+    }
+   },
+   "Fleetwood Mac": {
+    "h": "af4e8ab2",
+    "songs": {
+     "BigLove": {
+      "h": "a700b378",
+      "presets": {
+       "C": "4f2f8d76",
+       "L": "4ea19c64"
+      }
+     },
+     "TheChain": {
+      "h": "e176f992",
+      "presets": {
+       "R": "463023af",
+       "L": "f3a4f90c"
+      }
+     },
+     "GoYourOwnWay": {
+      "h": "5f8066e5",
+      "presets": {
+       "R": "7eb003c9",
+       "L": "52ae4945"
+      }
+     },
+     "ImSoAfraid": {
+      "h": "74cd08f4",
+      "presets": {
+       "L": "2e883b46"
+      }
+     },
+     "Landslide": {
+      "h": "eb98e765",
+      "presets": {
+       "C": "c5effcb8",
+       "L": "00a21b09"
+      }
+     }
+    }
+   },
+   "Cake": {
+    "h": "8c38dbc6",
+    "songs": {
+     "TheDistance": {
+      "h": "57b1f141",
+      "presets": {
+       "C": "055dc3ff",
+       "L": "3d8d6256"
+      }
+     },
+     "FrankSinatra": {
+      "h": "216c13b2",
+      "presets": {
+       "C": "a0b428f1",
+       "L": "d4af5b1e"
+      }
+     },
+     "ComfortEagle": {
+      "h": "8b8fbddf",
+      "presets": {
+       "R": "e5920962",
+       "L": "1871e2ae"
+      }
+     }
+    }
+   },
+   "Heroes del Silencio": {
+    "h": "007bdbb3",
+    "songs": {
+     "SirenaVarada": {
+      "h": "61adb1ad",
+      "presets": {
+       "C": "8f5351e9",
+       "L": "da9b2bbd"
+      }
+     },
+     "EntreDosTierras": {
+      "h": "980a96fe",
+      "presets": {
+       "R": "7276c807",
+       "L": "3c416def"
+      }
+     },
+     "MalditoDuende": {
+      "h": "e2c8108d",
+      "presets": {
+       "C": "02c8b6f5",
+       "L": "3b680320"
+      }
+     },
+     "Avalancha": {
+      "h": "6a57839b",
+      "presets": {
+       "H": "b11ec12b",
+       "L": "ea1f079d"
+      }
+     }
+    }
+   },
+   "Kino": {
+    "h": "3e984789",
+    "songs": {
+     "ZvezdaSolntse": {
+      "h": "35cae5e7",
+      "presets": {
+       "R": "91d640e0",
+       "L": "258f5dc7"
+      }
+     },
+     "GruppaKrovi": {
+      "h": "62307f84",
+      "presets": {
+       "R": "6c9818d4",
+       "L": "c20b9d5b"
+      }
+     },
+     "KonchitsyaLeto": {
+      "h": "e3a796d5",
+      "presets": {
+       "C": "5f1344b7",
+       "L": "a01924f9"
+      }
+     },
+     "SpokoynayaNoch": {
+      "h": "4638b6ed",
+      "presets": {
+       "C": "62086b95",
+       "L": "d70a0746"
+      }
+     }
+    }
+   },
+   "Carlos Santana": {
+    "h": "d8ba5aea",
+    "songs": {
+     "Europa": {
+      "h": "c25aa3ea",
+      "presets": {
+       "L": "e6cd3409"
+      }
+     }
+    }
+   },
+   "Guns N' Roses": {
+    "h": "a1cfa422",
+    "songs": {
+     "SweetChild": {
+      "h": "ce28e07c",
+      "presets": {
+       "C": "dae5f3bd",
+       "L": "5f8e1248"
+      }
+     },
+     "Jungle": {
+      "h": "15d2b5ea",
+      "presets": {
+       "H": "210e2b5b",
+       "L": "5fd7530b"
+      }
+     },
+     "NovemberRain": {
+      "h": "88781aeb",
+      "presets": {
+       "C": "fa685263",
+       "L": "d30db0c8"
+      }
+     },
+     "ParadiseCity": {
+      "h": "e2e60041",
+      "presets": {
+       "R": "b94b4a42",
+       "L": "c905325b"
+      }
+     },
+     "Nightrain": {
+      "h": "fb1ee48e",
+      "presets": {
+       "R": "2f81a719"
+      }
+     }
+    }
+   },
+   "Blind Melon": {
+    "h": "6b7ede18",
+    "songs": {
+     "NoRain": {
+      "h": "766e891e",
+      "presets": {
+       "C": "b8a9f8e6",
+       "L": "b7fd5460"
+      }
+     },
+     "TonesOfHome": {
+      "h": "8b72fc58",
+      "presets": {
+       "C": "250ffce5",
+       "R": "ad13d71f",
+       "L": "522c1863"
+      }
+     }
+    }
+   },
+   "Rammstein": {
+    "h": "40decde0",
+    "songs": {
+     "Eifersucht": {
+      "h": "fabb2712",
+      "presets": {
+       "H": "4fe584c3"
+      }
+     },
+     "DuHast": {
+      "h": "553a295e",
+      "presets": {
+       "R": "c8bed895",
+       "H": "40bcb3dd"
+      }
+     }
+    }
+   },
+   "Tool": {
+    "h": "e95cab30",
+    "songs": {
+     "Schism": {
+      "h": "08336032",
+      "presets": {
+       "C": "9ba952a2",
+       "H": "1c30255d"
+      }
+     },
+     "FearInoculum": {
+      "h": "6e36dd78",
+      "presets": {
+       "C": "515c708b",
+       "H": "06cdaa88",
+       "L": "6e90d7bc"
+      }
+     }
+    }
+   },
+   "the who": {
+    "h": "782bf6eb",
+    "songs": {
+     "TheRealMe": {
+      "h": "c9a612f7",
+      "presets": {
+       "C": "3032f637",
+       "H": "fe15a925",
+       "L": "6a7d16d9"
+      }
+     }
+    }
+   },
+   "King crimson": {
+    "h": "bdda3740",
+    "songs": {
+     "ThreePair": {
+      "h": "9c7bd927",
+      "presets": {
+       "C": "187d24e4",
+       "H": "47e2900c",
+       "L": "0433b039",
+       "L2": "5a74ca88"
+      }
+     }
+    }
+   }
+  },
+  "overrides": {
+   "factory|Queen|Brighton L": "1e251d3f",
+   "factory|Queen|DaysLive L": "8d0d40d7",
+   "factory|Queen|WantAll R": "0cfb5494",
+   "factory|Queen|KilrQch": "981994b2",
+   "factory|U2|TheFly H": "28e04b27",
+   "factory|U2|TheFly L": "7b36fd42",
+   "factory|Steve Vai|Attitude L": "177863cc",
+   "factory|The Black Crowes|HotelIll R": "5f23dee2",
+   "factory|The Black Crowes|ThornPrd L": "097e1205",
+   "factory|Blind Melon|NoRain L": "6b8e776e",
+   "factory|the who|RealMe C": "059cea53",
+   "factory|the who|RealMe H": "db86170f",
+   "factory|Tool|Schism C": "13f0cd08",
+   "nam|Queen|Brighton L": "ab2deb7d",
+   "nam|Rammstein|DuHast R": "e55f1d9a"
+  },
+  "collections": {
+   "Compilation_Solos.json": "bb2504ee",
+   "Compilation_ClassicRock.json": "b8aa2887",
+   "Compilation_Assorted.json": "ef7adffe",
+   "Compilation_Best50.json": "47020e77",
+   "Compilation_Best50_v2.json": "ea58e51d",
+   "Compilation_MySongs.json": "2b82a1b5",
+   "Compilation_MySongs2.json": "4ad67363"
+  }
+ },
+ "lastExport": "2026-09-04T13:40:07.550Z"
+}
